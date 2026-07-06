@@ -25,15 +25,21 @@ Glossary/
 
 未完成或尚未审核的语言可以先保留在这个仓库中，达到质量要求后再进入 Starcat 稳定版。
 
-## 如何参与
+## 如何参与？
 
-1. 从 Mac App Store 安装 Xcode。
+如果你想一次性或长期参与 Starcat 本地化，直接加入 [Starcat localization issues](https://github.com/dong4j/starcat-localization/issues) 里的讨论即可。如果你的语言还没有对应 issue，也可以为这个语言新建一个 issue。
+
+本地化流程很简单：
+
+1. 从 Mac App Store 安装免费的 Xcode。
 2. 用 Xcode 打开 `Starcat Localizations/Localizable.xcstrings`。
-3. 修改对应语言的翻译。
-4. 改产品术语前先查看 glossary。
-5. 通过 Pull Request 提交修改。
+3. 为你的语言填写或改进每一项翻译。
+4. 不确定产品术语怎么翻译时，先查看 `Glossary/`。
+5. 把修改后的 `.xcstrings` 文件附在 issue 评论里；如果你熟悉 Git，也可以提交 pull request。
 
-如果你不熟悉 Git，也可以创建 issue，并附上修改后的 `.xcstrings` 文件。
+你不需要理解 Starcat 的代码。过程中可以随时在 issue 里提问，不用担心技术细节。
+
+熟悉 Git 的高级贡献者可以 fork 仓库并提交 PR，但这不是必须的。直接在 issue 评论里附上修改后的文件也可以。
 
 ## 翻译规则
 

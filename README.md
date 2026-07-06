@@ -25,15 +25,21 @@ Glossary/
 
 Localizations that are incomplete or not yet reviewed may stay in this repository before they are included in stable Starcat releases.
 
-## How To Help
+## How to help?
 
-1. Install Xcode from the Mac App Store.
-2. Open `Starcat Localizations/Localizable.xcstrings` in Xcode.
-3. Edit translations for your language.
-4. Check the glossary before changing product terms.
-5. Submit your changes by opening a pull request.
+If you want to help with Starcat localization either once or regularly, just join the conversation in the [Starcat localization issues](https://github.com/dong4j/starcat-localization/issues). If your language is not listed yet, feel free to create a new issue for that language.
 
-If you are not comfortable with Git, open an issue and attach the edited `.xcstrings` file. That is acceptable too.
+The localization process is simple:
+
+1. Install the free Xcode from the Mac App Store.
+2. Open `Starcat Localizations/Localizable.xcstrings` with Xcode.
+3. Enter or improve translations for each item in your language.
+4. Check `Glossary/` when you are not sure how a product term should be translated.
+5. Attach your edited `.xcstrings` file in an issue comment, or open a pull request if you are comfortable with Git.
+
+You do not need to understand the Starcat codebase. You will receive help along the way, so do not worry about the technical details.
+
+Advanced contributors can fork this repository and submit pull requests, but this is optional. Issue comments with edited files are welcome.
 
 ## Translation Guidelines
 
