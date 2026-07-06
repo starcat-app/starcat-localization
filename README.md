@@ -49,6 +49,19 @@ Advanced contributors can fork this repository and submit pull requests, but thi
 - Do not translate technical terms blindly. Prefer the glossary when available.
 - Avoid changing keys. Only edit localization values.
 
+## Glossaries
+
+For some localizations, a Starcat glossary is available:
+
+- [English](Glossary/en.md)
+- [Simplified Chinese](Glossary/zh-Hans.md)
+
+## Apple Localization Terms Glossary
+
+For standard macOS and Apple platform terms, also check the non-official glossary site by [Kishikawa Katsumi](https://github.com/kishikawakatsumi):
+
+- [Apple Localization Terms Glossary](https://applelocalization.com/macos)
+
 ## Validation
 
 Before submitting, run:

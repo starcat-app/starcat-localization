@@ -49,6 +49,19 @@ Glossary/
 - 不要机械翻译技术术语，优先参考 glossary。
 - 不要修改 key，只修改本地化 value。
 
+## 词汇表
+
+部分本地化已有 Starcat 词汇表：
+
+- [English](Glossary/en.md)
+- [简体中文](Glossary/zh-Hans.md)
+
+## Apple Localization Terms Glossary
+
+标准 macOS 和 Apple 平台术语也可以参考 [Kishikawa Katsumi](https://github.com/kishikawakatsumi) 维护的非官方词汇表：
+
+- [Apple Localization Terms Glossary](https://applelocalization.com/macos)
+
 ## 校验
 
 提交前运行：
