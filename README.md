@@ -7,15 +7,16 @@ Starcat is a native macOS app that turns GitHub Stars into a searchable AI knowl
 ## What Is Included
 
 ```text
-Starcat Localizations/
-└── Localizable.xcstrings
+Translation Packages/
+├── en.xcloc
+└── zh-Hans.xcloc
 
 Glossary/
 ├── en.md
 └── zh-Hans.md
 ```
 
-- `Starcat Localizations/Localizable.xcstrings` is the Xcode String Catalog used by Starcat.
+- `Translation Packages/` contains one Xcode localization package per language.
 - `Glossary/` records product terms and preferred translations.
 
 ## Current Languages
@@ -32,10 +33,10 @@ If you want to help with Starcat localization either once or regularly, just joi
 The localization process is simple:
 
 1. Install the free Xcode from the Mac App Store.
-2. Open `Starcat Localizations/Localizable.xcstrings` with Xcode.
-3. Enter or improve translations for each item in your language.
+2. Download the `.xcloc` package for your language from `Translation Packages/`.
+3. Open the `.xcloc` package with Xcode.
 4. Check `Glossary/` when you are not sure how a product term should be translated.
-5. Attach your edited `.xcstrings` file in an issue comment, or open a pull request if you are comfortable with Git.
+5. Attach your edited `.xcloc` package in an issue comment, or open a pull request if you are comfortable with Git.
 
 You do not need to understand the Starcat codebase. You will receive help along the way, so do not worry about the technical details.
 
@@ -48,6 +49,7 @@ Advanced contributors can fork this repository and submit pull requests, but thi
 - Keep UI text concise. Starcat is a dense macOS app, and long text can break layouts.
 - Do not translate technical terms blindly. Prefer the glossary when available.
 - Avoid changing keys. Only edit localization values.
+- Keep each language in its own `.xcloc` package. Do not add a full `Localizable.xcstrings` file to this repository.
 
 ## Glossaries
 
@@ -62,15 +64,18 @@ For standard macOS and Apple platform terms, also check the non-official glossar
 
 - [Apple Localization Terms Glossary](https://applelocalization.com/macos)
 
-## Validation
+## Maintainer Import Workflow
 
-Before submitting, run:
+Starcat maintainers import contributed packages back into the app with the support script in the main Starcat workspace:
 
 ```bash
-jq empty "Starcat Localizations/Localizable.xcstrings"
+supports/scripts/starcat-localization.py import \
+  --package "supports/starcat-localization/Translation Packages/zh-Hans.xcloc"
+
+supports/scripts/starcat-localization.py import-all
 ```
 
-This confirms the String Catalog is still valid JSON.
+The script updates `Starcat/Resources/Localizable.xcstrings` from the submitted `.xcloc` package. The public localization repository should stay package-based.
 
 ## Useful Links
 

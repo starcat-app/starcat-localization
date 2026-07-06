@@ -7,15 +7,16 @@ Starcat 是一款原生 macOS 应用，可以把 GitHub Stars 变成可搜索的
 ## 包含内容
 
 ```text
-Starcat Localizations/
-└── Localizable.xcstrings
+Translation Packages/
+├── en.xcloc
+└── zh-Hans.xcloc
 
 Glossary/
 ├── en.md
 └── zh-Hans.md
 ```
 
-- `Starcat Localizations/Localizable.xcstrings` 是 Starcat 使用的 Xcode String Catalog。
+- `Translation Packages/` 按语言存放 Xcode 本地化包，每种语言一个 `.xcloc`。
 - `Glossary/` 记录产品术语和推荐译法。
 
 ## 当前语言
@@ -32,10 +33,10 @@ Glossary/
 本地化流程很简单：
 
 1. 从 Mac App Store 安装免费的 Xcode。
-2. 用 Xcode 打开 `Starcat Localizations/Localizable.xcstrings`。
-3. 为你的语言填写或改进每一项翻译。
+2. 从 `Translation Packages/` 下载你的语言对应的 `.xcloc` 包。
+3. 用 Xcode 打开这个 `.xcloc` 包。
 4. 不确定产品术语怎么翻译时，先查看 `Glossary/`。
-5. 把修改后的 `.xcstrings` 文件附在 issue 评论里；如果你熟悉 Git，也可以提交 pull request。
+5. 把修改后的 `.xcloc` 包附在 issue 评论里；如果你熟悉 Git，也可以提交 pull request。
 
 你不需要理解 Starcat 的代码。过程中可以随时在 issue 里提问，不用担心技术细节。
 
@@ -48,6 +49,7 @@ Glossary/
 - UI 文案要尽量简洁。Starcat 是信息密度较高的 macOS 应用，过长文案容易撑坏布局。
 - 不要机械翻译技术术语，优先参考 glossary。
 - 不要修改 key，只修改本地化 value。
+- 每种语言只维护自己的 `.xcloc` 包，不要在这个仓库提交完整的 `Localizable.xcstrings`。
 
 ## 词汇表
 
@@ -62,15 +64,18 @@ Glossary/
 
 - [Apple Localization Terms Glossary](https://applelocalization.com/macos)
 
-## 校验
+## 维护者导入流程
 
-提交前运行：
+Starcat 维护者在主工程里使用支持脚本把贡献者提交的 `.xcloc` 倒回应用：
 
 ```bash
-jq empty "Starcat Localizations/Localizable.xcstrings"
+supports/scripts/starcat-localization.py import \
+  --package "supports/starcat-localization/Translation Packages/zh-Hans.xcloc"
+
+supports/scripts/starcat-localization.py import-all
 ```
 
-这个命令可以确认 String Catalog 仍然是合法 JSON。
+脚本会把 `.xcloc` 中的翻译写回 `Starcat/Resources/Localizable.xcstrings`。公开本地化仓库继续保持“每种语言一个包”的结构。
 
 ## 相关链接
 
