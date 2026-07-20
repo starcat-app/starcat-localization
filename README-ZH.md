@@ -48,7 +48,6 @@ brew install --cask starcat
 - [starcat-wiki-api](https://github.com/starcat-app/starcat-wiki-api)
 - [starcat-recommend-api](https://github.com/starcat-app/starcat-recommend-api)
 - [starcat-discovery-api](https://github.com/starcat-app/starcat-discovery-api)
-- [starcat-license-api](https://github.com/dong4j/starcat-license-api)
 <!-- starcat-promo:end -->
 
 这个仓库用于公开维护 Starcat 的本地化资源。
