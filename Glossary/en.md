@@ -10,7 +10,7 @@ This glossary records product terms that should stay consistent across Starcat U
 | Starcat Pro | Product tier / public support name. Do not translate. |
 | Direct build | The non-App-Store macOS build distributed from the Starcat website. |
 | App Store build | The App Store distribution channel. Keep distinct from Direct build. |
-| Homebrew tap | The Homebrew repository `dong4j/homebrew-starcat`. |
+| Homebrew tap | The Homebrew repository `starcat-app/homebrew-starcat`. |
 | Cask | Homebrew cask package. Use when referring to `Casks/starcat.rb`. |
 | Sparkle | In-app update framework. Do not translate. |
 | appcast | Sparkle update feed. Keep lowercase unless starting a sentence. |

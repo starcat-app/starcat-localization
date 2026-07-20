@@ -10,7 +10,7 @@
 | Starcat Pro | 产品层级 / 公开支持仓库名，不翻译。 |
 | Direct build | 译为“Direct 版本”或“Direct 构建”，表示从官网分发的非 App Store macOS 版本。 |
 | App Store build | 译为“App Store 版本”，必须和 Direct 版本区分。 |
-| Homebrew tap | 可写作“Homebrew tap”，指 `dong4j/homebrew-starcat` 仓库。 |
+| Homebrew tap | 可写作“Homebrew tap”，指 `starcat-app/homebrew-starcat` 仓库。 |
 | Cask | Homebrew cask 包。提到 `Casks/starcat.rb` 时保留英文。 |
 | Sparkle | 应用内更新框架名，不翻译。 |
 | appcast | Sparkle 更新 feed。一般保留小写英文。 |
