@@ -16,7 +16,7 @@
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://github.com/dong4j/starcat-pro"><img src="https://img.shields.io/badge/support-starcat--pro-lightgrey.svg?style=flat&color=blue" alt="support"/></a>
 <a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/install-homebrew-lightgrey.svg?style=flat&color=blue" alt="homebrew"/></a>
-<a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
+<a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 </div>
 
 <div align="center">
@@ -38,7 +38,7 @@ brew install --cask starcat
 - 公开支持与发布说明: https://github.com/dong4j/starcat-pro
 - Homebrew tap: https://github.com/dong4j/homebrew-starcat
 - 浏览器插件: [Chrome](https://github.com/dong4j/starcat-chrome-plugin) / [Safari](https://github.com/dong4j/starcat-safari-plugin)
-- 本地化: https://github.com/dong4j/starcat-localization
+- 本地化: https://github.com/starcat-app/starcat-localization
 
 **Starcat 生态项目：**
 
@@ -79,7 +79,7 @@ Glossary/
 
 ## 如何参与？
 
-如果你想一次性或长期参与 Starcat 本地化，直接加入 [Starcat localization issues](https://github.com/dong4j/starcat-localization/issues) 里的讨论即可。如果你的语言还没有对应 issue，也可以为这个语言新建一个 issue。
+如果你想一次性或长期参与 Starcat 本地化，直接加入 [Starcat localization issues](https://github.com/starcat-app/starcat-localization/issues) 里的讨论即可。如果你的语言还没有对应 issue，也可以为这个语言新建一个 issue。
 
 本地化流程很简单：
 
@@ -132,4 +132,4 @@ supports/scripts/starcat-localization.py import-all
 
 - Starcat 官网：https://starcat.ink
 - 公开支持仓库：https://github.com/dong4j/starcat-pro
-- 问题反馈：https://github.com/dong4j/starcat-localization/issues
+- 问题反馈：https://github.com/starcat-app/starcat-localization/issues

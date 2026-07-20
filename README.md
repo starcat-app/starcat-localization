@@ -16,7 +16,7 @@
 <a href="https://starcat.ink"><img src="https://img.shields.io/badge/website-starcat.ink-38BDF8?style=flat&color=blue" alt="website"/></a>
 <a href="https://github.com/dong4j/starcat-pro"><img src="https://img.shields.io/badge/support-starcat--pro-lightgrey.svg?style=flat&color=blue" alt="support"/></a>
 <a href="https://github.com/dong4j/homebrew-starcat"><img src="https://img.shields.io/badge/install-homebrew-lightgrey.svg?style=flat&color=blue" alt="homebrew"/></a>
-<a href="https://github.com/dong4j/starcat-localization"><img src="https://img.shields.io/badge/localization-open-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
+<a href="https://github.com/starcat-app/starcat-localization"><img src="https://img.shields.io/badge/localization-open-lightgrey.svg?style=flat&color=blue" alt="localization"/></a>
 </div>
 
 <div align="center">
@@ -38,7 +38,7 @@ brew install --cask starcat
 - Public support and release notes: https://github.com/dong4j/starcat-pro
 - Homebrew tap: https://github.com/dong4j/homebrew-starcat
 - Browser plugins: [Chrome](https://github.com/dong4j/starcat-chrome-plugin) / [Safari](https://github.com/dong4j/starcat-safari-plugin)
-- Localization: https://github.com/dong4j/starcat-localization
+- Localization: https://github.com/starcat-app/starcat-localization
 
 **Starcat ecosystem:**
 
@@ -79,7 +79,7 @@ Localizations that are incomplete or not yet reviewed may stay in this repositor
 
 ## How to help?
 
-If you want to help with Starcat localization either once or regularly, just join the conversation in the [Starcat localization issues](https://github.com/dong4j/starcat-localization/issues). If your language is not listed yet, feel free to create a new issue for that language.
+If you want to help with Starcat localization either once or regularly, just join the conversation in the [Starcat localization issues](https://github.com/starcat-app/starcat-localization/issues). If your language is not listed yet, feel free to create a new issue for that language.
 
 The localization process is simple:
 
@@ -132,4 +132,4 @@ The script updates `Starcat/Resources/Localizable.xcstrings` from the submitted 
 
 - Starcat website: https://starcat.ink
 - Public support repository: https://github.com/dong4j/starcat-pro
-- Issue tracker: https://github.com/dong4j/starcat-localization/issues
+- Issue tracker: https://github.com/starcat-app/starcat-localization/issues
