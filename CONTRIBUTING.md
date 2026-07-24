@@ -17,8 +17,17 @@ This is the recommended workflow for non-Git contributors.
 1. Fork this repository.
 2. Open your language package under `Translation Packages/` in Xcode.
 3. Edit only localization values.
-4. Commit only the `.xcloc` package for the language you changed.
-5. Open a pull request and describe the language and scope of your changes.
+4. Run the local checks below.
+5. Commit only the `.xcloc` package for the language you changed.
+6. Open a pull request and describe the language and scope of your changes.
+
+```bash
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 scripts/validate_packages.py
+```
+
+The validator permits incomplete `draft` packages, but any non-empty target must
+preserve placeholders and use a known XLIFF state.
 
 ## Non-Git Workflow
 
@@ -38,11 +47,48 @@ You do not need to understand the app source code. Ask questions in the issue if
 - Product terms should follow `Glossary/`.
 - Each language should stay in its own `.xcloc` package.
 - Incomplete languages may wait until they reach a reviewable completion level before being imported into Starcat releases.
+- `needs-translation` and `needs-review-translation` are not approved translations.
+- `translated`, `final`, and `signed-off` are importable states, but human review and in-app acceptance are still required before release.
+- Contributors must not change `locales.json` release status in a translation pull request.
 
 ## Maintainer Notes
 
-The public repository intentionally does not contain the full `Localizable.xcstrings` source file. Starcat maintainers import packages back into the app from the main Starcat workspace:
+Each `.xcloc` contains an embedded source snapshot required by Xcode, but this
+repository intentionally has no standalone runtime `Localizable.xcstrings`.
+Starcat maintainers import packages back into the app from the main workspace:
 
 ```bash
 supports/scripts/starcat-localization.py import-all
 ```
+
+Before import, maintainers run:
+
+```bash
+supports/scripts/starcat-localization.py audit
+supports/scripts/starcat-localization.py report --format json
+```
+
+The import is transactional: any invalid package prevents the catalog from being
+partially updated.
+
+### AI Draft Production
+
+Maintainers may generate resumable AI drafts for one `draft` locale at a time:
+
+```bash
+python3 scripts/translate_draft.py --locale ja
+python3 scripts/translate_draft.py --locale ja --limit 40 --apply
+python3 scripts/translate_draft.py --locale ja --apply
+python3 scripts/translate_draft.py --locale ja \
+  --key settings.mcp.agentSetup.mcpPrompt --apply
+python3 scripts/translate_draft.py --locale ja \
+  --repair-protected-literals --apply
+```
+
+The first command is a dry run. `--apply` reads the API key from
+`DEEPSEEK_API_KEY`, validates every response key, placeholder, executable code
+block, inline code span, and URL, and writes only `needs-review-translation`.
+`--key` retries an existing AI-review target; `--repair-protected-literals`
+restores protected literals without calling the API. The script never promotes
+AI output to `translated`.
+API credentials must remain in environment variables and must never be committed.

@@ -60,22 +60,36 @@ Starcat 是一款原生 macOS 应用，可以把 GitHub Stars 变成可搜索的
 ```text
 Translation Packages/
 ├── en.xcloc
-└── zh-Hans.xcloc
+├── zh-Hans.xcloc
+├── zh-Hant.xcloc
+├── ja.xcloc
+└── ... 其余 14 个语言包
 
 Glossary/
 ├── en.md
 └── zh-Hans.md
+
+locales.json
+nontranslatable-keys.json
 ```
 
 - `Translation Packages/` 按语言存放 Xcode 本地化包，每种语言一个 `.xcloc`。
 - `Glossary/` 记录产品术语和推荐译法。
+- `locales.json` 是 18 个 locale 标识与发布状态的单一来源。
+- `nontranslatable-keys.json` 记录有明确理由、故意不翻译的字面量。
 
 ## 当前语言
 
-- `en`：源语言。
-- `zh-Hans`：简体中文。
+| 状态 | 语言 |
+|---|---|
+| 已发布 | `en` 英语（源语言）、`zh-Hans` 简体中文 |
+| 草稿 | `zh-Hant` 繁体中文、`ja` 日语、`ko` 韩语、`de` 德语、`fr` 法语、`es` 西班牙语、`pt-BR` 巴西葡萄牙语、`it` 意大利语、`ru` 俄语、`nl` 荷兰语、`pl` 波兰语、`uk` 乌克兰语、`tr` 土耳其语、`vi` 越南语、`id` 印度尼西亚语、`ar` 阿拉伯语 |
 
-未完成或尚未审核的语言可以先保留在这个仓库中，达到质量要求后再进入 Starcat 稳定版。
+`draft` 只表示公开协作包已经建立，**不表示**该语言已经进入 Starcat
+稳定版。翻译审核、自动校验、应用内布局验收，以及适用时的 RTL 验收全部通过后，
+维护者才会把语言提升为 `released`。实时状态以 [`locales.json`](locales.json) 为准。
+草稿包可能包含状态为 `needs-review-translation` 的 AI 初稿；它们只是提供给
+母语审核者的起点，不是已经批准发布的翻译。
 
 ## 如何参与？
 
@@ -89,6 +103,10 @@ Glossary/
 4. 不确定产品术语怎么翻译时，先查看 `Glossary/`。
 5. 把修改后的 `.xcloc` 包附在 issue 评论里；如果你熟悉 Git，也可以提交 pull request。
 
+准备翻译较大批次前，请先通过
+[语言贡献 issue 模板](https://github.com/starcat-app/starcat-localization/issues/new?template=language.yml)
+登记语言和范围，方便协调认领与审核。
+
 你不需要理解 Starcat 的代码。过程中可以随时在 issue 里提问，不用担心技术细节。
 
 熟悉 Git 的高级贡献者可以 fork 仓库并提交 PR，但这不是必须的。直接在 issue 评论里附上修改后的文件也可以。
@@ -96,11 +114,13 @@ Glossary/
 ## 翻译规则
 
 - 占位符必须原样保留，例如 `%@`、`%1$@`、`%d`、`%%`。
+- 可执行代码块、行内代码和 URL 必须原样保留；`text` 代码块中的说明文字可以翻译，但标识符和值不能改写。
 - `Starcat`、`GitHub`、`OpenSSF`、`CodeFlow`、`CodebaseMemory` 等产品名和技术名不要随意翻译。
 - UI 文案要尽量简洁。Starcat 是信息密度较高的 macOS 应用，过长文案容易撑坏布局。
 - 不要机械翻译技术术语，优先参考 glossary。
 - 不要修改 key，只修改本地化 value。
-- 每种语言只维护自己的 `.xcloc` 包，不要在这个仓库提交完整的 `Localizable.xcstrings`。
+- 每种语言只维护自己的 `.xcloc` 包，不要在包外提交独立的运行时 `Localizable.xcstrings`。
+- 不要自行修改 `releaseStatus`；所有发布门禁通过后，由维护者提升语言状态。
 
 ## 词汇表
 

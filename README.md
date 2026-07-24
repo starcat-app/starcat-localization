@@ -60,22 +60,37 @@ Starcat is a native macOS app that turns GitHub Stars into a searchable AI knowl
 ```text
 Translation Packages/
 ├── en.xcloc
-└── zh-Hans.xcloc
+├── zh-Hans.xcloc
+├── zh-Hant.xcloc
+├── ja.xcloc
+└── ... 14 more locale packages
 
 Glossary/
 ├── en.md
 └── zh-Hans.md
+
+locales.json
+nontranslatable-keys.json
 ```
 
 - `Translation Packages/` contains one Xcode localization package per language.
 - `Glossary/` records product terms and preferred translations.
+- `locales.json` is the source of truth for the 18 locale identifiers and release status.
+- `nontranslatable-keys.json` records intentionally untranslated literals with reasons.
 
 ## Current Languages
 
-- `en` — source language.
-- `zh-Hans` — Simplified Chinese.
+| Status | Languages |
+|---|---|
+| Released | `en` English (source), `zh-Hans` Simplified Chinese |
+| Draft | `zh-Hant` Traditional Chinese, `ja` Japanese, `ko` Korean, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese, `it` Italian, `ru` Russian, `nl` Dutch, `pl` Polish, `uk` Ukrainian, `tr` Turkish, `vi` Vietnamese, `id` Indonesian, `ar` Arabic |
 
-Localizations that are incomplete or not yet reviewed may stay in this repository before they are included in stable Starcat releases.
+`draft` means that a collaboration package exists; it does **not** mean that the
+language is available in stable Starcat. A locale becomes `released` only after
+translation review, validator checks, in-app layout acceptance, and RTL acceptance
+where applicable. See [`locales.json`](locales.json) for the current status.
+Draft packages may contain AI-generated `needs-review-translation` targets. They
+are starting points for fluent reviewers, not approved release translations.
 
 ## How to help?
 
@@ -89,6 +104,9 @@ The localization process is simple:
 4. Check `Glossary/` when you are not sure how a product term should be translated.
 5. Attach your edited `.xcloc` package in an issue comment, or open a pull request if you are comfortable with Git.
 
+Use the [language contribution issue template](https://github.com/starcat-app/starcat-localization/issues/new?template=language.yml)
+to coordinate ownership and review before translating a large batch.
+
 You do not need to understand the Starcat codebase. You will receive help along the way, so do not worry about the technical details.
 
 Advanced contributors can fork this repository and submit pull requests, but this is optional. Issue comments with edited files are welcome.
@@ -96,11 +114,13 @@ Advanced contributors can fork this repository and submit pull requests, but thi
 ## Translation Guidelines
 
 - Keep placeholders exactly as they are, such as `%@`, `%1$@`, `%d`, and `%%`.
+- Preserve executable code blocks, inline code, and URLs exactly. Descriptive text in `text` fences may be translated, but identifiers and values must remain unchanged.
 - Preserve product names such as `Starcat`, `GitHub`, `OpenSSF`, `CodeFlow`, and `CodebaseMemory`.
 - Keep UI text concise. Starcat is a dense macOS app, and long text can break layouts.
 - Do not translate technical terms blindly. Prefer the glossary when available.
 - Avoid changing keys. Only edit localization values.
-- Keep each language in its own `.xcloc` package. Do not add a full `Localizable.xcstrings` file to this repository.
+- Keep each language in its own `.xcloc` package. Do not add a standalone runtime `Localizable.xcstrings` outside the packages.
+- Do not change `releaseStatus` yourself. Maintainers promote a locale only after all release gates pass.
 
 ## Glossaries
 

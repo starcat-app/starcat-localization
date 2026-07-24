@@ -15,32 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Validate JSON and XLIFF payloads
-        run: |
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          import xml.etree.ElementTree as ET
-
-          # 公开仓库只保存可交换的 xcloc 包；CI 验证包结构和两种底层格式均可解析。
-          packages = sorted(Path("Translation Packages").glob("*.xcloc"))
-          if not packages:
-              raise SystemExit("no .xcloc packages found")
-
-          for package in packages:
-              contents = package / "contents.json"
-              if not contents.is_file():
-                  raise SystemExit(f"missing {contents}")
-              json.loads(contents.read_text(encoding="utf-8"))
-
-              xcstrings = list(package.rglob("*.xcstrings"))
-              xliffs = list(package.rglob("*.xliff"))
-              if not xcstrings or not xliffs:
-                  raise SystemExit(f"{package} must contain xcstrings and xliff payloads")
-              for path in xcstrings:
-                  json.loads(path.read_text(encoding="utf-8"))
-              for path in xliffs:
-                  ET.parse(path)
-
-          print(f"validated {len(packages)} localization packages")
-          PY
+      - name: Run validator regression tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Validate package contracts and release gates
+        run: python3 scripts/validate_packages.py

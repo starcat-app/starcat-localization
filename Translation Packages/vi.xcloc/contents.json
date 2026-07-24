@@ -1,0 +1,11 @@
+{
+  "developmentRegion": "en",
+  "project": "Starcat.xcodeproj",
+  "targetLocale": "vi",
+  "toolInfo": {
+    "toolID": "com.starcat.localization-script",
+    "toolName": "starcat-localization.py",
+    "toolVersion": "2.0"
+  },
+  "version": "1.0"
+}

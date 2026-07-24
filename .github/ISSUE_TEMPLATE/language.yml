@@ -1,0 +1,69 @@
+name: Language contribution
+description: Coordinate a new translation, review, or terminology update
+title: "[Language] "
+labels:
+  - localization
+body:
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Locale
+      description: Select the exact locale identifier used by Starcat.
+      options:
+        - zh-Hant — Traditional Chinese
+        - ja — Japanese
+        - ko — Korean
+        - de — German
+        - fr — French
+        - es — Spanish
+        - pt-BR — Brazilian Portuguese
+        - it — Italian
+        - ru — Russian
+        - nl — Dutch
+        - pl — Polish
+        - uk — Ukrainian
+        - tr — Turkish
+        - vi — Vietnamese
+        - id — Indonesian
+        - ar — Arabic
+        - en — English
+        - zh-Hans — Simplified Chinese
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution type
+      options:
+        - New translation batch
+        - Translation review
+        - Terminology correction
+        - UI truncation or RTL issue
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe the package, key range, screen, or terminology you plan to update.
+      placeholder: "Example: translate and review Settings > General strings."
+    validations:
+      required: true
+  - type: textarea
+    id: reviewer
+    attributes:
+      label: Language review
+      description: Tell us whether a fluent or native reviewer is available.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I will edit values only and will not rename localization keys.
+          required: true
+        - label: I will preserve placeholders such as `%@`, `%1$@`, `%d`, and `%%`.
+          required: true
+        - label: I understand that a draft package is not automatically included in a stable release.
+          required: true
