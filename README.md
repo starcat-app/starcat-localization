@@ -87,10 +87,13 @@ nontranslatable-keys.json
 
 `draft` means that a collaboration package exists; it does **not** mean that the
 language is available in stable Starcat. A locale becomes `released` only after
-translation review, validator checks, in-app layout acceptance, and RTL acceptance
-where applicable. See [`locales.json`](locales.json) for the current status.
+translation approval, validator checks, in-app layout acceptance, and RTL acceptance
+where applicable. Approval may come from fluent review or an explicit, recorded
+maintainer acceptance of AI risk; the latter records `humanReviewed=false` and
+content digests instead of claiming human review. See [`locales.json`](locales.json)
+for the current status.
 Draft packages may contain AI-generated `needs-review-translation` targets. They
-are starting points for fluent reviewers, not approved release translations.
+are not approved translations until one of those approval paths is completed.
 
 ## How to help?
 

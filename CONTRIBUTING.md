@@ -48,7 +48,8 @@ You do not need to understand the app source code. Ask questions in the issue if
 - Each language should stay in its own `.xcloc` package.
 - Incomplete languages may wait until they reach a reviewable completion level before being imported into Starcat releases.
 - `needs-translation` and `needs-review-translation` are not approved translations.
-- `translated`, `final`, and `signed-off` are importable states, but human review and in-app acceptance are still required before release.
+- `translated`, `final`, and `signed-off` are importable states. They may come from fluent review or an explicit, recorded maintainer acceptance of AI risk.
+- Translation approval does not replace in-app layout, build, or RTL acceptance before release.
 - Contributors must not change `locales.json` release status in a translation pull request.
 
 ## Maintainer Notes
@@ -92,3 +93,22 @@ block, inline code span, and URL, and writes only `needs-review-translation`.
 restores protected literals without calling the API. The script never promotes
 AI output to `translated`.
 API credentials must remain in environment variables and must never be committed.
+
+### Maintainer AI Acceptance
+
+A maintainer may explicitly accept complete AI drafts without claiming fluent
+human review. The approval command defaults to dry-run:
+
+```bash
+python3 scripts/promote_drafts.py --all
+python3 scripts/promote_drafts.py \
+  --all \
+  --approval-method maintainer-ai-accepted \
+  --approved-by <maintainer> \
+  --apply
+```
+
+The command promotes only `needs-review-translation` targets, records
+`humanReviewed=false` plus source and translation digests, and leaves every
+locale `draft`. It does not import the runtime Catalog, expose `AppLocale`, or
+waive build, UI, or RTL release gates.

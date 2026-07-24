@@ -277,6 +277,87 @@ class ValidatePackagesTests(unittest.TestCase):
             )
         )
 
+    def test_maintainer_ai_approval_is_bound_to_source_and_target(self) -> None:
+        shutil.rmtree(self.root / "Translation Packages" / "ja.xcloc")
+        package = self.write_package(
+            "ja",
+            {
+                "greeting": ("Hello %@", "こんにちは %@", "translated"),
+                "count": (
+                    "%1$@ has %2$d items",
+                    "%2$d 個の項目：%1$@",
+                    "translated",
+                ),
+            },
+        )
+        _, _, units, _ = validator.read_units(package, "ja")
+        unit_count, target_digest = validator.translation_digest(
+            "ja",
+            units,
+            set(),
+        )
+        manifest = validator.load_json(self.root / "locales.json")
+        ja = next(item for item in manifest["locales"] if item["id"] == "ja")
+        ja["translationApproval"] = {
+            "method": "maintainer-ai-accepted",
+            "humanReviewed": False,
+            "approvedBy": "dong4j",
+            "approvedAt": "2026-07-24T12:00:00Z",
+            "unitCount": unit_count,
+            "sourceDigest": validator.source_digest(package),
+            "translationDigest": target_digest,
+        }
+        (self.root / "locales.json").write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(self.validate().errors, [])
+
+        xliff = package / "Localized Contents" / "ja.xliff"
+        tree = ET.parse(xliff)
+        namespace = {"x": validator.XLIFF_NAMESPACE}
+        target = tree.find(".//x:target", namespace)
+        assert target is not None
+        target.text = "変更 %@"
+        tree.write(xliff, encoding="utf-8", xml_declaration=True)
+        result = self.validate()
+        self.assertTrue(
+            any("translationDigest 已失效" in error for error in result.errors)
+        )
+
+        target.text = "こんにちは %@"
+        tree.write(xliff, encoding="utf-8", xml_declaration=True)
+        snapshot = validator.source_snapshot_path(package)
+        catalog = validator.load_json(snapshot)
+        catalog["strings"]["greeting"]["comment"] = "source changed"
+        snapshot.write_text(
+            json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        result = self.validate()
+        self.assertTrue(
+            any("sourceDigest 已失效" in error for error in result.errors)
+        )
+
+    def test_invalid_ai_approval_provenance_is_rejected(self) -> None:
+        manifest = validator.load_json(self.root / "locales.json")
+        ja = next(item for item in manifest["locales"] if item["id"] == "ja")
+        ja["translationApproval"] = {
+            "method": "maintainer-ai-accepted",
+            "humanReviewed": True,
+        }
+        (self.root / "locales.json").write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+        result = self.validate()
+
+        self.assertTrue(
+            any("translationApproval 缺少字段" in error for error in result.errors)
+        )
+
     def test_stale_allowlist_is_rejected(self) -> None:
         self.write_allowlist({"deleted.key": "历史遗留"})
         result = self.validate()

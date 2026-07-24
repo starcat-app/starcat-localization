@@ -6,17 +6,19 @@
 snapshot、key 集合、翻译状态、占位符与发布门禁。
 
 `draft` 语言允许不完整，`released` 语言必须没有缺失或待复核文案。这样可以
-提前创建 18 个协作入口，同时避免把尚未审核的机器翻译误标为正式支持。
+提前创建 18 个协作入口，同时避免把尚未批准的机器翻译误标为正式支持。
 """
 
 from __future__ import annotations
 
 import argparse
 import collections
+import hashlib
 import json
 import re
 import sys
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, NamedTuple
 
@@ -47,6 +49,18 @@ CONFIRMED_LOCALES = (
     "ar",
 )
 APPROVED_STATES = frozenset({"translated", "final", "signed-off"})
+APPROVAL_METHODS = frozenset({"maintainer-ai-accepted"})
+APPROVAL_REQUIRED_FIELDS = frozenset(
+    {
+        "method",
+        "humanReviewed",
+        "approvedBy",
+        "approvedAt",
+        "unitCount",
+        "sourceDigest",
+        "translationDigest",
+    }
+)
 KNOWN_STATES = frozenset(
     {
         "needs-translation",
@@ -216,6 +230,136 @@ def read_units(path: Path, locale: str) -> tuple[str, str, dict[str, Translation
     )
 
 
+def source_snapshot_path(package: Path) -> Path:
+    """返回 `.xcloc` 内嵌 String Catalog 的固定路径。"""
+
+    return (
+        package
+        / "Source Contents"
+        / "Starcat"
+        / "Localizable"
+        / "Localizable.xcstrings"
+    )
+
+
+def sha256_prefixed(content: bytes) -> str:
+    return "sha256:" + hashlib.sha256(content).hexdigest()
+
+
+def source_digest(package: Path) -> str:
+    """批准记录绑定原始 snapshot 字节，连格式或 key 顺序变化也会失效。"""
+
+    return sha256_prefixed(source_snapshot_path(package).read_bytes())
+
+
+def translation_digest(
+    locale: str,
+    units: dict[str, TranslationUnit],
+    excluded_keys: set[str] | frozenset[str],
+) -> tuple[int, str]:
+    """按 XLIFF 顺序绑定 locale/key/source/target，不把可变 state 放进摘要。"""
+
+    digest = hashlib.sha256()
+    unit_count = 0
+    for key, unit in units.items():
+        if key in excluded_keys:
+            continue
+        unit_count += 1
+        for value in (locale, key, unit.source, unit.target):
+            digest.update(value.encode("utf-8"))
+            digest.update(b"\0")
+    return unit_count, "sha256:" + digest.hexdigest()
+
+
+def approval_errors(
+    item: dict[str, Any],
+    package: Path,
+    locale: str,
+    units: dict[str, TranslationUnit],
+    excluded_keys: set[str] | frozenset[str],
+) -> list[str]:
+    """校验维护者 AI 批准来源及其与当前 source/target 的绑定关系。"""
+
+    approval = item.get("translationApproval")
+    if approval is None:
+        return []
+    if not isinstance(approval, dict):
+        return [f"{locale} translationApproval 必须是 object"]
+
+    errors: list[str] = []
+    missing_fields = sorted(APPROVAL_REQUIRED_FIELDS - set(approval))
+    if missing_fields:
+        errors.append(
+            f"{locale} translationApproval 缺少字段："
+            + ", ".join(missing_fields)
+        )
+        return errors
+
+    if approval.get("method") not in APPROVAL_METHODS:
+        errors.append(
+            f"{locale} translationApproval method 无效："
+            f"{approval.get('method')!r}"
+        )
+    if approval.get("humanReviewed") is not False:
+        errors.append(
+            f"{locale} maintainer AI 批准必须记录 humanReviewed=false"
+        )
+    approved_by = approval.get("approvedBy")
+    if not isinstance(approved_by, str) or not approved_by.strip():
+        errors.append(f"{locale} translationApproval approvedBy 必须是非空字符串")
+
+    approved_at = approval.get("approvedAt")
+    if not isinstance(approved_at, str) or not approved_at.endswith("Z"):
+        errors.append(f"{locale} translationApproval approvedAt 必须是 UTC ISO-8601")
+    else:
+        try:
+            parsed = datetime.fromisoformat(approved_at[:-1] + "+00:00")
+            if parsed.utcoffset() != timezone.utc.utcoffset(parsed):
+                raise ValueError
+        except ValueError:
+            errors.append(
+                f"{locale} translationApproval approvedAt 必须是 UTC ISO-8601"
+            )
+
+    current_count, current_translation_digest = translation_digest(
+        locale,
+        units,
+        excluded_keys,
+    )
+    unit_count = approval.get("unitCount")
+    if isinstance(unit_count, bool) or not isinstance(unit_count, int):
+        errors.append(f"{locale} translationApproval unitCount 必须是整数")
+    elif unit_count != current_count:
+        errors.append(
+            f"{locale} translationApproval unitCount 不一致："
+            f"{unit_count} != {current_count}"
+        )
+
+    try:
+        current_source_digest = source_digest(package)
+    except OSError as error:
+        errors.append(f"{locale} 无法计算 sourceDigest：{error}")
+    else:
+        if approval.get("sourceDigest") != current_source_digest:
+            errors.append(f"{locale} translationApproval sourceDigest 已失效")
+    if approval.get("translationDigest") != current_translation_digest:
+        errors.append(f"{locale} translationApproval translationDigest 已失效")
+
+    unapproved = [
+        key
+        for key, unit in units.items()
+        if key not in excluded_keys
+        and (not unit.target or unit.state not in APPROVED_STATES)
+    ]
+    if unapproved:
+        errors.append(
+            f"{locale} translationApproval 存在但仍有未批准 target："
+            + ", ".join(unapproved[:5])
+            + (" ..." if len(unapproved) > 5 else "")
+        )
+    return errors
+
+
 def token_signature(text: str) -> tuple[list[str], collections.Counter[str]]:
     """比较占位符集合，并保留非位置参数顺序以防翻译后崩溃。"""
 
@@ -368,6 +512,15 @@ def validate_repository(
                     + ", ".join(unknown_keys[:10])
                     + (" ..." if len(unknown_keys) > 10 else "")
                 )
+            errors.extend(
+                approval_errors(
+                    item,
+                    package,
+                    locale,
+                    units,
+                    set(exclusions),
+                )
+            )
         except (OSError, ValueError) as error:
             errors.append(str(error))
             continue

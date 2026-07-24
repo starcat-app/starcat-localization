@@ -86,10 +86,12 @@ nontranslatable-keys.json
 | 草稿 | `zh-Hant` 繁体中文、`ja` 日语、`ko` 韩语、`de` 德语、`fr` 法语、`es` 西班牙语、`pt-BR` 巴西葡萄牙语、`it` 意大利语、`ru` 俄语、`nl` 荷兰语、`pl` 波兰语、`uk` 乌克兰语、`tr` 土耳其语、`vi` 越南语、`id` 印度尼西亚语、`ar` 阿拉伯语 |
 
 `draft` 只表示公开协作包已经建立，**不表示**该语言已经进入 Starcat
-稳定版。翻译审核、自动校验、应用内布局验收，以及适用时的 RTL 验收全部通过后，
-维护者才会把语言提升为 `released`。实时状态以 [`locales.json`](locales.json) 为准。
+稳定版。翻译批准、自动校验、应用内布局验收，以及适用时的 RTL 验收全部通过后，
+维护者才会把语言提升为 `released`。翻译批准可以来自人工审核，也可以由维护者明确
+接受 AI 翻译风险；后者会记录 `humanReviewed=false` 和内容 digest，不冒充母语审核。
+实时状态以 [`locales.json`](locales.json) 为准。
 草稿包可能包含状态为 `needs-review-translation` 的 AI 初稿；它们只是提供给
-母语审核者的起点，不是已经批准发布的翻译。
+审核者或维护者评估的起点，在批准前不是正式翻译。
 
 ## 如何参与？
 
