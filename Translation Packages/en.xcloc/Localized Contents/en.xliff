@@ -202,10 +202,6 @@
         <source>SwiftUI Native</source>
         <target state="translated">SwiftUI Native</target>
       </trans-unit>
-      <trans-unit id="about.brand.copyright">
-        <source>Copyright © 2026 Starcat.</source>
-        <target state="translated">Copyright © 2026 Starcat.</target>
-      </trans-unit>
       <trans-unit id="about.brand.getSupport">
         <source>Get Support</source>
         <target state="translated">Get Support</target>
@@ -586,14 +582,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Assets</source>
         <target state="translated">Assets</target>
       </trans-unit>
-      <trans-unit id="activity.detail.emptySubtitle">
-        <source>Select an activity item to inspect its details.</source>
-        <target state="translated">Select an activity item to inspect its details.</target>
-      </trans-unit>
-      <trans-unit id="activity.detail.emptyTitle">
-        <source>No activity selected</source>
-        <target state="translated">No activity selected</target>
-      </trans-unit>
       <trans-unit id="activity.detail.following.actor">
         <source>Actor</source>
         <target state="translated">Actor</target>
@@ -642,17 +630,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>No activity yet</source>
         <target state="translated">No activity yet</target>
       </trans-unit>
-      <trans-unit id="activity.error.loadFailed">
-        <source>Failed to load activity</source>
-        <target state="translated">Failed to load activity</target>
-      </trans-unit>
       <trans-unit id="activity.error.title">
         <source>Activity unavailable</source>
         <target state="translated">Activity unavailable</target>
-      </trans-unit>
-      <trans-unit id="activity.filter.sort">
-        <source>Sort</source>
-        <target state="translated">Sort</target>
       </trans-unit>
       <trans-unit id="activity.following.clear.action">
         <source>Clear All</source>
@@ -1278,10 +1258,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>External context unavailable</source>
         <target state="translated">External context unavailable</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.chat.contextStatus.full">
-        <source>Chat is grounded in full code context</source>
-        <target state="translated">Chat is grounded in full code context</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.chat.contextStatus.prefix">
         <source>Context: </source>
         <target state="translated">Context: </target>
@@ -1349,10 +1325,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="ai.assistant.chat.failureFormat">
         <source>(Generation failed: %@)</source>
         <target state="translated">(Generation failed: %@)</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.chat.generating">
-        <source>Generating</source>
-        <target state="translated">Generating</target>
       </trans-unit>
       <trans-unit id="ai.assistant.chat.history.loadEarlier">
         <source>Load earlier messages</source>
@@ -1430,10 +1402,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>New conversation</source>
         <target state="translated">New conversation</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.chat.thinking">
-        <source>Thinking…</source>
-        <target state="translated">Thinking…</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.copy.copied">
         <source>Copied ✓</source>
         <target state="translated">Copied ✓</target>
@@ -1481,10 +1449,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="ai.assistant.input.send.help">
         <source>Send (Return)</source>
         <target state="translated">Send (Return)</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.input.sending.help">
-        <source>Sending…</source>
-        <target state="translated">Sending…</target>
       </trans-unit>
       <trans-unit id="ai.assistant.input.stop.help">
         <source>Stop generating</source>
@@ -1622,10 +1586,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Initializing…</source>
         <target state="translated">Initializing…</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.summary.loadingCache">
-        <source>Loading local AI cache…</source>
-        <target state="translated">Loading local AI cache…</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.summary.menu.help">
         <source>More actions</source>
         <target state="translated">More actions</target>
@@ -1645,10 +1605,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="ai.assistant.summary.regenerate">
         <source>Regenerate</source>
         <target state="translated">Regenerate</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.summary.regenerate.help">
-        <source>Regenerate summary (does not affect chat)</source>
-        <target state="translated">Regenerate summary (does not affect chat)</target>
       </trans-unit>
       <trans-unit id="ai.assistant.summary.requesting">
         <source>Preparing summary request…</source>
@@ -1866,25 +1822,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Clear All</source>
         <target state="translated">Clear All</target>
       </trans-unit>
-      <trans-unit id="ai.context.storage.clearAllConfirm.message">
-        <source>This will delete all context.xml and metadata.json in the current output directory. Shared source ZIPs are not deleted.</source>
-        <target state="translated">This will delete all context.xml and metadata.json in the current output directory. Shared source ZIPs are not deleted.</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.clearAllConfirm.title">
-        <source>Clear all Code Contexs?</source>
-        <target state="translated">Clear all Code Contexs?</target>
-      </trans-unit>
       <trans-unit id="ai.context.storage.empty">
         <source>No Code Contexs in current directory yet.</source>
         <target state="translated">No Code Contexs in current directory yet.</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.menuDelete">
-        <source>Delete</source>
-        <target state="translated">Delete</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.menuReveal">
-        <source>Reveal</source>
-        <target state="translated">Reveal</target>
       </trans-unit>
       <trans-unit id="ai.context.storage.outputDirectory">
         <source>Context Output Directory</source>
@@ -2458,14 +2398,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>About Starcat</source>
         <target state="translated">About Starcat</target>
       </trans-unit>
-      <trans-unit id="auth.copyCode">
-        <source>Copy code</source>
-        <target state="translated">Copy code</target>
-      </trans-unit>
-      <trans-unit id="auth.enterCode">
-        <source>Enter this code in your browser</source>
-        <target state="translated">Enter this code in your browser</target>
-      </trans-unit>
       <trans-unit id="auth.error.clientIdMissing">
         <source>GitHub OAuth Client ID is missing or still a placeholder.</source>
         <target state="translated">GitHub OAuth Client ID is missing or still a placeholder.</target>
@@ -2502,41 +2434,13 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Sign in failed</source>
         <target state="translated">Sign in failed</target>
       </trans-unit>
-      <trans-unit id="auth.needLogin">
-        <source>Please sign in first</source>
-        <target state="translated">Please sign in first</target>
-      </trans-unit>
-      <trans-unit id="auth.openGithub">
-        <source>Open GitHub</source>
-        <target state="translated">Open GitHub</target>
-      </trans-unit>
-      <trans-unit id="auth.signIn">
-        <source>Sign in with GitHub</source>
-        <target state="translated">Sign in with GitHub</target>
-      </trans-unit>
       <trans-unit id="auth.signOut">
         <source>Sign Out</source>
         <target state="translated">Sign Out</target>
       </trans-unit>
-      <trans-unit id="auth.subtitle">
-        <source>Organize, understand, find, and evaluate your GitHub Stars</source>
-        <target state="translated">Organize, understand, find, and evaluate your GitHub Stars</target>
-      </trans-unit>
-      <trans-unit id="auth.title">
-        <source>Starcat</source>
-        <target state="translated">Starcat</target>
-      </trans-unit>
       <trans-unit id="auth.unauthenticated">
         <source>Not Signed In</source>
         <target state="translated">Not Signed In</target>
-      </trans-unit>
-      <trans-unit id="auth.waiting">
-        <source>Waiting for authorization…</source>
-        <target state="translated">Waiting for authorization…</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.comingSoon">
-        <source>Coming soon</source>
-        <target state="translated">Coming soon</target>
       </trans-unit>
       <trans-unit id="authV2.alternative.deviceFlow">
         <source>Sign in with Device Code</source>
@@ -2549,14 +2453,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="authV2.alternative.pat">
         <source>Sign in with Token</source>
         <target state="translated">Sign in with Token</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.webflow.enabled">
-        <source>Sign in with browser</source>
-        <target state="translated">Sign in with browser</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.webflow.tooltip">
-        <source>Open browser to authorize GitHub, then return to Starcat automatically</source>
-        <target state="translated">Open browser to authorize GitHub, then return to Starcat automatically</target>
       </trans-unit>
       <trans-unit id="authV2.cancelSignIn">
         <source>Cancel</source>
@@ -2582,29 +2478,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Continue with GitHub</source>
         <target state="translated">Continue with GitHub</target>
       </trans-unit>
-      <trans-unit id="authV2.copiedSilentHint">
-        <source>Code copied to clipboard</source>
-        <target state="translated">Code copied to clipboard</target>
-      </trans-unit>
-      <trans-unit id="authV2.copyCode">
-        <source>Copy code</source>
-        <target state="translated">Copy code</target>
-      </trans-unit>
       <trans-unit id="authV2.copyOnly">
         <source>Copy only, don't open browser</source>
         <target state="translated">Copy only, don't open browser</target>
-      </trans-unit>
-      <trans-unit id="authV2.enterCodeTitle">
-        <source>Enter this code on GitHub</source>
-        <target state="translated">Enter this code on GitHub</target>
-      </trans-unit>
-      <trans-unit id="authV2.openGithub">
-        <source>Open GitHub</source>
-        <target state="translated">Open GitHub</target>
-      </trans-unit>
-      <trans-unit id="authV2.openingHint">
-        <source>Opening GitHub in your browser…</source>
-        <target state="translated">Opening GitHub in your browser…</target>
       </trans-unit>
       <trans-unit id="authV2.pat.back">
         <source>Back</source>
@@ -3638,10 +3514,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Loading contribution graph…</source>
         <target state="translated">Loading contribution graph…</target>
       </trans-unit>
-      <trans-unit id="contribution.openGithub">
-        <source>Open GitHub profile</source>
-        <target state="translated">Open GitHub profile</target>
-      </trans-unit>
       <trans-unit id="contribution.title">
         <source>Contributions</source>
         <target state="translated">Contributions</target>
@@ -3777,10 +3649,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="empty.noStars">
         <source>No Stars Yet</source>
         <target state="translated">No Stars Yet</target>
-      </trans-unit>
-      <trans-unit id="empty.searchPlaceholder">
-        <source>Search history, saved searches, and advanced filters coming soon.</source>
-        <target state="translated">Search history, saved searches, and advanced filters coming soon.</target>
       </trans-unit>
       <trans-unit id="empty.selectFromList">
         <source>Select a repo from the list on the left</source>
@@ -3974,30 +3842,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Select a project from Explore</source>
         <target state="translated">Select a project from Explore</target>
       </trans-unit>
-      <trans-unit id="explore.detail.metrics">
-        <source>Metrics</source>
-        <target state="translated">Metrics</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.openRelease">
-        <source>Open release</source>
-        <target state="translated">Open release</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.reasons">
-        <source>Why this appears</source>
-        <target state="translated">Why this appears</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.release">
-        <source>Release</source>
-        <target state="translated">Release</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.signals">
-        <source>Signals</source>
-        <target state="translated">Signals</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.taxonomy">
-        <source>Tags and platforms</source>
-        <target state="translated">Tags and platforms</target>
-      </trans-unit>
       <trans-unit id="explore.discoverySignal.downloads">
         <source>Downloads</source>
         <target state="translated">Downloads</target>
@@ -4017,14 +3861,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="explore.empty.title">
         <source>No projects found</source>
         <target state="translated">No projects found</target>
-      </trans-unit>
-      <trans-unit id="explore.filter.sort">
-        <source>Sort</source>
-        <target state="translated">Sort</target>
-      </trans-unit>
-      <trans-unit id="explore.filter.title">
-        <source>Filter</source>
-        <target state="translated">Filter</target>
       </trans-unit>
       <trans-unit id="explore.help.cache.title">
         <source>Cache</source>
@@ -4270,10 +4106,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Stars Ascending</source>
         <target state="translated">Stars Ascending</target>
       </trans-unit>
-      <trans-unit id="explore.sort.title">
-        <source>Sort</source>
-        <target state="translated">Sort</target>
-      </trans-unit>
       <trans-unit id="explore.sort.updated">
         <source>Recently Updated</source>
         <target state="translated">Recently Updated</target>
@@ -4390,14 +4222,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>OK</source>
         <target state="translated">OK</target>
       </trans-unit>
-      <trans-unit id="general.reset">
-        <source>Reset</source>
-        <target state="translated">Reset</target>
-      </trans-unit>
-      <trans-unit id="general.save">
-        <source>Save</source>
-        <target state="translated">Save</target>
-      </trans-unit>
       <trans-unit id="gettingStarted.collapse">
         <source>Collapse checklist</source>
         <target state="translated">Collapse checklist</target>
@@ -4413,18 +4237,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="gettingStarted.progressFormat">
         <source>%lld of %lld completed</source>
         <target state="translated">%lld of %lld completed</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.action">
-        <source>Open Agent workspace</source>
-        <target state="translated">Open Agent workspace</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.detail">
-        <source>Run guided agent workflows and review generated artifacts.</source>
-        <target state="translated">Run guided agent workflows and review generated artifacts.</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.title">
-        <source>Try Agent workspace</source>
-        <target state="translated">Try Agent workspace</target>
       </trans-unit>
       <trans-unit id="gettingStarted.step.ai.action">
         <source>Open AI summary</source>
@@ -4590,17 +4402,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Start with Starcat</source>
         <target state="translated">Start with Starcat</target>
       </trans-unit>
-      <trans-unit id="githubStarLists.context.addTo">
-        <source>Add to...</source>
-        <target state="translated">Add to...</target>
-      </trans-unit>
       <trans-unit id="githubStarLists.context.addToGroupSection">
         <source>Add to Group:</source>
         <target state="translated">Add to Group:</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.context.moveTo">
-        <source>Move to...</source>
-        <target state="translated">Move to...</target>
       </trans-unit>
       <trans-unit id="githubStarLists.context.moveToOtherGroupSection">
         <source>Move to Other Group:</source>
@@ -4609,10 +4413,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="githubStarLists.context.noGroups">
         <source>No groups</source>
         <target state="translated">No groups</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.context.removeFromGroup">
-        <source>Remove from Group</source>
-        <target state="translated">Remove from Group</target>
       </trans-unit>
       <trans-unit id="githubStarLists.context.removeFromGroupFormat">
         <source>Remove from '%@'</source>
@@ -4673,10 +4473,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="githubStarLists.error.orgOAuthRestricted.impact">
         <source>Starcat cannot update this repository's list membership through the GitHub API.</source>
         <target state="translated">Starcat cannot update this repository's list membership through the GitHub API.</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.error.orgOAuthRestricted.message">
-        <source>This repository belongs to an organization that restricts third-party OAuth App access. Starcat cannot update its GitHub list membership through the API. If you are only a starrer, you may not have a way to request approval; you can still change this list on GitHub.</source>
-        <target state="translated">This repository belongs to an organization that restricts third-party OAuth App access. Starcat cannot update its GitHub list membership through the API. If you are only a starrer, you may not have a way to request approval; you can still change this list on GitHub.</target>
       </trans-unit>
       <trans-unit id="githubStarLists.error.orgOAuthRestricted.note">
         <source>This is not a token scope issue or a local data error. It is GitHub's organization-level OAuth App policy, and ordinary starrers may not have an approval path.</source>
@@ -4830,17 +4626,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Enter Multi-Select Mode</source>
         <target state="translated">Enter Multi-Select Mode</target>
       </trans-unit>
-      <trans-unit id="list.refreshingFormat">
-        <source>%d repos · Refreshing...</source>
-        <target state="translated">%d repos · Refreshing...</target>
-      </trans-unit>
       <trans-unit id="list.repoCountFormat">
         <source>%d repos</source>
         <target state="translated">%d repos</target>
-      </trans-unit>
-      <trans-unit id="list.selectedCountFormat">
-        <source>%d / %d selected</source>
-        <target state="translated">%d / %d selected</target>
       </trans-unit>
       <trans-unit id="list.sort">
         <source>Sort</source>
@@ -4933,10 +4721,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="nav.manage">
         <source>Starred</source>
         <target state="translated">Starred</target>
-      </trans-unit>
-      <trans-unit id="nav.search">
-        <source>External Search</source>
-        <target state="translated">External Search</target>
       </trans-unit>
       <trans-unit id="nav.trending">
         <source>Explore</source>
@@ -5422,10 +5206,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Chunk content</source>
         <target state="translated">Chunk content</target>
       </trans-unit>
-      <trans-unit id="rag.browser.chunk.delete">
-        <source>Exclude from RAG</source>
-        <target state="translated">Exclude from RAG</target>
-      </trans-unit>
       <trans-unit id="rag.browser.chunk.disable">
         <source>Disable chunk</source>
         <target state="translated">Disable chunk</target>
@@ -5458,14 +5238,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Permanently delete this chunk?</source>
         <target state="translated">Permanently delete this chunk?</target>
       </trans-unit>
-      <trans-unit id="rag.browser.chunk.restore">
-        <source>Restore to RAG</source>
-        <target state="translated">Restore to RAG</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.chunk.revert">
-        <source>Revert manual edit</source>
-        <target state="translated">Revert manual edit</target>
-      </trans-unit>
       <trans-unit id="rag.browser.chunk.save">
         <source>Save</source>
         <target state="translated">Save</target>
@@ -5497,10 +5269,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.browser.chunks.tokenCountFormat">
         <source>≈ %lld tokens</source>
         <target state="translated">≈ %lld tokens</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.empty">
-        <source>No repositories in the knowledge base</source>
-        <target state="translated">No repositories in the knowledge base</target>
       </trans-unit>
       <trans-unit id="rag.browser.noChunks">
         <source>No indexed content yet</source>
@@ -5622,10 +5390,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Retrieved chunk</source>
         <target state="translated">Retrieved chunk</target>
       </trans-unit>
-      <trans-unit id="rag.browser.retrieval.hint">
-        <source>No chat completion</source>
-        <target state="translated">No chat completion</target>
-      </trans-unit>
       <trans-unit id="rag.browser.retrieval.noHitsMessage">
         <source>Try rephrasing the question or refreshing the index.</source>
         <target state="translated">Try rephrasing the question or refreshing the index.</target>
@@ -5661,10 +5425,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.browser.retrieval.settings.title">
         <source>Test Parameters</source>
         <target state="translated">Test Parameters</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.retrieval.settings.tokenBudgetNote">
-        <source>%lld-token chunk budget applies to answer context, not this retrieval test.</source>
-        <target state="translated">%lld-token chunk budget applies to answer context, not this retrieval test.</target>
       </trans-unit>
       <trans-unit id="rag.browser.retrieval.settings.unsaved">
         <source>Unsaved</source>
@@ -5737,10 +5497,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.browser.totalChunks">
         <source>Total chunks</source>
         <target state="translated">Total chunks</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.window.title">
-        <source>Knowledge Base</source>
-        <target state="translated">Knowledge Base</target>
       </trans-unit>
       <trans-unit id="rag.core.attachment.error.fileTooLargeFormat">
         <source>Attachment is too large: %@</source>
@@ -5918,86 +5674,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Conversation title generation failed: %@</source>
         <target state="translated">Conversation title generation failed: %@</target>
       </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.sectionPath">
-        <source>Local storage selection</source>
-        <target state="translated">Local storage selection</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.snippet">
-        <source>Local-first apps need controllable transactions, migrations, and FTS capabilities. GRDB is already used in Starcat and fits as the local storage base for RAG chunks and citations.</source>
-        <target state="translated">Local-first apps need controllable transactions, migrations, and FTS capabilities. GRDB is already used in Starcat and fits as the local storage base for RAG chunks and citations.</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.title">
-        <source>SQLite + GRDB as local cache layer</source>
-        <target state="translated">SQLite + GRDB as local cache layer</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.concurrency.subtitle">
-        <source>actor / task cancellation</source>
-        <target state="translated">actor / task cancellation</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.concurrency.title">
-        <source>Swift Concurrency Best Practices</source>
-        <target state="translated">Swift Concurrency Best Practices</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.localRAG.subtitle">
-        <source>Swift project comparison</source>
-        <target state="translated">Swift project comparison</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.localRAG.title">
-        <source>Local RAG Plan</source>
-        <target state="translated">Local RAG Plan</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.markdown.subtitle">
-        <source>Parser library and README cleanup</source>
-        <target state="translated">Parser library and README cleanup</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.markdown.title">
-        <source>Swift Markdown Rendering</source>
-        <target state="translated">Swift Markdown Rendering</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.vectorDB.subtitle">
-        <source>Desktop app selection</source>
-        <target state="translated">Desktop app selection</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.vectorDB.title">
-        <source>Vector Database Comparison</source>
-        <target state="translated">Vector Database Comparison</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.repo.status.githubCitation">
-        <source>GitHub citation</source>
-        <target state="translated">GitHub citation</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.repo.status.inKnowledgeBase">
-        <source>In knowledge base</source>
-        <target state="translated">In knowledge base</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.source.aiSummary">
-        <source>AI Summary</source>
-        <target state="translated">AI Summary</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.source.notes">
-        <source>Notes</source>
-        <target state="translated">Notes</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.privateNote">
-        <source>Private note</source>
-        <target state="translated">Private note</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.readmeCache">
-        <source>README cache</source>
-        <target state="translated">README cache</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.repoSummary">
-        <source>Repository summary</source>
-        <target state="translated">Repository summary</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.time.fiveDaysAgo">
-        <source>5 days ago</source>
-        <target state="translated">5 days ago</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.time.yesterday">
-        <source>Yesterday</source>
-        <target state="translated">Yesterday</target>
-      </trans-unit>
       <trans-unit id="rag.storage.error.conversationMissing">
         <source>The persisted RAG conversation is missing</source>
         <target state="translated">The persisted RAG conversation is missing</target>
@@ -6074,18 +5750,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Export Markdown</source>
         <target state="translated">Export Markdown</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.attachment.textContext">
-        <source>temporary text context</source>
-        <target state="translated">temporary text context</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.attachment.unsupported">
-        <source>unsupported</source>
-        <target state="translated">unsupported</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.attachment.vision">
-        <source>vision input</source>
-        <target state="translated">vision input</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.citations.collapse">
         <source>Show less</source>
         <target state="translated">Show less</target>
@@ -6145,10 +5809,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.workspace.composer.send">
         <source>Send</source>
         <target state="translated">Send</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.composer.sources">
-        <source>Sources: README / Notes / Summary</source>
-        <target state="translated">Sources: README / Notes / Summary</target>
       </trans-unit>
       <trans-unit id="rag.workspace.composer.webSearch.off">
         <source>Enable web search</source>
@@ -6210,29 +5870,9 @@ Rediscover — Search and filter your way back to the right repo.</target>
         <source>Context usage (Composer)</source>
         <target state="translated">Context usage (Composer)</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.definition.body">
-        <source>After you send a question, Starcat allocates the model context window across prompt segments: system rules, conversation history, your question, retrieved evidence, remote content, and attachments. Reserved output space is listed separately.</source>
-        <target state="translated">After you send a question, Starcat allocates the model context window across prompt segments: system rules, conversation history, your question, retrieved evidence, remote content, and attachments. Reserved output space is listed separately.</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.definition.title">
-        <source>What is context budget?</source>
-        <target state="translated">What is context budget?</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.context.budget.help.footnote">
         <source>Token counts are local estimates for budget boundaries, not exact provider billing.</source>
         <target state="translated">Token counts are local estimates for budget boundaries, not exact provider billing.</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.open">
-        <source>Learn about context budget</source>
-        <target state="translated">Learn about context budget</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.title">
-        <source>About context budget</source>
-        <target state="translated">About context budget</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.emptyPreview">
-        <source>No prompt has been built yet.</source>
-        <target state="translated">No prompt has been built yet.</target>
       </trans-unit>
       <trans-unit id="rag.workspace.context.evidence">
         <source>Knowledge base citations</source>
@@ -6249,10 +5889,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.workspace.context.percentFull">
         <source>%lld%% Full</source>
         <target state="translated">%lld%% Full</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.promptPreview">
-        <source>Prompt preview</source>
-        <target state="translated">Prompt preview</target>
       </trans-unit>
       <trans-unit id="rag.workspace.context.question">
         <source>Question and plan</source>
@@ -6353,10 +5989,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.workspace.debug.copy">
         <source>Copy debug record</source>
         <target state="translated">Copy debug record</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.debug.disabledHint">
-        <source>Enable RAG debug mode to capture the next question, retrieval, prompt, and LLM response.</source>
-        <target state="translated">Enable RAG debug mode to capture the next question, retrieval, prompt, and LLM response.</target>
       </trans-unit>
       <trans-unit id="rag.workspace.debug.elapsedFormat">
         <source>%.1fs</source>
@@ -6653,22 +6285,6 @@ Rediscover — Search and filter your way back to the right repo.</target>
       <trans-unit id="rag.workspace.debug.stepDuration.help">
         <source>Duration of this step (since the previous debug event)</source>
         <target state="translated">Duration of this step (since the previous debug event)</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.answer.intro">
-        <source>Based on repository metadata, README chunks, notes, and existing summaries in the knowledge base, the most relevant Swift projects are below. Each project is tied to citations actually used in this answer.</source>
-        <target state="translated">Based on repository metadata, README chunks, notes, and existing summaries in the knowledge base, the most relevant Swift projects are below. Each project is tied to citations actually used in this answer.</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.answer.recommendation">
-        <source>For a first version of local RAG, start with GRDB.swift for local storage and swift-markdown for document parsing. MCP Swift SDK is better suited for later tool-calling extensions.</source>
-        <target state="translated">For a first version of local RAG, start with GRDB.swift for local storage and swift-markdown for document parsing. MCP Swift SDK is better suited for later tool-calling extensions.</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.pendingQuestion">
-        <source>Continue asking the knowledge base...</source>
-        <target state="translated">Continue asking the knowledge base...</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.question">
-        <source>Which Swift projects in my knowledge base are suitable for local RAG?</source>
-        <target state="translated">Which Swift projects in my knowledge base are suitable for local RAG?</target>
       </trans-unit>
       <trans-unit id="rag.workspace.empty.noKnowledge.banner">
         <source>No repositories in the knowledge base yet.</source>
@@ -7106,14 +6722,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>Ready</source>
         <target state="translated">Ready</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.header.streaming">
-        <source>Streaming</source>
-        <target state="translated">Streaming</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.header.subtitle">
-        <source>Knowledge base · 126 repos · 1,248 ready chunks · GPT-4.1 · Read-only</source>
-        <target state="translated">Knowledge base · 126 repos · 1,248 ready chunks · GPT-4.1 · Read-only</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.history.loadEarlier">
         <source>Load more history</source>
         <target state="translated">Load more history</target>
@@ -7121,10 +6729,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.history.loadEarlier.help">
         <source>Show earlier turns from this conversation</source>
         <target state="translated">Show earlier turns from this conversation</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.index.chunksShort">
-        <source>Chunks</source>
-        <target state="translated">Chunks</target>
       </trans-unit>
       <trans-unit id="rag.workspace.index.embedding">
         <source>Embedding</source>
@@ -7230,10 +6834,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>GitHub</source>
         <target state="translated">GitHub</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.citationSnippet">
-        <source>Citation snippet</source>
-        <target state="translated">Citation snippet</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.citationStarcatDetail">
         <source>Starcat detail</source>
         <target state="translated">Starcat detail</target>
@@ -7250,10 +6850,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>Question to clarify</source>
         <target state="translated">Question to clarify</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.confidence">
-        <source>Confidence</source>
-        <target state="translated">Confidence</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.confidence.high">
         <source>High</source>
         <target state="translated">High</target>
@@ -7265,10 +6861,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.inspector.confidence.needsClarification">
         <source>Need more details</source>
         <target state="translated">Need more details</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.detailPage">
-        <source>Detail page</source>
-        <target state="translated">Detail page</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.fetchedAt">
         <source>Fetched at</source>
@@ -7285,10 +6877,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.inspector.matchType">
         <source>Match type</source>
         <target state="translated">Match type</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.activity">
-        <source>Added / pushed (30d)</source>
-        <target state="translated">Added / pushed (30d)</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.added30d">
         <source>Added · 30d</source>
@@ -7460,10 +7048,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <target state="translated">%1$@ repos
 Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.index">
-        <source>Index ready / pending / failed / stale</source>
-        <target state="translated">Index ready / pending / failed / stale</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.index.failed">
         <source>Failed</source>
         <target state="translated">Failed</target>
@@ -7536,10 +7120,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
         <source>Status</source>
         <target state="translated">Status</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.subtitle">
-        <source>Read-only local facts. The next answer receives this same snapshot.</source>
-        <target state="translated">Read-only local facts. The next answer receives this same snapshot.</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.summariesGenerated30d">
         <source>Summaries · 30d</source>
         <target state="translated">Summaries · 30d</target>
@@ -7551,10 +7131,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       <trans-unit id="rag.workspace.inspector.metadata.taggedRatio">
         <source>Tagged</source>
         <target state="translated">Tagged</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.tags">
-        <source>Tagged / untagged · distinct tags</source>
-        <target state="translated">Tagged / untagged · distinct tags</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.title">
         <source>Metadata</source>
@@ -7599,10 +7175,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       <trans-unit id="rag.workspace.inspector.openStarcat">
         <source>Open Starcat detail</source>
         <target state="translated">Open Starcat detail</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.otherCitations">
-        <source>Other citations</source>
-        <target state="translated">Other citations</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.analytics">
         <source>Structured analytics</source>
@@ -8088,10 +7660,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
         <source>Question understanding</source>
         <target state="translated">Question understanding</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.plan.remoteSupplement">
-        <source>Live GitHub context</source>
-        <target state="translated">Live GitHub context</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.repoContext">
         <source>Project code</source>
         <target state="translated">Project code</target>
@@ -8312,10 +7880,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
         <source>Knowledge Base</source>
         <target state="translated">Knowledge Base</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.plan.searchScope">
-        <source>Search scope</source>
-        <target state="translated">Search scope</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.webSearch">
         <source>Web search</source>
         <target state="translated">Web search</target>
@@ -8331,14 +7895,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       <trans-unit id="rag.workspace.inspector.planCandidateLimitFormat">
         <source>Review up to %lld candidate repositories</source>
         <target state="translated">Review up to %lld candidate repositories</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planExecutionSummary">
-        <source>Execution</source>
-        <target state="translated">Execution</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planExecutionSummaryFormat">
-        <source>Reviewed %1$lld candidates · matched %2$lld passages · used chunks from %3$lld repositories</source>
-        <target state="translated">Reviewed %1$lld candidates · matched %2$lld passages · used chunks from %3$lld repositories</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.planMode">
         <source>Mode</source>
@@ -8371,10 +7927,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       <trans-unit id="rag.workspace.inspector.planRemoteBudgetFormat">
         <source>Up to %1$lld repositories · %2$lld items per repository</source>
         <target state="translated">Up to %1$lld repositories · %2$lld items per repository</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planScope">
-        <source>Scope</source>
-        <target state="translated">Scope</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.planSort">
         <source>Prioritization</source>
@@ -8492,10 +8044,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
         <source>Source</source>
         <target state="translated">Source</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.starcatDetail">
-        <source>Starcat local detail</source>
-        <target state="translated">Starcat local detail</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.subtitle">
         <source>Sources used in this answer</source>
         <target state="translated">Sources used in this answer</target>
@@ -8519,10 +8067,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
       <trans-unit id="rag.workspace.inspector.title">
         <source>Context</source>
         <target state="translated">Context</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.truncated">
-        <source>Snippet truncated to fit the token budget</source>
-        <target state="translated">Snippet truncated to fit the token budget</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.vectorSimilarity">
         <source>Vector similarity</source>
@@ -8564,25 +8108,9 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</target>
         <source>Knowledge base is empty</source>
         <target state="translated">Knowledge base is empty</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.mention.filterHint">
-        <source>Type after @ to filter</source>
-        <target state="translated">Type after @ to filter</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.filterLabel">
-        <source>Filter: %@</source>
-        <target state="translated">Filter: %@</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.languageHint">
-        <source>Reuse interested languages from Settings. Tap + to add more.</source>
-        <target state="translated">Reuse interested languages from Settings. Tap + to add more.</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.mention.narrowHint">
         <source>Showing %1$d of %2$d · keep typing to narrow</source>
         <target state="translated">Showing %1$d of %2$d · keep typing to narrow</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.noDescription">
-        <source>No description</source>
-        <target state="translated">No description</target>
       </trans-unit>
       <trans-unit id="rag.workspace.mention.searchPlaceholder">
         <source>Search knowledge base repositories</source>
@@ -9114,10 +8642,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Failed chunks</source>
         <target state="translated">Failed chunks</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.indexIncomplete">
-        <source>Some content is pending, stale, or failed.</source>
-        <target state="translated">Some content is pending, stale, or failed.</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.knowledgeBase">
         <source>Knowledge base</source>
         <target state="translated">Knowledge base</target>
@@ -9126,41 +8650,13 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>0 repositories · tap to add</source>
         <target state="translated">0 repositories · tap to add</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.mode">
-        <source>Mode</source>
-        <target state="translated">Mode</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.pendingChunks">
         <source>Pending chunks</source>
         <target state="translated">Pending chunks</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.readOnly">
-        <source>Read-only</source>
-        <target state="translated">Read-only</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.readyChunks">
         <source>Ready chunks</source>
         <target state="translated">Ready chunks</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.readyChunksFormat">
-        <source>%d ready chunks</source>
-        <target state="translated">%d ready chunks</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.repos">
-        <source>Repos</source>
-        <target state="translated">Repos</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.scope">
-        <source>Scope</source>
-        <target state="translated">Scope</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.sources">
-        <source>Sources</source>
-        <target state="translated">Sources</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.sourcesValue">
-        <source>README / Notes / Summary</source>
-        <target state="translated">README / Notes / Summary</target>
       </trans-unit>
       <trans-unit id="rag.workspace.status.staleChunks">
         <source>Stale chunks</source>
@@ -9201,10 +8697,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="readme.failed">
         <source>Failed to load README</source>
         <target state="translated">Failed to load README</target>
-      </trans-unit>
-      <trans-unit id="readme.loading">
-        <source>Loading README…</source>
-        <target state="translated">Loading README…</target>
       </trans-unit>
       <trans-unit id="readme.mermaid.renderFailed">
         <source>Could not render this Mermaid diagram. Raw source is shown below.</source>
@@ -9253,10 +8745,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="readme.translate.action">
         <source>Translate</source>
         <target state="translated">Translate</target>
-      </trans-unit>
-      <trans-unit id="readme.translate.error.dismiss">
-        <source>Click to dismiss</source>
-        <target state="translated">Click to dismiss</target>
       </trans-unit>
       <trans-unit id="readme.translate.error.emptySource">
         <source>No README to translate.</source>
@@ -9442,14 +8930,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Unsubscribe failed</source>
         <target state="translated">Unsubscribe failed</target>
       </trans-unit>
-      <trans-unit id="releases.notify.disable">
-        <source>Mute new release notifications</source>
-        <target state="translated">Mute new release notifications</target>
-      </trans-unit>
-      <trans-unit id="releases.notify.enable">
-        <source>Enable new release notifications</source>
-        <target state="translated">Enable new release notifications</target>
-      </trans-unit>
       <trans-unit id="releases.openOnGitHub">
         <source>Open on GitHub</source>
         <target state="translated">Open on GitHub</target>
@@ -9497,10 +8977,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="releases.row.viewDetails">
         <source>View details</source>
         <target state="translated">View details</target>
-      </trans-unit>
-      <trans-unit id="releases.section.noRelease">
-        <source>No release published yet</source>
-        <target state="translated">No release published yet</target>
       </trans-unit>
       <trans-unit id="releases.section.title">
         <source>Releases</source>
@@ -9742,10 +9218,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Preview</source>
         <target state="translated">Preview</target>
       </trans-unit>
-      <trans-unit id="repo.notes.editor.title">
-        <source>Notes</source>
-        <target state="translated">Notes</target>
-      </trans-unit>
       <trans-unit id="repo.notes.expandEditor">
         <source>Expand the note editor (supports Markdown preview)</source>
         <target state="translated">Expand the note editor (supports Markdown preview)</target>
@@ -9797,10 +9269,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.privateNotes">
         <source>Notes</source>
         <target state="translated">Notes</target>
-      </trans-unit>
-      <trans-unit id="repo.recommendations.archived">
-        <source>Archived</source>
-        <target state="translated">Archived</target>
       </trans-unit>
       <trans-unit id="repo.recommendations.countFormat">
         <source>%d repos</source>
@@ -9861,10 +9329,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.share.cancelled.title">
         <source>Creation Cancelled</source>
         <target state="translated">Creation Cancelled</target>
-      </trans-unit>
-      <trans-unit id="repo.share.error.cancel">
-        <source>Cancel</source>
-        <target state="translated">Cancel</target>
       </trans-unit>
       <trans-unit id="repo.share.error.missingAIConfig">
         <source>Sharing uses an AI summary for the share page. No AI provider is configured yet — open Settings → AI, add an API key for the Summary task, then try again.</source>
@@ -9950,10 +9414,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Close</source>
         <target state="translated">Close</target>
       </trans-unit>
-      <trans-unit id="repo.share.success.copied">
-        <source>Link copied</source>
-        <target state="translated">Link copied</target>
-      </trans-unit>
       <trans-unit id="repo.share.success.copyLink">
         <source>Copy Link</source>
         <target state="translated">Copy Link</target>
@@ -9978,29 +9438,9 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Star</source>
         <target state="translated">Star</target>
       </trans-unit>
-      <trans-unit id="repo.star.failed">
-        <source>Star failed</source>
-        <target state="translated">Star failed</target>
-      </trans-unit>
       <trans-unit id="repo.stars">
         <source>Stars</source>
         <target state="translated">Stars</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.forks">
-        <source>Forks</source>
-        <target state="translated">Forks</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.issues">
-        <source>Issues</source>
-        <target state="translated">Issues</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.stars">
-        <source>Stars</source>
-        <target state="translated">Stars</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.watchers">
-        <source>Watchers</source>
-        <target state="translated">Watchers</target>
       </trans-unit>
       <trans-unit id="repo.status">
         <source>Status</source>
@@ -10010,10 +9450,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Stop using</source>
         <target state="translated">Stop using</target>
       </trans-unit>
-      <trans-unit id="repo.status.deprecated">
-        <source>Deprecated</source>
-        <target state="translated">Deprecated</target>
-      </trans-unit>
       <trans-unit id="repo.status.markUsingHint">
         <source>Click to mark as Using</source>
         <target state="translated">Click to mark as Using</target>
@@ -10021,10 +9457,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.status.read">
         <source>Read</source>
         <target state="translated">Read</target>
-      </trans-unit>
-      <trans-unit id="repo.status.reading">
-        <source>Reading</source>
-        <target state="translated">Reading</target>
       </trans-unit>
       <trans-unit id="repo.status.unread">
         <source>Unread</source>
@@ -10041,30 +9473,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.unstar">
         <source>Unstar</source>
         <target state="translated">Unstar</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.action">
-        <source>Unstar</source>
-        <target state="translated">Unstar</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.actionFailed">
-        <source>Unstar failed</source>
-        <target state="translated">Unstar failed</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.confirm">
-        <source>Unstar?</source>
-        <target state="translated">Unstar?</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.dontUnstar">
-        <source>Don't Unstar</source>
-        <target state="translated">Don't Unstar</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.failed">
-        <source>Unstar failed</source>
-        <target state="translated">Unstar failed</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.messageFormat">
-        <source>Will unstar %@ via GitHub API and remove it from the local list. Tags and notes will be kept and restored if you star it again.</source>
-        <target state="translated">Will unstar %@ via GitHub API and remove it from the local list. Tags and notes will be kept and restored if you star it again.</target>
       </trans-unit>
       <trans-unit id="repo.updated">
         <source>Updated</source>
@@ -10546,10 +9954,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Clear search</source>
         <target state="translated">Clear search</target>
       </trans-unit>
-      <trans-unit id="search.close">
-        <source>Close search</source>
-        <target state="translated">Close search</target>
-      </trans-unit>
       <trans-unit id="search.contextMenu.aiSummary">
         <source>Ask / AI summary</source>
         <target state="translated">Ask / AI summary</target>
@@ -10830,10 +10234,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>%lld GitHub matches</source>
         <target state="translated">%lld GitHub matches</target>
       </trans-unit>
-      <trans-unit id="search.hint">
-        <source>Search</source>
-        <target state="translated">Search</target>
-      </trans-unit>
       <trans-unit id="search.history.clearAll">
         <source>Clear all</source>
         <target state="translated">Clear all</target>
@@ -10894,10 +10294,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>AI mode · Pro required</source>
         <target state="translated">AI mode · Pro required</target>
       </trans-unit>
-      <trans-unit id="search.mode.title">
-        <source>Search Mode</source>
-        <target state="translated">Search Mode</target>
-      </trans-unit>
       <trans-unit id="search.paywall.semantic.upgrade">
         <source>AI Semantic Search is a Pro feature. Upgrade to search by meaning, not just keywords.</source>
         <target state="translated">AI Semantic Search is a Pro feature. Upgrade to search by meaning, not just keywords.</target>
@@ -10938,18 +10334,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Refresh semantic index</source>
         <target state="translated">Refresh semantic index</target>
       </trans-unit>
-      <trans-unit id="search.semantic.refreshIndex.hint">
-        <source>Regenerate embeddings for all starred repositories</source>
-        <target state="translated">Regenerate embeddings for all starred repositories</target>
-      </trans-unit>
-      <trans-unit id="search.semantic.refreshingFormat">
-        <source>%d semantic results · Refreshing...</source>
-        <target state="translated">%d semantic results · Refreshing...</target>
-      </trans-unit>
-      <trans-unit id="search.semantic.resultCountFormat">
-        <source>%d semantic results</source>
-        <target state="translated">%d semantic results</target>
-      </trans-unit>
       <trans-unit id="search.semantic.scope.all">
         <source>All</source>
         <target state="translated">All</target>
@@ -10977,10 +10361,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="search.semantic.scope.starred.short">
         <source>Stars</source>
         <target state="translated">Stars</target>
-      </trans-unit>
-      <trans-unit id="search.title">
-        <source>Search</source>
-        <target state="translated">Search</target>
       </trans-unit>
       <trans-unit id="search.web.excludeDomains">
         <source>Exclude domains</source>
@@ -11045,14 +10425,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="search.web.summaryFormat">
         <source>%1$lld results · %2$.1fs</source>
         <target state="translated">%1$lld results · %2$.1fs</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.connection">
-        <source>Connection</source>
-        <target state="translated">Connection</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.customModel">
-        <source>Custom Model...</source>
-        <target state="translated">Custom Model...</target>
       </trans-unit>
       <trans-unit id="settings.ai.discoveredModels.empty">
         <source>No models yet. Tap "Test", or use a custom model name in the defaults.</source>
@@ -11153,34 +10525,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.modelParams.unit.seconds">
         <source>s</source>
         <target state="translated">s</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.apiKey">
-        <source>API Key</source>
-        <target state="translated">API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.baseUrl">
-        <source>Base URL</source>
-        <target state="translated">Base URL</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.baseUrl.help">
-        <source>Standard: https://api.openai.com/v1. You can change this to use DeepSeek, OpenRouter, or other OpenAI-compatible services.</source>
-        <target state="translated">Standard: https://api.openai.com/v1. You can change this to use DeepSeek, OpenRouter, or other OpenAI-compatible services.</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.config">
-        <source>OpenAI API Configuration</source>
-        <target state="translated">OpenAI API Configuration</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.customModelName">
-        <source>Model Name</source>
-        <target state="translated">Model Name</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.customModelName.help">
-        <source>Enter the specific model ID (e.g., deepseek-chat, claude-3-5-sonnet-20240620).</source>
-        <target state="translated">Enter the specific model ID (e.g., deepseek-chat, claude-3-5-sonnet-20240620).</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.model">
-        <source>Model</source>
-        <target state="translated">Model</target>
       </trans-unit>
       <trans-unit id="settings.ai.privacy.notice">
         <source>Starcat does not relay AI requests through any of our servers. Summaries, tag suggestions and semantic search send the minimum repository metadata / README excerpt directly to your selected provider.</source>
@@ -11374,10 +10718,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Delete current provider</source>
         <target state="translated">Delete current provider</target>
       </trans-unit>
-      <trans-unit id="settings.ai.provider.description">
-        <source>Starcat is built on a BYOK (Bring Your Own Key) model. Your keys are encrypted and stored locally on your device.</source>
-        <target state="translated">Starcat is built on a BYOK (Bring Your Own Key) model. Your keys are encrypted and stored locally on your device.</target>
-      </trans-unit>
       <trans-unit id="settings.ai.provider.displayName">
         <source>Display name</source>
         <target state="translated">Display name</target>
@@ -11385,10 +10725,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.provider.empty">
         <source>No verified providers yet. Tap + on the right to add one.</source>
         <target state="translated">No verified providers yet. Tap + on the right to add one.</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.provider.notImplemented">
-        <source>Integration for this provider is coming in a future update.</source>
-        <target state="translated">Integration for this provider is coming in a future update.</target>
       </trans-unit>
       <trans-unit id="settings.ai.provider.pickerLabel">
         <source>Provider profile</source>
@@ -11405,18 +10741,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.provider.testButton">
         <source>Test</source>
         <target state="translated">Test</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.serviceConfig">
-        <source>Service Configuration</source>
-        <target state="translated">Service Configuration</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.status">
-        <source>Status</source>
-        <target state="translated">Status</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.status.notConfigured">
-        <source>Not Configured</source>
-        <target state="translated">Not Configured</target>
       </trans-unit>
       <trans-unit id="settings.ai.task.customModelLabel">
         <source>Custom model</source>
@@ -11449,10 +10773,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.taskModels.title">
         <source>Model assignments</source>
         <target state="translated">Model assignments</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.testConnection">
-        <source>Test Connection</source>
-        <target state="translated">Test Connection</target>
       </trans-unit>
       <trans-unit id="settings.ai.title">
         <source>AI Service</source>
@@ -11565,78 +10885,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.aiIndex.truncateLength.hint">
         <source>Maximum characters fed to embedding model after README cleanup.</source>
         <target state="translated">Maximum characters fed to embedding model after README cleanup.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.aiContext">
-        <source>Use external web context in AI features</source>
-        <target state="translated">Use external web context in AI features</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.allowPrivateContext">
-        <source>Allow external context for private repositories</source>
-        <target state="translated">Allow external context for private repositories</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.anonymous">
-        <source>Anonymous mode (do not send API Key)</source>
-        <target state="translated">Anonymous mode (do not send API Key)</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey">
-        <source>API Key</source>
-        <target state="translated">API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.anonymousDescription">
-        <source>Anonymous requests do not send an Authorization header. Testing an API Key always uses bearer mode.</source>
-        <target state="translated">Anonymous requests do not send an Authorization header. Testing an API Key always uses bearer mode.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.bearerDescription">
-        <source>The key is stored securely on this Mac. Testing may consume one provider search request.</source>
-        <target state="translated">The key is stored securely on this Mac. Testing may consume one provider search request.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.hide">
-        <source>Hide API Key</source>
-        <target state="translated">Hide API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.placeholder">
-        <source>Enter Provider API Key</source>
-        <target state="translated">Enter Provider API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.save">
-        <source>Save</source>
-        <target state="translated">Save</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.saveFailed">
-        <source>API Key is valid, but it could not be saved.</source>
-        <target state="translated">API Key is valid, but it could not be saved.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.saved">
-        <source>Saved</source>
-        <target state="translated">Saved</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.show">
-        <source>Show API Key</source>
-        <target state="translated">Show API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.test">
-        <source>Test</source>
-        <target state="translated">Test</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.testSucceeded">
-        <source>API Key is valid and has been saved.</source>
-        <target state="translated">API Key is valid and has been saved.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.enabled">
-        <source>Enable External Search provider</source>
-        <target state="translated">Enable External Search provider</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.includeWebInAll">
-        <source>Include external web results in All</source>
-        <target state="translated">Include external web results in All</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.privacyDescription">
-        <source>Private repository names, READMEs, and notes are not sent to external search by default. Anonymous mode does not send the saved API Key. An invalid key never falls back to an anonymous request.</source>
-        <target state="translated">Private repository names, READMEs, and notes are not sent to external search by default. Anonymous mode does not send the saved API Key. An invalid key never falls back to an anonymous request.</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.title">
-        <source>AnySearch</source>
-        <target state="translated">AnySearch</target>
       </trans-unit>
       <trans-unit id="settings.appearance.dark">
         <source>Dark</source>
@@ -12401,10 +11649,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.listDensity.card">
         <source>Card</source>
         <target state="translated">Card</target>
-      </trans-unit>
-      <trans-unit id="settings.listDensity.compact_REMOVED_R01">
-        <source>Compact</source>
-        <target state="translated">Compact</target>
       </trans-unit>
       <trans-unit id="settings.listPreferences.reset.confirm">
         <source>Reset</source>
@@ -14380,10 +13624,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Downloaded Repository ZIPs</source>
         <target state="translated">Downloaded Repository ZIPs</target>
       </trans-unit>
-      <trans-unit id="settings.storage.archive.revealHelp">
-        <source>Open ZIP download directory</source>
-        <target state="translated">Open ZIP download directory</target>
-      </trans-unit>
       <trans-unit id="settings.storage.archiveUsageFormat">
         <source>%lld files · %@</source>
         <target state="translated">%lld files · %@</target>
@@ -14431,10 +13671,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="settings.storage.chatHistoryUsageFormat">
         <source>%lld sessions · %lld repos · %@</source>
         <target state="translated">%lld sessions · %lld repos · %@</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.clear">
-        <source>Clear</source>
-        <target state="translated">Clear</target>
       </trans-unit>
       <trans-unit id="settings.storage.clearAiContext.confirm">
         <source>Clear all Code Context?</source>
@@ -14520,10 +13756,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>All cached External Search results (global search + AI external context) will be removed. Subsequent searches and summaries will re-query the network and consume API quota.</source>
         <target state="translated">All cached External Search results (global search + AI external context) will be removed. Subsequent searches and summaries will re-query the network and consume API quota.</target>
       </trans-unit>
-      <trans-unit id="settings.storage.clearArchive">
-        <source>Clear Downloaded ZIPs</source>
-        <target state="translated">Clear Downloaded ZIPs</target>
-      </trans-unit>
       <trans-unit id="settings.storage.clearArchive.confirm">
         <source>Clear downloaded repository ZIPs?</source>
         <target state="translated">Clear downloaded repository ZIPs?</target>
@@ -14556,10 +13788,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>This will delete all 3D graph indexes and extracted source directories. Shared source ZIPs will not be deleted.</source>
         <target state="translated">This will delete all 3D graph indexes and extracted source directories. Shared source ZIPs will not be deleted.</target>
       </trans-unit>
-      <trans-unit id="settings.storage.clearImage">
-        <source>Clear Image Cache</source>
-        <target state="translated">Clear Image Cache</target>
-      </trans-unit>
       <trans-unit id="settings.storage.clearImage.confirm">
         <source>Clear image cache?</source>
         <target state="translated">Clear image cache?</target>
@@ -14583,10 +13811,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="settings.storage.clearRAGIndex.message">
         <source>This only deletes rebuildable chunks and embeddings. Repository data, README, notes, summaries, and library state are unchanged.</source>
         <target state="translated">This only deletes rebuildable chunks and embeddings. Repository data, README, notes, summaries, and library state are unchanged.</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.clearReadme">
-        <source>Clear README Cache</source>
-        <target state="translated">Clear README Cache</target>
       </trans-unit>
       <trans-unit id="settings.storage.clearReadme.confirm">
         <source>Clear README cache?</source>
@@ -14655,18 +13879,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="settings.storage.image">
         <source>Images</source>
         <target state="translated">Images</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.log">
-        <source>Logs</source>
-        <target state="translated">Logs</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.logDescription">
-        <source>Managed by the system (Console.app)</source>
-        <target state="translated">Managed by the system (Console.app)</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.logHelp">
-        <source>Starcat writes logs through OSLog. Use macOS Console.app to inspect and manage them.</source>
-        <target state="translated">Starcat writes logs through OSLog. Use macOS Console.app to inspect and manage them.</target>
       </trans-unit>
       <trans-unit id="settings.storage.loginRequired">
         <source>Sign in to manage storage.</source>
@@ -14944,10 +14156,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Close</source>
         <target state="translated">Close</target>
       </trans-unit>
-      <trans-unit id="sharecard.action.export.html">
-        <source>Export as HTML</source>
-        <target state="translated">Export as HTML</target>
-      </trans-unit>
       <trans-unit id="sharecard.action.export.library.html">
         <source>Export Library to HTML</source>
         <target state="translated">Export Library to HTML</target>
@@ -14956,10 +14164,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Export Library to Markdown</source>
         <target state="translated">Export Library to Markdown</target>
       </trans-unit>
-      <trans-unit id="sharecard.action.export.markdown">
-        <source>Export as Markdown</source>
-        <target state="translated">Export as Markdown</target>
-      </trans-unit>
       <trans-unit id="sharecard.action.export.starred.html">
         <source>Export Starred to HTML</source>
         <target state="translated">Export Starred to HTML</target>
@@ -14967,10 +14171,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="sharecard.action.export.starred.markdown">
         <source>Export Starred to Markdown</source>
         <target state="translated">Export Starred to Markdown</target>
-      </trans-unit>
-      <trans-unit id="sharecard.action.exportStarred">
-        <source>Export Starred</source>
-        <target state="translated">Export Starred</target>
       </trans-unit>
       <trans-unit id="sharecard.action.exportToFile">
         <source>Export to File</source>
@@ -15003,10 +14203,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="sharecard.card.tagline">
         <source>OPEN SOURCE · DEVELOPER ID</source>
         <target state="translated">OPEN SOURCE · DEVELOPER ID</target>
-      </trans-unit>
-      <trans-unit id="sharecard.close">
-        <source>Close</source>
-        <target state="translated">Close</target>
       </trans-unit>
       <trans-unit id="sharecard.contribution.title">
         <source>CONTRIBUTION GRAPH</source>
@@ -15120,10 +14316,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Image copied — paste it into your tweet on X.</source>
         <target state="translated">Image copied — paste it into your tweet on X.</target>
       </trans-unit>
-      <trans-unit id="sharecard.footer.poweredBy">
-        <source>Powered by</source>
-        <target state="translated">Powered by</target>
-      </trans-unit>
       <trans-unit id="sharecard.languages.empty">
         <source>No public repository language data yet.</source>
         <target state="translated">No public repository language data yet.</target>
@@ -15184,10 +14376,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Adventure</source>
         <target state="translated">Adventure</target>
       </trans-unit>
-      <trans-unit id="sharecard.style.dashboard">
-        <source>Dashboard</source>
-        <target state="translated">Dashboard</target>
-      </trans-unit>
       <trans-unit id="sharecard.style.idCard">
         <source>ID Card</source>
         <target state="translated">ID Card</target>
@@ -15196,14 +14384,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Magazine</source>
         <target state="translated">Magazine</target>
       </trans-unit>
-      <trans-unit id="sharecard.style.pass">
-        <source>Pass</source>
-        <target state="translated">Pass</target>
-      </trans-unit>
-      <trans-unit id="sharecard.style.poster">
-        <source>Poster</source>
-        <target state="translated">Poster</target>
-      </trans-unit>
       <trans-unit id="sharecard.style.social">
         <source>Social</source>
         <target state="translated">Social</target>
@@ -15211,10 +14391,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="sharecard.style.terminal">
         <source>Terminal</source>
         <target state="translated">Terminal</target>
-      </trans-unit>
-      <trans-unit id="sharecard.subtitle">
-        <source>Pick a theme, save or share to X.</source>
-        <target state="translated">Pick a theme, save or share to X.</target>
       </trans-unit>
       <trans-unit id="sharecard.theme.adventureFel">
         <source>Fel</source>
@@ -15247,10 +14423,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="sharecard.theme.heatOrange">
         <source>Heat Orange</source>
         <target state="translated">Heat Orange</target>
-      </trans-unit>
-      <trans-unit id="sharecard.theme.label">
-        <source>Theme</source>
-        <target state="translated">Theme</target>
       </trans-unit>
       <trans-unit id="sharecard.theme.lightCard">
         <source>Pure Card</source>
@@ -16936,10 +16108,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Undo Star Cleanup</source>
         <target state="translated">Undo Star Cleanup</target>
       </trans-unit>
-      <trans-unit id="trending.aiScore">
-        <source>AI Score</source>
-        <target state="translated">AI Score</target>
-      </trans-unit>
       <trans-unit id="trending.allLanguages">
         <source>All Languages</source>
         <target state="translated">All Languages</target>
@@ -16951,18 +16119,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="trending.basedOnTrending">
         <source>Selected based on trending popularity</source>
         <target state="translated">Selected based on trending popularity</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.period">
-        <source>Time Range</source>
-        <target state="translated">Time Range</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.sort">
-        <source>Sort</source>
-        <target state="translated">Sort</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.title">
-        <source>Filter</source>
-        <target state="translated">Filter</target>
       </trans-unit>
       <trans-unit id="trending.freshness.daysAgoFormat">
         <source>%d day(s) ago</source>
@@ -16991,10 +16147,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="trending.loadFailed">
         <source>Load Failed</source>
         <target state="translated">Load Failed</target>
-      </trans-unit>
-      <trans-unit id="trending.loading">
-        <source>Loading…</source>
-        <target state="translated">Loading…</target>
       </trans-unit>
       <trans-unit id="trending.period.daily">
         <source>Day</source>
@@ -17080,10 +16232,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Stars Descending</source>
         <target state="translated">Stars Descending</target>
       </trans-unit>
-      <trans-unit id="trending.sort.title">
-        <source>Sort</source>
-        <target state="translated">Sort</target>
-      </trans-unit>
       <trans-unit id="trending.sort.updatedAsc">
         <source>Oldest Updated</source>
         <target state="translated">Oldest Updated</target>
@@ -17096,10 +16244,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Star to My Stars</source>
         <target state="translated">Star to My Stars</target>
       </trans-unit>
-      <trans-unit id="trending.subscription.failedFormat">
-        <source>Failed to subscribe to %@: %@</source>
-        <target state="translated">Failed to subscribe to %@: %@</target>
-      </trans-unit>
       <trans-unit id="trending.summary.openSource">
         <source>open source</source>
         <target state="translated">open source</target>
@@ -17107,14 +16251,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="trending.summary.placeholderFormat">
         <source>A short summary for this %@ project...</source>
         <target state="translated">A short summary for this %@ project...</target>
-      </trans-unit>
-      <trans-unit id="trending.title">
-        <source>Trending</source>
-        <target state="translated">Trending</target>
-      </trans-unit>
-      <trans-unit id="trending.view">
-        <source>View</source>
-        <target state="translated">View</target>
       </trans-unit>
       <trans-unit id="watch.allActivity">
         <source>All Activity</source>
@@ -17320,10 +16456,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Default</source>
         <target state="translated">Default</target>
       </trans-unit>
-      <trans-unit id="weekly.sort.latestEvent">
-        <source>Latest Activity</source>
-        <target state="translated">Latest Activity</target>
-      </trans-unit>
       <trans-unit id="weekly.sort.latestIssue">
         <source>Latest issue</source>
         <target state="translated">Latest issue</target>
@@ -17335,10 +16467,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="weekly.sort.nameDesc">
         <source>Name Z-A</source>
         <target state="translated">Name Z-A</target>
-      </trans-unit>
-      <trans-unit id="weekly.sort.pushedAt">
-        <source>Recently Pushed</source>
-        <target state="translated">Recently Pushed</target>
       </trans-unit>
       <trans-unit id="weekly.sort.starsAsc">
         <source>Stars Ascending</source>
@@ -17367,10 +16495,6 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
       <trans-unit id="weekly.sourceEvents.title">
         <source>Source history</source>
         <target state="translated">Source history</target>
-      </trans-unit>
-      <trans-unit id="weekly.sources.title">
-        <source>Sources</source>
-        <target state="translated">Sources</target>
       </trans-unit>
       <trans-unit id="weekly.totalCountFormat">
         <source>%d projects</source>

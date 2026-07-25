@@ -202,10 +202,6 @@
         <source>SwiftUI Native</source>
         <target state="translated">SwiftUI Native</target>
       </trans-unit>
-      <trans-unit id="about.brand.copyright">
-        <source>Copyright © 2026 Starcat.</source>
-        <target state="translated">Copyright © 2026 Starcat.</target>
-      </trans-unit>
       <trans-unit id="about.brand.getSupport">
         <source>Get Support</source>
         <target state="translated">获取支持</target>
@@ -586,14 +582,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Assets</source>
         <target state="translated">构件</target>
       </trans-unit>
-      <trans-unit id="activity.detail.emptySubtitle">
-        <source>Select an activity item to inspect its details.</source>
-        <target state="translated">选择一条活动后查看详情。</target>
-      </trans-unit>
-      <trans-unit id="activity.detail.emptyTitle">
-        <source>No activity selected</source>
-        <target state="translated">未选择活动</target>
-      </trans-unit>
       <trans-unit id="activity.detail.following.actor">
         <source>Actor</source>
         <target state="translated">操作者</target>
@@ -642,17 +630,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>No activity yet</source>
         <target state="translated">暂无活动</target>
       </trans-unit>
-      <trans-unit id="activity.error.loadFailed">
-        <source>Failed to load activity</source>
-        <target state="translated">活动加载失败</target>
-      </trans-unit>
       <trans-unit id="activity.error.title">
         <source>Activity unavailable</source>
         <target state="translated">活动不可用</target>
-      </trans-unit>
-      <trans-unit id="activity.filter.sort">
-        <source>Sort</source>
-        <target state="translated">排序</target>
       </trans-unit>
       <trans-unit id="activity.following.clear.action">
         <source>Clear All</source>
@@ -1278,10 +1258,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>External context unavailable</source>
         <target state="translated">外部上下文不可用</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.chat.contextStatus.full">
-        <source>Chat is grounded in full code context</source>
-        <target state="translated">本次对话基于完整代码上下文</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.chat.contextStatus.prefix">
         <source>Context: </source>
         <target state="translated">上下文：</target>
@@ -1349,10 +1325,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="ai.assistant.chat.failureFormat">
         <source>(Generation failed: %@)</source>
         <target state="translated">（生成失败：%@）</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.chat.generating">
-        <source>Generating</source>
-        <target state="translated">生成中</target>
       </trans-unit>
       <trans-unit id="ai.assistant.chat.history.loadEarlier">
         <source>Load earlier messages</source>
@@ -1430,10 +1402,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>New conversation</source>
         <target state="translated">新对话</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.chat.thinking">
-        <source>Thinking…</source>
-        <target state="translated">思考中…</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.copy.copied">
         <source>Copied ✓</source>
         <target state="translated">已复制 ✓</target>
@@ -1481,10 +1449,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="ai.assistant.input.send.help">
         <source>Send (Return)</source>
         <target state="translated">发送（Return）</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.input.sending.help">
-        <source>Sending…</source>
-        <target state="translated">正在发送…</target>
       </trans-unit>
       <trans-unit id="ai.assistant.input.stop.help">
         <source>Stop generating</source>
@@ -1622,10 +1586,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Initializing…</source>
         <target state="translated">初始化中…</target>
       </trans-unit>
-      <trans-unit id="ai.assistant.summary.loadingCache">
-        <source>Loading local AI cache…</source>
-        <target state="translated">正在读取本地 AI 缓存…</target>
-      </trans-unit>
       <trans-unit id="ai.assistant.summary.menu.help">
         <source>More actions</source>
         <target state="translated">更多操作</target>
@@ -1645,10 +1605,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="ai.assistant.summary.regenerate">
         <source>Regenerate</source>
         <target state="translated">重新生成</target>
-      </trans-unit>
-      <trans-unit id="ai.assistant.summary.regenerate.help">
-        <source>Regenerate summary (does not affect chat)</source>
-        <target state="translated">重新生成摘要(不影响对话)</target>
       </trans-unit>
       <trans-unit id="ai.assistant.summary.requesting">
         <source>Preparing summary request…</source>
@@ -1866,25 +1822,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Clear All</source>
         <target state="translated">一键清除</target>
       </trans-unit>
-      <trans-unit id="ai.context.storage.clearAllConfirm.message">
-        <source>This will delete all context.xml and metadata.json in the current output directory. Shared source ZIPs are not deleted.</source>
-        <target state="translated">将删除当前输出目录中的全部 context.xml 与 metadata.json。共享源码 ZIP 不会被删除。</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.clearAllConfirm.title">
-        <source>Clear all Code Contexs?</source>
-        <target state="translated">清除全部 代码上下文？</target>
-      </trans-unit>
       <trans-unit id="ai.context.storage.empty">
         <source>No Code Contexs in current directory yet.</source>
         <target state="translated">当前目录还没有 代码上下文。</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.menuDelete">
-        <source>Delete</source>
-        <target state="translated">删除</target>
-      </trans-unit>
-      <trans-unit id="ai.context.storage.menuReveal">
-        <source>Reveal</source>
-        <target state="translated">打开</target>
       </trans-unit>
       <trans-unit id="ai.context.storage.outputDirectory">
         <source>Context Output Directory</source>
@@ -2458,14 +2398,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>About Starcat</source>
         <target state="translated">关于 Starcat</target>
       </trans-unit>
-      <trans-unit id="auth.copyCode">
-        <source>Copy code</source>
-        <target state="translated">复制 code</target>
-      </trans-unit>
-      <trans-unit id="auth.enterCode">
-        <source>Enter this code in your browser</source>
-        <target state="translated">请在浏览器中输入以下 code</target>
-      </trans-unit>
       <trans-unit id="auth.error.clientIdMissing">
         <source>GitHub OAuth Client ID is missing or still a placeholder.</source>
         <target state="translated">GitHub OAuth Client ID 未配置或仍为占位值。</target>
@@ -2502,41 +2434,13 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Sign in failed</source>
         <target state="translated">登录失败</target>
       </trans-unit>
-      <trans-unit id="auth.needLogin">
-        <source>Please sign in first</source>
-        <target state="translated">请先登录 GitHub 账号</target>
-      </trans-unit>
-      <trans-unit id="auth.openGithub">
-        <source>Open GitHub</source>
-        <target state="translated">打开 GitHub</target>
-      </trans-unit>
-      <trans-unit id="auth.signIn">
-        <source>Sign in with GitHub</source>
-        <target state="translated">使用 GitHub 登录</target>
-      </trans-unit>
       <trans-unit id="auth.signOut">
         <source>Sign Out</source>
         <target state="translated">登出</target>
       </trans-unit>
-      <trans-unit id="auth.subtitle">
-        <source>Organize, understand, find, and evaluate your GitHub Stars</source>
-        <target state="translated">整理、理解、找回、评估你的 GitHub Stars</target>
-      </trans-unit>
-      <trans-unit id="auth.title">
-        <source>Starcat</source>
-        <target state="translated">Starcat</target>
-      </trans-unit>
       <trans-unit id="auth.unauthenticated">
         <source>Not Signed In</source>
         <target state="translated">未登录</target>
-      </trans-unit>
-      <trans-unit id="auth.waiting">
-        <source>Waiting for authorization…</source>
-        <target state="translated">等待授权中…</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.comingSoon">
-        <source>Coming soon</source>
-        <target state="translated">即将推出</target>
       </trans-unit>
       <trans-unit id="authV2.alternative.deviceFlow">
         <source>Sign in with Device Code</source>
@@ -2549,14 +2453,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="authV2.alternative.pat">
         <source>Sign in with Token</source>
         <target state="translated">使用 Token 登录</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.webflow.enabled">
-        <source>Sign in with browser</source>
-        <target state="translated">使用浏览器登录</target>
-      </trans-unit>
-      <trans-unit id="authV2.alternative.webflow.tooltip">
-        <source>Open browser to authorize GitHub, then return to Starcat automatically</source>
-        <target state="translated">打开浏览器授权 GitHub，完成后自动返回 Starcat</target>
       </trans-unit>
       <trans-unit id="authV2.cancelSignIn">
         <source>Cancel</source>
@@ -2582,29 +2478,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Continue with GitHub</source>
         <target state="translated">通过 GitHub 继续</target>
       </trans-unit>
-      <trans-unit id="authV2.copiedSilentHint">
-        <source>Code copied to clipboard</source>
-        <target state="translated">代码已复制到剪贴板</target>
-      </trans-unit>
-      <trans-unit id="authV2.copyCode">
-        <source>Copy code</source>
-        <target state="translated">复制代码</target>
-      </trans-unit>
       <trans-unit id="authV2.copyOnly">
         <source>Copy only, don't open browser</source>
         <target state="translated">仅复制（不打开浏览器）</target>
-      </trans-unit>
-      <trans-unit id="authV2.enterCodeTitle">
-        <source>Enter this code on GitHub</source>
-        <target state="translated">在 GitHub 输入此代码</target>
-      </trans-unit>
-      <trans-unit id="authV2.openGithub">
-        <source>Open GitHub</source>
-        <target state="translated">打开 GitHub</target>
-      </trans-unit>
-      <trans-unit id="authV2.openingHint">
-        <source>Opening GitHub in your browser…</source>
-        <target state="translated">正在为你打开 GitHub…</target>
       </trans-unit>
       <trans-unit id="authV2.pat.back">
         <source>Back</source>
@@ -3638,10 +3514,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Loading contribution graph…</source>
         <target state="translated">正在加载贡献草坪…</target>
       </trans-unit>
-      <trans-unit id="contribution.openGithub">
-        <source>Open GitHub profile</source>
-        <target state="translated">在 GitHub 上查看主页</target>
-      </trans-unit>
       <trans-unit id="contribution.title">
         <source>Contributions</source>
         <target state="translated">贡献</target>
@@ -3777,10 +3649,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="empty.noStars">
         <source>No Stars Yet</source>
         <target state="translated">还没有 Stars</target>
-      </trans-unit>
-      <trans-unit id="empty.searchPlaceholder">
-        <source>Search history, saved searches, and advanced filters coming soon.</source>
-        <target state="translated">搜索历史、保存搜索和高级筛选会在后续接入。</target>
       </trans-unit>
       <trans-unit id="empty.selectFromList">
         <source>Select a repo from the list on the left</source>
@@ -3974,30 +3842,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Select a project from Explore</source>
         <target state="translated">从探索列表选择一个项目</target>
       </trans-unit>
-      <trans-unit id="explore.detail.metrics">
-        <source>Metrics</source>
-        <target state="translated">关键指标</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.openRelease">
-        <source>Open release</source>
-        <target state="translated">打开 Release</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.reasons">
-        <source>Why this appears</source>
-        <target state="translated">推荐原因</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.release">
-        <source>Release</source>
-        <target state="translated">版本发布</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.signals">
-        <source>Signals</source>
-        <target state="translated">判断信号</target>
-      </trans-unit>
-      <trans-unit id="explore.detail.taxonomy">
-        <source>Tags and platforms</source>
-        <target state="translated">主题与平台</target>
-      </trans-unit>
       <trans-unit id="explore.discoverySignal.downloads">
         <source>Downloads</source>
         <target state="translated">有下载</target>
@@ -4017,14 +3861,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="explore.empty.title">
         <source>No projects found</source>
         <target state="translated">没有找到项目</target>
-      </trans-unit>
-      <trans-unit id="explore.filter.sort">
-        <source>Sort</source>
-        <target state="translated">排序</target>
-      </trans-unit>
-      <trans-unit id="explore.filter.title">
-        <source>Filter</source>
-        <target state="translated">筛选</target>
       </trans-unit>
       <trans-unit id="explore.help.cache.title">
         <source>Cache</source>
@@ -4270,10 +4106,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Stars Ascending</source>
         <target state="translated">Stars 升序</target>
       </trans-unit>
-      <trans-unit id="explore.sort.title">
-        <source>Sort</source>
-        <target state="translated">排序</target>
-      </trans-unit>
       <trans-unit id="explore.sort.updated">
         <source>Recently Updated</source>
         <target state="translated">最近更新</target>
@@ -4390,14 +4222,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>OK</source>
         <target state="translated">好</target>
       </trans-unit>
-      <trans-unit id="general.reset">
-        <source>Reset</source>
-        <target state="translated">重置</target>
-      </trans-unit>
-      <trans-unit id="general.save">
-        <source>Save</source>
-        <target state="translated">保存</target>
-      </trans-unit>
       <trans-unit id="gettingStarted.collapse">
         <source>Collapse checklist</source>
         <target state="translated">收起清单</target>
@@ -4413,18 +4237,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="gettingStarted.progressFormat">
         <source>%lld of %lld completed</source>
         <target state="translated">已完成 %lld / %lld</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.action">
-        <source>Open Agent workspace</source>
-        <target state="translated">打开 Agent 工作台</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.detail">
-        <source>Run guided agent workflows and review generated artifacts.</source>
-        <target state="translated">运行 Agent 工作流，并查看生成结果。</target>
-      </trans-unit>
-      <trans-unit id="gettingStarted.step.agentWorkspace.title">
-        <source>Try Agent workspace</source>
-        <target state="translated">试用 Agent 工作台</target>
       </trans-unit>
       <trans-unit id="gettingStarted.step.ai.action">
         <source>Open AI summary</source>
@@ -4590,17 +4402,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Start with Starcat</source>
         <target state="translated">开始使用 Starcat</target>
       </trans-unit>
-      <trans-unit id="githubStarLists.context.addTo">
-        <source>Add to...</source>
-        <target state="translated">添加到...</target>
-      </trans-unit>
       <trans-unit id="githubStarLists.context.addToGroupSection">
         <source>Add to Group:</source>
         <target state="translated">添加到分组：</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.context.moveTo">
-        <source>Move to...</source>
-        <target state="translated">移动到...</target>
       </trans-unit>
       <trans-unit id="githubStarLists.context.moveToOtherGroupSection">
         <source>Move to Other Group:</source>
@@ -4609,10 +4413,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="githubStarLists.context.noGroups">
         <source>No groups</source>
         <target state="translated">暂无分组</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.context.removeFromGroup">
-        <source>Remove from Group</source>
-        <target state="translated">移出分组</target>
       </trans-unit>
       <trans-unit id="githubStarLists.context.removeFromGroupFormat">
         <source>Remove from '%@'</source>
@@ -4673,10 +4473,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="githubStarLists.error.orgOAuthRestricted.impact">
         <source>Starcat cannot update this repository's list membership through the GitHub API.</source>
         <target state="translated">Starcat 无法通过 GitHub API 修改该仓库的分组。</target>
-      </trans-unit>
-      <trans-unit id="githubStarLists.error.orgOAuthRestricted.message">
-        <source>This repository belongs to an organization that restricts third-party OAuth App access. Starcat cannot update its GitHub list membership through the API. If you are only a starrer, you may not have a way to request approval; you can still change this list on GitHub.</source>
-        <target state="translated">该仓库所属组织限制了第三方 OAuth App 访问。Starcat 无法通过 GitHub API 修改它的分组。如果你只是普通 Star 用户，通常没有可申请授权的入口；你仍然可以在 GitHub 网页端手动操作。</target>
       </trans-unit>
       <trans-unit id="githubStarLists.error.orgOAuthRestricted.note">
         <source>This is not a token scope issue or a local data error. It is GitHub's organization-level OAuth App policy, and ordinary starrers may not have an approval path.</source>
@@ -4830,17 +4626,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Enter Multi-Select Mode</source>
         <target state="translated">进入多选模式</target>
       </trans-unit>
-      <trans-unit id="list.refreshingFormat">
-        <source>%d repos · Refreshing...</source>
-        <target state="translated">%d 个仓库 · 刷新中...</target>
-      </trans-unit>
       <trans-unit id="list.repoCountFormat">
         <source>%d repos</source>
         <target state="translated">%d 个仓库</target>
-      </trans-unit>
-      <trans-unit id="list.selectedCountFormat">
-        <source>%d / %d selected</source>
-        <target state="translated">已选 %d / %d</target>
       </trans-unit>
       <trans-unit id="list.sort">
         <source>Sort</source>
@@ -4933,10 +4721,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="nav.manage">
         <source>Starred</source>
         <target state="translated">星标</target>
-      </trans-unit>
-      <trans-unit id="nav.search">
-        <source>External Search</source>
-        <target state="translated">外部搜索</target>
       </trans-unit>
       <trans-unit id="nav.trending">
         <source>Explore</source>
@@ -5422,10 +5206,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Chunk content</source>
         <target state="translated">分片内容</target>
       </trans-unit>
-      <trans-unit id="rag.browser.chunk.delete">
-        <source>Exclude from RAG</source>
-        <target state="translated">从 RAG 中删除</target>
-      </trans-unit>
       <trans-unit id="rag.browser.chunk.disable">
         <source>Disable chunk</source>
         <target state="translated">停用分片</target>
@@ -5458,14 +5238,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Permanently delete this chunk?</source>
         <target state="translated">永久删除此分片？</target>
       </trans-unit>
-      <trans-unit id="rag.browser.chunk.restore">
-        <source>Restore to RAG</source>
-        <target state="translated">恢复到 RAG</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.chunk.revert">
-        <source>Revert manual edit</source>
-        <target state="translated">还原人工编辑</target>
-      </trans-unit>
       <trans-unit id="rag.browser.chunk.save">
         <source>Save</source>
         <target state="translated">保存</target>
@@ -5497,10 +5269,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.browser.chunks.tokenCountFormat">
         <source>≈ %lld tokens</source>
         <target state="translated">约 %lld tokens</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.empty">
-        <source>No repositories in the knowledge base</source>
-        <target state="translated">知识库中还没有仓库</target>
       </trans-unit>
       <trans-unit id="rag.browser.noChunks">
         <source>No indexed content yet</source>
@@ -5622,10 +5390,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Retrieved chunk</source>
         <target state="translated">命中分片详情</target>
       </trans-unit>
-      <trans-unit id="rag.browser.retrieval.hint">
-        <source>No chat completion</source>
-        <target state="translated">不生成 LLM 回答</target>
-      </trans-unit>
       <trans-unit id="rag.browser.retrieval.noHitsMessage">
         <source>Try rephrasing the question or refreshing the index.</source>
         <target state="translated">可调整问题后重试，或刷新索引后再测试。</target>
@@ -5661,10 +5425,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.browser.retrieval.settings.title">
         <source>Test Parameters</source>
         <target state="translated">测试参数</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.retrieval.settings.tokenBudgetNote">
-        <source>%lld-token chunk budget applies to answer context, not this retrieval test.</source>
-        <target state="translated">%lld Token 分片预算仅影响回答上下文，不影响本次召回测试。</target>
       </trans-unit>
       <trans-unit id="rag.browser.retrieval.settings.unsaved">
         <source>Unsaved</source>
@@ -5737,10 +5497,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.browser.totalChunks">
         <source>Total chunks</source>
         <target state="translated">分片总数</target>
-      </trans-unit>
-      <trans-unit id="rag.browser.window.title">
-        <source>Knowledge Base</source>
-        <target state="translated">知识库</target>
       </trans-unit>
       <trans-unit id="rag.core.attachment.error.fileTooLargeFormat">
         <source>Attachment is too large: %@</source>
@@ -5918,86 +5674,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Conversation title generation failed: %@</source>
         <target state="translated">会话标题生成失败：%@</target>
       </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.sectionPath">
-        <source>Local storage selection</source>
-        <target state="translated">本地存储选型</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.snippet">
-        <source>Local-first apps need controllable transactions, migrations, and FTS capabilities. GRDB is already used in Starcat and fits as the local storage base for RAG chunks and citations.</source>
-        <target state="translated">本地优先应用需要可控的事务、迁移和 FTS 能力。GRDB 已在 Starcat 主库中使用，适合作为 RAG chunk 与 citation 的本地存储基础。</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.citation.grdbRecords.title">
-        <source>SQLite + GRDB as local cache layer</source>
-        <target state="translated">SQLite + GRDB 作为本地缓存层</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.concurrency.subtitle">
-        <source>actor / task cancellation</source>
-        <target state="translated">actor / task cancellation</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.concurrency.title">
-        <source>Swift Concurrency Best Practices</source>
-        <target state="translated">Swift 并发最佳实践</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.localRAG.subtitle">
-        <source>Swift project comparison</source>
-        <target state="translated">Swift 项目对比</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.localRAG.title">
-        <source>Local RAG Plan</source>
-        <target state="translated">本地 RAG 方案</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.markdown.subtitle">
-        <source>Parser library and README cleanup</source>
-        <target state="translated">解析库与 README 清洗</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.markdown.title">
-        <source>Swift Markdown Rendering</source>
-        <target state="translated">Swift Markdown 渲染</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.vectorDB.subtitle">
-        <source>Desktop app selection</source>
-        <target state="translated">桌面 app 选型</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.conversation.vectorDB.title">
-        <source>Vector Database Comparison</source>
-        <target state="translated">向量数据库对比</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.repo.status.githubCitation">
-        <source>GitHub citation</source>
-        <target state="translated">GitHub 引用</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.repo.status.inKnowledgeBase">
-        <source>In knowledge base</source>
-        <target state="translated">已在知识库</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.source.aiSummary">
-        <source>AI Summary</source>
-        <target state="translated">AI 摘要</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.source.notes">
-        <source>Notes</source>
-        <target state="translated">笔记</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.privateNote">
-        <source>Private note</source>
-        <target state="translated">私有笔记</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.readmeCache">
-        <source>README cache</source>
-        <target state="translated">README 缓存</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.sourceDetail.repoSummary">
-        <source>Repository summary</source>
-        <target state="translated">仓库摘要</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.time.fiveDaysAgo">
-        <source>5 days ago</source>
-        <target state="translated">5 天前</target>
-      </trans-unit>
-      <trans-unit id="rag.demo.time.yesterday">
-        <source>Yesterday</source>
-        <target state="translated">昨天</target>
-      </trans-unit>
       <trans-unit id="rag.storage.error.conversationMissing">
         <source>The persisted RAG conversation is missing</source>
         <target state="translated">持久化的 RAG 会话不存在</target>
@@ -6074,18 +5750,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Export Markdown</source>
         <target state="translated">导出 Markdown</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.attachment.textContext">
-        <source>temporary text context</source>
-        <target state="translated">临时文本上下文</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.attachment.unsupported">
-        <source>unsupported</source>
-        <target state="translated">不可发送</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.attachment.vision">
-        <source>vision input</source>
-        <target state="translated">图片输入</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.citations.collapse">
         <source>Show less</source>
         <target state="translated">收起</target>
@@ -6145,10 +5809,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.workspace.composer.send">
         <source>Send</source>
         <target state="translated">发送</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.composer.sources">
-        <source>Sources: README / Notes / Summary</source>
-        <target state="translated">来源：README / 笔记 / 摘要</target>
       </trans-unit>
       <trans-unit id="rag.workspace.composer.webSearch.off">
         <source>Enable web search</source>
@@ -6210,29 +5870,9 @@ Rediscover — Search and filter your way back to the right repo.</source>
         <source>Context usage (Composer)</source>
         <target state="translated">上下文占用（Composer）</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.definition.body">
-        <source>After you send a question, Starcat allocates the model context window across prompt segments: system rules, conversation history, your question, retrieved evidence, remote content, and attachments. Reserved output space is listed separately.</source>
-        <target state="translated">问题发送后，系统会按当前模型的 Context Window，为本轮 Prompt 分配分片：系统提示、会话历史、问题、检索证据、远程内容与附件；为模型回答预留的输出空间会单独列出。</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.definition.title">
-        <source>What is context budget?</source>
-        <target state="translated">上下文预算是什么？</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.context.budget.help.footnote">
         <source>Token counts are local estimates for budget boundaries, not exact provider billing.</source>
         <target state="translated">所有 token 均为本地估算，用于预算边界判断，不代表 Provider 精确计费。</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.open">
-        <source>Learn about context budget</source>
-        <target state="translated">了解上下文预算</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.budget.help.title">
-        <source>About context budget</source>
-        <target state="translated">上下文预算说明</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.emptyPreview">
-        <source>No prompt has been built yet.</source>
-        <target state="translated">尚未构建请求内容。</target>
       </trans-unit>
       <trans-unit id="rag.workspace.context.evidence">
         <source>Knowledge base citations</source>
@@ -6249,10 +5889,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.workspace.context.percentFull">
         <source>%lld%% Full</source>
         <target state="translated">%lld%% 已占用</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.context.promptPreview">
-        <source>Prompt preview</source>
-        <target state="translated">请求内容预览</target>
       </trans-unit>
       <trans-unit id="rag.workspace.context.question">
         <source>Question and plan</source>
@@ -6353,10 +5989,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.workspace.debug.copy">
         <source>Copy debug record</source>
         <target state="translated">复制调试记录</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.debug.disabledHint">
-        <source>Enable RAG debug mode to capture the next question, retrieval, prompt, and LLM response.</source>
-        <target state="translated">开启 RAG 调试模式后，下一轮将记录问题、检索、Prompt 与 LLM 返回。</target>
       </trans-unit>
       <trans-unit id="rag.workspace.debug.elapsedFormat">
         <source>%.1fs</source>
@@ -6653,22 +6285,6 @@ Rediscover — Search and filter your way back to the right repo.</source>
       <trans-unit id="rag.workspace.debug.stepDuration.help">
         <source>Duration of this step (since the previous debug event)</source>
         <target state="translated">本步耗时（相对上一条调试事件）</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.answer.intro">
-        <source>Based on repository metadata, README chunks, notes, and existing summaries in the knowledge base, the most relevant Swift projects are below. Each project is tied to citations actually used in this answer.</source>
-        <target state="translated">根据知识库中的 repo 元信息、README chunk、笔记和已有摘要，当前最相关的是下面几个 Swift 项目。每个项目都绑定了本轮回答实际使用的引用。</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.answer.recommendation">
-        <source>For a first version of local RAG, start with GRDB.swift for local storage and swift-markdown for document parsing. MCP Swift SDK is better suited for later tool-calling extensions.</source>
-        <target state="translated">如果只做第一版本地 RAG，优先从 GRDB.swift 的本地存储能力和 swift-markdown 的文档解析能力开始；MCP Swift SDK 更适合作为后续工具调用扩展。</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.pendingQuestion">
-        <source>Continue asking the knowledge base...</source>
-        <target state="translated">继续追问知识库...</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.demo.question">
-        <source>Which Swift projects in my knowledge base are suitable for local RAG?</source>
-        <target state="translated">我的知识库里有哪些适合做本地 RAG 的 Swift 项目？</target>
       </trans-unit>
       <trans-unit id="rag.workspace.empty.noKnowledge.banner">
         <source>No repositories in the knowledge base yet.</source>
@@ -7106,14 +6722,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>Ready</source>
         <target state="translated">已就绪</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.header.streaming">
-        <source>Streaming</source>
-        <target state="translated">正在生成</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.header.subtitle">
-        <source>Knowledge base · 126 repos · 1,248 ready chunks · GPT-4.1 · Read-only</source>
-        <target state="translated">知识库 · 126 repos · 1,248 ready chunks · GPT-4.1 · 只读</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.history.loadEarlier">
         <source>Load more history</source>
         <target state="translated">加载更多历史对话</target>
@@ -7121,10 +6729,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.history.loadEarlier.help">
         <source>Show earlier turns from this conversation</source>
         <target state="translated">再显示当前会话更早的历史对话</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.index.chunksShort">
-        <source>Chunks</source>
-        <target state="translated">分片</target>
       </trans-unit>
       <trans-unit id="rag.workspace.index.embedding">
         <source>Embedding</source>
@@ -7230,10 +6834,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>GitHub</source>
         <target state="translated">GitHub</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.citationSnippet">
-        <source>Citation snippet</source>
-        <target state="translated">引用片段</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.citationStarcatDetail">
         <source>Starcat detail</source>
         <target state="translated">Starcat 详情</target>
@@ -7250,10 +6850,6 @@ The technical details below are included automatically to help diagnose the issu
         <source>Question to clarify</source>
         <target state="translated">需要补充的问题</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.confidence">
-        <source>Confidence</source>
-        <target state="translated">置信度</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.confidence.high">
         <source>High</source>
         <target state="translated">高</target>
@@ -7265,10 +6861,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.inspector.confidence.needsClarification">
         <source>Need more details</source>
         <target state="translated">需要补充信息</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.detailPage">
-        <source>Detail page</source>
-        <target state="translated">详情页</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.fetchedAt">
         <source>Fetched at</source>
@@ -7285,10 +6877,6 @@ The technical details below are included automatically to help diagnose the issu
       <trans-unit id="rag.workspace.inspector.matchType">
         <source>Match type</source>
         <target state="translated">命中方式</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.activity">
-        <source>Added / pushed (30d)</source>
-        <target state="translated">近 30 天入库 / 推送</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.added30d">
         <source>Added · 30d</source>
@@ -7460,10 +7048,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <target state="translated">%1$@ 个项目
 就绪 %2$@ · 失败 %3$@ · 过期 %4$@ · 总计 %5$@</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.index">
-        <source>Index ready / pending / failed / stale</source>
-        <target state="translated">索引就绪 / 等待 / 失败 / 过期</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.index.failed">
         <source>Failed</source>
         <target state="translated">失败</target>
@@ -7536,10 +7120,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <source>Status</source>
         <target state="translated">整理状态</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.subtitle">
-        <source>Read-only local facts. The next answer receives this same snapshot.</source>
-        <target state="translated">只读本地事实；下一轮回答会使用同一份快照。</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.summariesGenerated30d">
         <source>Summaries · 30d</source>
         <target state="translated">近 30 天摘要</target>
@@ -7551,10 +7131,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
       <trans-unit id="rag.workspace.inspector.metadata.taggedRatio">
         <source>Tagged</source>
         <target state="translated">标签</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.metadata.tags">
-        <source>Tagged / untagged · distinct tags</source>
-        <target state="translated">已标签 / 未标签 · 标签数</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.metadata.title">
         <source>Metadata</source>
@@ -7599,10 +7175,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
       <trans-unit id="rag.workspace.inspector.openStarcat">
         <source>Open Starcat detail</source>
         <target state="translated">打开 Starcat 详情</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.otherCitations">
-        <source>Other citations</source>
-        <target state="translated">其它引用</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.analytics">
         <source>Structured analytics</source>
@@ -8088,10 +7660,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <source>Question understanding</source>
         <target state="translated">问题理解</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.plan.remoteSupplement">
-        <source>Live GitHub context</source>
-        <target state="translated">GitHub 实时补充</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.repoContext">
         <source>Project code</source>
         <target state="translated">项目代码</target>
@@ -8312,10 +7880,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <source>Knowledge Base</source>
         <target state="translated">知识库</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.plan.searchScope">
-        <source>Search scope</source>
-        <target state="translated">检索范围</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.plan.webSearch">
         <source>Web search</source>
         <target state="translated">互联网搜索</target>
@@ -8331,14 +7895,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
       <trans-unit id="rag.workspace.inspector.planCandidateLimitFormat">
         <source>Review up to %lld candidate repositories</source>
         <target state="translated">最多检查 %lld 个候选仓库</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planExecutionSummary">
-        <source>Execution</source>
-        <target state="translated">实际执行</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planExecutionSummaryFormat">
-        <source>Reviewed %1$lld candidates · matched %2$lld passages · used chunks from %3$lld repositories</source>
-        <target state="translated">检查 %1$lld 个候选仓库 · 命中 %2$lld 个片段 · 采用 %3$lld 个仓库的分片</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.planMode">
         <source>Mode</source>
@@ -8371,10 +7927,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
       <trans-unit id="rag.workspace.inspector.planRemoteBudgetFormat">
         <source>Up to %1$lld repositories · %2$lld items per repository</source>
         <target state="translated">最多 %1$lld 个仓库 · 每仓库 %2$lld 条</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.planScope">
-        <source>Scope</source>
-        <target state="translated">范围</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.planSort">
         <source>Prioritization</source>
@@ -8492,10 +8044,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <source>Source</source>
         <target state="translated">来源</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.inspector.starcatDetail">
-        <source>Starcat local detail</source>
-        <target state="translated">Starcat 本地详情</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.inspector.subtitle">
         <source>Sources used in this answer</source>
         <target state="translated">本轮回答实际使用的来源</target>
@@ -8519,10 +8067,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
       <trans-unit id="rag.workspace.inspector.title">
         <source>Context</source>
         <target state="translated">上下文</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.inspector.truncated">
-        <source>Snippet truncated to fit the token budget</source>
-        <target state="translated">片段已按 token 预算截断</target>
       </trans-unit>
       <trans-unit id="rag.workspace.inspector.vectorSimilarity">
         <source>Vector similarity</source>
@@ -8564,25 +8108,9 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</source>
         <source>Knowledge base is empty</source>
         <target state="translated">知识库暂无仓库</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.mention.filterHint">
-        <source>Type after @ to filter</source>
-        <target state="translated">在 @ 后继续输入以筛选</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.filterLabel">
-        <source>Filter: %@</source>
-        <target state="translated">筛选：%@</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.languageHint">
-        <source>Reuse interested languages from Settings. Tap + to add more.</source>
-        <target state="translated">复用设置里的感兴趣语言；点右侧 + 可添加更多。</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.mention.narrowHint">
         <source>Showing %1$d of %2$d · keep typing to narrow</source>
         <target state="translated">显示 %1$d / 命中 %2$d · 继续输入可缩小范围</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.mention.noDescription">
-        <source>No description</source>
-        <target state="translated">暂无描述</target>
       </trans-unit>
       <trans-unit id="rag.workspace.mention.searchPlaceholder">
         <source>Search knowledge base repositories</source>
@@ -9114,10 +8642,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Failed chunks</source>
         <target state="translated">失败分片</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.indexIncomplete">
-        <source>Some content is pending, stale, or failed.</source>
-        <target state="translated">部分内容待处理、已过期或处理失败。</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.knowledgeBase">
         <source>Knowledge base</source>
         <target state="translated">知识库</target>
@@ -9126,41 +8650,13 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>0 repositories · tap to add</source>
         <target state="translated">0 个仓库 · 点击添加</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.mode">
-        <source>Mode</source>
-        <target state="translated">模式</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.pendingChunks">
         <source>Pending chunks</source>
         <target state="translated">待处理分片</target>
       </trans-unit>
-      <trans-unit id="rag.workspace.status.readOnly">
-        <source>Read-only</source>
-        <target state="translated">只读</target>
-      </trans-unit>
       <trans-unit id="rag.workspace.status.readyChunks">
         <source>Ready chunks</source>
         <target state="translated">可用分片</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.readyChunksFormat">
-        <source>%d ready chunks</source>
-        <target state="translated">%d 个可用分片</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.repos">
-        <source>Repos</source>
-        <target state="translated">仓库</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.scope">
-        <source>Scope</source>
-        <target state="translated">范围</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.sources">
-        <source>Sources</source>
-        <target state="translated">来源</target>
-      </trans-unit>
-      <trans-unit id="rag.workspace.status.sourcesValue">
-        <source>README / Notes / Summary</source>
-        <target state="translated">README / 笔记 / 摘要</target>
       </trans-unit>
       <trans-unit id="rag.workspace.status.staleChunks">
         <source>Stale chunks</source>
@@ -9201,10 +8697,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="readme.failed">
         <source>Failed to load README</source>
         <target state="translated">加载 README 失败</target>
-      </trans-unit>
-      <trans-unit id="readme.loading">
-        <source>Loading README…</source>
-        <target state="translated">加载 README…</target>
       </trans-unit>
       <trans-unit id="readme.mermaid.renderFailed">
         <source>Could not render this Mermaid diagram. Raw source is shown below.</source>
@@ -9253,10 +8745,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="readme.translate.action">
         <source>Translate</source>
         <target state="translated">翻译</target>
-      </trans-unit>
-      <trans-unit id="readme.translate.error.dismiss">
-        <source>Click to dismiss</source>
-        <target state="translated">点击关闭</target>
       </trans-unit>
       <trans-unit id="readme.translate.error.emptySource">
         <source>No README to translate.</source>
@@ -9442,14 +8930,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Unsubscribe failed</source>
         <target state="translated">取消订阅失败</target>
       </trans-unit>
-      <trans-unit id="releases.notify.disable">
-        <source>Mute new release notifications</source>
-        <target state="translated">静默新版本通知</target>
-      </trans-unit>
-      <trans-unit id="releases.notify.enable">
-        <source>Enable new release notifications</source>
-        <target state="translated">启用新版本通知</target>
-      </trans-unit>
       <trans-unit id="releases.openOnGitHub">
         <source>Open on GitHub</source>
         <target state="translated">在 GitHub 上打开</target>
@@ -9497,10 +8977,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="releases.row.viewDetails">
         <source>View details</source>
         <target state="translated">查看详情</target>
-      </trans-unit>
-      <trans-unit id="releases.section.noRelease">
-        <source>No release published yet</source>
-        <target state="translated">暂未发布版本</target>
       </trans-unit>
       <trans-unit id="releases.section.title">
         <source>Releases</source>
@@ -9742,10 +9218,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Preview</source>
         <target state="translated">预览</target>
       </trans-unit>
-      <trans-unit id="repo.notes.editor.title">
-        <source>Notes</source>
-        <target state="translated">笔记</target>
-      </trans-unit>
       <trans-unit id="repo.notes.expandEditor">
         <source>Expand the note editor (supports Markdown preview)</source>
         <target state="translated">展开笔记编辑器(支持 Markdown 预览)</target>
@@ -9797,10 +9269,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.privateNotes">
         <source>Notes</source>
         <target state="translated">笔记</target>
-      </trans-unit>
-      <trans-unit id="repo.recommendations.archived">
-        <source>Archived</source>
-        <target state="translated">已归档</target>
       </trans-unit>
       <trans-unit id="repo.recommendations.countFormat">
         <source>%d repos</source>
@@ -9861,10 +9329,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.share.cancelled.title">
         <source>Creation Cancelled</source>
         <target state="translated">创建已取消</target>
-      </trans-unit>
-      <trans-unit id="repo.share.error.cancel">
-        <source>Cancel</source>
-        <target state="translated">取消</target>
       </trans-unit>
       <trans-unit id="repo.share.error.missingAIConfig">
         <source>Sharing uses an AI summary for the share page. No AI provider is configured yet — open Settings → AI, add an API key for the Summary task, then try again.</source>
@@ -9950,10 +9414,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Close</source>
         <target state="translated">关闭</target>
       </trans-unit>
-      <trans-unit id="repo.share.success.copied">
-        <source>Link copied</source>
-        <target state="translated">链接已复制</target>
-      </trans-unit>
       <trans-unit id="repo.share.success.copyLink">
         <source>Copy Link</source>
         <target state="translated">复制链接</target>
@@ -9978,29 +9438,9 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Star</source>
         <target state="translated">Star</target>
       </trans-unit>
-      <trans-unit id="repo.star.failed">
-        <source>Star failed</source>
-        <target state="translated">Star 失败</target>
-      </trans-unit>
       <trans-unit id="repo.stars">
         <source>Stars</source>
         <target state="translated">Stars</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.forks">
-        <source>Forks</source>
-        <target state="translated">Forks</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.issues">
-        <source>Issues</source>
-        <target state="translated">Issues</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.stars">
-        <source>Stars</source>
-        <target state="translated">Stars</target>
-      </trans-unit>
-      <trans-unit id="repo.stats.watchers">
-        <source>Watchers</source>
-        <target state="translated">Watchers</target>
       </trans-unit>
       <trans-unit id="repo.status">
         <source>Status</source>
@@ -10010,10 +9450,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Stop using</source>
         <target state="translated">取消使用</target>
       </trans-unit>
-      <trans-unit id="repo.status.deprecated">
-        <source>Deprecated</source>
-        <target state="translated">已废弃</target>
-      </trans-unit>
       <trans-unit id="repo.status.markUsingHint">
         <source>Click to mark as Using</source>
         <target state="translated">点击标记为使用中</target>
@@ -10021,10 +9457,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.status.read">
         <source>Read</source>
         <target state="translated">已读</target>
-      </trans-unit>
-      <trans-unit id="repo.status.reading">
-        <source>Reading</source>
-        <target state="translated">阅读中</target>
       </trans-unit>
       <trans-unit id="repo.status.unread">
         <source>Unread</source>
@@ -10041,31 +9473,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="repo.unstar">
         <source>Unstar</source>
         <target state="translated">取消 Star</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.action">
-        <source>Unstar</source>
-        <target state="translated">取消 Star</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.actionFailed">
-        <source>Unstar failed</source>
-        <target state="translated">取消失败</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.confirm">
-        <source>Unstar?</source>
-        <target state="translated">取消 Star?</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.dontUnstar">
-        <source>Don't Unstar</source>
-        <target state="translated">不取消</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.failed">
-        <source>Unstar failed</source>
-        <target state="translated">取消失败</target>
-      </trans-unit>
-      <trans-unit id="repo.unstar.messageFormat">
-        <source>Will unstar %@ via GitHub API and remove it from the local list. Tags and notes will be kept and restored if you star it again.</source>
-        <target state="translated">将通过 GitHub API 取消对 %@ 的 star，并从本地列表移除。
-打过的标签和写过的笔记会保留，重新 star 后即可恢复。</target>
       </trans-unit>
       <trans-unit id="repo.updated">
         <source>Updated</source>
@@ -10547,10 +9954,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Clear search</source>
         <target state="translated">清空搜索</target>
       </trans-unit>
-      <trans-unit id="search.close">
-        <source>Close search</source>
-        <target state="translated">关闭搜索</target>
-      </trans-unit>
       <trans-unit id="search.contextMenu.aiSummary">
         <source>Ask / AI summary</source>
         <target state="translated">Ask / AI 摘要</target>
@@ -10831,10 +10234,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>%lld GitHub matches</source>
         <target state="translated">GitHub 命中 %lld 条</target>
       </trans-unit>
-      <trans-unit id="search.hint">
-        <source>Search</source>
-        <target state="translated">搜索</target>
-      </trans-unit>
       <trans-unit id="search.history.clearAll">
         <source>Clear all</source>
         <target state="translated">清空全部</target>
@@ -10895,10 +10294,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>AI mode · Pro required</source>
         <target state="translated">AI 模式 · 需要 Pro</target>
       </trans-unit>
-      <trans-unit id="search.mode.title">
-        <source>Search Mode</source>
-        <target state="translated">搜索模式</target>
-      </trans-unit>
       <trans-unit id="search.paywall.semantic.upgrade">
         <source>AI Semantic Search is a Pro feature. Upgrade to search by meaning, not just keywords.</source>
         <target state="translated">AI 语义搜索是 Pro 功能。升级后可按语义而非仅按关键词搜索。</target>
@@ -10939,18 +10334,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Refresh semantic index</source>
         <target state="translated">刷新语义索引</target>
       </trans-unit>
-      <trans-unit id="search.semantic.refreshIndex.hint">
-        <source>Regenerate embeddings for all starred repositories</source>
-        <target state="translated">为全部已 Star 仓库重新生成向量索引</target>
-      </trans-unit>
-      <trans-unit id="search.semantic.refreshingFormat">
-        <source>%d semantic results · Refreshing...</source>
-        <target state="translated">%d 个语义结果 · 刷新中...</target>
-      </trans-unit>
-      <trans-unit id="search.semantic.resultCountFormat">
-        <source>%d semantic results</source>
-        <target state="translated">%d 个语义结果</target>
-      </trans-unit>
       <trans-unit id="search.semantic.scope.all">
         <source>All</source>
         <target state="translated">全部</target>
@@ -10978,10 +10361,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="search.semantic.scope.starred.short">
         <source>Stars</source>
         <target state="translated">Starred</target>
-      </trans-unit>
-      <trans-unit id="search.title">
-        <source>Search</source>
-        <target state="translated">Search</target>
       </trans-unit>
       <trans-unit id="search.web.excludeDomains">
         <source>Exclude domains</source>
@@ -11046,14 +10425,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="search.web.summaryFormat">
         <source>%1$lld results · %2$.1fs</source>
         <target state="translated">%1$lld 条结果 · %2$.1fs</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.connection">
-        <source>Connection</source>
-        <target state="translated">连接状态</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.customModel">
-        <source>Custom Model...</source>
-        <target state="translated">自定义模型...</target>
       </trans-unit>
       <trans-unit id="settings.ai.discoveredModels.empty">
         <source>No models yet. Tap "Test", or use a custom model name in the defaults.</source>
@@ -11154,34 +10525,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.modelParams.unit.seconds">
         <source>s</source>
         <target state="translated">秒</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.apiKey">
-        <source>API Key</source>
-        <target state="translated">API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.baseUrl">
-        <source>Base URL</source>
-        <target state="translated">接口地址</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.baseUrl.help">
-        <source>Standard: https://api.openai.com/v1. You can change this to use DeepSeek, OpenRouter, or other OpenAI-compatible services.</source>
-        <target state="translated">标准地址为 https://api.openai.com/v1。你可以修改它以使用 DeepSeek、OpenRouter 或其他兼容 OpenAI 接口的服务。</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.config">
-        <source>OpenAI API Configuration</source>
-        <target state="translated">OpenAI API 配置</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.customModelName">
-        <source>Model Name</source>
-        <target state="translated">模型名称</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.customModelName.help">
-        <source>Enter the specific model ID (e.g., deepseek-chat, claude-3-5-sonnet-20240620).</source>
-        <target state="translated">输入特定的模型 ID（如 deepseek-chat, claude-3-5-sonnet-20240620）。</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.openai.model">
-        <source>Model</source>
-        <target state="translated">模型名称</target>
       </trans-unit>
       <trans-unit id="settings.ai.privacy.notice">
         <source>Starcat does not relay AI requests through any of our servers. Summaries, tag suggestions and semantic search send the minimum repository metadata / README excerpt directly to your selected provider.</source>
@@ -11375,10 +10718,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <source>Delete current provider</source>
         <target state="translated">删除当前服务商</target>
       </trans-unit>
-      <trans-unit id="settings.ai.provider.description">
-        <source>Starcat is built on a BYOK (Bring Your Own Key) model. Your keys are encrypted and stored locally on your device.</source>
-        <target state="translated">Starcat 采用 BYOK (Bring Your Own Key) 模式。您的 API Key 将加密存储在本地设备中。</target>
-      </trans-unit>
       <trans-unit id="settings.ai.provider.displayName">
         <source>Display name</source>
         <target state="translated">显示名称</target>
@@ -11386,10 +10725,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.provider.empty">
         <source>No verified providers yet. Tap + on the right to add one.</source>
         <target state="translated">暂无已验证服务商，点击右侧 + 新增</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.provider.notImplemented">
-        <source>Integration for this provider is coming in a future update.</source>
-        <target state="translated">该服务商的集成将在后续更新中推出。</target>
       </trans-unit>
       <trans-unit id="settings.ai.provider.pickerLabel">
         <source>Provider profile</source>
@@ -11406,18 +10741,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.provider.testButton">
         <source>Test</source>
         <target state="translated">测试</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.serviceConfig">
-        <source>Service Configuration</source>
-        <target state="translated">服务配置</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.status">
-        <source>Status</source>
-        <target state="translated">状态</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.status.notConfigured">
-        <source>Not Configured</source>
-        <target state="translated">未配置</target>
       </trans-unit>
       <trans-unit id="settings.ai.task.customModelLabel">
         <source>Custom model</source>
@@ -11450,10 +10773,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.ai.taskModels.title">
         <source>Model assignments</source>
         <target state="translated">模型配置</target>
-      </trans-unit>
-      <trans-unit id="settings.ai.testConnection">
-        <source>Test Connection</source>
-        <target state="translated">测试连接</target>
       </trans-unit>
       <trans-unit id="settings.ai.title">
         <source>AI Service</source>
@@ -11566,78 +10885,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.aiIndex.truncateLength.hint">
         <source>Maximum characters fed to embedding model after README cleanup.</source>
         <target state="translated">清洗后用于向量化的最大字符数；默认 12000。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.aiContext">
-        <source>Use external web context in AI features</source>
-        <target state="translated">AI 功能使用外部网页上下文</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.allowPrivateContext">
-        <source>Allow external context for private repositories</source>
-        <target state="translated">允许私有仓库使用外部上下文</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.anonymous">
-        <source>Anonymous mode (do not send API Key)</source>
-        <target state="translated">匿名模式（不发送 API Key）</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey">
-        <source>API Key</source>
-        <target state="translated">API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.anonymousDescription">
-        <source>Anonymous requests do not send an Authorization header. Testing an API Key always uses bearer mode.</source>
-        <target state="translated">匿名请求不会发送 Authorization header。测试 API Key 时始终使用 bearer 模式。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.bearerDescription">
-        <source>The key is stored securely on this Mac. Testing may consume one provider search request.</source>
-        <target state="translated">Key 安全保存在本机。测试可能消耗一次 Provider 搜索请求。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.hide">
-        <source>Hide API Key</source>
-        <target state="translated">隐藏 API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.placeholder">
-        <source>Enter Provider API Key</source>
-        <target state="translated">输入 Provider API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.save">
-        <source>Save</source>
-        <target state="translated">保存</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.saveFailed">
-        <source>API Key is valid, but it could not be saved.</source>
-        <target state="translated">API Key 有效，但保存失败。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.saved">
-        <source>Saved</source>
-        <target state="translated">已保存</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.show">
-        <source>Show API Key</source>
-        <target state="translated">显示 API Key</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.test">
-        <source>Test</source>
-        <target state="translated">测试</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.apiKey.testSucceeded">
-        <source>API Key is valid and has been saved.</source>
-        <target state="translated">API Key 有效，已保存。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.enabled">
-        <source>Enable External Search provider</source>
-        <target state="translated">启用 External Search Provider</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.includeWebInAll">
-        <source>Include external web results in All</source>
-        <target state="translated">在“全部”范围中包含外部网页结果</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.privacyDescription">
-        <source>Private repository names, READMEs, and notes are not sent to external search by default. Anonymous mode does not send the saved API Key. An invalid key never falls back to an anonymous request.</source>
-        <target state="translated">默认禁止把私有仓库名称、README 或笔记发送到外部搜索。匿名模式不会发送已保存的 API Key；配置了无效 Key 时不会自动降级为匿名请求。</target>
-      </trans-unit>
-      <trans-unit id="settings.anySearch.title">
-        <source>AnySearch</source>
-        <target state="translated">AnySearch</target>
       </trans-unit>
       <trans-unit id="settings.appearance.dark">
         <source>Dark</source>
@@ -12402,10 +11649,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <trans-unit id="settings.listDensity.card">
         <source>Card</source>
         <target state="translated">卡片</target>
-      </trans-unit>
-      <trans-unit id="settings.listDensity.compact_REMOVED_R01">
-        <source>Compact</source>
-        <target state="translated">紧凑</target>
       </trans-unit>
       <trans-unit id="settings.listPreferences.reset.confirm">
         <source>Reset</source>
@@ -14381,10 +13624,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Downloaded Repository ZIPs</source>
         <target state="translated">已下载的仓库 ZIP</target>
       </trans-unit>
-      <trans-unit id="settings.storage.archive.revealHelp">
-        <source>Open ZIP download directory</source>
-        <target state="translated">打开 ZIP 下载目录</target>
-      </trans-unit>
       <trans-unit id="settings.storage.archiveUsageFormat">
         <source>%lld files · %@</source>
         <target state="translated">%lld 个 · %@</target>
@@ -14432,10 +13671,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="settings.storage.chatHistoryUsageFormat">
         <source>%lld sessions · %lld repos · %@</source>
         <target state="translated">%lld 场对话 · %lld 个仓库 · %@</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.clear">
-        <source>Clear</source>
-        <target state="translated">清理操作</target>
       </trans-unit>
       <trans-unit id="settings.storage.clearAiContext.confirm">
         <source>Clear all Code Context?</source>
@@ -14521,10 +13756,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>All cached External Search results (global search + AI external context) will be removed. Subsequent searches and summaries will re-query the network and consume API quota.</source>
         <target state="translated">已缓存的所有 External Search 检索结果（全局搜索 + AI 外部上下文）将被清空。下一次搜索 / 摘要会重新打网络,并消耗 API 配额。</target>
       </trans-unit>
-      <trans-unit id="settings.storage.clearArchive">
-        <source>Clear Downloaded ZIPs</source>
-        <target state="translated">清除已下载的 ZIP</target>
-      </trans-unit>
       <trans-unit id="settings.storage.clearArchive.confirm">
         <source>Clear downloaded repository ZIPs?</source>
         <target state="translated">清除已下载的仓库 ZIP？</target>
@@ -14557,10 +13788,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>This will delete all 3D graph indexes and extracted source directories. Shared source ZIPs will not be deleted.</source>
         <target state="translated">将删除所有 3D 图谱索引与解压源码目录。共享源码 ZIP 不会被删除。</target>
       </trans-unit>
-      <trans-unit id="settings.storage.clearImage">
-        <source>Clear Image Cache</source>
-        <target state="translated">清理图片缓存</target>
-      </trans-unit>
       <trans-unit id="settings.storage.clearImage.confirm">
         <source>Clear image cache?</source>
         <target state="translated">清空图片缓存?</target>
@@ -14584,10 +13811,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="settings.storage.clearRAGIndex.message">
         <source>This only deletes rebuildable chunks and embeddings. Repository data, README, notes, summaries, and library state are unchanged.</source>
         <target state="translated">仅删除可重建的分片和向量；仓库数据、README、笔记、摘要和知识库状态不受影响。</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.clearReadme">
-        <source>Clear README Cache</source>
-        <target state="translated">清理 README 缓存</target>
       </trans-unit>
       <trans-unit id="settings.storage.clearReadme.confirm">
         <source>Clear README cache?</source>
@@ -14656,18 +13879,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="settings.storage.image">
         <source>Images</source>
         <target state="translated">图片</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.log">
-        <source>Logs</source>
-        <target state="translated">日志</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.logDescription">
-        <source>Managed by the system (Console.app)</source>
-        <target state="translated">由系统(Console.app)管理</target>
-      </trans-unit>
-      <trans-unit id="settings.storage.logHelp">
-        <source>Starcat writes logs through OSLog. Use macOS Console.app to inspect and manage them.</source>
-        <target state="translated">Starcat 通过 OSLog 写日志，清理与查询请用 macOS 自带的 Console.app。</target>
       </trans-unit>
       <trans-unit id="settings.storage.loginRequired">
         <source>Sign in to manage storage.</source>
@@ -14945,10 +14156,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Close</source>
         <target state="translated">关闭</target>
       </trans-unit>
-      <trans-unit id="sharecard.action.export.html">
-        <source>Export as HTML</source>
-        <target state="translated">导出为 HTML</target>
-      </trans-unit>
       <trans-unit id="sharecard.action.export.library.html">
         <source>Export Library to HTML</source>
         <target state="translated">导出 知识库 到 HTML</target>
@@ -14957,10 +14164,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Export Library to Markdown</source>
         <target state="translated">导出 知识库 到 Markdown</target>
       </trans-unit>
-      <trans-unit id="sharecard.action.export.markdown">
-        <source>Export as Markdown</source>
-        <target state="translated">导出为 Markdown</target>
-      </trans-unit>
       <trans-unit id="sharecard.action.export.starred.html">
         <source>Export Starred to HTML</source>
         <target state="translated">导出 Starred 到 HTML</target>
@@ -14968,10 +14171,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="sharecard.action.export.starred.markdown">
         <source>Export Starred to Markdown</source>
         <target state="translated">导出 Starred 到 Markdown</target>
-      </trans-unit>
-      <trans-unit id="sharecard.action.exportStarred">
-        <source>Export Starred</source>
-        <target state="translated">导出 Starred</target>
       </trans-unit>
       <trans-unit id="sharecard.action.exportToFile">
         <source>Export to File</source>
@@ -15004,10 +14203,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="sharecard.card.tagline">
         <source>OPEN SOURCE · DEVELOPER ID</source>
         <target state="translated">开源 · 开发者身份</target>
-      </trans-unit>
-      <trans-unit id="sharecard.close">
-        <source>Close</source>
-        <target state="translated">关闭</target>
       </trans-unit>
       <trans-unit id="sharecard.contribution.title">
         <source>CONTRIBUTION GRAPH</source>
@@ -15121,10 +14316,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Image copied — paste it into your tweet on X.</source>
         <target state="translated">图片已复制，请在 X 推文里 Cmd+V 粘贴。</target>
       </trans-unit>
-      <trans-unit id="sharecard.footer.poweredBy">
-        <source>Powered by</source>
-        <target state="translated">由</target>
-      </trans-unit>
       <trans-unit id="sharecard.languages.empty">
         <source>No public repository language data yet.</source>
         <target state="translated">暂无公开仓库语言数据。</target>
@@ -15185,10 +14376,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Adventure</source>
         <target state="translated">草地冒险</target>
       </trans-unit>
-      <trans-unit id="sharecard.style.dashboard">
-        <source>Dashboard</source>
-        <target state="translated">数据看板</target>
-      </trans-unit>
       <trans-unit id="sharecard.style.idCard">
         <source>ID Card</source>
         <target state="translated">ID 卡</target>
@@ -15197,14 +14384,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Magazine</source>
         <target state="translated">杂志卡</target>
       </trans-unit>
-      <trans-unit id="sharecard.style.pass">
-        <source>Pass</source>
-        <target state="translated">通行证</target>
-      </trans-unit>
-      <trans-unit id="sharecard.style.poster">
-        <source>Poster</source>
-        <target state="translated">海报</target>
-      </trans-unit>
       <trans-unit id="sharecard.style.social">
         <source>Social</source>
         <target state="translated">社交卡</target>
@@ -15212,10 +14391,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="sharecard.style.terminal">
         <source>Terminal</source>
         <target state="translated">终端卡</target>
-      </trans-unit>
-      <trans-unit id="sharecard.subtitle">
-        <source>Pick a theme, save or share to X.</source>
-        <target state="translated">选一个主题，保存或分享到 X。</target>
       </trans-unit>
       <trans-unit id="sharecard.theme.adventureFel">
         <source>Fel</source>
@@ -15248,10 +14423,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="sharecard.theme.heatOrange">
         <source>Heat Orange</source>
         <target state="translated">热力橙</target>
-      </trans-unit>
-      <trans-unit id="sharecard.theme.label">
-        <source>Theme</source>
-        <target state="translated">主题</target>
       </trans-unit>
       <trans-unit id="sharecard.theme.lightCard">
         <source>Pure Card</source>
@@ -16937,10 +16108,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Undo Star Cleanup</source>
         <target state="translated">Undo Star 清理</target>
       </trans-unit>
-      <trans-unit id="trending.aiScore">
-        <source>AI Score</source>
-        <target state="translated">AI 评分</target>
-      </trans-unit>
       <trans-unit id="trending.allLanguages">
         <source>All Languages</source>
         <target state="translated">全部语言</target>
@@ -16952,18 +16119,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="trending.basedOnTrending">
         <source>Selected based on trending popularity</source>
         <target state="translated">基于当前榜单热度精选</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.period">
-        <source>Time Range</source>
-        <target state="translated">时间范围</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.sort">
-        <source>Sort</source>
-        <target state="translated">排序</target>
-      </trans-unit>
-      <trans-unit id="trending.filter.title">
-        <source>Filter</source>
-        <target state="translated">筛选</target>
       </trans-unit>
       <trans-unit id="trending.freshness.daysAgoFormat">
         <source>%d day(s) ago</source>
@@ -16992,10 +16147,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="trending.loadFailed">
         <source>Load Failed</source>
         <target state="translated">加载失败</target>
-      </trans-unit>
-      <trans-unit id="trending.loading">
-        <source>Loading…</source>
-        <target state="translated">加载中…</target>
       </trans-unit>
       <trans-unit id="trending.period.daily">
         <source>Day</source>
@@ -17081,10 +16232,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Stars Descending</source>
         <target state="translated">Stars 降序</target>
       </trans-unit>
-      <trans-unit id="trending.sort.title">
-        <source>Sort</source>
-        <target state="translated">排序</target>
-      </trans-unit>
       <trans-unit id="trending.sort.updatedAsc">
         <source>Oldest Updated</source>
         <target state="translated">最早更新</target>
@@ -17097,10 +16244,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Star to My Stars</source>
         <target state="translated">Star 到我的 Stars</target>
       </trans-unit>
-      <trans-unit id="trending.subscription.failedFormat">
-        <source>Failed to subscribe to %@: %@</source>
-        <target state="translated">订阅 %@ 失败：%@</target>
-      </trans-unit>
       <trans-unit id="trending.summary.openSource">
         <source>open source</source>
         <target state="translated">开源</target>
@@ -17108,14 +16251,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="trending.summary.placeholderFormat">
         <source>A short summary for this %@ project...</source>
         <target state="translated">这是一个关于 %@ 项目的简要摘要...</target>
-      </trans-unit>
-      <trans-unit id="trending.title">
-        <source>Trending</source>
-        <target state="translated">热门趋势</target>
-      </trans-unit>
-      <trans-unit id="trending.view">
-        <source>View</source>
-        <target state="translated">查看</target>
       </trans-unit>
       <trans-unit id="watch.allActivity">
         <source>All Activity</source>
@@ -17321,10 +16456,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Default</source>
         <target state="translated">默认</target>
       </trans-unit>
-      <trans-unit id="weekly.sort.latestEvent">
-        <source>Latest Activity</source>
-        <target state="translated">最近收录</target>
-      </trans-unit>
       <trans-unit id="weekly.sort.latestIssue">
         <source>Latest issue</source>
         <target state="translated">最新收录</target>
@@ -17336,10 +16467,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="weekly.sort.nameDesc">
         <source>Name Z-A</source>
         <target state="translated">名称降序</target>
-      </trans-unit>
-      <trans-unit id="weekly.sort.pushedAt">
-        <source>Recently Pushed</source>
-        <target state="translated">最近推送</target>
       </trans-unit>
       <trans-unit id="weekly.sort.starsAsc">
         <source>Stars Ascending</source>
@@ -17368,10 +16495,6 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
       <trans-unit id="weekly.sourceEvents.title">
         <source>Source history</source>
         <target state="translated">来源记录</target>
-      </trans-unit>
-      <trans-unit id="weekly.sources.title">
-        <source>Sources</source>
-        <target state="translated">来源</target>
       </trans-unit>
       <trans-unit id="weekly.totalCountFormat">
         <source>%d projects</source>

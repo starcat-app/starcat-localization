@@ -202,10 +202,6 @@
         <ns0:source>SwiftUI Native</ns0:source>
         <ns0:target state="translated">SwiftUI Native</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="about.brand.copyright">
-        <ns0:source>Copyright © 2026 Starcat.</ns0:source>
-        <ns0:target state="translated">Copyright © 2026 Starcat.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="about.brand.getSupport">
         <ns0:source>Get Support</ns0:source>
         <ns0:target state="translated">Uzyskaj pomoc</ns0:target>
@@ -586,14 +582,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Assets</ns0:source>
         <ns0:target state="translated">Zasoby</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="activity.detail.emptySubtitle">
-        <ns0:source>Select an activity item to inspect its details.</ns0:source>
-        <ns0:target state="translated">Wybierz element aktywności, aby wyświetlić jego szczegóły.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="activity.detail.emptyTitle">
-        <ns0:source>No activity selected</ns0:source>
-        <ns0:target state="translated">Nie wybrano aktywności</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="activity.detail.following.actor">
         <ns0:source>Actor</ns0:source>
         <ns0:target state="translated">Wykonawca</ns0:target>
@@ -642,17 +630,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>No activity yet</ns0:source>
         <ns0:target state="translated">Brak aktywności</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="activity.error.loadFailed">
-        <ns0:source>Failed to load activity</ns0:source>
-        <ns0:target state="translated">Nie udało się załadować aktywności</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="activity.error.title">
         <ns0:source>Activity unavailable</ns0:source>
         <ns0:target state="translated">Aktywność niedostępna</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="activity.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sortuj</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="activity.following.clear.action">
         <ns0:source>Clear All</ns0:source>
@@ -1278,10 +1258,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>External context unavailable</ns0:source>
         <ns0:target state="translated">Kontekst zewnętrzny niedostępny</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.contextStatus.full">
-        <ns0:source>Chat is grounded in full code context</ns0:source>
-        <ns0:target state="translated">Czat oparty na pełnym kontekście kodu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.chat.contextStatus.prefix">
         <ns0:source>Context: </ns0:source>
         <ns0:target state="translated">Kontekst:</ns0:target>
@@ -1349,10 +1325,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="ai.assistant.chat.failureFormat">
         <ns0:source>(Generation failed: %@)</ns0:source>
         <ns0:target state="translated">(Generowanie nie powiodło się: %@)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.generating">
-        <ns0:source>Generating</ns0:source>
-        <ns0:target state="translated">Generowanie</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.chat.history.loadEarlier">
         <ns0:source>Load earlier messages</ns0:source>
@@ -1430,10 +1402,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>New conversation</ns0:source>
         <ns0:target state="translated">Nowa rozmowa</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.thinking">
-        <ns0:source>Thinking…</ns0:source>
-        <ns0:target state="translated">Myślenie…</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.copy.copied">
         <ns0:source>Copied ✓</ns0:source>
         <ns0:target state="translated">Skopiowano ✓</ns0:target>
@@ -1481,10 +1449,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="ai.assistant.input.send.help">
         <ns0:source>Send (Return)</ns0:source>
         <ns0:target state="translated">Wyślij (Return)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.input.sending.help">
-        <ns0:source>Sending…</ns0:source>
-        <ns0:target state="translated">Wysyłanie…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.input.stop.help">
         <ns0:source>Stop generating</ns0:source>
@@ -1622,10 +1586,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Initializing…</ns0:source>
         <ns0:target state="translated">Inicjalizacja…</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.summary.loadingCache">
-        <ns0:source>Loading local AI cache…</ns0:source>
-        <ns0:target state="translated">Wczytywanie lokalnego cache AI…</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.summary.menu.help">
         <ns0:source>More actions</ns0:source>
         <ns0:target state="translated">Więcej akcji</ns0:target>
@@ -1645,10 +1605,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="ai.assistant.summary.regenerate">
         <ns0:source>Regenerate</ns0:source>
         <ns0:target state="translated">Generuj ponownie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.summary.regenerate.help">
-        <ns0:source>Regenerate summary (does not affect chat)</ns0:source>
-        <ns0:target state="translated">Generuj ponownie podsumowanie (nie wpływa na czat)</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.summary.requesting">
         <ns0:source>Preparing summary request…</ns0:source>
@@ -1866,25 +1822,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Clear All</ns0:source>
         <ns0:target state="translated">Wyczyść wszystko</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.clearAllConfirm.message">
-        <ns0:source>This will delete all context.xml and metadata.json in the current output directory. Shared source ZIPs are not deleted.</ns0:source>
-        <ns0:target state="translated">Spowoduje to usunięcie wszystkich plików context.xml i metadata.json w bieżącym katalogu wyjściowym. Współdzielone archiwa ZIP źródła nie zostaną usunięte.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.clearAllConfirm.title">
-        <ns0:source>Clear all Code Contexs?</ns0:source>
-        <ns0:target state="translated">Wyczyścić wszystkie konteksty kodu?</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.context.storage.empty">
         <ns0:source>No Code Contexs in current directory yet.</ns0:source>
         <ns0:target state="translated">Brak kontekstów kodu w bieżącym katalogu.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.menuDelete">
-        <ns0:source>Delete</ns0:source>
-        <ns0:target state="translated">Usuń</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.menuReveal">
-        <ns0:source>Reveal</ns0:source>
-        <ns0:target state="translated">Pokaż w Finderze</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.context.storage.outputDirectory">
         <ns0:source>Context Output Directory</ns0:source>
@@ -2458,14 +2398,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>About Starcat</ns0:source>
         <ns0:target state="translated">O Starcat</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.copyCode">
-        <ns0:source>Copy code</ns0:source>
-        <ns0:target state="translated">Kopiuj kod</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.enterCode">
-        <ns0:source>Enter this code in your browser</ns0:source>
-        <ns0:target state="translated">Wpisz ten kod w przeglądarce</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.error.clientIdMissing">
         <ns0:source>GitHub OAuth Client ID is missing or still a placeholder.</ns0:source>
         <ns0:target state="translated">Brakuje identyfikatora klienta OAuth GitHub lub jest on nadal zastępczy.</ns0:target>
@@ -2502,41 +2434,13 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Sign in failed</ns0:source>
         <ns0:target state="translated">Logowanie nie powiodło się</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.needLogin">
-        <ns0:source>Please sign in first</ns0:source>
-        <ns0:target state="translated">Najpierw się zaloguj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.openGithub">
-        <ns0:source>Open GitHub</ns0:source>
-        <ns0:target state="translated">Otwórz GitHub</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.signIn">
-        <ns0:source>Sign in with GitHub</ns0:source>
-        <ns0:target state="translated">Zaloguj się przez GitHub</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.signOut">
         <ns0:source>Sign Out</ns0:source>
         <ns0:target state="translated">Wyloguj się</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.subtitle">
-        <ns0:source>Organize, understand, find, and evaluate your GitHub Stars</ns0:source>
-        <ns0:target state="translated">Organizuj, rozumiej, znajduj i oceniaj swoje gwiazdki GitHub</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.title">
-        <ns0:source>Starcat</ns0:source>
-        <ns0:target state="translated">Starcat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.unauthenticated">
         <ns0:source>Not Signed In</ns0:source>
         <ns0:target state="translated">Nie zalogowano</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.waiting">
-        <ns0:source>Waiting for authorization…</ns0:source>
-        <ns0:target state="translated">Oczekiwanie na autoryzację…</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.comingSoon">
-        <ns0:source>Coming soon</ns0:source>
-        <ns0:target state="translated">Wkrótce</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.alternative.deviceFlow">
         <ns0:source>Sign in with Device Code</ns0:source>
@@ -2549,14 +2453,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="authV2.alternative.pat">
         <ns0:source>Sign in with Token</ns0:source>
         <ns0:target state="translated">Zaloguj się za pomocą tokena</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.webflow.enabled">
-        <ns0:source>Sign in with browser</ns0:source>
-        <ns0:target state="translated">Zaloguj się przez przeglądarkę</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.webflow.tooltip">
-        <ns0:source>Open browser to authorize GitHub, then return to Starcat automatically</ns0:source>
-        <ns0:target state="translated">Otwórz przeglądarkę, aby autoryzować GitHub, a następnie wróć automatycznie do Starcat</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.cancelSignIn">
         <ns0:source>Cancel</ns0:source>
@@ -2582,29 +2478,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Continue with GitHub</ns0:source>
         <ns0:target state="translated">Kontynuuj z GitHub</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.copiedSilentHint">
-        <ns0:source>Code copied to clipboard</ns0:source>
-        <ns0:target state="translated">Kod skopiowany do schowka</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.copyCode">
-        <ns0:source>Copy code</ns0:source>
-        <ns0:target state="translated">Kopiuj kod</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="authV2.copyOnly">
         <ns0:source>Copy only, don't open browser</ns0:source>
         <ns0:target state="translated">Tylko kopiuj, nie otwieraj przeglądarki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.enterCodeTitle">
-        <ns0:source>Enter this code on GitHub</ns0:source>
-        <ns0:target state="translated">Wpisz ten kod na GitHub</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.openGithub">
-        <ns0:source>Open GitHub</ns0:source>
-        <ns0:target state="translated">Otwórz GitHub</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.openingHint">
-        <ns0:source>Opening GitHub in your browser…</ns0:source>
-        <ns0:target state="translated">Otwieranie GitHub w przeglądarce…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.pat.back">
         <ns0:source>Back</ns0:source>
@@ -3638,10 +3514,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Loading contribution graph…</ns0:source>
         <ns0:target state="translated">Ładowanie wykresu wkładu…</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="contribution.openGithub">
-        <ns0:source>Open GitHub profile</ns0:source>
-        <ns0:target state="translated">Otwórz profil GitHub</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="contribution.title">
         <ns0:source>Contributions</ns0:source>
         <ns0:target state="translated">Wkłady</ns0:target>
@@ -3777,10 +3649,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="empty.noStars">
         <ns0:source>No Stars Yet</ns0:source>
         <ns0:target state="translated">Brak gwiazdek</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="empty.searchPlaceholder">
-        <ns0:source>Search history, saved searches, and advanced filters coming soon.</ns0:source>
-        <ns0:target state="translated">Wyszukiwanie historii, zapisane wyszukiwania i zaawansowane filtry wkrótce.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="empty.selectFromList">
         <ns0:source>Select a repo from the list on the left</ns0:source>
@@ -3974,30 +3842,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Select a project from Explore</ns0:source>
         <ns0:target state="translated">Wybierz projekt z Odkrywania</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.metrics">
-        <ns0:source>Metrics</ns0:source>
-        <ns0:target state="translated">Metryki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.openRelease">
-        <ns0:source>Open release</ns0:source>
-        <ns0:target state="translated">Otwórz wydanie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.reasons">
-        <ns0:source>Why this appears</ns0:source>
-        <ns0:target state="translated">Dlaczego to się pojawia</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.release">
-        <ns0:source>Release</ns0:source>
-        <ns0:target state="translated">Wydanie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.signals">
-        <ns0:source>Signals</ns0:source>
-        <ns0:target state="translated">Sygnały</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.taxonomy">
-        <ns0:source>Tags and platforms</ns0:source>
-        <ns0:target state="translated">Tagi i platformy</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="explore.discoverySignal.downloads">
         <ns0:source>Downloads</ns0:source>
         <ns0:target state="translated">Pobrania</ns0:target>
@@ -4017,14 +3861,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="explore.empty.title">
         <ns0:source>No projects found</ns0:source>
         <ns0:target state="translated">Nie znaleziono projektów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sortuj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.filter.title">
-        <ns0:source>Filter</ns0:source>
-        <ns0:target state="translated">Filtruj</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="explore.help.cache.title">
         <ns0:source>Cache</ns0:source>
@@ -4270,10 +4106,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Stars Ascending</ns0:source>
         <ns0:target state="translated">Gwiazdki rosnąco</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="explore.sort.title">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sortuj</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="explore.sort.updated">
         <ns0:source>Recently Updated</ns0:source>
         <ns0:target state="translated">Ostatnio aktualizowane</ns0:target>
@@ -4390,14 +4222,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>OK</ns0:source>
         <ns0:target state="translated">OK</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="general.reset">
-        <ns0:source>Reset</ns0:source>
-        <ns0:target state="translated">Resetuj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="general.save">
-        <ns0:source>Save</ns0:source>
-        <ns0:target state="translated">Zapisz</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="gettingStarted.collapse">
         <ns0:source>Collapse checklist</ns0:source>
         <ns0:target state="translated">Zwiń listę kontrolną</ns0:target>
@@ -4413,18 +4237,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="gettingStarted.progressFormat">
         <ns0:source>%lld of %lld completed</ns0:source>
         <ns0:target state="translated">Ukończono %lld z %lld</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.action">
-        <ns0:source>Open Agent workspace</ns0:source>
-        <ns0:target state="translated">Otwórz obszar agenta</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.detail">
-        <ns0:source>Run guided agent workflows and review generated artifacts.</ns0:source>
-        <ns0:target state="translated">Uruchamiaj prowadzone przepływy pracy agenta i przeglądaj wygenerowane artefakty.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.title">
-        <ns0:source>Try Agent workspace</ns0:source>
-        <ns0:target state="translated">Wypróbuj obszar agenta</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="gettingStarted.step.ai.action">
         <ns0:source>Open AI summary</ns0:source>
@@ -4590,17 +4402,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Start with Starcat</ns0:source>
         <ns0:target state="translated">Zacznij od Starcat</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.addTo">
-        <ns0:source>Add to...</ns0:source>
-        <ns0:target state="translated">Dodaj do...</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.addToGroupSection">
         <ns0:source>Add to Group:</ns0:source>
         <ns0:target state="translated">Dodaj do grupy:</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.moveTo">
-        <ns0:source>Move to...</ns0:source>
-        <ns0:target state="translated">Przenieś do...</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.moveToOtherGroupSection">
         <ns0:source>Move to Other Group:</ns0:source>
@@ -4609,10 +4413,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="githubStarLists.context.noGroups">
         <ns0:source>No groups</ns0:source>
         <ns0:target state="translated">Brak grup</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.removeFromGroup">
-        <ns0:source>Remove from Group</ns0:source>
-        <ns0:target state="translated">Usuń z grupy</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.removeFromGroupFormat">
         <ns0:source>Remove from '%@'</ns0:source>
@@ -4673,10 +4473,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.impact">
         <ns0:source>Starcat cannot update this repository's list membership through the GitHub API.</ns0:source>
         <ns0:target state="translated">Starcat nie może zaktualizować członkostwa tego repozytorium na liście przez API GitHub.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.message">
-        <ns0:source>This repository belongs to an organization that restricts third-party OAuth App access. Starcat cannot update its GitHub list membership through the API. If you are only a starrer, you may not have a way to request approval; you can still change this list on GitHub.</ns0:source>
-        <ns0:target state="translated">To repozytorium należy do organizacji, która ogranicza dostęp aplikacji OAuth stron trzecich. Starcat nie może zaktualizować jego członkostwa na liście GitHub przez API. Jeśli jesteś tylko obserwatorem, możesz nie mieć możliwości poproszenia o zatwierdzenie; nadal możesz zmienić tę listę na GitHub.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.note">
         <ns0:source>This is not a token scope issue or a local data error. It is GitHub's organization-level OAuth App policy, and ordinary starrers may not have an approval path.</ns0:source>
@@ -4830,17 +4626,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Enter Multi-Select Mode</ns0:source>
         <ns0:target state="translated">Wejdź w tryb wielokrotnego wyboru</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="list.refreshingFormat">
-        <ns0:source>%d repos · Refreshing...</ns0:source>
-        <ns0:target state="translated">%d repozytoriów · Odświeżanie...</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="list.repoCountFormat">
         <ns0:source>%d repos</ns0:source>
         <ns0:target state="translated">%d repozytoriów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="list.selectedCountFormat">
-        <ns0:source>%d / %d selected</ns0:source>
-        <ns0:target state="translated">Wybrano %d / %d</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="list.sort">
         <ns0:source>Sort</ns0:source>
@@ -4933,10 +4721,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="nav.manage">
         <ns0:source>Starred</ns0:source>
         <ns0:target state="translated">Oznaczone gwiazdką</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="nav.search">
-        <ns0:source>External Search</ns0:source>
-        <ns0:target state="translated">Wyszukiwanie zewnętrzne</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="nav.trending">
         <ns0:source>Explore</ns0:source>
@@ -5422,10 +5206,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Chunk content</ns0:source>
         <ns0:target state="translated">Treść fragmentu</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.delete">
-        <ns0:source>Exclude from RAG</ns0:source>
-        <ns0:target state="translated">Wyklucz z RAG</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.chunk.disable">
         <ns0:source>Disable chunk</ns0:source>
         <ns0:target state="translated">Wyłącz fragment</ns0:target>
@@ -5458,14 +5238,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Permanently delete this chunk?</ns0:source>
         <ns0:target state="translated">Trwale usunąć ten fragment?</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.restore">
-        <ns0:source>Restore to RAG</ns0:source>
-        <ns0:target state="translated">Przywróć do RAG</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.revert">
-        <ns0:source>Revert manual edit</ns0:source>
-        <ns0:target state="translated">Cofnij ręczną edycję</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.chunk.save">
         <ns0:source>Save</ns0:source>
         <ns0:target state="translated">Zapisz</ns0:target>
@@ -5497,10 +5269,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.browser.chunks.tokenCountFormat">
         <ns0:source>≈ %lld tokens</ns0:source>
         <ns0:target state="translated">≈ %lld tokenów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.empty">
-        <ns0:source>No repositories in the knowledge base</ns0:source>
-        <ns0:target state="translated">Brak repozytoriów w bazie wiedzy</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.noChunks">
         <ns0:source>No indexed content yet</ns0:source>
@@ -5622,10 +5390,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Retrieved chunk</ns0:source>
         <ns0:target state="translated">Pobrany fragment</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.retrieval.hint">
-        <ns0:source>No chat completion</ns0:source>
-        <ns0:target state="translated">Brak odpowiedzi czatu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.retrieval.noHitsMessage">
         <ns0:source>Try rephrasing the question or refreshing the index.</ns0:source>
         <ns0:target state="translated">Spróbuj przeformułować pytanie lub odświeżyć indeks.</ns0:target>
@@ -5661,10 +5425,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.browser.retrieval.settings.title">
         <ns0:source>Test Parameters</ns0:source>
         <ns0:target state="translated">Parametry testu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.retrieval.settings.tokenBudgetNote">
-        <ns0:source>%lld-token chunk budget applies to answer context, not this retrieval test.</ns0:source>
-        <ns0:target state="translated">Budżet fragmentów %lld-token dotyczy kontekstu odpowiedzi, nie tego testu wyszukiwania.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.retrieval.settings.unsaved">
         <ns0:source>Unsaved</ns0:source>
@@ -5737,10 +5497,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.browser.totalChunks">
         <ns0:source>Total chunks</ns0:source>
         <ns0:target state="translated">Łączna liczba fragmentów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.window.title">
-        <ns0:source>Knowledge Base</ns0:source>
-        <ns0:target state="translated">Baza wiedzy</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.core.attachment.error.fileTooLargeFormat">
         <ns0:source>Attachment is too large: %@</ns0:source>
@@ -5918,86 +5674,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Conversation title generation failed: %@</ns0:source>
         <ns0:target state="translated">Generowanie tytułu konwersacji nie powiodło się: %@</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.sectionPath">
-        <ns0:source>Local storage selection</ns0:source>
-        <ns0:target state="translated">Wybór pamięci lokalnej</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.snippet">
-        <ns0:source>Local-first apps need controllable transactions, migrations, and FTS capabilities. GRDB is already used in Starcat and fits as the local storage base for RAG chunks and citations.</ns0:source>
-        <ns0:target state="translated">Aplikacje lokalne potrzebują kontrolowanych transakcji, migracji i możliwości FTS. GRDB jest już używany w Starcat i pasuje jako lokalna baza pamięci dla fragmentów RAG i cytowań.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.title">
-        <ns0:source>SQLite + GRDB as local cache layer</ns0:source>
-        <ns0:target state="translated">SQLite + GRDB jako lokalna warstwa pamięci podręcznej</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.concurrency.subtitle">
-        <ns0:source>actor / task cancellation</ns0:source>
-        <ns0:target state="translated">actor / anulowanie zadań</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.concurrency.title">
-        <ns0:source>Swift Concurrency Best Practices</ns0:source>
-        <ns0:target state="translated">Najlepsze praktyki Swift Concurrency</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.localRAG.subtitle">
-        <ns0:source>Swift project comparison</ns0:source>
-        <ns0:target state="translated">Porównanie projektów Swift</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.localRAG.title">
-        <ns0:source>Local RAG Plan</ns0:source>
-        <ns0:target state="translated">Plan lokalnego RAG</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.markdown.subtitle">
-        <ns0:source>Parser library and README cleanup</ns0:source>
-        <ns0:target state="translated">Biblioteka parsera i czyszczenie README</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.markdown.title">
-        <ns0:source>Swift Markdown Rendering</ns0:source>
-        <ns0:target state="translated">Renderowanie Markdown w Swift</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.vectorDB.subtitle">
-        <ns0:source>Desktop app selection</ns0:source>
-        <ns0:target state="translated">Wybór aplikacji desktopowej</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.vectorDB.title">
-        <ns0:source>Vector Database Comparison</ns0:source>
-        <ns0:target state="translated">Porównanie baz wektorowych</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.repo.status.githubCitation">
-        <ns0:source>GitHub citation</ns0:source>
-        <ns0:target state="translated">Cytat z GitHub</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.repo.status.inKnowledgeBase">
-        <ns0:source>In knowledge base</ns0:source>
-        <ns0:target state="translated">W bazie wiedzy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.source.aiSummary">
-        <ns0:source>AI Summary</ns0:source>
-        <ns0:target state="translated">Podsumowanie AI</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.source.notes">
-        <ns0:source>Notes</ns0:source>
-        <ns0:target state="translated">Notatki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.privateNote">
-        <ns0:source>Private note</ns0:source>
-        <ns0:target state="translated">Prywatna notatka</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.readmeCache">
-        <ns0:source>README cache</ns0:source>
-        <ns0:target state="translated">Pamięć podręczna README</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.repoSummary">
-        <ns0:source>Repository summary</ns0:source>
-        <ns0:target state="translated">Podsumowanie repozytorium</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.time.fiveDaysAgo">
-        <ns0:source>5 days ago</ns0:source>
-        <ns0:target state="translated">5 dni temu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.time.yesterday">
-        <ns0:source>Yesterday</ns0:source>
-        <ns0:target state="translated">Wczoraj</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.storage.error.conversationMissing">
         <ns0:source>The persisted RAG conversation is missing</ns0:source>
         <ns0:target state="translated">Brak zapisanej konwersacji RAG</ns0:target>
@@ -6074,18 +5750,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Export Markdown</ns0:source>
         <ns0:target state="translated">Eksportuj Markdown</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.textContext">
-        <ns0:source>temporary text context</ns0:source>
-        <ns0:target state="translated">tymczasowy kontekst tekstowy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.unsupported">
-        <ns0:source>unsupported</ns0:source>
-        <ns0:target state="translated">nieobsługiwane</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.vision">
-        <ns0:source>vision input</ns0:source>
-        <ns0:target state="translated">dane wizyjne</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.citations.collapse">
         <ns0:source>Show less</ns0:source>
         <ns0:target state="translated">Pokaż mniej</ns0:target>
@@ -6145,10 +5809,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.workspace.composer.send">
         <ns0:source>Send</ns0:source>
         <ns0:target state="translated">Wyślij</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.composer.sources">
-        <ns0:source>Sources: README / Notes / Summary</ns0:source>
-        <ns0:target state="translated">Źródła: README / Notatki / Podsumowanie</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.composer.webSearch.off">
         <ns0:source>Enable web search</ns0:source>
@@ -6210,29 +5870,9 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
         <ns0:source>Context usage (Composer)</ns0:source>
         <ns0:target state="translated">Użycie kontekstu (Kompozytor)</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.definition.body">
-        <ns0:source>After you send a question, Starcat allocates the model context window across prompt segments: system rules, conversation history, your question, retrieved evidence, remote content, and attachments. Reserved output space is listed separately.</ns0:source>
-        <ns0:target state="translated">Po wysłaniu pytania Starcat przydziela okno kontekstu modelu między segmenty: reguły systemowe, historię konwersacji, pytanie, pobrane dowody, treści zdalne i załączniki. Zarezerwowane miejsce na wyjście jest wymienione osobno.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.definition.title">
-        <ns0:source>What is context budget?</ns0:source>
-        <ns0:target state="translated">Co to jest budżet kontekstu?</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.budget.help.footnote">
         <ns0:source>Token counts are local estimates for budget boundaries, not exact provider billing.</ns0:source>
         <ns0:target state="translated">Liczby tokenów to lokalne szacunki granic budżetu, a nie dokładne rozliczenia dostawcy.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.open">
-        <ns0:source>Learn about context budget</ns0:source>
-        <ns0:target state="translated">Dowiedz się o budżecie kontekstu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.title">
-        <ns0:source>About context budget</ns0:source>
-        <ns0:target state="translated">O budżecie kontekstu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.emptyPreview">
-        <ns0:source>No prompt has been built yet.</ns0:source>
-        <ns0:target state="translated">Nie zbudowano jeszcze żadnego promptu.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.evidence">
         <ns0:source>Knowledge base citations</ns0:source>
@@ -6249,10 +5889,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.workspace.context.percentFull">
         <ns0:source>%lld%% Full</ns0:source>
         <ns0:target state="translated">%lld%% pełne</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.promptPreview">
-        <ns0:source>Prompt preview</ns0:source>
-        <ns0:target state="translated">Podgląd promptu</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.question">
         <ns0:source>Question and plan</ns0:source>
@@ -6353,10 +5989,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.workspace.debug.copy">
         <ns0:source>Copy debug record</ns0:source>
         <ns0:target state="translated">Kopiuj rekord debugowania</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.debug.disabledHint">
-        <ns0:source>Enable RAG debug mode to capture the next question, retrieval, prompt, and LLM response.</ns0:source>
-        <ns0:target state="translated">Włącz tryb debugowania RAG, aby przechwycić następne pytanie, wyszukiwanie, prompt i odpowiedź LLM.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.debug.elapsedFormat">
         <ns0:source>%.1fs</ns0:source>
@@ -6653,22 +6285,6 @@ Odkryj na nowo — wyszukuj i filtruj, aby wrócić do odpowiedniego repozytoriu
       <ns0:trans-unit id="rag.workspace.debug.stepDuration.help">
         <ns0:source>Duration of this step (since the previous debug event)</ns0:source>
         <ns0:target state="translated">Czas trwania tego kroku (od poprzedniego zdarzenia debugowania)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.answer.intro">
-        <ns0:source>Based on repository metadata, README chunks, notes, and existing summaries in the knowledge base, the most relevant Swift projects are below. Each project is tied to citations actually used in this answer.</ns0:source>
-        <ns0:target state="translated">Na podstawie metadanych repozytorium, fragmentów README, notatek i istniejących podsumowań w bazie wiedzy, poniżej znajdują się najbardziej odpowiednie projekty Swift. Każdy projekt jest powiązany z cytatami faktycznie użytymi w tej odpowiedzi.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.answer.recommendation">
-        <ns0:source>For a first version of local RAG, start with GRDB.swift for local storage and swift-markdown for document parsing. MCP Swift SDK is better suited for later tool-calling extensions.</ns0:source>
-        <ns0:target state="translated">Do pierwszej wersji lokalnego RAG zacznij od GRDB.swift do lokalnego przechowywania i swift-markdown do parsowania dokumentów. MCP Swift SDK lepiej nadaje się do późniejszych rozszerzeń wywołujących narzędzia.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.pendingQuestion">
-        <ns0:source>Continue asking the knowledge base...</ns0:source>
-        <ns0:target state="translated">Kontynuuj zadawanie pytań bazie wiedzy...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.question">
-        <ns0:source>Which Swift projects in my knowledge base are suitable for local RAG?</ns0:source>
-        <ns0:target state="translated">Które projekty Swift w mojej bazie wiedzy nadają się do lokalnego RAG?</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.empty.noKnowledge.banner">
         <ns0:source>No repositories in the knowledge base yet.</ns0:source>
@@ -7106,14 +6722,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
         <ns0:source>Ready</ns0:source>
         <ns0:target state="translated">Gotowe</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.header.streaming">
-        <ns0:source>Streaming</ns0:source>
-        <ns0:target state="translated">Strumieniowanie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.header.subtitle">
-        <ns0:source>Knowledge base · 126 repos · 1,248 ready chunks · GPT-4.1 · Read-only</ns0:source>
-        <ns0:target state="translated">Baza wiedzy · 126 repozytoriów · 1248 gotowych fragmentów · GPT-4.1 · Tylko do odczytu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.history.loadEarlier">
         <ns0:source>Load more history</ns0:source>
         <ns0:target state="translated">Wczytaj więcej historii</ns0:target>
@@ -7121,10 +6729,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
       <ns0:trans-unit id="rag.workspace.history.loadEarlier.help">
         <ns0:source>Show earlier turns from this conversation</ns0:source>
         <ns0:target state="translated">Pokaż wcześniejsze tury tej rozmowy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.index.chunksShort">
-        <ns0:source>Chunks</ns0:source>
-        <ns0:target state="translated">Fragmenty</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.index.embedding">
         <ns0:source>Embedding</ns0:source>
@@ -7230,10 +6834,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
         <ns0:source>GitHub</ns0:source>
         <ns0:target state="translated">GitHub</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.citationSnippet">
-        <ns0:source>Citation snippet</ns0:source>
-        <ns0:target state="translated">Fragment cytatu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.citationStarcatDetail">
         <ns0:source>Starcat detail</ns0:source>
         <ns0:target state="translated">Szczegóły Starcat</ns0:target>
@@ -7250,10 +6850,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
         <ns0:source>Question to clarify</ns0:source>
         <ns0:target state="translated">Pytanie do wyjaśnienia</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.confidence">
-        <ns0:source>Confidence</ns0:source>
-        <ns0:target state="translated">Pewność</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.confidence.high">
         <ns0:source>High</ns0:source>
         <ns0:target state="translated">Wysoka</ns0:target>
@@ -7265,10 +6861,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
       <ns0:trans-unit id="rag.workspace.inspector.confidence.needsClarification">
         <ns0:source>Need more details</ns0:source>
         <ns0:target state="translated">Potrzebne więcej szczegółów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.detailPage">
-        <ns0:source>Detail page</ns0:source>
-        <ns0:target state="translated">Strona szczegółów</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.fetchedAt">
         <ns0:source>Fetched at</ns0:source>
@@ -7285,10 +6877,6 @@ Szczegóły techniczne poniżej są dołączane automatycznie, aby pomóc w diag
       <ns0:trans-unit id="rag.workspace.inspector.matchType">
         <ns0:source>Match type</ns0:source>
         <ns0:target state="translated">Typ dopasowania</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.activity">
-        <ns0:source>Added / pushed (30d)</ns0:source>
-        <ns0:target state="translated">Dodane / wypchnięte (30d)</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.added30d">
         <ns0:source>Added · 30d</ns0:source>
@@ -7460,10 +7048,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</ns0:source>
         <ns0:target state="translated">%1$@ repozytoriów
 Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.index">
-        <ns0:source>Index ready / pending / failed / stale</ns0:source>
-        <ns0:target state="translated">Indeks gotowe / oczekujące / nieudane / nieaktualne</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.index.failed">
         <ns0:source>Failed</ns0:source>
         <ns0:target state="translated">Nieudane</ns0:target>
@@ -7536,10 +7120,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
         <ns0:source>Status</ns0:source>
         <ns0:target state="translated">Stan</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.subtitle">
-        <ns0:source>Read-only local facts. The next answer receives this same snapshot.</ns0:source>
-        <ns0:target state="translated">Tylko do odczytu lokalne fakty. Następna odpowiedź otrzyma tę samą migawkę.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.summariesGenerated30d">
         <ns0:source>Summaries · 30d</ns0:source>
         <ns0:target state="translated">Podsumowania · 30d</ns0:target>
@@ -7551,10 +7131,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.taggedRatio">
         <ns0:source>Tagged</ns0:source>
         <ns0:target state="translated">Otagowane</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.tags">
-        <ns0:source>Tagged / untagged · distinct tags</ns0:source>
-        <ns0:target state="translated">Otagowane / nieotagowane · unikalne tagi</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.title">
         <ns0:source>Metadata</ns0:source>
@@ -7599,10 +7175,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.openStarcat">
         <ns0:source>Open Starcat detail</ns0:source>
         <ns0:target state="translated">Otwórz szczegóły Starcat</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.otherCitations">
-        <ns0:source>Other citations</ns0:source>
-        <ns0:target state="translated">Inne cytaty</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.analytics">
         <ns0:source>Structured analytics</ns0:source>
@@ -8088,10 +7660,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
         <ns0:source>Question understanding</ns0:source>
         <ns0:target state="translated">Zrozumienie pytania</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.plan.remoteSupplement">
-        <ns0:source>Live GitHub context</ns0:source>
-        <ns0:target state="translated">Kontekst GitHub na żywo</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.repoContext">
         <ns0:source>Project code</ns0:source>
         <ns0:target state="translated">Kod projektu</ns0:target>
@@ -8312,10 +7880,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
         <ns0:source>Knowledge Base</ns0:source>
         <ns0:target state="translated">Baza wiedzy</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.plan.searchScope">
-        <ns0:source>Search scope</ns0:source>
-        <ns0:target state="translated">Zakres wyszukiwania</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.webSearch">
         <ns0:source>Web search</ns0:source>
         <ns0:target state="translated">Wyszukiwanie w sieci</ns0:target>
@@ -8331,14 +7895,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.planCandidateLimitFormat">
         <ns0:source>Review up to %lld candidate repositories</ns0:source>
         <ns0:target state="translated">Przegląd do %lld repozytoriów kandydackich</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planExecutionSummary">
-        <ns0:source>Execution</ns0:source>
-        <ns0:target state="translated">Wykonanie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planExecutionSummaryFormat">
-        <ns0:source>Reviewed %1$lld candidates · matched %2$lld passages · used chunks from %3$lld repositories</ns0:source>
-        <ns0:target state="translated">Przejrzano %1$lld kandydatów · dopasowano %2$lld fragmentów · użyto fragmentów z %3$lld repozytoriów</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.planMode">
         <ns0:source>Mode</ns0:source>
@@ -8371,10 +7927,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.planRemoteBudgetFormat">
         <ns0:source>Up to %1$lld repositories · %2$lld items per repository</ns0:source>
         <ns0:target state="translated">Do %1$lld repozytoriów · %2$lld elementów na repozytorium</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planScope">
-        <ns0:source>Scope</ns0:source>
-        <ns0:target state="translated">Zakres</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.planSort">
         <ns0:source>Prioritization</ns0:source>
@@ -8492,10 +8044,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
         <ns0:source>Source</ns0:source>
         <ns0:target state="translated">Źródło</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.starcatDetail">
-        <ns0:source>Starcat local detail</ns0:source>
-        <ns0:target state="translated">Szczegóły lokalne Starcat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.subtitle">
         <ns0:source>Sources used in this answer</ns0:source>
         <ns0:target state="translated">Źródła użyte w tej odpowiedzi</ns0:target>
@@ -8519,10 +8067,6 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.title">
         <ns0:source>Context</ns0:source>
         <ns0:target state="translated">Kontekst</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.truncated">
-        <ns0:source>Snippet truncated to fit the token budget</ns0:source>
-        <ns0:target state="translated">Fragment przycięty, aby zmieścić się w limicie tokenów</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.vectorSimilarity">
         <ns0:source>Vector similarity</ns0:source>
@@ -8564,25 +8108,9 @@ Gotowe %2$@ · Nieudane %3$@ · Nieaktualne %4$@ · Łącznie %5$@</ns0:target>
         <ns0:source>Knowledge base is empty</ns0:source>
         <ns0:target state="translated">Baza wiedzy jest pusta</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.filterHint">
-        <ns0:source>Type after @ to filter</ns0:source>
-        <ns0:target state="translated">Wpisz po @, aby filtrować</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.filterLabel">
-        <ns0:source>Filter: %@</ns0:source>
-        <ns0:target state="translated">Filtr: %@</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.languageHint">
-        <ns0:source>Reuse interested languages from Settings. Tap + to add more.</ns0:source>
-        <ns0:target state="translated">Użyj zainteresowań językowych z Ustawień. Naciśnij +, aby dodać więcej.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.mention.narrowHint">
         <ns0:source>Showing %1$d of %2$d · keep typing to narrow</ns0:source>
         <ns0:target state="translated">Wyświetlono %1$d z %2$d · kontynuuj pisanie, aby zawęzić</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.noDescription">
-        <ns0:source>No description</ns0:source>
-        <ns0:target state="translated">Brak opisu</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.mention.searchPlaceholder">
         <ns0:source>Search knowledge base repositories</ns0:source>
@@ -9114,10 +8642,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Failed chunks</ns0:source>
         <ns0:target state="translated">Nieudane fragmenty</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.indexIncomplete">
-        <ns0:source>Some content is pending, stale, or failed.</ns0:source>
-        <ns0:target state="translated">Niektóre treści są oczekujące, nieaktualne lub nieudane.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.knowledgeBase">
         <ns0:source>Knowledge base</ns0:source>
         <ns0:target state="translated">Baza wiedzy</ns0:target>
@@ -9126,41 +8650,13 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>0 repositories · tap to add</ns0:source>
         <ns0:target state="translated">0 repozytoriów · dotknij, aby dodać</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.mode">
-        <ns0:source>Mode</ns0:source>
-        <ns0:target state="translated">Tryb</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.pendingChunks">
         <ns0:source>Pending chunks</ns0:source>
         <ns0:target state="translated">Oczekujące fragmenty</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.readOnly">
-        <ns0:source>Read-only</ns0:source>
-        <ns0:target state="translated">Tylko do odczytu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.readyChunks">
         <ns0:source>Ready chunks</ns0:source>
         <ns0:target state="translated">Gotowe fragmenty</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.readyChunksFormat">
-        <ns0:source>%d ready chunks</ns0:source>
-        <ns0:target state="translated">%d gotowych fragmentów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.repos">
-        <ns0:source>Repos</ns0:source>
-        <ns0:target state="translated">Repozytoria</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.scope">
-        <ns0:source>Scope</ns0:source>
-        <ns0:target state="translated">Zakres</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.sources">
-        <ns0:source>Sources</ns0:source>
-        <ns0:target state="translated">Źródła</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.sourcesValue">
-        <ns0:source>README / Notes / Summary</ns0:source>
-        <ns0:target state="translated">README / Notatki / Podsumowanie</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.staleChunks">
         <ns0:source>Stale chunks</ns0:source>
@@ -9201,10 +8697,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="readme.failed">
         <ns0:source>Failed to load README</ns0:source>
         <ns0:target state="translated">Nie udało się załadować pliku README</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="readme.loading">
-        <ns0:source>Loading README…</ns0:source>
-        <ns0:target state="translated">Ładowanie pliku README…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="readme.mermaid.renderFailed">
         <ns0:source>Could not render this Mermaid diagram. Raw source is shown below.</ns0:source>
@@ -9253,10 +8745,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="readme.translate.action">
         <ns0:source>Translate</ns0:source>
         <ns0:target state="translated">Tłumacz</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="readme.translate.error.dismiss">
-        <ns0:source>Click to dismiss</ns0:source>
-        <ns0:target state="translated">Kliknij, aby odrzucić</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="readme.translate.error.emptySource">
         <ns0:source>No README to translate.</ns0:source>
@@ -9442,14 +8930,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Unsubscribe failed</ns0:source>
         <ns0:target state="translated">Anulowanie subskrypcji nie powiodło się</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="releases.notify.disable">
-        <ns0:source>Mute new release notifications</ns0:source>
-        <ns0:target state="translated">Wycisz powiadomienia o nowych wydaniach</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="releases.notify.enable">
-        <ns0:source>Enable new release notifications</ns0:source>
-        <ns0:target state="translated">Włącz powiadomienia o nowych wydaniach</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="releases.openOnGitHub">
         <ns0:source>Open on GitHub</ns0:source>
         <ns0:target state="translated">Otwórz na GitHub</ns0:target>
@@ -9497,10 +8977,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="releases.row.viewDetails">
         <ns0:source>View details</ns0:source>
         <ns0:target state="translated">Wyświetl szczegóły</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="releases.section.noRelease">
-        <ns0:source>No release published yet</ns0:source>
-        <ns0:target state="translated">Nie opublikowano jeszcze żadnego wydania</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="releases.section.title">
         <ns0:source>Releases</ns0:source>
@@ -9742,10 +9218,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Preview</ns0:source>
         <ns0:target state="translated">Podgląd</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.notes.editor.title">
-        <ns0:source>Notes</ns0:source>
-        <ns0:target state="translated">Notatki</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.notes.expandEditor">
         <ns0:source>Expand the note editor (supports Markdown preview)</ns0:source>
         <ns0:target state="translated">Rozwiń edytor notatek (obsługuje podgląd Markdown)</ns0:target>
@@ -9797,10 +9269,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="repo.privateNotes">
         <ns0:source>Notes</ns0:source>
         <ns0:target state="translated">Notatki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.recommendations.archived">
-        <ns0:source>Archived</ns0:source>
-        <ns0:target state="translated">Zarchiwizowane</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.recommendations.countFormat">
         <ns0:source>%d repos</ns0:source>
@@ -9861,10 +9329,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="repo.share.cancelled.title">
         <ns0:source>Creation Cancelled</ns0:source>
         <ns0:target state="translated">Anulowano tworzenie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.share.error.cancel">
-        <ns0:source>Cancel</ns0:source>
-        <ns0:target state="translated">Anuluj</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.share.error.missingAIConfig">
         <ns0:source>Sharing uses an AI summary for the share page. No AI provider is configured yet — open Settings → AI, add an API key for the Summary task, then try again.</ns0:source>
@@ -9950,10 +9414,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Close</ns0:source>
         <ns0:target state="translated">Zamknij</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.share.success.copied">
-        <ns0:source>Link copied</ns0:source>
-        <ns0:target state="translated">Link skopiowany</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.share.success.copyLink">
         <ns0:source>Copy Link</ns0:source>
         <ns0:target state="translated">Kopiuj link</ns0:target>
@@ -9978,29 +9438,9 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Star</ns0:source>
         <ns0:target state="translated">Dodaj gwiazdkę</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.star.failed">
-        <ns0:source>Star failed</ns0:source>
-        <ns0:target state="translated">Nie udało się dodać gwiazdki</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.stars">
         <ns0:source>Stars</ns0:source>
         <ns0:target state="translated">Gwiazdki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.forks">
-        <ns0:source>Forks</ns0:source>
-        <ns0:target state="translated">Forki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.issues">
-        <ns0:source>Issues</ns0:source>
-        <ns0:target state="translated">Problemy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.stars">
-        <ns0:source>Stars</ns0:source>
-        <ns0:target state="translated">Gwiazdki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.watchers">
-        <ns0:source>Watchers</ns0:source>
-        <ns0:target state="translated">Obserwujący</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.status">
         <ns0:source>Status</ns0:source>
@@ -10010,10 +9450,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Stop using</ns0:source>
         <ns0:target state="translated">Przestań używać</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.status.deprecated">
-        <ns0:source>Deprecated</ns0:source>
-        <ns0:target state="translated">Przestarzałe</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.status.markUsingHint">
         <ns0:source>Click to mark as Using</ns0:source>
         <ns0:target state="translated">Kliknij, aby oznaczyć jako używane</ns0:target>
@@ -10021,10 +9457,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="repo.status.read">
         <ns0:source>Read</ns0:source>
         <ns0:target state="translated">Przeczytane</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.status.reading">
-        <ns0:source>Reading</ns0:source>
-        <ns0:target state="translated">Czytane</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.status.unread">
         <ns0:source>Unread</ns0:source>
@@ -10041,30 +9473,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="repo.unstar">
         <ns0:source>Unstar</ns0:source>
         <ns0:target state="translated">Usuń gwiazdkę</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.action">
-        <ns0:source>Unstar</ns0:source>
-        <ns0:target state="translated">Usuń gwiazdkę</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.actionFailed">
-        <ns0:source>Unstar failed</ns0:source>
-        <ns0:target state="translated">Nie udało się usunąć gwiazdki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.confirm">
-        <ns0:source>Unstar?</ns0:source>
-        <ns0:target state="translated">Usunąć gwiazdkę?</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.dontUnstar">
-        <ns0:source>Don't Unstar</ns0:source>
-        <ns0:target state="translated">Nie usuwaj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.failed">
-        <ns0:source>Unstar failed</ns0:source>
-        <ns0:target state="translated">Nie udało się usunąć gwiazdki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.messageFormat">
-        <ns0:source>Will unstar %@ via GitHub API and remove it from the local list. Tags and notes will be kept and restored if you star it again.</ns0:source>
-        <ns0:target state="translated">Usunie gwiazdkę %@ przez API GitHub i usunie z lokalnej listy. Tagi i notatki zostaną zachowane i przywrócone, jeśli ponownie dodasz gwiazdkę.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.updated">
         <ns0:source>Updated</ns0:source>
@@ -10546,10 +9954,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Clear search</ns0:source>
         <ns0:target state="translated">Wyczyść wyszukiwanie</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.close">
-        <ns0:source>Close search</ns0:source>
-        <ns0:target state="translated">Zamknij wyszukiwanie</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.contextMenu.aiSummary">
         <ns0:source>Ask / AI summary</ns0:source>
         <ns0:target state="translated">Zapytaj / podsumowanie AI</ns0:target>
@@ -10830,10 +10234,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>%lld GitHub matches</ns0:source>
         <ns0:target state="translated">%lld wyników z GitHub</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.hint">
-        <ns0:source>Search</ns0:source>
-        <ns0:target state="translated">Szukaj</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.history.clearAll">
         <ns0:source>Clear all</ns0:source>
         <ns0:target state="translated">Wyczyść wszystko</ns0:target>
@@ -10894,10 +10294,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>AI mode · Pro required</ns0:source>
         <ns0:target state="translated">Tryb AI · wymaga Pro</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.mode.title">
-        <ns0:source>Search Mode</ns0:source>
-        <ns0:target state="translated">Tryb wyszukiwania</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.paywall.semantic.upgrade">
         <ns0:source>AI Semantic Search is a Pro feature. Upgrade to search by meaning, not just keywords.</ns0:source>
         <ns0:target state="translated">AI Semantic Search to funkcja Pro. Zaktualizuj, aby wyszukiwać według znaczenia, a nie tylko słów kluczowych.</ns0:target>
@@ -10938,18 +10334,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Refresh semantic index</ns0:source>
         <ns0:target state="translated">Odśwież indeks semantyczny</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.refreshIndex.hint">
-        <ns0:source>Regenerate embeddings for all starred repositories</ns0:source>
-        <ns0:target state="translated">Wygeneruj ponownie osadzenia dla wszystkich oznaczonych repozytoriów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.refreshingFormat">
-        <ns0:source>%d semantic results · Refreshing...</ns0:source>
-        <ns0:target state="translated">%d wyników semantycznych · Odświeżanie...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.resultCountFormat">
-        <ns0:source>%d semantic results</ns0:source>
-        <ns0:target state="translated">%d wyników semantycznych</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.semantic.scope.all">
         <ns0:source>All</ns0:source>
         <ns0:target state="translated">Wszystkie</ns0:target>
@@ -10977,10 +10361,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="search.semantic.scope.starred.short">
         <ns0:source>Stars</ns0:source>
         <ns0:target state="translated">Gwiazdki</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.title">
-        <ns0:source>Search</ns0:source>
-        <ns0:target state="translated">Szukaj</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="search.web.excludeDomains">
         <ns0:source>Exclude domains</ns0:source>
@@ -11045,14 +10425,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="search.web.summaryFormat">
         <ns0:source>%1$lld results · %2$.1fs</ns0:source>
         <ns0:target state="translated">%1$lld wyników · %2$.1fs</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.connection">
-        <ns0:source>Connection</ns0:source>
-        <ns0:target state="translated">Połączenie</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.customModel">
-        <ns0:source>Custom Model...</ns0:source>
-        <ns0:target state="translated">Niestandardowy model...</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.discoveredModels.empty">
         <ns0:source>No models yet. Tap "Test", or use a custom model name in the defaults.</ns0:source>
@@ -11153,34 +10525,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.ai.modelParams.unit.seconds">
         <ns0:source>s</ns0:source>
         <ns0:target state="translated">s</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.apiKey">
-        <ns0:source>API Key</ns0:source>
-        <ns0:target state="translated">Klucz API</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.baseUrl">
-        <ns0:source>Base URL</ns0:source>
-        <ns0:target state="translated">Podstawowy URL</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.baseUrl.help">
-        <ns0:source>Standard: https://api.openai.com/v1. You can change this to use DeepSeek, OpenRouter, or other OpenAI-compatible services.</ns0:source>
-        <ns0:target state="translated">Standardowo: https://api.openai.com/v1. Możesz to zmienić, aby używać DeepSeek, OpenRouter lub innych usług zgodnych z OpenAI.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.config">
-        <ns0:source>OpenAI API Configuration</ns0:source>
-        <ns0:target state="translated">Konfiguracja API OpenAI</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.customModelName">
-        <ns0:source>Model Name</ns0:source>
-        <ns0:target state="translated">Nazwa modelu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.customModelName.help">
-        <ns0:source>Enter the specific model ID (e.g., deepseek-chat, claude-3-5-sonnet-20240620).</ns0:source>
-        <ns0:target state="translated">Wprowadź konkretny identyfikator modelu (np. deepseek-chat, claude-3-5-sonnet-20240620).</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.model">
-        <ns0:source>Model</ns0:source>
-        <ns0:target state="translated">Model</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.privacy.notice">
         <ns0:source>Starcat does not relay AI requests through any of our servers. Summaries, tag suggestions and semantic search send the minimum repository metadata / README excerpt directly to your selected provider.</ns0:source>
@@ -11374,10 +10718,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
         <ns0:source>Delete current provider</ns0:source>
         <ns0:target state="translated">Usuń bieżącego dostawcę</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.provider.description">
-        <ns0:source>Starcat is built on a BYOK (Bring Your Own Key) model. Your keys are encrypted and stored locally on your device.</ns0:source>
-        <ns0:target state="translated">Starcat działa w modelu BYOK (Bring Your Own Key). Twoje klucze są szyfrowane i przechowywane lokalnie na urządzeniu.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.provider.displayName">
         <ns0:source>Display name</ns0:source>
         <ns0:target state="translated">Nazwa wyświetlana</ns0:target>
@@ -11385,10 +10725,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.ai.provider.empty">
         <ns0:source>No verified providers yet. Tap + on the right to add one.</ns0:source>
         <ns0:target state="translated">Brak zweryfikowanych dostawców. Kliknij + po prawej, aby dodać.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.provider.notImplemented">
-        <ns0:source>Integration for this provider is coming in a future update.</ns0:source>
-        <ns0:target state="translated">Integracja dla tego dostawcy pojawi się w przyszłej aktualizacji.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.provider.pickerLabel">
         <ns0:source>Provider profile</ns0:source>
@@ -11405,18 +10741,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.ai.provider.testButton">
         <ns0:source>Test</ns0:source>
         <ns0:target state="translated">Testuj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.serviceConfig">
-        <ns0:source>Service Configuration</ns0:source>
-        <ns0:target state="translated">Konfiguracja usługi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.status">
-        <ns0:source>Status</ns0:source>
-        <ns0:target state="translated">Status</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.status.notConfigured">
-        <ns0:source>Not Configured</ns0:source>
-        <ns0:target state="translated">Nieskonfigurowane</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.task.customModelLabel">
         <ns0:source>Custom model</ns0:source>
@@ -11449,10 +10773,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.ai.taskModels.title">
         <ns0:source>Model assignments</ns0:source>
         <ns0:target state="translated">Przypisania modeli</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.testConnection">
-        <ns0:source>Test Connection</ns0:source>
-        <ns0:target state="translated">Testuj połączenie</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.title">
         <ns0:source>AI Service</ns0:source>
@@ -11565,78 +10885,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.aiIndex.truncateLength.hint">
         <ns0:source>Maximum characters fed to embedding model after README cleanup.</ns0:source>
         <ns0:target state="translated">Maksymalna liczba znaków przekazywana do modelu osadzania po oczyszczeniu README.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.aiContext">
-        <ns0:source>Use external web context in AI features</ns0:source>
-        <ns0:target state="translated">Używaj zewnętrznego kontekstu internetowego w funkcjach AI</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.allowPrivateContext">
-        <ns0:source>Allow external context for private repositories</ns0:source>
-        <ns0:target state="translated">Zezwalaj na zewnętrzny kontekst dla prywatnych repozytoriów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.anonymous">
-        <ns0:source>Anonymous mode (do not send API Key)</ns0:source>
-        <ns0:target state="translated">Tryb anonimowy (nie wysyłaj klucza API)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey">
-        <ns0:source>API Key</ns0:source>
-        <ns0:target state="translated">Klucz API</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.anonymousDescription">
-        <ns0:source>Anonymous requests do not send an Authorization header. Testing an API Key always uses bearer mode.</ns0:source>
-        <ns0:target state="translated">Żądania anonimowe nie wysyłają nagłówka autoryzacji. Testowanie klucza API zawsze używa trybu bearer.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.bearerDescription">
-        <ns0:source>The key is stored securely on this Mac. Testing may consume one provider search request.</ns0:source>
-        <ns0:target state="translated">Klucz jest przechowywany bezpiecznie na tym Macu. Testowanie może zużyć jedno żądanie wyszukiwania dostawcy.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.hide">
-        <ns0:source>Hide API Key</ns0:source>
-        <ns0:target state="translated">Ukryj klucz API</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.placeholder">
-        <ns0:source>Enter Provider API Key</ns0:source>
-        <ns0:target state="translated">Wprowadź klucz API dostawcy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.save">
-        <ns0:source>Save</ns0:source>
-        <ns0:target state="translated">Zapisz</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.saveFailed">
-        <ns0:source>API Key is valid, but it could not be saved.</ns0:source>
-        <ns0:target state="translated">Klucz API jest prawidłowy, ale nie można go zapisać.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.saved">
-        <ns0:source>Saved</ns0:source>
-        <ns0:target state="translated">Zapisano</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.show">
-        <ns0:source>Show API Key</ns0:source>
-        <ns0:target state="translated">Pokaż klucz API</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.test">
-        <ns0:source>Test</ns0:source>
-        <ns0:target state="translated">Testuj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.testSucceeded">
-        <ns0:source>API Key is valid and has been saved.</ns0:source>
-        <ns0:target state="translated">Klucz API jest prawidłowy i został zapisany.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.enabled">
-        <ns0:source>Enable External Search provider</ns0:source>
-        <ns0:target state="translated">Włącz zewnętrznego dostawcę wyszukiwania</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.includeWebInAll">
-        <ns0:source>Include external web results in All</ns0:source>
-        <ns0:target state="translated">Uwzględniaj zewnętrzne wyniki internetowe we wszystkich</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.privacyDescription">
-        <ns0:source>Private repository names, READMEs, and notes are not sent to external search by default. Anonymous mode does not send the saved API Key. An invalid key never falls back to an anonymous request.</ns0:source>
-        <ns0:target state="translated">Nazwy prywatnych repozytoriów, pliki README i notatki nie są domyślnie wysyłane do zewnętrznego wyszukiwania. Tryb anonimowy nie wysyła zapisanego klucza API. Nieprawidłowy klucz nigdy nie przechodzi na żądanie anonimowe.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.title">
-        <ns0:source>AnySearch</ns0:source>
-        <ns0:target state="translated">AnySearch</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.appearance.dark">
         <ns0:source>Dark</ns0:source>
@@ -12401,10 +11649,6 @@ Przykład: jeśli wyszukiwanie znajdzie 100 fragmentów, a to ustawienie wynosi 
       <ns0:trans-unit id="settings.listDensity.card">
         <ns0:source>Card</ns0:source>
         <ns0:target state="translated">Karta</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.listDensity.compact_REMOVED_R01">
-        <ns0:source>Compact</ns0:source>
-        <ns0:target state="translated">Kompaktowy</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.listPreferences.reset.confirm">
         <ns0:source>Reset</ns0:source>
@@ -14380,10 +13624,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Downloaded Repository ZIPs</ns0:source>
         <ns0:target state="translated">Pobrane archiwa ZIP repozytoriów</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.archive.revealHelp">
-        <ns0:source>Open ZIP download directory</ns0:source>
-        <ns0:target state="translated">Otwórz katalog pobierania ZIP</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.archiveUsageFormat">
         <ns0:source>%lld files · %@</ns0:source>
         <ns0:target state="translated">%lld plików · %@</ns0:target>
@@ -14431,10 +13671,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="settings.storage.chatHistoryUsageFormat">
         <ns0:source>%lld sessions · %lld repos · %@</ns0:source>
         <ns0:target state="translated">%lld sesji · %lld repozytoriów · %@</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clear">
-        <ns0:source>Clear</ns0:source>
-        <ns0:target state="translated">Wyczyść</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearAiContext.confirm">
         <ns0:source>Clear all Code Context?</ns0:source>
@@ -14520,10 +13756,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>All cached External Search results (global search + AI external context) will be removed. Subsequent searches and summaries will re-query the network and consume API quota.</ns0:source>
         <ns0:target state="translated">Wszystkie zapisane wyniki wyszukiwania zewnętrznego (wyszukiwanie globalne + zewnętrzny kontekst AI) zostaną usunięte. Kolejne wyszukiwania i podsumowania będą ponownie wysyłać zapytania do sieci i zużywać limit API.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearArchive">
-        <ns0:source>Clear Downloaded ZIPs</ns0:source>
-        <ns0:target state="translated">Wyczyść pobrane pliki ZIP</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearArchive.confirm">
         <ns0:source>Clear downloaded repository ZIPs?</ns0:source>
         <ns0:target state="translated">Wyczyścić pobrane archiwa ZIP repozytoriów?</ns0:target>
@@ -14556,10 +13788,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>This will delete all 3D graph indexes and extracted source directories. Shared source ZIPs will not be deleted.</ns0:source>
         <ns0:target state="translated">Spowoduje to usunięcie wszystkich indeksów grafów 3D i wyodrębnionych katalogów źródłowych. Współdzielone pliki ZIP źródłowe nie zostaną usunięte.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearImage">
-        <ns0:source>Clear Image Cache</ns0:source>
-        <ns0:target state="translated">Wyczyść pamięć podręczną obrazów</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearImage.confirm">
         <ns0:source>Clear image cache?</ns0:source>
         <ns0:target state="translated">Wyczyścić pamięć podręczną obrazów?</ns0:target>
@@ -14583,10 +13811,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="settings.storage.clearRAGIndex.message">
         <ns0:source>This only deletes rebuildable chunks and embeddings. Repository data, README, notes, summaries, and library state are unchanged.</ns0:source>
         <ns0:target state="translated">Spowoduje to usunięcie tylko możliwych do odtworzenia fragmentów i osadzeń. Dane repozytorium, README, notatki, podsumowania i stan biblioteki pozostają bez zmian.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearReadme">
-        <ns0:source>Clear README Cache</ns0:source>
-        <ns0:target state="translated">Wyczyść pamięć podręczną README</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearReadme.confirm">
         <ns0:source>Clear README cache?</ns0:source>
@@ -14655,18 +13879,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="settings.storage.image">
         <ns0:source>Images</ns0:source>
         <ns0:target state="translated">Obrazy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.log">
-        <ns0:source>Logs</ns0:source>
-        <ns0:target state="translated">Logi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.logDescription">
-        <ns0:source>Managed by the system (Console.app)</ns0:source>
-        <ns0:target state="translated">Zarządzane przez system (Console.app)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.logHelp">
-        <ns0:source>Starcat writes logs through OSLog. Use macOS Console.app to inspect and manage them.</ns0:source>
-        <ns0:target state="translated">Starcat zapisuje logi przez OSLog. Użyj aplikacji Konsola na macOS, aby je przeglądać i zarządzać nimi.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.loginRequired">
         <ns0:source>Sign in to manage storage.</ns0:source>
@@ -14944,10 +14156,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Close</ns0:source>
         <ns0:target state="translated">Zamknij</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.export.html">
-        <ns0:source>Export as HTML</ns0:source>
-        <ns0:target state="translated">Eksportuj jako HTML</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.export.library.html">
         <ns0:source>Export Library to HTML</ns0:source>
         <ns0:target state="translated">Eksportuj bibliotekę do HTML</ns0:target>
@@ -14956,10 +14164,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Export Library to Markdown</ns0:source>
         <ns0:target state="translated">Eksportuj bibliotekę do Markdown</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.export.markdown">
-        <ns0:source>Export as Markdown</ns0:source>
-        <ns0:target state="translated">Eksportuj jako Markdown</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.export.starred.html">
         <ns0:source>Export Starred to HTML</ns0:source>
         <ns0:target state="translated">Eksportuj oznaczone gwiazdką do HTML</ns0:target>
@@ -14967,10 +14171,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="sharecard.action.export.starred.markdown">
         <ns0:source>Export Starred to Markdown</ns0:source>
         <ns0:target state="translated">Eksportuj oznaczone gwiazdką do Markdown</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.exportStarred">
-        <ns0:source>Export Starred</ns0:source>
-        <ns0:target state="translated">Eksportuj oznaczone gwiazdką</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.exportToFile">
         <ns0:source>Export to File</ns0:source>
@@ -15003,10 +14203,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="sharecard.card.tagline">
         <ns0:source>OPEN SOURCE · DEVELOPER ID</ns0:source>
         <ns0:target state="translated">OPEN SOURCE · IDENTYFIKATOR DEWELOPERA</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.close">
-        <ns0:source>Close</ns0:source>
-        <ns0:target state="translated">Zamknij</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.contribution.title">
         <ns0:source>CONTRIBUTION GRAPH</ns0:source>
@@ -15120,10 +14316,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Image copied — paste it into your tweet on X.</ns0:source>
         <ns0:target state="translated">Obraz skopiowany — wklej go do swojego tweeta na X.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.footer.poweredBy">
-        <ns0:source>Powered by</ns0:source>
-        <ns0:target state="translated">Obsługiwane przez</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.languages.empty">
         <ns0:source>No public repository language data yet.</ns0:source>
         <ns0:target state="translated">Brak danych o językach publicznych repozytoriów.</ns0:target>
@@ -15184,10 +14376,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Adventure</ns0:source>
         <ns0:target state="translated">Przygoda</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.dashboard">
-        <ns0:source>Dashboard</ns0:source>
-        <ns0:target state="translated">Panel</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.style.idCard">
         <ns0:source>ID Card</ns0:source>
         <ns0:target state="translated">Dowód osobisty</ns0:target>
@@ -15196,14 +14384,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Magazine</ns0:source>
         <ns0:target state="translated">Magazyn</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.pass">
-        <ns0:source>Pass</ns0:source>
-        <ns0:target state="translated">Przepustka</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.poster">
-        <ns0:source>Poster</ns0:source>
-        <ns0:target state="translated">Plakat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.style.social">
         <ns0:source>Social</ns0:source>
         <ns0:target state="translated">Społecznościowy</ns0:target>
@@ -15211,10 +14391,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="sharecard.style.terminal">
         <ns0:source>Terminal</ns0:source>
         <ns0:target state="translated">Terminal</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.subtitle">
-        <ns0:source>Pick a theme, save or share to X.</ns0:source>
-        <ns0:target state="translated">Wybierz motyw, zapisz lub udostępnij na X.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.theme.adventureFel">
         <ns0:source>Fel</ns0:source>
@@ -15247,10 +14423,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="sharecard.theme.heatOrange">
         <ns0:source>Heat Orange</ns0:source>
         <ns0:target state="translated">Pomarańczowy żar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.theme.label">
-        <ns0:source>Theme</ns0:source>
-        <ns0:target state="translated">Motyw</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.theme.lightCard">
         <ns0:source>Pure Card</ns0:source>
@@ -16936,10 +16108,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Undo Star Cleanup</ns0:source>
         <ns0:target state="translated">Czyszczenie Cofnij Gwiazdkę</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.aiScore">
-        <ns0:source>AI Score</ns0:source>
-        <ns0:target state="translated">Wynik AI</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.allLanguages">
         <ns0:source>All Languages</ns0:source>
         <ns0:target state="translated">Wszystkie języki</ns0:target>
@@ -16951,18 +16119,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="trending.basedOnTrending">
         <ns0:source>Selected based on trending popularity</ns0:source>
         <ns0:target state="translated">Wybrane na podstawie popularności trendów</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.period">
-        <ns0:source>Time Range</ns0:source>
-        <ns0:target state="translated">Zakres czasu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sortuj</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.title">
-        <ns0:source>Filter</ns0:source>
-        <ns0:target state="translated">Filtr</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="trending.freshness.daysAgoFormat">
         <ns0:source>%d day(s) ago</ns0:source>
@@ -16991,10 +16147,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="trending.loadFailed">
         <ns0:source>Load Failed</ns0:source>
         <ns0:target state="translated">Błąd ładowania</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.loading">
-        <ns0:source>Loading…</ns0:source>
-        <ns0:target state="translated">Ładowanie…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="trending.period.daily">
         <ns0:source>Day</ns0:source>
@@ -17080,10 +16232,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Stars Descending</ns0:source>
         <ns0:target state="translated">Gwiazdki malejąco</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.sort.title">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sortuj</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.sort.updatedAsc">
         <ns0:source>Oldest Updated</ns0:source>
         <ns0:target state="translated">Najstarsze zaktualizowane</ns0:target>
@@ -17096,10 +16244,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Star to My Stars</ns0:source>
         <ns0:target state="translated">Dodaj do Moich Gwiazdek</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.subscription.failedFormat">
-        <ns0:source>Failed to subscribe to %@: %@</ns0:source>
-        <ns0:target state="translated">Nie udało się zasubskrybować %@: %@</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.summary.openSource">
         <ns0:source>open source</ns0:source>
         <ns0:target state="translated">open source</ns0:target>
@@ -17107,14 +16251,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="trending.summary.placeholderFormat">
         <ns0:source>A short summary for this %@ project...</ns0:source>
         <ns0:target state="translated">Krótkie podsumowanie tego projektu %@...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.title">
-        <ns0:source>Trending</ns0:source>
-        <ns0:target state="translated">Trendy</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.view">
-        <ns0:source>View</ns0:source>
-        <ns0:target state="translated">Zobacz</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="watch.allActivity">
         <ns0:source>All Activity</ns0:source>
@@ -17320,10 +16456,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
         <ns0:source>Default</ns0:source>
         <ns0:target state="translated">Domyślne</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sort.latestEvent">
-        <ns0:source>Latest Activity</ns0:source>
-        <ns0:target state="translated">Ostatnia aktywność</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="weekly.sort.latestIssue">
         <ns0:source>Latest issue</ns0:source>
         <ns0:target state="translated">Najnowsze zgłoszenie</ns0:target>
@@ -17335,10 +16467,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="weekly.sort.nameDesc">
         <ns0:source>Name Z-A</ns0:source>
         <ns0:target state="translated">Nazwa Z-A</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sort.pushedAt">
-        <ns0:source>Recently Pushed</ns0:source>
-        <ns0:target state="translated">Ostatnio pushowane</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="weekly.sort.starsAsc">
         <ns0:source>Stars Ascending</ns0:source>
@@ -17367,10 +16495,6 @@ Jeśli katalog docelowy już istnieje, zaktualizuj go za pomocą `git -C &lt;ski
       <ns0:trans-unit id="weekly.sourceEvents.title">
         <ns0:source>Source history</ns0:source>
         <ns0:target state="translated">Historia źródeł</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sources.title">
-        <ns0:source>Sources</ns0:source>
-        <ns0:target state="translated">Źródła</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="weekly.totalCountFormat">
         <ns0:source>%d projects</ns0:source>

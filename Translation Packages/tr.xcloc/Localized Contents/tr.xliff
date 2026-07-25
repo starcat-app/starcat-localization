@@ -202,10 +202,6 @@
         <ns0:source>SwiftUI Native</ns0:source>
         <ns0:target state="translated">SwiftUI Yerel</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="about.brand.copyright">
-        <ns0:source>Copyright © 2026 Starcat.</ns0:source>
-        <ns0:target state="translated">Telif Hakkı © 2026 Starcat.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="about.brand.getSupport">
         <ns0:source>Get Support</ns0:source>
         <ns0:target state="translated">Destek Al</ns0:target>
@@ -586,14 +582,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Assets</ns0:source>
         <ns0:target state="translated">Varlıklar</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="activity.detail.emptySubtitle">
-        <ns0:source>Select an activity item to inspect its details.</ns0:source>
-        <ns0:target state="translated">Ayrıntıları incelemek için bir etkinlik öğesi seçin.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="activity.detail.emptyTitle">
-        <ns0:source>No activity selected</ns0:source>
-        <ns0:target state="translated">Etkinlik seçilmedi</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="activity.detail.following.actor">
         <ns0:source>Actor</ns0:source>
         <ns0:target state="translated">Aktör</ns0:target>
@@ -642,17 +630,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>No activity yet</ns0:source>
         <ns0:target state="translated">Henüz etkinlik yok</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="activity.error.loadFailed">
-        <ns0:source>Failed to load activity</ns0:source>
-        <ns0:target state="translated">Etkinlik yüklenemedi</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="activity.error.title">
         <ns0:source>Activity unavailable</ns0:source>
         <ns0:target state="translated">Etkinlik kullanılamıyor</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="activity.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sırala</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="activity.following.clear.action">
         <ns0:source>Clear All</ns0:source>
@@ -1278,10 +1258,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>External context unavailable</ns0:source>
         <ns0:target state="translated">Harici bağlam kullanılamıyor</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.contextStatus.full">
-        <ns0:source>Chat is grounded in full code context</ns0:source>
-        <ns0:target state="translated">Sohbet tam kod bağlamına dayalı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.chat.contextStatus.prefix">
         <ns0:source>Context: </ns0:source>
         <ns0:target state="translated">Bağlam:</ns0:target>
@@ -1349,10 +1325,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="ai.assistant.chat.failureFormat">
         <ns0:source>(Generation failed: %@)</ns0:source>
         <ns0:target state="translated">(Oluşturma başarısız: %@)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.generating">
-        <ns0:source>Generating</ns0:source>
-        <ns0:target state="translated">Oluşturuluyor</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.chat.history.loadEarlier">
         <ns0:source>Load earlier messages</ns0:source>
@@ -1430,10 +1402,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>New conversation</ns0:source>
         <ns0:target state="translated">Yeni konuşma</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.chat.thinking">
-        <ns0:source>Thinking…</ns0:source>
-        <ns0:target state="translated">Düşünülüyor…</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.copy.copied">
         <ns0:source>Copied ✓</ns0:source>
         <ns0:target state="translated">Kopyalandı ✓</ns0:target>
@@ -1481,10 +1449,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="ai.assistant.input.send.help">
         <ns0:source>Send (Return)</ns0:source>
         <ns0:target state="translated">Gönder (Return)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.input.sending.help">
-        <ns0:source>Sending…</ns0:source>
-        <ns0:target state="translated">Gönderiliyor…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.input.stop.help">
         <ns0:source>Stop generating</ns0:source>
@@ -1622,10 +1586,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Initializing…</ns0:source>
         <ns0:target state="translated">Başlatılıyor…</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.summary.loadingCache">
-        <ns0:source>Loading local AI cache…</ns0:source>
-        <ns0:target state="translated">Yerel AI önbelleği yükleniyor…</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.summary.menu.help">
         <ns0:source>More actions</ns0:source>
         <ns0:target state="translated">Diğer eylemler</ns0:target>
@@ -1645,10 +1605,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="ai.assistant.summary.regenerate">
         <ns0:source>Regenerate</ns0:source>
         <ns0:target state="translated">Yeniden Oluştur</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.assistant.summary.regenerate.help">
-        <ns0:source>Regenerate summary (does not affect chat)</ns0:source>
-        <ns0:target state="translated">Özeti yeniden oluştur (sohbeti etkilemez)</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.assistant.summary.requesting">
         <ns0:source>Preparing summary request…</ns0:source>
@@ -1866,25 +1822,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Clear All</ns0:source>
         <ns0:target state="translated">Tümünü Temizle</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.clearAllConfirm.message">
-        <ns0:source>This will delete all context.xml and metadata.json in the current output directory. Shared source ZIPs are not deleted.</ns0:source>
-        <ns0:target state="translated">Bu, geçerli çıktı dizinindeki tüm context.xml ve metadata.json dosyalarını silecektir. Paylaşılan kaynak ZIP'leri silinmez.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.clearAllConfirm.title">
-        <ns0:source>Clear all Code Contexs?</ns0:source>
-        <ns0:target state="translated">Tüm Kod Bağlamları Silinsin mi?</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="ai.context.storage.empty">
         <ns0:source>No Code Contexs in current directory yet.</ns0:source>
         <ns0:target state="translated">Geçerli dizinde henüz Kod Bağlamı yok.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.menuDelete">
-        <ns0:source>Delete</ns0:source>
-        <ns0:target state="translated">Sil</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="ai.context.storage.menuReveal">
-        <ns0:source>Reveal</ns0:source>
-        <ns0:target state="translated">Göster</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="ai.context.storage.outputDirectory">
         <ns0:source>Context Output Directory</ns0:source>
@@ -2458,14 +2398,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>About Starcat</ns0:source>
         <ns0:target state="translated">Starcat Hakkında</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.copyCode">
-        <ns0:source>Copy code</ns0:source>
-        <ns0:target state="translated">Kodu kopyala</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.enterCode">
-        <ns0:source>Enter this code in your browser</ns0:source>
-        <ns0:target state="translated">Bu kodu tarayıcınıza girin</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.error.clientIdMissing">
         <ns0:source>GitHub OAuth Client ID is missing or still a placeholder.</ns0:source>
         <ns0:target state="translated">GitHub OAuth İstemci Kimliği eksik veya hâlâ bir yer tutucu.</ns0:target>
@@ -2502,41 +2434,13 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Sign in failed</ns0:source>
         <ns0:target state="translated">Oturum açma başarısız</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.needLogin">
-        <ns0:source>Please sign in first</ns0:source>
-        <ns0:target state="translated">Lütfen önce oturum açın</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.openGithub">
-        <ns0:source>Open GitHub</ns0:source>
-        <ns0:target state="translated">GitHub'ı Aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.signIn">
-        <ns0:source>Sign in with GitHub</ns0:source>
-        <ns0:target state="translated">GitHub ile Oturum Aç</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.signOut">
         <ns0:source>Sign Out</ns0:source>
         <ns0:target state="translated">Oturumu Kapat</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="auth.subtitle">
-        <ns0:source>Organize, understand, find, and evaluate your GitHub Stars</ns0:source>
-        <ns0:target state="translated">GitHub Yıldızlarınızı düzenleyin, anlayın, bulun ve değerlendirin</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.title">
-        <ns0:source>Starcat</ns0:source>
-        <ns0:target state="translated">Starcat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="auth.unauthenticated">
         <ns0:source>Not Signed In</ns0:source>
         <ns0:target state="translated">Oturum Açılmadı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="auth.waiting">
-        <ns0:source>Waiting for authorization…</ns0:source>
-        <ns0:target state="translated">Yetkilendirme bekleniyor…</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.comingSoon">
-        <ns0:source>Coming soon</ns0:source>
-        <ns0:target state="translated">Çok yakında</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.alternative.deviceFlow">
         <ns0:source>Sign in with Device Code</ns0:source>
@@ -2549,14 +2453,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="authV2.alternative.pat">
         <ns0:source>Sign in with Token</ns0:source>
         <ns0:target state="translated">Token ile Oturum Aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.webflow.enabled">
-        <ns0:source>Sign in with browser</ns0:source>
-        <ns0:target state="translated">Tarayıcı ile Oturum Aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.alternative.webflow.tooltip">
-        <ns0:source>Open browser to authorize GitHub, then return to Starcat automatically</ns0:source>
-        <ns0:target state="translated">GitHub'ı yetkilendirmek için tarayıcıyı açın, ardından Starcat'a otomatik olarak dönün</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.cancelSignIn">
         <ns0:source>Cancel</ns0:source>
@@ -2582,29 +2478,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Continue with GitHub</ns0:source>
         <ns0:target state="translated">GitHub ile Devam Et</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.copiedSilentHint">
-        <ns0:source>Code copied to clipboard</ns0:source>
-        <ns0:target state="translated">Kod panoya kopyalandı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.copyCode">
-        <ns0:source>Copy code</ns0:source>
-        <ns0:target state="translated">Kodu kopyala</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="authV2.copyOnly">
         <ns0:source>Copy only, don't open browser</ns0:source>
         <ns0:target state="translated">Yalnızca kopyala, tarayıcıyı açma</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.enterCodeTitle">
-        <ns0:source>Enter this code on GitHub</ns0:source>
-        <ns0:target state="translated">Bu kodu GitHub'a girin</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.openGithub">
-        <ns0:source>Open GitHub</ns0:source>
-        <ns0:target state="translated">GitHub'ı Aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="authV2.openingHint">
-        <ns0:source>Opening GitHub in your browser…</ns0:source>
-        <ns0:target state="translated">Tarayıcınızda GitHub açılıyor…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="authV2.pat.back">
         <ns0:source>Back</ns0:source>
@@ -3638,10 +3514,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Loading contribution graph…</ns0:source>
         <ns0:target state="translated">Katkı grafiği yükleniyor…</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="contribution.openGithub">
-        <ns0:source>Open GitHub profile</ns0:source>
-        <ns0:target state="translated">GitHub profilini aç</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="contribution.title">
         <ns0:source>Contributions</ns0:source>
         <ns0:target state="translated">Katkılar</ns0:target>
@@ -3777,10 +3649,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="empty.noStars">
         <ns0:source>No Stars Yet</ns0:source>
         <ns0:target state="translated">Henüz Yıldız Yok</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="empty.searchPlaceholder">
-        <ns0:source>Search history, saved searches, and advanced filters coming soon.</ns0:source>
-        <ns0:target state="translated">Geçmiş arama, kaydedilmiş aramalar ve gelişmiş filtreler yakında gelecek.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="empty.selectFromList">
         <ns0:source>Select a repo from the list on the left</ns0:source>
@@ -3974,30 +3842,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Select a project from Explore</ns0:source>
         <ns0:target state="translated">Keşfet'ten bir proje seçin</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.metrics">
-        <ns0:source>Metrics</ns0:source>
-        <ns0:target state="translated">Metrikler</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.openRelease">
-        <ns0:source>Open release</ns0:source>
-        <ns0:target state="translated">Sürümü aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.reasons">
-        <ns0:source>Why this appears</ns0:source>
-        <ns0:target state="translated">Neden görünüyor</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.release">
-        <ns0:source>Release</ns0:source>
-        <ns0:target state="translated">Sürüm</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.signals">
-        <ns0:source>Signals</ns0:source>
-        <ns0:target state="translated">Sinyaller</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.detail.taxonomy">
-        <ns0:source>Tags and platforms</ns0:source>
-        <ns0:target state="translated">Etiketler ve platformlar</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="explore.discoverySignal.downloads">
         <ns0:source>Downloads</ns0:source>
         <ns0:target state="translated">İndirmeler</ns0:target>
@@ -4017,14 +3861,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="explore.empty.title">
         <ns0:source>No projects found</ns0:source>
         <ns0:target state="translated">Proje bulunamadı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sırala</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="explore.filter.title">
-        <ns0:source>Filter</ns0:source>
-        <ns0:target state="translated">Filtrele</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="explore.help.cache.title">
         <ns0:source>Cache</ns0:source>
@@ -4270,10 +4106,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Stars Ascending</ns0:source>
         <ns0:target state="translated">Yıldız Artan</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="explore.sort.title">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sırala</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="explore.sort.updated">
         <ns0:source>Recently Updated</ns0:source>
         <ns0:target state="translated">Son Güncellenen</ns0:target>
@@ -4390,14 +4222,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>OK</ns0:source>
         <ns0:target state="translated">Tamam</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="general.reset">
-        <ns0:source>Reset</ns0:source>
-        <ns0:target state="translated">Sıfırla</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="general.save">
-        <ns0:source>Save</ns0:source>
-        <ns0:target state="translated">Kaydet</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="gettingStarted.collapse">
         <ns0:source>Collapse checklist</ns0:source>
         <ns0:target state="translated">Kontrol listesini daralt</ns0:target>
@@ -4413,18 +4237,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="gettingStarted.progressFormat">
         <ns0:source>%lld of %lld completed</ns0:source>
         <ns0:target state="translated">%lld / %lld tamamlandı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.action">
-        <ns0:source>Open Agent workspace</ns0:source>
-        <ns0:target state="translated">Ajan çalışma alanını aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.detail">
-        <ns0:source>Run guided agent workflows and review generated artifacts.</ns0:source>
-        <ns0:target state="translated">Rehberli ajan iş akışlarını çalıştırın ve oluşturulan yapıtları inceleyin.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="gettingStarted.step.agentWorkspace.title">
-        <ns0:source>Try Agent workspace</ns0:source>
-        <ns0:target state="translated">Ajan çalışma alanını dene</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="gettingStarted.step.ai.action">
         <ns0:source>Open AI summary</ns0:source>
@@ -4590,17 +4402,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Start with Starcat</ns0:source>
         <ns0:target state="translated">Starcat ile başlayın</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.addTo">
-        <ns0:source>Add to...</ns0:source>
-        <ns0:target state="translated">Şuraya ekle...</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.addToGroupSection">
         <ns0:source>Add to Group:</ns0:source>
         <ns0:target state="translated">Gruba ekle:</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.moveTo">
-        <ns0:source>Move to...</ns0:source>
-        <ns0:target state="translated">Şuraya taşı...</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.moveToOtherGroupSection">
         <ns0:source>Move to Other Group:</ns0:source>
@@ -4609,10 +4413,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="githubStarLists.context.noGroups">
         <ns0:source>No groups</ns0:source>
         <ns0:target state="translated">Grup yok</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.context.removeFromGroup">
-        <ns0:source>Remove from Group</ns0:source>
-        <ns0:target state="translated">Gruptan çıkar</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.context.removeFromGroupFormat">
         <ns0:source>Remove from '%@'</ns0:source>
@@ -4673,10 +4473,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.impact">
         <ns0:source>Starcat cannot update this repository's list membership through the GitHub API.</ns0:source>
         <ns0:target state="translated">Starcat, bu deponun liste üyeliğini GitHub API'si aracılığıyla güncelleyemiyor.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.message">
-        <ns0:source>This repository belongs to an organization that restricts third-party OAuth App access. Starcat cannot update its GitHub list membership through the API. If you are only a starrer, you may not have a way to request approval; you can still change this list on GitHub.</ns0:source>
-        <ns0:target state="translated">Bu depo, üçüncü taraf OAuth Uygulama erişimini kısıtlayan bir kuruluşa ait. Starcat, GitHub liste üyeliğini API aracılığıyla güncelleyemiyor. Yalnızca bir yıldızlayıcıysanız, onay talep etme yolunuz olmayabilir; yine de bu listeyi GitHub'da değiştirebilirsiniz.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="githubStarLists.error.orgOAuthRestricted.note">
         <ns0:source>This is not a token scope issue or a local data error. It is GitHub's organization-level OAuth App policy, and ordinary starrers may not have an approval path.</ns0:source>
@@ -4830,17 +4626,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Enter Multi-Select Mode</ns0:source>
         <ns0:target state="translated">Çoklu Seçim Moduna Gir</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="list.refreshingFormat">
-        <ns0:source>%d repos · Refreshing...</ns0:source>
-        <ns0:target state="translated">%d depo · Yenileniyor...</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="list.repoCountFormat">
         <ns0:source>%d repos</ns0:source>
         <ns0:target state="translated">%d depo</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="list.selectedCountFormat">
-        <ns0:source>%d / %d selected</ns0:source>
-        <ns0:target state="translated">%d / %d seçili</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="list.sort">
         <ns0:source>Sort</ns0:source>
@@ -4933,10 +4721,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="nav.manage">
         <ns0:source>Starred</ns0:source>
         <ns0:target state="translated">Yıldızlananlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="nav.search">
-        <ns0:source>External Search</ns0:source>
-        <ns0:target state="translated">Harici Arama</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="nav.trending">
         <ns0:source>Explore</ns0:source>
@@ -5422,10 +5206,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Chunk content</ns0:source>
         <ns0:target state="translated">Parça içeriği</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.delete">
-        <ns0:source>Exclude from RAG</ns0:source>
-        <ns0:target state="translated">RAG'den çıkar</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.chunk.disable">
         <ns0:source>Disable chunk</ns0:source>
         <ns0:target state="translated">Parçayı devre dışı bırak</ns0:target>
@@ -5458,14 +5238,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Permanently delete this chunk?</ns0:source>
         <ns0:target state="translated">Bu parça kalıcı olarak silinsin mi?</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.restore">
-        <ns0:source>Restore to RAG</ns0:source>
-        <ns0:target state="translated">RAG'a geri yükle</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.chunk.revert">
-        <ns0:source>Revert manual edit</ns0:source>
-        <ns0:target state="translated">Manuel düzenlemeyi geri al</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.chunk.save">
         <ns0:source>Save</ns0:source>
         <ns0:target state="translated">Kaydet</ns0:target>
@@ -5497,10 +5269,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.browser.chunks.tokenCountFormat">
         <ns0:source>≈ %lld tokens</ns0:source>
         <ns0:target state="translated">≈ %lld token</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.empty">
-        <ns0:source>No repositories in the knowledge base</ns0:source>
-        <ns0:target state="translated">Bilgi tabanında depo yok</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.noChunks">
         <ns0:source>No indexed content yet</ns0:source>
@@ -5622,10 +5390,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Retrieved chunk</ns0:source>
         <ns0:target state="translated">Alınan parça</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.retrieval.hint">
-        <ns0:source>No chat completion</ns0:source>
-        <ns0:target state="translated">Sohbet tamamlama yok</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.retrieval.noHitsMessage">
         <ns0:source>Try rephrasing the question or refreshing the index.</ns0:source>
         <ns0:target state="translated">Soruyu yeniden ifade etmeyi veya dizini yenilemeyi deneyin.</ns0:target>
@@ -5661,10 +5425,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.browser.retrieval.settings.title">
         <ns0:source>Test Parameters</ns0:source>
         <ns0:target state="translated">Test Parametreleri</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.retrieval.settings.tokenBudgetNote">
-        <ns0:source>%lld-token chunk budget applies to answer context, not this retrieval test.</ns0:source>
-        <ns0:target state="translated">%lld token yığın bütçesi, yanıt bağlamına uygulanır, bu alma testine değil.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.browser.retrieval.settings.unsaved">
         <ns0:source>Unsaved</ns0:source>
@@ -5737,10 +5497,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.browser.totalChunks">
         <ns0:source>Total chunks</ns0:source>
         <ns0:target state="translated">Toplam yığın</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.browser.window.title">
-        <ns0:source>Knowledge Base</ns0:source>
-        <ns0:target state="translated">Bilgi Tabanı</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.core.attachment.error.fileTooLargeFormat">
         <ns0:source>Attachment is too large: %@</ns0:source>
@@ -5918,86 +5674,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Conversation title generation failed: %@</ns0:source>
         <ns0:target state="translated">Konuşma başlığı oluşturma başarısız oldu: %@</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.sectionPath">
-        <ns0:source>Local storage selection</ns0:source>
-        <ns0:target state="translated">Yerel depolama seçimi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.snippet">
-        <ns0:source>Local-first apps need controllable transactions, migrations, and FTS capabilities. GRDB is already used in Starcat and fits as the local storage base for RAG chunks and citations.</ns0:source>
-        <ns0:target state="translated">Yerel öncelikli uygulamaların kontrol edilebilir işlemler, geçişler ve FTS yeteneklerine ihtiyacı vardır. GRDB, Starcat'ta zaten kullanılmaktadır ve RAG yığınları ve alıntılar için yerel depolama temeli olarak uygundur.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.citation.grdbRecords.title">
-        <ns0:source>SQLite + GRDB as local cache layer</ns0:source>
-        <ns0:target state="translated">SQLite + GRDB yerel önbellek katmanı olarak</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.concurrency.subtitle">
-        <ns0:source>actor / task cancellation</ns0:source>
-        <ns0:target state="translated">actor / görev iptali</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.concurrency.title">
-        <ns0:source>Swift Concurrency Best Practices</ns0:source>
-        <ns0:target state="translated">Swift Eşzamanlılık En İyi Uygulamaları</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.localRAG.subtitle">
-        <ns0:source>Swift project comparison</ns0:source>
-        <ns0:target state="translated">Swift proje karşılaştırması</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.localRAG.title">
-        <ns0:source>Local RAG Plan</ns0:source>
-        <ns0:target state="translated">Yerel RAG Planı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.markdown.subtitle">
-        <ns0:source>Parser library and README cleanup</ns0:source>
-        <ns0:target state="translated">Ayrıştırıcı kütüphanesi ve README temizliği</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.markdown.title">
-        <ns0:source>Swift Markdown Rendering</ns0:source>
-        <ns0:target state="translated">Swift Markdown İşleme</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.vectorDB.subtitle">
-        <ns0:source>Desktop app selection</ns0:source>
-        <ns0:target state="translated">Masaüstü uygulama seçimi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.conversation.vectorDB.title">
-        <ns0:source>Vector Database Comparison</ns0:source>
-        <ns0:target state="translated">Vektör Veritabanı Karşılaştırması</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.repo.status.githubCitation">
-        <ns0:source>GitHub citation</ns0:source>
-        <ns0:target state="translated">GitHub alıntısı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.repo.status.inKnowledgeBase">
-        <ns0:source>In knowledge base</ns0:source>
-        <ns0:target state="translated">Bilgi tabanında</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.source.aiSummary">
-        <ns0:source>AI Summary</ns0:source>
-        <ns0:target state="translated">AI Özeti</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.source.notes">
-        <ns0:source>Notes</ns0:source>
-        <ns0:target state="translated">Notlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.privateNote">
-        <ns0:source>Private note</ns0:source>
-        <ns0:target state="translated">Özel not</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.readmeCache">
-        <ns0:source>README cache</ns0:source>
-        <ns0:target state="translated">README önbelleği</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.sourceDetail.repoSummary">
-        <ns0:source>Repository summary</ns0:source>
-        <ns0:target state="translated">Depo özeti</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.time.fiveDaysAgo">
-        <ns0:source>5 days ago</ns0:source>
-        <ns0:target state="translated">5 gün önce</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.demo.time.yesterday">
-        <ns0:source>Yesterday</ns0:source>
-        <ns0:target state="translated">Dün</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.storage.error.conversationMissing">
         <ns0:source>The persisted RAG conversation is missing</ns0:source>
         <ns0:target state="translated">Kalıcı RAG konuşması bulunamadı</ns0:target>
@@ -6074,18 +5750,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Export Markdown</ns0:source>
         <ns0:target state="translated">Markdown olarak dışa aktar</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.textContext">
-        <ns0:source>temporary text context</ns0:source>
-        <ns0:target state="translated">geçici metin bağlamı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.unsupported">
-        <ns0:source>unsupported</ns0:source>
-        <ns0:target state="translated">desteklenmiyor</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.attachment.vision">
-        <ns0:source>vision input</ns0:source>
-        <ns0:target state="translated">görsel girdi</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.citations.collapse">
         <ns0:source>Show less</ns0:source>
         <ns0:target state="translated">Daha az göster</ns0:target>
@@ -6145,10 +5809,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.workspace.composer.send">
         <ns0:source>Send</ns0:source>
         <ns0:target state="translated">Gönder</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.composer.sources">
-        <ns0:source>Sources: README / Notes / Summary</ns0:source>
-        <ns0:target state="translated">Kaynaklar: README / Notlar / Özet</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.composer.webSearch.off">
         <ns0:source>Enable web search</ns0:source>
@@ -6210,29 +5870,9 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
         <ns0:source>Context usage (Composer)</ns0:source>
         <ns0:target state="translated">Bağlam kullanımı (Besteci)</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.definition.body">
-        <ns0:source>After you send a question, Starcat allocates the model context window across prompt segments: system rules, conversation history, your question, retrieved evidence, remote content, and attachments. Reserved output space is listed separately.</ns0:source>
-        <ns0:target state="translated">Bir soru gönderdikten sonra Starcat, model bağlam penceresini istem bölümlerine ayırır: sistem kuralları, konuşma geçmişi, sorunuz, getirilen kanıtlar, uzak içerik ve ekler. Ayrılmış çıktı alanı ayrıca listelenir.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.definition.title">
-        <ns0:source>What is context budget?</ns0:source>
-        <ns0:target state="translated">Bağlam bütçesi nedir?</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.budget.help.footnote">
         <ns0:source>Token counts are local estimates for budget boundaries, not exact provider billing.</ns0:source>
         <ns0:target state="translated">Token sayıları, bütçe sınırları için yerel tahminlerdir, kesin sağlayıcı faturalaması değildir.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.open">
-        <ns0:source>Learn about context budget</ns0:source>
-        <ns0:target state="translated">Bağlam bütçesi hakkında bilgi edinin</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.budget.help.title">
-        <ns0:source>About context budget</ns0:source>
-        <ns0:target state="translated">Bağlam bütçesi hakkında</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.emptyPreview">
-        <ns0:source>No prompt has been built yet.</ns0:source>
-        <ns0:target state="translated">Henüz bir istem oluşturulmadı.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.evidence">
         <ns0:source>Knowledge base citations</ns0:source>
@@ -6249,10 +5889,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.workspace.context.percentFull">
         <ns0:source>%lld%% Full</ns0:source>
         <ns0:target state="translated">%lld%% Dolu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.context.promptPreview">
-        <ns0:source>Prompt preview</ns0:source>
-        <ns0:target state="translated">İstem önizlemesi</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.context.question">
         <ns0:source>Question and plan</ns0:source>
@@ -6353,10 +5989,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.workspace.debug.copy">
         <ns0:source>Copy debug record</ns0:source>
         <ns0:target state="translated">Hata ayıklama kaydını kopyala</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.debug.disabledHint">
-        <ns0:source>Enable RAG debug mode to capture the next question, retrieval, prompt, and LLM response.</ns0:source>
-        <ns0:target state="translated">Bir sonraki soruyu, almayı, istemi ve LLM yanıtını yakalamak için RAG hata ayıklama modunu etkinleştirin.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.debug.elapsedFormat">
         <ns0:source>%.1fs</ns0:source>
@@ -6653,22 +6285,6 @@ Yeniden Keşfet — Doğru depoya geri dönmek için arama ve filtreleme yapın.
       <ns0:trans-unit id="rag.workspace.debug.stepDuration.help">
         <ns0:source>Duration of this step (since the previous debug event)</ns0:source>
         <ns0:target state="translated">Bu adımın süresi (önceki hata ayıklama olayından bu yana)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.answer.intro">
-        <ns0:source>Based on repository metadata, README chunks, notes, and existing summaries in the knowledge base, the most relevant Swift projects are below. Each project is tied to citations actually used in this answer.</ns0:source>
-        <ns0:target state="translated">Depo meta verileri, README parçaları, notlar ve bilgi tabanındaki mevcut özetlere dayanarak, en alakalı Swift projeleri aşağıdadır. Her proje, bu yanıtta gerçekten kullanılan alıntılara bağlıdır.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.answer.recommendation">
-        <ns0:source>For a first version of local RAG, start with GRDB.swift for local storage and swift-markdown for document parsing. MCP Swift SDK is better suited for later tool-calling extensions.</ns0:source>
-        <ns0:target state="translated">Yerel RAG'ın ilk sürümü için, yerel depolama için GRDB.swift ve belge ayrıştırma için swift-markdown ile başlayın. MCP Swift SDK, daha sonraki araç çağırma uzantıları için daha uygundur.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.pendingQuestion">
-        <ns0:source>Continue asking the knowledge base...</ns0:source>
-        <ns0:target state="translated">Bilgi tabanına sormaya devam edin...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.demo.question">
-        <ns0:source>Which Swift projects in my knowledge base are suitable for local RAG?</ns0:source>
-        <ns0:target state="translated">Bilgi tabanımdaki hangi Swift projeleri yerel RAG için uygundur?</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.empty.noKnowledge.banner">
         <ns0:source>No repositories in the knowledge base yet.</ns0:source>
@@ -7106,14 +6722,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
         <ns0:source>Ready</ns0:source>
         <ns0:target state="translated">Hazır</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.header.streaming">
-        <ns0:source>Streaming</ns0:source>
-        <ns0:target state="translated">Akış</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.header.subtitle">
-        <ns0:source>Knowledge base · 126 repos · 1,248 ready chunks · GPT-4.1 · Read-only</ns0:source>
-        <ns0:target state="translated">Bilgi tabanı · 126 depo · 1.248 hazır parça · GPT-4.1 · Salt okunur</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.history.loadEarlier">
         <ns0:source>Load more history</ns0:source>
         <ns0:target state="translated">Daha fazla geçmiş yükle</ns0:target>
@@ -7121,10 +6729,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
       <ns0:trans-unit id="rag.workspace.history.loadEarlier.help">
         <ns0:source>Show earlier turns from this conversation</ns0:source>
         <ns0:target state="translated">Bu konuşmadaki önceki turları göster</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.index.chunksShort">
-        <ns0:source>Chunks</ns0:source>
-        <ns0:target state="translated">Parçalar</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.index.embedding">
         <ns0:source>Embedding</ns0:source>
@@ -7230,10 +6834,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
         <ns0:source>GitHub</ns0:source>
         <ns0:target state="translated">GitHub</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.citationSnippet">
-        <ns0:source>Citation snippet</ns0:source>
-        <ns0:target state="translated">Alıntı parçası</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.citationStarcatDetail">
         <ns0:source>Starcat detail</ns0:source>
         <ns0:target state="translated">Starcat detayı</ns0:target>
@@ -7250,10 +6850,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
         <ns0:source>Question to clarify</ns0:source>
         <ns0:target state="translated">Açıklanacak soru</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.confidence">
-        <ns0:source>Confidence</ns0:source>
-        <ns0:target state="translated">Güven</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.confidence.high">
         <ns0:source>High</ns0:source>
         <ns0:target state="translated">Yüksek</ns0:target>
@@ -7265,10 +6861,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
       <ns0:trans-unit id="rag.workspace.inspector.confidence.needsClarification">
         <ns0:source>Need more details</ns0:source>
         <ns0:target state="translated">Daha fazla ayrıntı gerekli</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.detailPage">
-        <ns0:source>Detail page</ns0:source>
-        <ns0:target state="translated">Detay sayfası</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.fetchedAt">
         <ns0:source>Fetched at</ns0:source>
@@ -7285,10 +6877,6 @@ Aşağıdaki teknik ayrıntılar, sorunu teşhis etmeye yardımcı olmak için o
       <ns0:trans-unit id="rag.workspace.inspector.matchType">
         <ns0:source>Match type</ns0:source>
         <ns0:target state="translated">Eşleşme türü</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.activity">
-        <ns0:source>Added / pushed (30d)</ns0:source>
-        <ns0:target state="translated">Eklendi / gönderildi (30g)</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.added30d">
         <ns0:source>Added · 30d</ns0:source>
@@ -7460,10 +7048,6 @@ Ready %2$@ · Failed %3$@ · Stale %4$@ · Total %5$@</ns0:source>
         <ns0:target state="translated">%1$@ depo
 Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.index">
-        <ns0:source>Index ready / pending / failed / stale</ns0:source>
-        <ns0:target state="translated">Dizin hazır / bekleyen / başarısız / bayat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.index.failed">
         <ns0:source>Failed</ns0:source>
         <ns0:target state="translated">Başarısız</ns0:target>
@@ -7536,10 +7120,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
         <ns0:source>Status</ns0:source>
         <ns0:target state="translated">Durum</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.subtitle">
-        <ns0:source>Read-only local facts. The next answer receives this same snapshot.</ns0:source>
-        <ns0:target state="translated">Salt okunur yerel bilgiler. Bir sonraki yanıt aynı anlık görüntüyü alır.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.summariesGenerated30d">
         <ns0:source>Summaries · 30d</ns0:source>
         <ns0:target state="translated">Özetler · 30g</ns0:target>
@@ -7551,10 +7131,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.taggedRatio">
         <ns0:source>Tagged</ns0:source>
         <ns0:target state="translated">Etiketli</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.metadata.tags">
-        <ns0:source>Tagged / untagged · distinct tags</ns0:source>
-        <ns0:target state="translated">Etiketli / etiketsiz · farklı etiketler</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.metadata.title">
         <ns0:source>Metadata</ns0:source>
@@ -7599,10 +7175,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.openStarcat">
         <ns0:source>Open Starcat detail</ns0:source>
         <ns0:target state="translated">Starcat detayını aç</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.otherCitations">
-        <ns0:source>Other citations</ns0:source>
-        <ns0:target state="translated">Diğer alıntılar</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.analytics">
         <ns0:source>Structured analytics</ns0:source>
@@ -8088,10 +7660,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
         <ns0:source>Question understanding</ns0:source>
         <ns0:target state="translated">Soru anlama</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.plan.remoteSupplement">
-        <ns0:source>Live GitHub context</ns0:source>
-        <ns0:target state="translated">Canlı GitHub bağlamı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.repoContext">
         <ns0:source>Project code</ns0:source>
         <ns0:target state="translated">Proje kodu</ns0:target>
@@ -8312,10 +7880,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
         <ns0:source>Knowledge Base</ns0:source>
         <ns0:target state="translated">Bilgi Tabanı</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.plan.searchScope">
-        <ns0:source>Search scope</ns0:source>
-        <ns0:target state="translated">Arama kapsamı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.plan.webSearch">
         <ns0:source>Web search</ns0:source>
         <ns0:target state="translated">Web araması</ns0:target>
@@ -8331,14 +7895,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.planCandidateLimitFormat">
         <ns0:source>Review up to %lld candidate repositories</ns0:source>
         <ns0:target state="translated">En fazla %lld aday depoyu incele</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planExecutionSummary">
-        <ns0:source>Execution</ns0:source>
-        <ns0:target state="translated">Yürütme</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planExecutionSummaryFormat">
-        <ns0:source>Reviewed %1$lld candidates · matched %2$lld passages · used chunks from %3$lld repositories</ns0:source>
-        <ns0:target state="translated">%1$lld aday incelendi · %2$lld pasaj eşleşti · %3$lld depodan parça kullanıldı</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.planMode">
         <ns0:source>Mode</ns0:source>
@@ -8371,10 +7927,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.planRemoteBudgetFormat">
         <ns0:source>Up to %1$lld repositories · %2$lld items per repository</ns0:source>
         <ns0:target state="translated">En fazla %1$lld depo · depo başına %2$lld öğe</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.planScope">
-        <ns0:source>Scope</ns0:source>
-        <ns0:target state="translated">Kapsam</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.planSort">
         <ns0:source>Prioritization</ns0:source>
@@ -8492,10 +8044,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
         <ns0:source>Source</ns0:source>
         <ns0:target state="translated">Kaynak</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.starcatDetail">
-        <ns0:source>Starcat local detail</ns0:source>
-        <ns0:target state="translated">Starcat yerel detayı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.subtitle">
         <ns0:source>Sources used in this answer</ns0:source>
         <ns0:target state="translated">Bu yanıtta kullanılan kaynaklar</ns0:target>
@@ -8519,10 +8067,6 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
       <ns0:trans-unit id="rag.workspace.inspector.title">
         <ns0:source>Context</ns0:source>
         <ns0:target state="translated">Bağlam</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.inspector.truncated">
-        <ns0:source>Snippet truncated to fit the token budget</ns0:source>
-        <ns0:target state="translated">Parça, token bütçesine sığacak şekilde kısaltıldı</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.inspector.vectorSimilarity">
         <ns0:source>Vector similarity</ns0:source>
@@ -8564,25 +8108,9 @@ Hazır %2$@ · Başarısız %3$@ · Bayat %4$@ · Toplam %5$@</ns0:target>
         <ns0:source>Knowledge base is empty</ns0:source>
         <ns0:target state="translated">Bilgi tabanı boş</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.filterHint">
-        <ns0:source>Type after @ to filter</ns0:source>
-        <ns0:target state="translated">Filtrelemek için @'den sonra yazın</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.filterLabel">
-        <ns0:source>Filter: %@</ns0:source>
-        <ns0:target state="translated">Filtre: %@</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.languageHint">
-        <ns0:source>Reuse interested languages from Settings. Tap + to add more.</ns0:source>
-        <ns0:target state="translated">Ayarlar'dan ilgili dilleri tekrar kullanın. Daha fazla eklemek için +'ya dokunun.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.mention.narrowHint">
         <ns0:source>Showing %1$d of %2$d · keep typing to narrow</ns0:source>
         <ns0:target state="translated">%1$d / %2$d gösteriliyor · daraltmak için yazmaya devam edin</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.mention.noDescription">
-        <ns0:source>No description</ns0:source>
-        <ns0:target state="translated">Açıklama yok</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.mention.searchPlaceholder">
         <ns0:source>Search knowledge base repositories</ns0:source>
@@ -9114,10 +8642,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Failed chunks</ns0:source>
         <ns0:target state="translated">Başarısız parçalar</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.indexIncomplete">
-        <ns0:source>Some content is pending, stale, or failed.</ns0:source>
-        <ns0:target state="translated">Bazı içerikler bekliyor, güncelliğini yitirmiş veya başarısız.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.knowledgeBase">
         <ns0:source>Knowledge base</ns0:source>
         <ns0:target state="translated">Bilgi tabanı</ns0:target>
@@ -9126,41 +8650,13 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>0 repositories · tap to add</ns0:source>
         <ns0:target state="translated">0 depo · eklemek için dokunun</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.mode">
-        <ns0:source>Mode</ns0:source>
-        <ns0:target state="translated">Mod</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.pendingChunks">
         <ns0:source>Pending chunks</ns0:source>
         <ns0:target state="translated">Bekleyen parçalar</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.readOnly">
-        <ns0:source>Read-only</ns0:source>
-        <ns0:target state="translated">Salt okunur</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.readyChunks">
         <ns0:source>Ready chunks</ns0:source>
         <ns0:target state="translated">Hazır parçalar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.readyChunksFormat">
-        <ns0:source>%d ready chunks</ns0:source>
-        <ns0:target state="translated">%d hazır parça</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.repos">
-        <ns0:source>Repos</ns0:source>
-        <ns0:target state="translated">Depolar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.scope">
-        <ns0:source>Scope</ns0:source>
-        <ns0:target state="translated">Kapsam</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.sources">
-        <ns0:source>Sources</ns0:source>
-        <ns0:target state="translated">Kaynaklar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="rag.workspace.status.sourcesValue">
-        <ns0:source>README / Notes / Summary</ns0:source>
-        <ns0:target state="translated">README / Notlar / Özet</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="rag.workspace.status.staleChunks">
         <ns0:source>Stale chunks</ns0:source>
@@ -9201,10 +8697,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="readme.failed">
         <ns0:source>Failed to load README</ns0:source>
         <ns0:target state="translated">README yüklenemedi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="readme.loading">
-        <ns0:source>Loading README…</ns0:source>
-        <ns0:target state="translated">README yükleniyor…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="readme.mermaid.renderFailed">
         <ns0:source>Could not render this Mermaid diagram. Raw source is shown below.</ns0:source>
@@ -9253,10 +8745,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="readme.translate.action">
         <ns0:source>Translate</ns0:source>
         <ns0:target state="translated">Çevir</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="readme.translate.error.dismiss">
-        <ns0:source>Click to dismiss</ns0:source>
-        <ns0:target state="translated">Kapatmak için tıklayın</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="readme.translate.error.emptySource">
         <ns0:source>No README to translate.</ns0:source>
@@ -9442,14 +8930,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Unsubscribe failed</ns0:source>
         <ns0:target state="translated">Abonelikten çıkma başarısız</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="releases.notify.disable">
-        <ns0:source>Mute new release notifications</ns0:source>
-        <ns0:target state="translated">Yeni sürüm bildirimlerini sessize al</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="releases.notify.enable">
-        <ns0:source>Enable new release notifications</ns0:source>
-        <ns0:target state="translated">Yeni sürüm bildirimlerini etkinleştir</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="releases.openOnGitHub">
         <ns0:source>Open on GitHub</ns0:source>
         <ns0:target state="translated">GitHub'da aç</ns0:target>
@@ -9497,10 +8977,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="releases.row.viewDetails">
         <ns0:source>View details</ns0:source>
         <ns0:target state="translated">Ayrıntıları görüntüle</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="releases.section.noRelease">
-        <ns0:source>No release published yet</ns0:source>
-        <ns0:target state="translated">Henüz yayınlanmış sürüm yok</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="releases.section.title">
         <ns0:source>Releases</ns0:source>
@@ -9742,10 +9218,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Preview</ns0:source>
         <ns0:target state="translated">Önizleme</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.notes.editor.title">
-        <ns0:source>Notes</ns0:source>
-        <ns0:target state="translated">Notlar</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.notes.expandEditor">
         <ns0:source>Expand the note editor (supports Markdown preview)</ns0:source>
         <ns0:target state="translated">Not düzenleyicisini genişlet (Markdown önizlemesini destekler)</ns0:target>
@@ -9797,10 +9269,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="repo.privateNotes">
         <ns0:source>Notes</ns0:source>
         <ns0:target state="translated">Notlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.recommendations.archived">
-        <ns0:source>Archived</ns0:source>
-        <ns0:target state="translated">Arşivlenmiş</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.recommendations.countFormat">
         <ns0:source>%d repos</ns0:source>
@@ -9861,10 +9329,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="repo.share.cancelled.title">
         <ns0:source>Creation Cancelled</ns0:source>
         <ns0:target state="translated">Oluşturma İptal Edildi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.share.error.cancel">
-        <ns0:source>Cancel</ns0:source>
-        <ns0:target state="translated">İptal</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.share.error.missingAIConfig">
         <ns0:source>Sharing uses an AI summary for the share page. No AI provider is configured yet — open Settings → AI, add an API key for the Summary task, then try again.</ns0:source>
@@ -9950,10 +9414,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Close</ns0:source>
         <ns0:target state="translated">Kapat</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.share.success.copied">
-        <ns0:source>Link copied</ns0:source>
-        <ns0:target state="translated">Bağlantı kopyalandı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.share.success.copyLink">
         <ns0:source>Copy Link</ns0:source>
         <ns0:target state="translated">Bağlantıyı Kopyala</ns0:target>
@@ -9978,29 +9438,9 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Star</ns0:source>
         <ns0:target state="translated">Yıldızla</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.star.failed">
-        <ns0:source>Star failed</ns0:source>
-        <ns0:target state="translated">Yıldızlama başarısız</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.stars">
         <ns0:source>Stars</ns0:source>
         <ns0:target state="translated">Yıldızlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.forks">
-        <ns0:source>Forks</ns0:source>
-        <ns0:target state="translated">Çatallar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.issues">
-        <ns0:source>Issues</ns0:source>
-        <ns0:target state="translated">Sorunlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.stars">
-        <ns0:source>Stars</ns0:source>
-        <ns0:target state="translated">Yıldızlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.stats.watchers">
-        <ns0:source>Watchers</ns0:source>
-        <ns0:target state="translated">İzleyiciler</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.status">
         <ns0:source>Status</ns0:source>
@@ -10010,10 +9450,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Stop using</ns0:source>
         <ns0:target state="translated">Kullanmayı durdur</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="repo.status.deprecated">
-        <ns0:source>Deprecated</ns0:source>
-        <ns0:target state="translated">Kullanımdan kaldırıldı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="repo.status.markUsingHint">
         <ns0:source>Click to mark as Using</ns0:source>
         <ns0:target state="translated">Kullanılıyor olarak işaretlemek için tıklayın</ns0:target>
@@ -10021,10 +9457,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="repo.status.read">
         <ns0:source>Read</ns0:source>
         <ns0:target state="translated">Okundu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.status.reading">
-        <ns0:source>Reading</ns0:source>
-        <ns0:target state="translated">Okunuyor</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.status.unread">
         <ns0:source>Unread</ns0:source>
@@ -10041,30 +9473,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="repo.unstar">
         <ns0:source>Unstar</ns0:source>
         <ns0:target state="translated">Yıldızı kaldır</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.action">
-        <ns0:source>Unstar</ns0:source>
-        <ns0:target state="translated">Yıldızı kaldır</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.actionFailed">
-        <ns0:source>Unstar failed</ns0:source>
-        <ns0:target state="translated">Yıldız kaldırma başarısız</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.confirm">
-        <ns0:source>Unstar?</ns0:source>
-        <ns0:target state="translated">Yıldız kaldırılsın mı?</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.dontUnstar">
-        <ns0:source>Don't Unstar</ns0:source>
-        <ns0:target state="translated">Yıldızı Kaldırma</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.failed">
-        <ns0:source>Unstar failed</ns0:source>
-        <ns0:target state="translated">Yıldız kaldırma başarısız</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="repo.unstar.messageFormat">
-        <ns0:source>Will unstar %@ via GitHub API and remove it from the local list. Tags and notes will be kept and restored if you star it again.</ns0:source>
-        <ns0:target state="translated">%@ GitHub API üzerinden yıldızdan çıkarılacak ve yerel listeden kaldırılacak. Etiketler ve notlar saklanacak ve tekrar yıldızlarsanız geri yüklenecek.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="repo.updated">
         <ns0:source>Updated</ns0:source>
@@ -10546,10 +9954,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Clear search</ns0:source>
         <ns0:target state="translated">Aramayı temizle</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.close">
-        <ns0:source>Close search</ns0:source>
-        <ns0:target state="translated">Aramayı kapat</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.contextMenu.aiSummary">
         <ns0:source>Ask / AI summary</ns0:source>
         <ns0:target state="translated">Sor / Yapay zeka özeti</ns0:target>
@@ -10830,10 +10234,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>%lld GitHub matches</ns0:source>
         <ns0:target state="translated">%lld GitHub eşleşmesi</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.hint">
-        <ns0:source>Search</ns0:source>
-        <ns0:target state="translated">Ara</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.history.clearAll">
         <ns0:source>Clear all</ns0:source>
         <ns0:target state="translated">Tümünü temizle</ns0:target>
@@ -10894,10 +10294,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>AI mode · Pro required</ns0:source>
         <ns0:target state="translated">AI modu · Pro gerekli</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.mode.title">
-        <ns0:source>Search Mode</ns0:source>
-        <ns0:target state="translated">Arama Modu</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.paywall.semantic.upgrade">
         <ns0:source>AI Semantic Search is a Pro feature. Upgrade to search by meaning, not just keywords.</ns0:source>
         <ns0:target state="translated">Yapay Zeka Anlamsal Arama, Pro özelliğidir. Sadece anahtar kelimelerle değil, anlamla aramak için yükseltin.</ns0:target>
@@ -10938,18 +10334,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Refresh semantic index</ns0:source>
         <ns0:target state="translated">Anlamsal dizini yenile</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.refreshIndex.hint">
-        <ns0:source>Regenerate embeddings for all starred repositories</ns0:source>
-        <ns0:target state="translated">Yıldızlanan tüm depolar için gömme vektörlerini yeniden oluştur</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.refreshingFormat">
-        <ns0:source>%d semantic results · Refreshing...</ns0:source>
-        <ns0:target state="translated">%d anlamsal sonuç · Yenileniyor...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.semantic.resultCountFormat">
-        <ns0:source>%d semantic results</ns0:source>
-        <ns0:target state="translated">%d anlamsal sonuç</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="search.semantic.scope.all">
         <ns0:source>All</ns0:source>
         <ns0:target state="translated">Tümü</ns0:target>
@@ -10977,10 +10361,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="search.semantic.scope.starred.short">
         <ns0:source>Stars</ns0:source>
         <ns0:target state="translated">Yıldızlar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="search.title">
-        <ns0:source>Search</ns0:source>
-        <ns0:target state="translated">Ara</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="search.web.excludeDomains">
         <ns0:source>Exclude domains</ns0:source>
@@ -11045,14 +10425,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="search.web.summaryFormat">
         <ns0:source>%1$lld results · %2$.1fs</ns0:source>
         <ns0:target state="translated">%1$lld sonuç · %2$.1fs</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.connection">
-        <ns0:source>Connection</ns0:source>
-        <ns0:target state="translated">Bağlantı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.customModel">
-        <ns0:source>Custom Model...</ns0:source>
-        <ns0:target state="translated">Özel Model...</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.discoveredModels.empty">
         <ns0:source>No models yet. Tap "Test", or use a custom model name in the defaults.</ns0:source>
@@ -11153,34 +10525,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.ai.modelParams.unit.seconds">
         <ns0:source>s</ns0:source>
         <ns0:target state="translated">s</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.apiKey">
-        <ns0:source>API Key</ns0:source>
-        <ns0:target state="translated">API Anahtarı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.baseUrl">
-        <ns0:source>Base URL</ns0:source>
-        <ns0:target state="translated">Temel URL</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.baseUrl.help">
-        <ns0:source>Standard: https://api.openai.com/v1. You can change this to use DeepSeek, OpenRouter, or other OpenAI-compatible services.</ns0:source>
-        <ns0:target state="translated">Standart: https://api.openai.com/v1. DeepSeek, OpenRouter veya diğer OpenAI uyumlu hizmetleri kullanmak için bunu değiştirebilirsiniz.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.config">
-        <ns0:source>OpenAI API Configuration</ns0:source>
-        <ns0:target state="translated">OpenAI API Yapılandırması</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.customModelName">
-        <ns0:source>Model Name</ns0:source>
-        <ns0:target state="translated">Model Adı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.customModelName.help">
-        <ns0:source>Enter the specific model ID (e.g., deepseek-chat, claude-3-5-sonnet-20240620).</ns0:source>
-        <ns0:target state="translated">Belirli model kimliğini girin (ör. deepseek-chat, claude-3-5-sonnet-20240620).</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.openai.model">
-        <ns0:source>Model</ns0:source>
-        <ns0:target state="translated">Model</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.privacy.notice">
         <ns0:source>Starcat does not relay AI requests through any of our servers. Summaries, tag suggestions and semantic search send the minimum repository metadata / README excerpt directly to your selected provider.</ns0:source>
@@ -11374,10 +10718,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
         <ns0:source>Delete current provider</ns0:source>
         <ns0:target state="translated">Geçerli sağlayıcıyı sil</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.provider.description">
-        <ns0:source>Starcat is built on a BYOK (Bring Your Own Key) model. Your keys are encrypted and stored locally on your device.</ns0:source>
-        <ns0:target state="translated">Starcat, BYOK (Kendi Anahtarını Getir) modeli üzerine kurulmuştur. Anahtarlarınız şifrelenir ve cihazınızda yerel olarak saklanır.</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.provider.displayName">
         <ns0:source>Display name</ns0:source>
         <ns0:target state="translated">Görünen ad</ns0:target>
@@ -11385,10 +10725,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.ai.provider.empty">
         <ns0:source>No verified providers yet. Tap + on the right to add one.</ns0:source>
         <ns0:target state="translated">Henüz doğrulanmış sağlayıcı yok. Sağdaki +'ya dokunarak bir tane ekleyin.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.provider.notImplemented">
-        <ns0:source>Integration for this provider is coming in a future update.</ns0:source>
-        <ns0:target state="translated">Bu sağlayıcı için entegrasyon gelecek bir güncellemede gelecek.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.provider.pickerLabel">
         <ns0:source>Provider profile</ns0:source>
@@ -11405,18 +10741,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.ai.provider.testButton">
         <ns0:source>Test</ns0:source>
         <ns0:target state="translated">Test</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.serviceConfig">
-        <ns0:source>Service Configuration</ns0:source>
-        <ns0:target state="translated">Hizmet Yapılandırması</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.status">
-        <ns0:source>Status</ns0:source>
-        <ns0:target state="translated">Durum</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.status.notConfigured">
-        <ns0:source>Not Configured</ns0:source>
-        <ns0:target state="translated">Yapılandırılmamış</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.task.customModelLabel">
         <ns0:source>Custom model</ns0:source>
@@ -11449,10 +10773,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.ai.taskModels.title">
         <ns0:source>Model assignments</ns0:source>
         <ns0:target state="translated">Model atamaları</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.ai.testConnection">
-        <ns0:source>Test Connection</ns0:source>
-        <ns0:target state="translated">Bağlantıyı Test Et</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.ai.title">
         <ns0:source>AI Service</ns0:source>
@@ -11565,78 +10885,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.aiIndex.truncateLength.hint">
         <ns0:source>Maximum characters fed to embedding model after README cleanup.</ns0:source>
         <ns0:target state="translated">README temizliğinden sonra yerleştirme modeline beslenen maksimum karakter sayısı.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.aiContext">
-        <ns0:source>Use external web context in AI features</ns0:source>
-        <ns0:target state="translated">AI özelliklerinde harici web bağlamı kullan</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.allowPrivateContext">
-        <ns0:source>Allow external context for private repositories</ns0:source>
-        <ns0:target state="translated">Özel depolar için harici bağlama izin ver</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.anonymous">
-        <ns0:source>Anonymous mode (do not send API Key)</ns0:source>
-        <ns0:target state="translated">Anonim mod (API Anahtarı gönderme)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey">
-        <ns0:source>API Key</ns0:source>
-        <ns0:target state="translated">API Anahtarı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.anonymousDescription">
-        <ns0:source>Anonymous requests do not send an Authorization header. Testing an API Key always uses bearer mode.</ns0:source>
-        <ns0:target state="translated">Anonim istekler Authorization başlığı göndermez. Bir API Anahtarını test etmek her zaman bearer modunu kullanır.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.bearerDescription">
-        <ns0:source>The key is stored securely on this Mac. Testing may consume one provider search request.</ns0:source>
-        <ns0:target state="translated">Anahtar bu Mac'te güvenli bir şekilde saklanır. Test, bir sağlayıcı arama isteği tüketebilir.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.hide">
-        <ns0:source>Hide API Key</ns0:source>
-        <ns0:target state="translated">API Anahtarını Gizle</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.placeholder">
-        <ns0:source>Enter Provider API Key</ns0:source>
-        <ns0:target state="translated">Sağlayıcı API Anahtarını Girin</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.save">
-        <ns0:source>Save</ns0:source>
-        <ns0:target state="translated">Kaydet</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.saveFailed">
-        <ns0:source>API Key is valid, but it could not be saved.</ns0:source>
-        <ns0:target state="translated">API Anahtarı geçerli, ancak kaydedilemedi.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.saved">
-        <ns0:source>Saved</ns0:source>
-        <ns0:target state="translated">Kaydedildi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.show">
-        <ns0:source>Show API Key</ns0:source>
-        <ns0:target state="translated">API Anahtarını Göster</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.test">
-        <ns0:source>Test</ns0:source>
-        <ns0:target state="translated">Test</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.apiKey.testSucceeded">
-        <ns0:source>API Key is valid and has been saved.</ns0:source>
-        <ns0:target state="translated">API Anahtarı geçerli ve kaydedildi.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.enabled">
-        <ns0:source>Enable External Search provider</ns0:source>
-        <ns0:target state="translated">Harici Arama sağlayıcısını etkinleştir</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.includeWebInAll">
-        <ns0:source>Include external web results in All</ns0:source>
-        <ns0:target state="translated">Harici web sonuçlarını Tümü'ne dahil et</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.privacyDescription">
-        <ns0:source>Private repository names, READMEs, and notes are not sent to external search by default. Anonymous mode does not send the saved API Key. An invalid key never falls back to an anonymous request.</ns0:source>
-        <ns0:target state="translated">Özel depo adları, README'ler ve notlar varsayılan olarak harici aramaya gönderilmez. Anonim mod, kaydedilmiş API Anahtarını göndermez. Geçersiz bir anahtar asla anonim bir isteğe geri dönmez.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.anySearch.title">
-        <ns0:source>AnySearch</ns0:source>
-        <ns0:target state="translated">AnySearch</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.appearance.dark">
         <ns0:source>Dark</ns0:source>
@@ -12401,10 +11649,6 @@ Example: if retrieval finds 100 chunks and this is set to 24, only the top 24 fu
       <ns0:trans-unit id="settings.listDensity.card">
         <ns0:source>Card</ns0:source>
         <ns0:target state="translated">Kart</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.listDensity.compact_REMOVED_R01">
-        <ns0:source>Compact</ns0:source>
-        <ns0:target state="translated">Kompakt</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.listPreferences.reset.confirm">
         <ns0:source>Reset</ns0:source>
@@ -14380,10 +13624,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Downloaded Repository ZIPs</ns0:source>
         <ns0:target state="translated">İndirilen Depo ZIP'leri</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.archive.revealHelp">
-        <ns0:source>Open ZIP download directory</ns0:source>
-        <ns0:target state="translated">ZIP indirme dizinini aç</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.archiveUsageFormat">
         <ns0:source>%lld files · %@</ns0:source>
         <ns0:target state="translated">%lld dosya · %@</ns0:target>
@@ -14431,10 +13671,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="settings.storage.chatHistoryUsageFormat">
         <ns0:source>%lld sessions · %lld repos · %@</ns0:source>
         <ns0:target state="translated">%lld oturum · %lld depo · %@</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clear">
-        <ns0:source>Clear</ns0:source>
-        <ns0:target state="translated">Temizle</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearAiContext.confirm">
         <ns0:source>Clear all Code Context?</ns0:source>
@@ -14520,10 +13756,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>All cached External Search results (global search + AI external context) will be removed. Subsequent searches and summaries will re-query the network and consume API quota.</ns0:source>
         <ns0:target state="translated">Önbelleğe alınmış tüm Harici Arama sonuçları (genel arama + AI harici bağlam) kaldırılacak. Sonraki aramalar ve özetler ağı tekrar sorgulayacak ve API kotasını tüketecektir.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearArchive">
-        <ns0:source>Clear Downloaded ZIPs</ns0:source>
-        <ns0:target state="translated">İndirilen ZIP'leri Temizle</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearArchive.confirm">
         <ns0:source>Clear downloaded repository ZIPs?</ns0:source>
         <ns0:target state="translated">İndirilen depo ZIP'leri temizlensin mi?</ns0:target>
@@ -14556,10 +13788,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>This will delete all 3D graph indexes and extracted source directories. Shared source ZIPs will not be deleted.</ns0:source>
         <ns0:target state="translated">Bu, tüm 3B grafik indekslerini ve çıkarılan kaynak dizinlerini silecektir. Paylaşılan kaynak ZIP'leri silinmeyecektir.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearImage">
-        <ns0:source>Clear Image Cache</ns0:source>
-        <ns0:target state="translated">Resim Önbelleğini Temizle</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearImage.confirm">
         <ns0:source>Clear image cache?</ns0:source>
         <ns0:target state="translated">Resim önbelleği temizlensin mi?</ns0:target>
@@ -14583,10 +13811,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="settings.storage.clearRAGIndex.message">
         <ns0:source>This only deletes rebuildable chunks and embeddings. Repository data, README, notes, summaries, and library state are unchanged.</ns0:source>
         <ns0:target state="translated">Bu yalnızca yeniden oluşturulabilir parçaları ve yerleştirmeleri siler. Depo verileri, README, notlar, özetler ve kütüphane durumu değişmez.</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.clearReadme">
-        <ns0:source>Clear README Cache</ns0:source>
-        <ns0:target state="translated">README Önbelleğini Temizle</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.clearReadme.confirm">
         <ns0:source>Clear README cache?</ns0:source>
@@ -14655,18 +13879,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="settings.storage.image">
         <ns0:source>Images</ns0:source>
         <ns0:target state="translated">Görseller</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.log">
-        <ns0:source>Logs</ns0:source>
-        <ns0:target state="translated">Günlükler</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.logDescription">
-        <ns0:source>Managed by the system (Console.app)</ns0:source>
-        <ns0:target state="translated">Sistem tarafından yönetilir (Console.app)</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="settings.storage.logHelp">
-        <ns0:source>Starcat writes logs through OSLog. Use macOS Console.app to inspect and manage them.</ns0:source>
-        <ns0:target state="translated">Starcat günlükleri OSLog aracılığıyla yazar. Bunları incelemek ve yönetmek için macOS Console.app'i kullanın.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="settings.storage.loginRequired">
         <ns0:source>Sign in to manage storage.</ns0:source>
@@ -14944,10 +14156,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Close</ns0:source>
         <ns0:target state="translated">Kapat</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.export.html">
-        <ns0:source>Export as HTML</ns0:source>
-        <ns0:target state="translated">HTML olarak dışa aktar</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.export.library.html">
         <ns0:source>Export Library to HTML</ns0:source>
         <ns0:target state="translated">Kitaplığı HTML olarak dışa aktar</ns0:target>
@@ -14956,10 +14164,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Export Library to Markdown</ns0:source>
         <ns0:target state="translated">Kitaplığı Markdown olarak dışa aktar</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.export.markdown">
-        <ns0:source>Export as Markdown</ns0:source>
-        <ns0:target state="translated">Markdown olarak dışa aktar</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.export.starred.html">
         <ns0:source>Export Starred to HTML</ns0:source>
         <ns0:target state="translated">Yıldızlıları HTML olarak dışa aktar</ns0:target>
@@ -14967,10 +14171,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="sharecard.action.export.starred.markdown">
         <ns0:source>Export Starred to Markdown</ns0:source>
         <ns0:target state="translated">Yıldızlıları Markdown olarak dışa aktar</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.action.exportStarred">
-        <ns0:source>Export Starred</ns0:source>
-        <ns0:target state="translated">Yıldızlıları Dışa Aktar</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.action.exportToFile">
         <ns0:source>Export to File</ns0:source>
@@ -15003,10 +14203,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="sharecard.card.tagline">
         <ns0:source>OPEN SOURCE · DEVELOPER ID</ns0:source>
         <ns0:target state="translated">AÇIK KAYNAK · GELİŞTİRİCİ KİMLİĞİ</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.close">
-        <ns0:source>Close</ns0:source>
-        <ns0:target state="translated">Kapat</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.contribution.title">
         <ns0:source>CONTRIBUTION GRAPH</ns0:source>
@@ -15120,10 +14316,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Image copied — paste it into your tweet on X.</ns0:source>
         <ns0:target state="translated">Görsel kopyalandı — X'teki tweet'inize yapıştırın.</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.footer.poweredBy">
-        <ns0:source>Powered by</ns0:source>
-        <ns0:target state="translated">Destekleyen</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.languages.empty">
         <ns0:source>No public repository language data yet.</ns0:source>
         <ns0:target state="translated">Henüz herkese açık depo dili verisi yok.</ns0:target>
@@ -15184,10 +14376,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Adventure</ns0:source>
         <ns0:target state="translated">Macera</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.dashboard">
-        <ns0:source>Dashboard</ns0:source>
-        <ns0:target state="translated">Pano</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.style.idCard">
         <ns0:source>ID Card</ns0:source>
         <ns0:target state="translated">Kimlik Kartı</ns0:target>
@@ -15196,14 +14384,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Magazine</ns0:source>
         <ns0:target state="translated">Dergi</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.pass">
-        <ns0:source>Pass</ns0:source>
-        <ns0:target state="translated">Kart</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.style.poster">
-        <ns0:source>Poster</ns0:source>
-        <ns0:target state="translated">Poster</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.style.social">
         <ns0:source>Social</ns0:source>
         <ns0:target state="translated">Sosyal</ns0:target>
@@ -15211,10 +14391,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="sharecard.style.terminal">
         <ns0:source>Terminal</ns0:source>
         <ns0:target state="translated">Terminal</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.subtitle">
-        <ns0:source>Pick a theme, save or share to X.</ns0:source>
-        <ns0:target state="translated">Bir tema seçin, kaydedin veya X'te paylaşın.</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.theme.adventureFel">
         <ns0:source>Fel</ns0:source>
@@ -15247,10 +14423,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="sharecard.theme.heatOrange">
         <ns0:source>Heat Orange</ns0:source>
         <ns0:target state="translated">Sıcak Turuncu</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="sharecard.theme.label">
-        <ns0:source>Theme</ns0:source>
-        <ns0:target state="translated">Tema</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="sharecard.theme.lightCard">
         <ns0:source>Pure Card</ns0:source>
@@ -16936,10 +16108,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Undo Star Cleanup</ns0:source>
         <ns0:target state="translated">Yıldız Geri Alma Temizliği</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.aiScore">
-        <ns0:source>AI Score</ns0:source>
-        <ns0:target state="translated">Yapay Zeka Puanı</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.allLanguages">
         <ns0:source>All Languages</ns0:source>
         <ns0:target state="translated">Tüm Diller</ns0:target>
@@ -16951,18 +16119,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="trending.basedOnTrending">
         <ns0:source>Selected based on trending popularity</ns0:source>
         <ns0:target state="translated">Trend popülerliğe göre seçildi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.period">
-        <ns0:source>Time Range</ns0:source>
-        <ns0:target state="translated">Zaman Aralığı</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.sort">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sırala</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.filter.title">
-        <ns0:source>Filter</ns0:source>
-        <ns0:target state="translated">Filtrele</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="trending.freshness.daysAgoFormat">
         <ns0:source>%d day(s) ago</ns0:source>
@@ -16991,10 +16147,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="trending.loadFailed">
         <ns0:source>Load Failed</ns0:source>
         <ns0:target state="translated">Yükleme Başarısız</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.loading">
-        <ns0:source>Loading…</ns0:source>
-        <ns0:target state="translated">Yükleniyor…</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="trending.period.daily">
         <ns0:source>Day</ns0:source>
@@ -17080,10 +16232,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Stars Descending</ns0:source>
         <ns0:target state="translated">Yıldız Azalan</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.sort.title">
-        <ns0:source>Sort</ns0:source>
-        <ns0:target state="translated">Sırala</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.sort.updatedAsc">
         <ns0:source>Oldest Updated</ns0:source>
         <ns0:target state="translated">En Eski Güncellenen</ns0:target>
@@ -17096,10 +16244,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Star to My Stars</ns0:source>
         <ns0:target state="translated">Yıldızlarıma Ekle</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="trending.subscription.failedFormat">
-        <ns0:source>Failed to subscribe to %@: %@</ns0:source>
-        <ns0:target state="translated">%@ aboneliği başarısız: %@</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="trending.summary.openSource">
         <ns0:source>open source</ns0:source>
         <ns0:target state="translated">açık kaynak</ns0:target>
@@ -17107,14 +16251,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="trending.summary.placeholderFormat">
         <ns0:source>A short summary for this %@ project...</ns0:source>
         <ns0:target state="translated">Bu %@ projesi için kısa bir özet...</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.title">
-        <ns0:source>Trending</ns0:source>
-        <ns0:target state="translated">Trend</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="trending.view">
-        <ns0:source>View</ns0:source>
-        <ns0:target state="translated">Görüntüle</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="watch.allActivity">
         <ns0:source>All Activity</ns0:source>
@@ -17320,10 +16456,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
         <ns0:source>Default</ns0:source>
         <ns0:target state="translated">Varsayılan</ns0:target>
       </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sort.latestEvent">
-        <ns0:source>Latest Activity</ns0:source>
-        <ns0:target state="translated">Son Etkinlik</ns0:target>
-      </ns0:trans-unit>
       <ns0:trans-unit id="weekly.sort.latestIssue">
         <ns0:source>Latest issue</ns0:source>
         <ns0:target state="translated">En son sayı</ns0:target>
@@ -17335,10 +16467,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="weekly.sort.nameDesc">
         <ns0:source>Name Z-A</ns0:source>
         <ns0:target state="translated">İsim Z-A</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sort.pushedAt">
-        <ns0:source>Recently Pushed</ns0:source>
-        <ns0:target state="translated">En Son Push Yapılan</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="weekly.sort.starsAsc">
         <ns0:source>Stars Ascending</ns0:source>
@@ -17367,10 +16495,6 @@ Hedef zaten mevcutsa, `git -C &lt;skill-path&gt; pull --ff-only` ile güncelleyi
       <ns0:trans-unit id="weekly.sourceEvents.title">
         <ns0:source>Source history</ns0:source>
         <ns0:target state="translated">Kaynak geçmişi</ns0:target>
-      </ns0:trans-unit>
-      <ns0:trans-unit id="weekly.sources.title">
-        <ns0:source>Sources</ns0:source>
-        <ns0:target state="translated">Kaynaklar</ns0:target>
       </ns0:trans-unit>
       <ns0:trans-unit id="weekly.totalCountFormat">
         <ns0:source>%d projects</ns0:source>
