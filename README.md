@@ -82,8 +82,8 @@ nontranslatable-keys.json
 
 | Status | Languages |
 |---|---|
-| Released | `en` English (source), `zh-Hans` Simplified Chinese |
-| Draft | `zh-Hant` Traditional Chinese, `ja` Japanese, `ko` Korean, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese, `it` Italian, `ru` Russian, `nl` Dutch, `pl` Polish, `uk` Ukrainian, `tr` Turkish, `vi` Vietnamese, `id` Indonesian, `ar` Arabic |
+| Released | `en` English (source), `zh-Hans` Simplified Chinese, `zh-Hant` Traditional Chinese, `ja` Japanese, `ko` Korean, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese, `it` Italian, `ru` Russian, `nl` Dutch, `pl` Polish, `uk` Ukrainian, `tr` Turkish, `vi` Vietnamese, `id` Indonesian, `ar` Arabic |
+| Draft | None |
 
 `draft` means that a collaboration package exists; it does **not** mean that the
 language is available in stable Starcat. A locale becomes `released` only after
