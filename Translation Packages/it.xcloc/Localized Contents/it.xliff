@@ -16576,6 +16576,794 @@ Se la destinazione esiste già, aggiornala con `git -C &lt;skill-path&gt; pull -
         <ns0:source>𝕏</ns0:source>
         <ns0:target state="needs-translation" />
       </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.detailHint">
+        <ns0:source>This collection groups repositories by the current scope and issue type for focused organization.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.healthPending">
+        <ns0:source>Health pending</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.healthPending.detail">
+        <ns0:source>Repositories without a current health snapshot</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.indexIssues">
+        <ns0:source>Index issues</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.indexIssues.detail">
+        <ns0:source>Missing, failed, or stale knowledge indexes</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.maintenanceRisk">
+        <ns0:source>Maintenance risk</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.maintenanceRisk.detail">
+        <ns0:source>Repositories showing signs of reduced maintenance activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingIndexableContent">
+        <ns0:source>No indexable content</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingIndexableContent.detail">
+        <ns0:source>Knowledge repositories without content available for indexing</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingReadme">
+        <ns0:source>README missing</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingReadme.detail">
+        <ns0:source>Knowledge repositories without a README snapshot</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.openSSFPending">
+        <ns0:source>OpenSSF pending</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.openSSFPending.detail">
+        <ns0:source>Repositories not yet covered by OpenSSF Scorecard</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.priority">
+        <ns0:source>Needs attention</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.repositoryCount">
+        <ns0:source>repositories</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.securityRisk">
+        <ns0:source>Security risk</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.securityRisk.detail">
+        <ns0:source>Repositories with security signals that need review</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.unread">
+        <ns0:source>Unread</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.unread.detail">
+        <ns0:source>Repositories that have not been reviewed</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.untagged">
+        <ns0:source>Untagged</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.untagged.detail">
+        <ns0:source>Repositories that have not been categorized</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.countFormat">
+        <ns0:source>%1$lld of %2$lld repositories covered</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.health">
+        <ns0:source>Starcat Health</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.openssf">
+        <ns0:source>OpenSSF Scorecard</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.banner">
+        <ns0:source>Temporary filter from Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.clear">
+        <ns0:source>Clear Filter</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.return">
+        <ns0:source>Back to Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.viewAll">
+        <ns0:source>View All</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.list.section.analysis">
+        <ns0:source>Analysis</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.list.section.attention">
+        <ns0:source>Needs Attention</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.knowledgeProjects.detail">
+        <ns0:source>Saved to your private knowledge base</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.knowledgeRecent.detail">
+        <ns0:source>Added to knowledge in the last 30 days</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.organized">
+        <ns0:source>Organized</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.organized.detail">
+        <ns0:source>Tagged, noted, read, or in use</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.projects">
+        <ns0:source>Projects</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.projects.detail">
+        <ns0:source>All repositories currently starred</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.recent">
+        <ns0:source>New in 30 Days</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.recent.detail">
+        <ns0:source>Repositories starred recently</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.using">
+        <ns0:source>In Use</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.using.detail">
+        <ns0:source>Marked as actively using</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.mock.badge">
+        <ns0:source>Demo data</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.my.title">
+        <ns0:source>My Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.preview.subtitle">
+        <ns0:source>The overview cards and charts will appear here.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.preview.title">
+        <ns0:source>Insights workspace ready</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.refresh">
+        <ns0:source>Refresh insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.closedIssues">
+        <ns0:source>Closed Issues</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.commits">
+        <ns0:source>Commits</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.createdIssues">
+        <ns0:source>New Issues</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.createdPullRequests">
+        <ns0:source>New Pull Requests</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.issues">
+        <ns0:source>Issues</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.mergedPullRequests">
+        <ns0:source>Merged Pull Requests</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.pullRequests">
+        <ns0:source>Pull Requests</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.label">
+        <ns0:source>Activity range</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.month">
+        <ns0:source>1 mo</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.quarter">
+        <ns0:source>3 mo</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.week">
+        <ns0:source>1 wk</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.year">
+        <ns0:source>1 yr</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.refresh">
+        <ns0:source>Refresh repository activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.releases">
+        <ns0:source>Releases</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.commit.refresh">
+        <ns0:source>Refresh commit activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.commit.totalFormat">
+        <ns0:source>%lld commits in the selected range</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.community.healthFormat">
+        <ns0:source>Community health %lld%%</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.community.refresh">
+        <ns0:source>Refresh community profile</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.contributor.commitsFormat">
+        <ns0:source>%lld commits</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.contributor.refresh">
+        <ns0:source>Refresh contributors</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.maintenance">
+        <ns0:source>Maintenance</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.popularity">
+        <ns0:source>Popularity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.quality">
+        <ns0:source>Quality</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.security">
+        <ns0:source>Security</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.health">
+        <ns0:source>Health Score</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.license">
+        <ns0:source>License</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.openssf">
+        <ns0:source>OpenSSF</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.release">
+        <ns0:source>Latest Release</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.insights">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.label">
+        <ns0:source>Repository content</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.readme">
+        <ns0:source>README</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.period.thirtyDays">
+        <ns0:source>Last 30 days</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.preview.subtitle">
+        <ns0:source>Activity, Star history, health, and community signals will appear here.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.preview.title">
+        <ns0:source>Repository Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.activity">
+        <ns0:source>Activity Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.activity.subtitle">
+        <ns0:source>Pull request and issue activity in the selected range</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.commits">
+        <ns0:source>Commit Activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.commits.subtitle">
+        <ns0:source>Weekly commits in the selected activity range</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.community">
+        <ns0:source>Community</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.community.subtitle">
+        <ns0:source>Documentation and contribution readiness</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.contributors">
+        <ns0:source>Top Contributors</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.contributors.subtitle">
+        <ns0:source>Contribution ranking for the current period</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.health">
+        <ns0:source>Repository Health</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.health.subtitle">
+        <ns0:source>Four dimensions from Starcat health scoring</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.local">
+        <ns0:source>Local Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.local.subtitle">
+        <ns0:source>Release, license, health, and security data already stored by Starcat</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.security">
+        <ns0:source>Security</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.security.subtitle">
+        <ns0:source>OpenSSF and repository protection status</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.stars">
+        <ns0:source>Star Trend</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.stars.subtitle">
+        <ns0:source>Estimated history and precise local observations</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.timeline">
+        <ns0:source>Recent Activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.timeline.subtitle">
+        <ns0:source>Important repository events in chronological order</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.advisories">
+        <ns0:source>Security advisories</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.available">
+        <ns0:source>Available</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.branchProtection">
+        <ns0:source>Branch protection</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.conduct">
+        <ns0:source>Code of conduct</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.contributing">
+        <ns0:source>Contribution guide</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.dependabot">
+        <ns0:source>Dependabot</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.enabled">
+        <ns0:source>Enabled</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.license">
+        <ns0:source>License</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.missing">
+        <ns0:source>Missing</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.mit">
+        <ns0:source>MIT</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.none">
+        <ns0:source>None</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.openssf">
+        <ns0:source>OpenSSF Scorecard</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.openssfScore">
+        <ns0:source>8.7 / 10</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.partial">
+        <ns0:source>Partial</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.readme">
+        <ns0:source>README</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.change.baseline">
+        <ns0:source>baseline</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.chart.summaryFormat">
+        <ns0:source>From %@ to %@, latest %@ Stars, one-year change %@</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.coverage">
+        <ns0:source>Coverage from</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.current">
+        <ns0:source>Current Stars</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.growth30Days">
+        <ns0:source>30-day growth</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.growthOneYear">
+        <ns0:source>1-year growth</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.precision.estimated">
+        <ns0:source>estimated</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.precision.snapshot">
+        <ns0:source>precise snapshot</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.all">
+        <ns0:source>All</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.label">
+        <ns0:source>Star history range</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.oneYear">
+        <ns0:source>1 year</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.threeMonths">
+        <ns0:source>3 mo</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.reading.label">
+        <ns0:source>Selected reading</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.reading.valueFormat">
+        <ns0:source>%@, %@ Stars, change %@, %@, %@</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.refresh">
+        <ns0:source>Refresh Star history</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.estimated">
+        <ns0:source>Estimated · GH Archive</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.discovery">
+        <ns0:source>Starcat Discovery</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.ghArchive">
+        <ns0:source>GH Archive</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.local">
+        <ns0:source>this Mac</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.snapshot">
+        <ns0:source>Starcat precise snapshots</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.building">
+        <ns0:source>The long-term history is being built. Starcat will retry up to three times.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.private">
+        <ns0:source>Private repository: only precise snapshots recorded on this Mac are shown.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.stale">
+        <ns0:source>The remote history could not be refreshed. Showing the last local cache.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.unavailable">
+        <ns0:source>No Star history is available yet. Refresh after repository metadata has been cached.</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.updated">
+        <ns0:source>Updated</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.generating">
+        <ns0:source>GitHub is preparing statistics</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.loginRequired">
+        <ns0:source>Sign in to load GitHub activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.noData">
+        <ns0:source>No data</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.refreshFailed">
+        <ns0:source>Refresh failed; showing cached data</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.stale">
+        <ns0:source>Showing cached data while refreshing</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.commitActivity">
+        <ns0:source>Main branch commit activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.issueFormat">
+        <ns0:source>Issue #%lld</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.pullRequestFormat">
+        <ns0:source>Pull Request #%lld</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.refresh">
+        <ns0:source>Refresh recent activity</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.releaseFormat">
+        <ns0:source>Release %@</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.knowledge">
+        <ns0:source>Knowledge</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.label">
+        <ns0:source>Scope</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.starred">
+        <ns0:source>All Starred</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions">
+        <ns0:source>Needs Attention</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions.knowledgeSubtitle">
+        <ns0:source>Organization, indexing, and health gaps</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions.starredSubtitle">
+        <ns0:source>Starred scope hides RAG-only issues; switch to Knowledge Base to inspect indexing</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.coverage">
+        <ns0:source>Project Health Coverage</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.coverage.subtitle">
+        <ns0:source>Health and OpenSSF are measured independently</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.languages">
+        <ns0:source>Technology Distribution</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.languages.subtitle">
+        <ns0:source>Top primary languages in the current scope</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.licenses">
+        <ns0:source>License Distribution</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.licenses.subtitle">
+        <ns0:source>Open-source licenses detected in the current scope</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.organization">
+        <ns0:source>Organization Status</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.organization.subtitle">
+        <ns0:source>Unread, read, and actively used repositories</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.topics">
+        <ns0:source>Technology Topics</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.topics.subtitle">
+        <ns0:source>Primary domains represented by your repositories</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.allActions">
+        <ns0:source>All Action Items</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.healthSummary">
+        <ns0:source>Health Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.languages">
+        <ns0:source>Languages</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.licenses">
+        <ns0:source>Licenses</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.organizationSummary">
+        <ns0:source>Organization Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.overviewSummary">
+        <ns0:source>Data Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.technologySummary">
+        <ns0:source>Distribution Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.topics">
+        <ns0:source>Technology Topics</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.sidebar.section">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.read">
+        <ns0:source>Read</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.unread">
+        <ns0:source>Unread</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.using">
+        <ns0:source>In Use</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.license.other">
+        <ns0:source>Other licenses</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.license.unknown">
+        <ns0:source>Unknown</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.other">
+        <ns0:source>Other</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.ai">
+        <ns0:source>AI &amp; Machine Learning</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.apple">
+        <ns0:source>Apple Platforms</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.data">
+        <ns0:source>Data Engineering</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.developerTools">
+        <ns0:source>Developer Tools</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.other">
+        <ns0:source>Other Topics</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.web">
+        <ns0:source>Web Development</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.thisWeek">
+        <ns0:source>This week</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.today">
+        <ns0:source>Today</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.twoDays">
+        <ns0:source>2 days ago</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.title">
+        <ns0:source>Insights Center</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.health">
+        <ns0:source>Project Health</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.health.subtitle">
+        <ns0:source>Coverage, maintenance, and security signals</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.organization">
+        <ns0:source>Organization</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.organization.subtitle">
+        <ns0:source>Reading, tags, and knowledge completeness</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.overview">
+        <ns0:source>Overview</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.overview.subtitle">
+        <ns0:source>Key metrics and prioritized action items</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.technology">
+        <ns0:source>Technology</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.technology.subtitle">
+        <ns0:source>Languages, topics, and license composition</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
+      <ns0:trans-unit id="nav.insights">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="needs-translation" />
+      </ns0:trans-unit>
     </ns0:body>
   </ns0:file>
 </ns0:xliff>

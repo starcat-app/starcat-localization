@@ -16576,6 +16576,794 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>𝕏</source>
         <target state="needs-translation" />
       </trans-unit>
+      <trans-unit id="insights.action.detailHint">
+        <source>This collection groups repositories by the current scope and issue type for focused organization.</source>
+        <target state="translated">此集合按当前范围和问题类型汇总，便于集中整理对应仓库。</target>
+      </trans-unit>
+      <trans-unit id="insights.action.healthPending">
+        <source>Health pending</source>
+        <target state="translated">健康度待计算</target>
+      </trans-unit>
+      <trans-unit id="insights.action.healthPending.detail">
+        <source>Repositories without a current health snapshot</source>
+        <target state="translated">尚无有效健康度快照的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.indexIssues">
+        <source>Index issues</source>
+        <target state="translated">索引异常</target>
+      </trans-unit>
+      <trans-unit id="insights.action.indexIssues.detail">
+        <source>Missing, failed, or stale knowledge indexes</source>
+        <target state="translated">缺失、失败或已过期的知识索引</target>
+      </trans-unit>
+      <trans-unit id="insights.action.maintenanceRisk">
+        <source>Maintenance risk</source>
+        <target state="translated">维护风险</target>
+      </trans-unit>
+      <trans-unit id="insights.action.maintenanceRisk.detail">
+        <source>Repositories showing signs of reduced maintenance activity</source>
+        <target state="translated">维护活跃度下降或长期未更新的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingIndexableContent">
+        <source>No indexable content</source>
+        <target state="translated">无可索引内容</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingIndexableContent.detail">
+        <source>Knowledge repositories without content available for indexing</source>
+        <target state="translated">知识库中没有可用于索引内容的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingReadme">
+        <source>README missing</source>
+        <target state="translated">无 README</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingReadme.detail">
+        <source>Knowledge repositories without a README snapshot</source>
+        <target state="translated">知识库中缺少 README 快照的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.openSSFPending">
+        <source>OpenSSF pending</source>
+        <target state="translated">OpenSSF 待覆盖</target>
+      </trans-unit>
+      <trans-unit id="insights.action.openSSFPending.detail">
+        <source>Repositories not yet covered by OpenSSF Scorecard</source>
+        <target state="translated">尚未获得 OpenSSF Scorecard 数据的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.priority">
+        <source>Needs attention</source>
+        <target state="translated">需要处理</target>
+      </trans-unit>
+      <trans-unit id="insights.action.repositoryCount">
+        <source>repositories</source>
+        <target state="translated">个仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.securityRisk">
+        <source>Security risk</source>
+        <target state="translated">安全风险</target>
+      </trans-unit>
+      <trans-unit id="insights.action.securityRisk.detail">
+        <source>Repositories with security signals that need review</source>
+        <target state="translated">存在需要复核安全信号的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.unread">
+        <source>Unread</source>
+        <target state="translated">未读</target>
+      </trans-unit>
+      <trans-unit id="insights.action.unread.detail">
+        <source>Repositories that have not been reviewed</source>
+        <target state="translated">尚未阅读和评估的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.action.untagged">
+        <source>Untagged</source>
+        <target state="translated">未打标签</target>
+      </trans-unit>
+      <trans-unit id="insights.action.untagged.detail">
+        <source>Repositories that have not been categorized</source>
+        <target state="translated">尚未归类的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.countFormat">
+        <source>%1$lld of %2$lld repositories covered</source>
+        <target state="translated">已覆盖 %1$lld / %2$lld 个仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.health">
+        <source>Starcat Health</source>
+        <target state="translated">Starcat 健康度</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.openssf">
+        <source>OpenSSF Scorecard</source>
+        <target state="translated">OpenSSF 评分</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.banner">
+        <source>Temporary filter from Insights</source>
+        <target state="translated">来自洞察的临时筛选</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.clear">
+        <source>Clear Filter</source>
+        <target state="translated">清除筛选</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.return">
+        <source>Back to Insights</source>
+        <target state="translated">返回洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.viewAll">
+        <source>View All</source>
+        <target state="translated">查看全部</target>
+      </trans-unit>
+      <trans-unit id="insights.list.section.analysis">
+        <source>Analysis</source>
+        <target state="translated">分析视图</target>
+      </trans-unit>
+      <trans-unit id="insights.list.section.attention">
+        <source>Needs Attention</source>
+        <target state="translated">需要处理</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.knowledgeProjects.detail">
+        <source>Saved to your private knowledge base</source>
+        <target state="translated">已加入私有知识库</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.knowledgeRecent.detail">
+        <source>Added to knowledge in the last 30 days</source>
+        <target state="translated">近 30 天加入知识库</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.organized">
+        <source>Organized</source>
+        <target state="translated">已整理</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.organized.detail">
+        <source>Tagged, noted, read, or in use</source>
+        <target state="translated">已有标签、笔记或阅读状态</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.projects">
+        <source>Projects</source>
+        <target state="translated">项目数</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.projects.detail">
+        <source>All repositories currently starred</source>
+        <target state="translated">当前全部 GitHub 收藏</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.recent">
+        <source>New in 30 Days</source>
+        <target state="translated">近 30 天新增</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.recent.detail">
+        <source>Repositories starred recently</source>
+        <target state="translated">最近收藏的仓库</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.using">
+        <source>In Use</source>
+        <target state="translated">正在使用</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.using.detail">
+        <source>Marked as actively using</source>
+        <target state="translated">标记为正在使用</target>
+      </trans-unit>
+      <trans-unit id="insights.mock.badge">
+        <source>Demo data</source>
+        <target state="translated">演示数据</target>
+      </trans-unit>
+      <trans-unit id="insights.my.title">
+        <source>My Insights</source>
+        <target state="translated">我的洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.preview.subtitle">
+        <source>The overview cards and charts will appear here.</source>
+        <target state="translated">概览指标与统计图表将在这里呈现。</target>
+      </trans-unit>
+      <trans-unit id="insights.preview.title">
+        <source>Insights workspace ready</source>
+        <target state="translated">洞察工作区已就绪</target>
+      </trans-unit>
+      <trans-unit id="insights.refresh">
+        <source>Refresh insights</source>
+        <target state="translated">刷新洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.closedIssues">
+        <source>Closed Issues</source>
+        <target state="translated">已关闭 Issue</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.commits">
+        <source>Commits</source>
+        <target state="translated">提交</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.createdIssues">
+        <source>New Issues</source>
+        <target state="translated">新建 Issue</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.createdPullRequests">
+        <source>New Pull Requests</source>
+        <target state="translated">新建 Pull Request</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.issues">
+        <source>Issues</source>
+        <target state="translated">Issue</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.mergedPullRequests">
+        <source>Merged Pull Requests</source>
+        <target state="translated">已合并 Pull Request</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.pullRequests">
+        <source>Pull Requests</source>
+        <target state="translated">Pull Request</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.label">
+        <source>Activity range</source>
+        <target state="translated">活动范围</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.month">
+        <source>1 mo</source>
+        <target state="translated">1 月</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.quarter">
+        <source>3 mo</source>
+        <target state="translated">3 月</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.week">
+        <source>1 wk</source>
+        <target state="translated">1 周</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.year">
+        <source>1 yr</source>
+        <target state="translated">1 年</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.refresh">
+        <source>Refresh repository activity</source>
+        <target state="translated">刷新仓库活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.releases">
+        <source>Releases</source>
+        <target state="translated">发布</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.commit.refresh">
+        <source>Refresh commit activity</source>
+        <target state="translated">刷新提交活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.commit.totalFormat">
+        <source>%lld commits in the selected range</source>
+        <target state="translated">所选范围共 %lld 次提交</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.community.healthFormat">
+        <source>Community health %lld%%</source>
+        <target state="translated">社区健康度 %lld%%</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.community.refresh">
+        <source>Refresh community profile</source>
+        <target state="translated">刷新社区规范</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.contributor.commitsFormat">
+        <source>%lld commits</source>
+        <target state="translated">%lld 次提交</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.contributor.refresh">
+        <source>Refresh contributors</source>
+        <target state="translated">刷新贡献者</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.maintenance">
+        <source>Maintenance</source>
+        <target state="translated">维护度</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.popularity">
+        <source>Popularity</source>
+        <target state="translated">流行度</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.quality">
+        <source>Quality</source>
+        <target state="translated">质量</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.security">
+        <source>Security</source>
+        <target state="translated">安全性</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.health">
+        <source>Health Score</source>
+        <target state="translated">健康评分</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.license">
+        <source>License</source>
+        <target state="translated">开源许可证</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.openssf">
+        <source>OpenSSF</source>
+        <target state="translated">OpenSSF</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.release">
+        <source>Latest Release</source>
+        <target state="translated">最新 Release</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.insights">
+        <source>Insights</source>
+        <target state="translated">洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.label">
+        <source>Repository content</source>
+        <target state="translated">仓库内容</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.readme">
+        <source>README</source>
+        <target state="translated">README</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.period.thirtyDays">
+        <source>Last 30 days</source>
+        <target state="translated">近 30 天</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.preview.subtitle">
+        <source>Activity, Star history, health, and community signals will appear here.</source>
+        <target state="translated">活动、Star 历史、健康度与社区信号将在这里呈现。</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.preview.title">
+        <source>Repository Insights</source>
+        <target state="translated">仓库洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.activity">
+        <source>Activity Overview</source>
+        <target state="translated">活动概览</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.activity.subtitle">
+        <source>Pull request and issue activity in the selected range</source>
+        <target state="translated">所选范围内的 Pull Request 与 Issue 活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.commits">
+        <source>Commit Activity</source>
+        <target state="translated">提交活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.commits.subtitle">
+        <source>Weekly commits in the selected activity range</source>
+        <target state="translated">所选活动范围内的每周提交量</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.community">
+        <source>Community</source>
+        <target state="translated">社区信号</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.community.subtitle">
+        <source>Documentation and contribution readiness</source>
+        <target state="translated">文档与贡献协作准备情况</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.contributors">
+        <source>Top Contributors</source>
+        <target state="translated">主要贡献者</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.contributors.subtitle">
+        <source>Contribution ranking for the current period</source>
+        <target state="translated">当前统计周期的贡献排行</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.health">
+        <source>Repository Health</source>
+        <target state="translated">仓库健康度</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.health.subtitle">
+        <source>Four dimensions from Starcat health scoring</source>
+        <target state="translated">Starcat 健康度模型的四项维度</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.local">
+        <source>Local Insights</source>
+        <target state="translated">本地洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.local.subtitle">
+        <source>Release, license, health, and security data already stored by Starcat</source>
+        <target state="translated">Starcat 已有的发布、许可证、健康度与安全数据</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.security">
+        <source>Security</source>
+        <target state="translated">安全信号</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.security.subtitle">
+        <source>OpenSSF and repository protection status</source>
+        <target state="translated">OpenSSF 与仓库安全防护状态</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.stars">
+        <source>Star Trend</source>
+        <target state="translated">Star 趋势</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.stars.subtitle">
+        <source>Estimated history and precise local observations</source>
+        <target state="translated">长期估算历史与本机精确观察</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.timeline">
+        <source>Recent Activity</source>
+        <target state="translated">最近动态</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.timeline.subtitle">
+        <source>Important repository events in chronological order</source>
+        <target state="translated">按时间聚合的重要仓库事件</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.advisories">
+        <source>Security advisories</source>
+        <target state="translated">安全公告</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.available">
+        <source>Available</source>
+        <target state="translated">已提供</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.branchProtection">
+        <source>Branch protection</source>
+        <target state="translated">分支保护</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.conduct">
+        <source>Code of conduct</source>
+        <target state="translated">行为准则</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.contributing">
+        <source>Contribution guide</source>
+        <target state="translated">贡献指南</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.dependabot">
+        <source>Dependabot</source>
+        <target state="translated">Dependabot</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.enabled">
+        <source>Enabled</source>
+        <target state="translated">已启用</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.license">
+        <source>License</source>
+        <target state="translated">开源许可证</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.missing">
+        <source>Missing</source>
+        <target state="translated">缺失</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.mit">
+        <source>MIT</source>
+        <target state="translated">MIT</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.none">
+        <source>None</source>
+        <target state="translated">无</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.openssf">
+        <source>OpenSSF Scorecard</source>
+        <target state="translated">OpenSSF Scorecard</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.openssfScore">
+        <source>8.7 / 10</source>
+        <target state="translated">8.7 / 10</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.partial">
+        <source>Partial</source>
+        <target state="translated">部分启用</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.readme">
+        <source>README</source>
+        <target state="translated">README</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.change.baseline">
+        <source>baseline</source>
+        <target state="translated">基准点</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.chart.summaryFormat">
+        <source>From %@ to %@, latest %@ Stars, one-year change %@</source>
+        <target state="translated">从 %@ 到 %@，最新 %@ Stars，一年变化 %@</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.coverage">
+        <source>Coverage from</source>
+        <target state="translated">覆盖自</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.current">
+        <source>Current Stars</source>
+        <target state="translated">当前 Stars</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.growth30Days">
+        <source>30-day growth</source>
+        <target state="translated">30 天增长</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.growthOneYear">
+        <source>1-year growth</source>
+        <target state="translated">1 年增长</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.precision.estimated">
+        <source>estimated</source>
+        <target state="translated">估算</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.precision.snapshot">
+        <source>precise snapshot</source>
+        <target state="translated">精确快照</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.all">
+        <source>All</source>
+        <target state="translated">全部</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.label">
+        <source>Star history range</source>
+        <target state="translated">Star 历史范围</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.oneYear">
+        <source>1 year</source>
+        <target state="translated">1 年</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.threeMonths">
+        <source>3 mo</source>
+        <target state="translated">3 月</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.reading.label">
+        <source>Selected reading</source>
+        <target state="translated">当前读数</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.reading.valueFormat">
+        <source>%@, %@ Stars, change %@, %@, %@</source>
+        <target state="translated">%@，%@ Stars，变化 %@，%@，%@</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.refresh">
+        <source>Refresh Star history</source>
+        <target state="translated">刷新 Star 历史</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.estimated">
+        <source>Estimated · GH Archive</source>
+        <target state="translated">估算 · GH Archive</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.discovery">
+        <source>Starcat Discovery</source>
+        <target state="translated">Starcat Discovery</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.ghArchive">
+        <source>GH Archive</source>
+        <target state="translated">GH Archive</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.local">
+        <source>this Mac</source>
+        <target state="translated">本机</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.snapshot">
+        <source>Starcat precise snapshots</source>
+        <target state="translated">Starcat 精确快照</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.building">
+        <source>The long-term history is being built. Starcat will retry up to three times.</source>
+        <target state="translated">长期历史正在构建，Starcat 最多自动重试三次。</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.private">
+        <source>Private repository: only precise snapshots recorded on this Mac are shown.</source>
+        <target state="translated">私有仓库仅显示本机记录的精确快照，仓库信息不会发送到 Discovery 服务。</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.stale">
+        <source>The remote history could not be refreshed. Showing the last local cache.</source>
+        <target state="translated">远端历史刷新失败，当前显示上次本地缓存。</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.unavailable">
+        <source>No Star history is available yet. Refresh after repository metadata has been cached.</source>
+        <target state="translated">暂无 Star 历史。仓库元数据完成缓存后可再次刷新。</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.updated">
+        <source>Updated</source>
+        <target state="translated">更新于</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.generating">
+        <source>GitHub is preparing statistics</source>
+        <target state="translated">GitHub 正在准备统计数据</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.loginRequired">
+        <source>Sign in to load GitHub activity</source>
+        <target state="translated">登录后加载 GitHub 活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.noData">
+        <source>No data</source>
+        <target state="translated">暂无数据</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.refreshFailed">
+        <source>Refresh failed; showing cached data</source>
+        <target state="translated">刷新失败，继续显示缓存数据</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.stale">
+        <source>Showing cached data while refreshing</source>
+        <target state="translated">正在刷新，暂时显示缓存数据</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.commitActivity">
+        <source>Main branch commit activity</source>
+        <target state="translated">主分支提交活动</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.issueFormat">
+        <source>Issue #%lld</source>
+        <target state="translated">Issue #%lld</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.pullRequestFormat">
+        <source>Pull Request #%lld</source>
+        <target state="translated">Pull Request #%lld</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.refresh">
+        <source>Refresh recent activity</source>
+        <target state="translated">刷新最近动态</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.releaseFormat">
+        <source>Release %@</source>
+        <target state="translated">发布 %@</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.knowledge">
+        <source>Knowledge</source>
+        <target state="translated">知识库</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.label">
+        <source>Scope</source>
+        <target state="translated">范围</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.starred">
+        <source>All Starred</source>
+        <target state="translated">全部收藏</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions">
+        <source>Needs Attention</source>
+        <target state="translated">需要处理</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions.knowledgeSubtitle">
+        <source>Organization, indexing, and health gaps</source>
+        <target state="translated">整理、索引与健康度缺口</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions.starredSubtitle">
+        <source>Starred scope hides RAG-only issues; switch to Knowledge Base to inspect indexing</source>
+        <target state="translated">收藏范围隐藏 RAG 专属问题；切换到知识库可检查索引状态</target>
+      </trans-unit>
+      <trans-unit id="insights.section.coverage">
+        <source>Project Health Coverage</source>
+        <target state="translated">项目健康度覆盖</target>
+      </trans-unit>
+      <trans-unit id="insights.section.coverage.subtitle">
+        <source>Health and OpenSSF are measured independently</source>
+        <target state="translated">Starcat Health 与 OpenSSF 分别统计</target>
+      </trans-unit>
+      <trans-unit id="insights.section.languages">
+        <source>Technology Distribution</source>
+        <target state="translated">技术分布</target>
+      </trans-unit>
+      <trans-unit id="insights.section.languages.subtitle">
+        <source>Top primary languages in the current scope</source>
+        <target state="translated">当前范围内的主要编程语言</target>
+      </trans-unit>
+      <trans-unit id="insights.section.licenses">
+        <source>License Distribution</source>
+        <target state="translated">许可证分布</target>
+      </trans-unit>
+      <trans-unit id="insights.section.licenses.subtitle">
+        <source>Open-source licenses detected in the current scope</source>
+        <target state="translated">当前范围内识别到的开源许可证</target>
+      </trans-unit>
+      <trans-unit id="insights.section.organization">
+        <source>Organization Status</source>
+        <target state="translated">整理情况</target>
+      </trans-unit>
+      <trans-unit id="insights.section.organization.subtitle">
+        <source>Unread, read, and actively used repositories</source>
+        <target state="translated">未读、已读与正在使用的仓库分布</target>
+      </trans-unit>
+      <trans-unit id="insights.section.topics">
+        <source>Technology Topics</source>
+        <target state="translated">技术主题</target>
+      </trans-unit>
+      <trans-unit id="insights.section.topics.subtitle">
+        <source>Primary domains represented by your repositories</source>
+        <target state="translated">收藏仓库覆盖的主要技术方向</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.allActions">
+        <source>All Action Items</source>
+        <target state="translated">全部待处理</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.healthSummary">
+        <source>Health Overview</source>
+        <target state="translated">健康概览</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.languages">
+        <source>Languages</source>
+        <target state="translated">编程语言</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.licenses">
+        <source>Licenses</source>
+        <target state="translated">许可证</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.organizationSummary">
+        <source>Organization Overview</source>
+        <target state="translated">整理概览</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.overviewSummary">
+        <source>Data Overview</source>
+        <target state="translated">数据总览</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.technologySummary">
+        <source>Distribution Overview</source>
+        <target state="translated">分布概览</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.topics">
+        <source>Technology Topics</source>
+        <target state="translated">技术主题</target>
+      </trans-unit>
+      <trans-unit id="insights.sidebar.section">
+        <source>Insights</source>
+        <target state="translated">洞察</target>
+      </trans-unit>
+      <trans-unit id="insights.status.read">
+        <source>Read</source>
+        <target state="translated">已读</target>
+      </trans-unit>
+      <trans-unit id="insights.status.unread">
+        <source>Unread</source>
+        <target state="translated">未读</target>
+      </trans-unit>
+      <trans-unit id="insights.status.using">
+        <source>In Use</source>
+        <target state="translated">正在使用</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.license.other">
+        <source>Other licenses</source>
+        <target state="translated">其他许可证</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.license.unknown">
+        <source>Unknown</source>
+        <target state="translated">未识别</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.other">
+        <source>Other</source>
+        <target state="translated">其他</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.ai">
+        <source>AI &amp; Machine Learning</source>
+        <target state="translated">AI 与机器学习</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.apple">
+        <source>Apple Platforms</source>
+        <target state="translated">Apple 平台</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.data">
+        <source>Data Engineering</source>
+        <target state="translated">数据工程</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.developerTools">
+        <source>Developer Tools</source>
+        <target state="translated">开发者工具</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.other">
+        <source>Other Topics</source>
+        <target state="translated">其他主题</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.web">
+        <source>Web Development</source>
+        <target state="translated">Web 开发</target>
+      </trans-unit>
+      <trans-unit id="insights.time.thisWeek">
+        <source>This week</source>
+        <target state="translated">本周</target>
+      </trans-unit>
+      <trans-unit id="insights.time.today">
+        <source>Today</source>
+        <target state="translated">今天</target>
+      </trans-unit>
+      <trans-unit id="insights.time.twoDays">
+        <source>2 days ago</source>
+        <target state="translated">2 天前</target>
+      </trans-unit>
+      <trans-unit id="insights.title">
+        <source>Insights Center</source>
+        <target state="translated">洞察中心</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.health">
+        <source>Project Health</source>
+        <target state="translated">项目健康</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.health.subtitle">
+        <source>Coverage, maintenance, and security signals</source>
+        <target state="translated">覆盖率、维护状态与安全信号</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.organization">
+        <source>Organization</source>
+        <target state="translated">整理情况</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.organization.subtitle">
+        <source>Reading, tags, and knowledge completeness</source>
+        <target state="translated">阅读状态、标签与知识完整性</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.overview">
+        <source>Overview</source>
+        <target state="translated">概览</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.overview.subtitle">
+        <source>Key metrics and prioritized action items</source>
+        <target state="translated">核心指标与优先处理事项</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.technology">
+        <source>Technology</source>
+        <target state="translated">技术分布</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.technology.subtitle">
+        <source>Languages, topics, and license composition</source>
+        <target state="translated">编程语言、技术主题与许可证构成</target>
+      </trans-unit>
+      <trans-unit id="nav.insights">
+        <source>Insights</source>
+        <target state="translated">洞察</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

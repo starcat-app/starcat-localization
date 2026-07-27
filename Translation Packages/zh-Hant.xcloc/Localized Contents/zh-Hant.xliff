@@ -16576,6 +16576,794 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <ns0:source>𝕏</ns0:source>
         <ns0:target state="needs-translation" />
       </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.detailHint">
+        <ns0:source>This collection groups repositories by the current scope and issue type for focused organization.</ns0:source>
+        <ns0:target state="translated">此集合按目前範圍和問題類型彙總，便於集中整理對應儲存庫。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.healthPending">
+        <ns0:source>Health pending</ns0:source>
+        <ns0:target state="translated">健康度待計算</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.healthPending.detail">
+        <ns0:source>Repositories without a current health snapshot</ns0:source>
+        <ns0:target state="translated">尚無有效健康度快照的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.indexIssues">
+        <ns0:source>Index issues</ns0:source>
+        <ns0:target state="translated">索引異常</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.indexIssues.detail">
+        <ns0:source>Missing, failed, or stale knowledge indexes</ns0:source>
+        <ns0:target state="translated">缺失、失敗或已過期的知識索引</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.maintenanceRisk">
+        <ns0:source>Maintenance risk</ns0:source>
+        <ns0:target state="translated">維護風險</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.maintenanceRisk.detail">
+        <ns0:source>Repositories showing signs of reduced maintenance activity</ns0:source>
+        <ns0:target state="translated">維護活躍度下降或長期未更新的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingIndexableContent">
+        <ns0:source>No indexable content</ns0:source>
+        <ns0:target state="translated">無可索引內容</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingIndexableContent.detail">
+        <ns0:source>Knowledge repositories without content available for indexing</ns0:source>
+        <ns0:target state="translated">知識庫中沒有可用於索引內容的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingReadme">
+        <ns0:source>README missing</ns0:source>
+        <ns0:target state="translated">無 README</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.missingReadme.detail">
+        <ns0:source>Knowledge repositories without a README snapshot</ns0:source>
+        <ns0:target state="translated">知識庫中缺少 README 快照的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.openSSFPending">
+        <ns0:source>OpenSSF pending</ns0:source>
+        <ns0:target state="translated">OpenSSF 待涵蓋</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.openSSFPending.detail">
+        <ns0:source>Repositories not yet covered by OpenSSF Scorecard</ns0:source>
+        <ns0:target state="translated">尚未取得 OpenSSF Scorecard 資料的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.priority">
+        <ns0:source>Needs attention</ns0:source>
+        <ns0:target state="translated">需要處理</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.repositoryCount">
+        <ns0:source>repositories</ns0:source>
+        <ns0:target state="translated">個儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.securityRisk">
+        <ns0:source>Security risk</ns0:source>
+        <ns0:target state="translated">安全風險</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.securityRisk.detail">
+        <ns0:source>Repositories with security signals that need review</ns0:source>
+        <ns0:target state="translated">存在需要複核安全訊號的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.unread">
+        <ns0:source>Unread</ns0:source>
+        <ns0:target state="translated">未讀</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.unread.detail">
+        <ns0:source>Repositories that have not been reviewed</ns0:source>
+        <ns0:target state="translated">尚未閱讀和評估的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.untagged">
+        <ns0:source>Untagged</ns0:source>
+        <ns0:target state="translated">未加標籤</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.action.untagged.detail">
+        <ns0:source>Repositories that have not been categorized</ns0:source>
+        <ns0:target state="translated">尚未歸類的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.countFormat">
+        <ns0:source>%1$lld of %2$lld repositories covered</ns0:source>
+        <ns0:target state="translated">已涵蓋 %1$lld / %2$lld 個儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.health">
+        <ns0:source>Starcat Health</ns0:source>
+        <ns0:target state="translated">Starcat 健康度</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.coverage.openssf">
+        <ns0:source>OpenSSF Scorecard</ns0:source>
+        <ns0:target state="translated">OpenSSF 評分</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.banner">
+        <ns0:source>Temporary filter from Insights</ns0:source>
+        <ns0:target state="translated">來自洞察的暫時篩選</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.clear">
+        <ns0:source>Clear Filter</ns0:source>
+        <ns0:target state="translated">清除篩選</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.return">
+        <ns0:source>Back to Insights</ns0:source>
+        <ns0:target state="translated">返回洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.drilldown.viewAll">
+        <ns0:source>View All</ns0:source>
+        <ns0:target state="translated">檢視全部</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.list.section.analysis">
+        <ns0:source>Analysis</ns0:source>
+        <ns0:target state="translated">分析檢視</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.list.section.attention">
+        <ns0:source>Needs Attention</ns0:source>
+        <ns0:target state="translated">需要處理</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.knowledgeProjects.detail">
+        <ns0:source>Saved to your private knowledge base</ns0:source>
+        <ns0:target state="translated">已加入私人知識庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.knowledgeRecent.detail">
+        <ns0:source>Added to knowledge in the last 30 days</ns0:source>
+        <ns0:target state="translated">近 30 天加入知識庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.organized">
+        <ns0:source>Organized</ns0:source>
+        <ns0:target state="translated">已整理</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.organized.detail">
+        <ns0:source>Tagged, noted, read, or in use</ns0:source>
+        <ns0:target state="translated">已有標籤、筆記或閱讀狀態</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.projects">
+        <ns0:source>Projects</ns0:source>
+        <ns0:target state="translated">專案數</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.projects.detail">
+        <ns0:source>All repositories currently starred</ns0:source>
+        <ns0:target state="translated">目前全部 GitHub 收藏</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.recent">
+        <ns0:source>New in 30 Days</ns0:source>
+        <ns0:target state="translated">近 30 天新增</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.recent.detail">
+        <ns0:source>Repositories starred recently</ns0:source>
+        <ns0:target state="translated">最近收藏的儲存庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.using">
+        <ns0:source>In Use</ns0:source>
+        <ns0:target state="translated">正在使用</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.metric.using.detail">
+        <ns0:source>Marked as actively using</ns0:source>
+        <ns0:target state="translated">標記為正在使用</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.mock.badge">
+        <ns0:source>Demo data</ns0:source>
+        <ns0:target state="translated">展示資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.my.title">
+        <ns0:source>My Insights</ns0:source>
+        <ns0:target state="translated">我的洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.preview.subtitle">
+        <ns0:source>The overview cards and charts will appear here.</ns0:source>
+        <ns0:target state="translated">概覽指標與統計圖表將在這裡呈現。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.preview.title">
+        <ns0:source>Insights workspace ready</ns0:source>
+        <ns0:target state="translated">洞察工作區已就緒</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.refresh">
+        <ns0:source>Refresh insights</ns0:source>
+        <ns0:target state="translated">重新整理洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.closedIssues">
+        <ns0:source>Closed Issues</ns0:source>
+        <ns0:target state="translated">已關閉 Issue</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.commits">
+        <ns0:source>Commits</ns0:source>
+        <ns0:target state="translated">提交</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.createdIssues">
+        <ns0:source>New Issues</ns0:source>
+        <ns0:target state="translated">新建 Issue</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.createdPullRequests">
+        <ns0:source>New Pull Requests</ns0:source>
+        <ns0:target state="translated">新建 Pull Request</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.issues">
+        <ns0:source>Issues</ns0:source>
+        <ns0:target state="translated">Issue</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.mergedPullRequests">
+        <ns0:source>Merged Pull Requests</ns0:source>
+        <ns0:target state="translated">已合併 Pull Request</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.pullRequests">
+        <ns0:source>Pull Requests</ns0:source>
+        <ns0:target state="translated">Pull Request</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.label">
+        <ns0:source>Activity range</ns0:source>
+        <ns0:target state="translated">活動範圍</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.month">
+        <ns0:source>1 mo</ns0:source>
+        <ns0:target state="translated">1 月</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.quarter">
+        <ns0:source>3 mo</ns0:source>
+        <ns0:target state="translated">3 月</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.week">
+        <ns0:source>1 wk</ns0:source>
+        <ns0:target state="translated">1 週</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.range.year">
+        <ns0:source>1 yr</ns0:source>
+        <ns0:target state="translated">1 年</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.refresh">
+        <ns0:source>Refresh repository activity</ns0:source>
+        <ns0:target state="translated">重新整理儲存庫活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.activity.releases">
+        <ns0:source>Releases</ns0:source>
+        <ns0:target state="translated">發布</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.commit.refresh">
+        <ns0:source>Refresh commit activity</ns0:source>
+        <ns0:target state="translated">重新整理提交活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.commit.totalFormat">
+        <ns0:source>%lld commits in the selected range</ns0:source>
+        <ns0:target state="translated">所選範圍共 %lld 次提交</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.community.healthFormat">
+        <ns0:source>Community health %lld%%</ns0:source>
+        <ns0:target state="translated">社群健康度 %lld%%</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.community.refresh">
+        <ns0:source>Refresh community profile</ns0:source>
+        <ns0:target state="translated">重新整理社群規範</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.contributor.commitsFormat">
+        <ns0:source>%lld commits</ns0:source>
+        <ns0:target state="translated">%lld 次提交</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.contributor.refresh">
+        <ns0:source>Refresh contributors</ns0:source>
+        <ns0:target state="translated">重新整理貢獻者</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.maintenance">
+        <ns0:source>Maintenance</ns0:source>
+        <ns0:target state="translated">維護度</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.popularity">
+        <ns0:source>Popularity</ns0:source>
+        <ns0:target state="translated">流行度</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.quality">
+        <ns0:source>Quality</ns0:source>
+        <ns0:target state="translated">品質</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.health.security">
+        <ns0:source>Security</ns0:source>
+        <ns0:target state="translated">安全性</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.health">
+        <ns0:source>Health Score</ns0:source>
+        <ns0:target state="translated">健康評分</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.license">
+        <ns0:source>License</ns0:source>
+        <ns0:target state="translated">開源授權條款</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.openssf">
+        <ns0:source>OpenSSF</ns0:source>
+        <ns0:target state="translated">OpenSSF</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.local.release">
+        <ns0:source>Latest Release</ns0:source>
+        <ns0:target state="translated">最新 Release</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.insights">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="translated">洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.label">
+        <ns0:source>Repository content</ns0:source>
+        <ns0:target state="translated">儲存庫內容</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.mode.readme">
+        <ns0:source>README</ns0:source>
+        <ns0:target state="translated">README</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.period.thirtyDays">
+        <ns0:source>Last 30 days</ns0:source>
+        <ns0:target state="translated">近 30 天</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.preview.subtitle">
+        <ns0:source>Activity, Star history, health, and community signals will appear here.</ns0:source>
+        <ns0:target state="translated">活動、Star 歷史、健康度與社群訊號將在這裡呈現。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.preview.title">
+        <ns0:source>Repository Insights</ns0:source>
+        <ns0:target state="translated">儲存庫洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.activity">
+        <ns0:source>Activity Overview</ns0:source>
+        <ns0:target state="translated">活動概覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.activity.subtitle">
+        <ns0:source>Pull request and issue activity in the selected range</ns0:source>
+        <ns0:target state="translated">所選範圍內的 Pull Request 與 Issue 活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.commits">
+        <ns0:source>Commit Activity</ns0:source>
+        <ns0:target state="translated">提交活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.commits.subtitle">
+        <ns0:source>Weekly commits in the selected activity range</ns0:source>
+        <ns0:target state="translated">所選活動範圍內的每週提交量</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.community">
+        <ns0:source>Community</ns0:source>
+        <ns0:target state="translated">社群訊號</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.community.subtitle">
+        <ns0:source>Documentation and contribution readiness</ns0:source>
+        <ns0:target state="translated">文件與貢獻協作準備情況</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.contributors">
+        <ns0:source>Top Contributors</ns0:source>
+        <ns0:target state="translated">主要貢獻者</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.contributors.subtitle">
+        <ns0:source>Contribution ranking for the current period</ns0:source>
+        <ns0:target state="translated">目前統計週期的貢獻排行</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.health">
+        <ns0:source>Repository Health</ns0:source>
+        <ns0:target state="translated">儲存庫健康度</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.health.subtitle">
+        <ns0:source>Four dimensions from Starcat health scoring</ns0:source>
+        <ns0:target state="translated">Starcat 健康度模型的四項維度</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.local">
+        <ns0:source>Local Insights</ns0:source>
+        <ns0:target state="translated">本機洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.local.subtitle">
+        <ns0:source>Release, license, health, and security data already stored by Starcat</ns0:source>
+        <ns0:target state="translated">Starcat 已有的發布、授權條款、健康度與安全資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.security">
+        <ns0:source>Security</ns0:source>
+        <ns0:target state="translated">安全訊號</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.security.subtitle">
+        <ns0:source>OpenSSF and repository protection status</ns0:source>
+        <ns0:target state="translated">OpenSSF 與儲存庫安全防護狀態</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.stars">
+        <ns0:source>Star Trend</ns0:source>
+        <ns0:target state="translated">Star 趨勢</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.stars.subtitle">
+        <ns0:source>Estimated history and precise local observations</ns0:source>
+        <ns0:target state="translated">長期估算歷史與本機精確觀察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.timeline">
+        <ns0:source>Recent Activity</ns0:source>
+        <ns0:target state="translated">最近動態</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.section.timeline.subtitle">
+        <ns0:source>Important repository events in chronological order</ns0:source>
+        <ns0:target state="translated">依時間聚合的重要儲存庫事件</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.advisories">
+        <ns0:source>Security advisories</ns0:source>
+        <ns0:target state="translated">安全公告</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.available">
+        <ns0:source>Available</ns0:source>
+        <ns0:target state="translated">已提供</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.branchProtection">
+        <ns0:source>Branch protection</ns0:source>
+        <ns0:target state="translated">分支保護</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.conduct">
+        <ns0:source>Code of conduct</ns0:source>
+        <ns0:target state="translated">行為準則</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.contributing">
+        <ns0:source>Contribution guide</ns0:source>
+        <ns0:target state="translated">貢獻指南</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.dependabot">
+        <ns0:source>Dependabot</ns0:source>
+        <ns0:target state="translated">Dependabot</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.enabled">
+        <ns0:source>Enabled</ns0:source>
+        <ns0:target state="translated">已啟用</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.license">
+        <ns0:source>License</ns0:source>
+        <ns0:target state="translated">開源授權條款</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.missing">
+        <ns0:source>Missing</ns0:source>
+        <ns0:target state="translated">缺失</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.mit">
+        <ns0:source>MIT</ns0:source>
+        <ns0:target state="translated">MIT</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.none">
+        <ns0:source>None</ns0:source>
+        <ns0:target state="translated">無</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.openssf">
+        <ns0:source>OpenSSF Scorecard</ns0:source>
+        <ns0:target state="translated">OpenSSF Scorecard</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.openssfScore">
+        <ns0:source>8.7 / 10</ns0:source>
+        <ns0:target state="translated">8.7 / 10</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.partial">
+        <ns0:source>Partial</ns0:source>
+        <ns0:target state="translated">部分啟用</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.signal.readme">
+        <ns0:source>README</ns0:source>
+        <ns0:target state="translated">README</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.change.baseline">
+        <ns0:source>baseline</ns0:source>
+        <ns0:target state="translated">基準點</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.chart.summaryFormat">
+        <ns0:source>From %@ to %@, latest %@ Stars, one-year change %@</ns0:source>
+        <ns0:target state="translated">從 %@ 到 %@，最新 %@ Stars，一年變化 %@</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.coverage">
+        <ns0:source>Coverage from</ns0:source>
+        <ns0:target state="translated">涵蓋自</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.current">
+        <ns0:source>Current Stars</ns0:source>
+        <ns0:target state="translated">目前 Stars</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.growth30Days">
+        <ns0:source>30-day growth</ns0:source>
+        <ns0:target state="translated">30 天成長</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.growthOneYear">
+        <ns0:source>1-year growth</ns0:source>
+        <ns0:target state="translated">1 年成長</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.precision.estimated">
+        <ns0:source>estimated</ns0:source>
+        <ns0:target state="translated">估算</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.precision.snapshot">
+        <ns0:source>precise snapshot</ns0:source>
+        <ns0:target state="translated">精確快照</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.all">
+        <ns0:source>All</ns0:source>
+        <ns0:target state="translated">全部</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.label">
+        <ns0:source>Star history range</ns0:source>
+        <ns0:target state="translated">Star 歷史範圍</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.oneYear">
+        <ns0:source>1 year</ns0:source>
+        <ns0:target state="translated">1 年</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.range.threeMonths">
+        <ns0:source>3 mo</ns0:source>
+        <ns0:target state="translated">3 月</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.reading.label">
+        <ns0:source>Selected reading</ns0:source>
+        <ns0:target state="translated">目前讀數</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.reading.valueFormat">
+        <ns0:source>%@, %@ Stars, change %@, %@, %@</ns0:source>
+        <ns0:target state="translated">%@，%@ Stars，變化 %@，%@，%@</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.refresh">
+        <ns0:source>Refresh Star history</ns0:source>
+        <ns0:target state="translated">重新整理 Star 歷史</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.estimated">
+        <ns0:source>Estimated · GH Archive</ns0:source>
+        <ns0:target state="translated">估算 · GH Archive</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.discovery">
+        <ns0:source>Starcat Discovery</ns0:source>
+        <ns0:target state="translated">Starcat Discovery</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.ghArchive">
+        <ns0:source>GH Archive</ns0:source>
+        <ns0:target state="translated">GH Archive</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.name.local">
+        <ns0:source>this Mac</ns0:source>
+        <ns0:target state="translated">本機</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.source.snapshot">
+        <ns0:source>Starcat precise snapshots</ns0:source>
+        <ns0:target state="translated">Starcat 精確快照</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.building">
+        <ns0:source>The long-term history is being built. Starcat will retry up to three times.</ns0:source>
+        <ns0:target state="translated">長期歷史正在建立，Starcat 最多自動重試三次。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.private">
+        <ns0:source>Private repository: only precise snapshots recorded on this Mac are shown.</ns0:source>
+        <ns0:target state="translated">私人儲存庫僅顯示本機記錄的精確快照，儲存庫資訊不會傳送到 Discovery 服務。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.stale">
+        <ns0:source>The remote history could not be refreshed. Showing the last local cache.</ns0:source>
+        <ns0:target state="translated">遠端歷史重新整理失敗，目前顯示上次本機快取。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.state.unavailable">
+        <ns0:source>No Star history is available yet. Refresh after repository metadata has been cached.</ns0:source>
+        <ns0:target state="translated">暫無 Star 歷史。儲存庫中繼資料完成快取後可再次重新整理。</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.star.updated">
+        <ns0:source>Updated</ns0:source>
+        <ns0:target state="translated">更新於</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.generating">
+        <ns0:source>GitHub is preparing statistics</ns0:source>
+        <ns0:target state="translated">GitHub 正在準備統計資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.loginRequired">
+        <ns0:source>Sign in to load GitHub activity</ns0:source>
+        <ns0:target state="translated">登入後載入 GitHub 活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.noData">
+        <ns0:source>No data</ns0:source>
+        <ns0:target state="translated">暫無資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.refreshFailed">
+        <ns0:source>Refresh failed; showing cached data</ns0:source>
+        <ns0:target state="translated">重新整理失敗，繼續顯示快取資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.state.stale">
+        <ns0:source>Showing cached data while refreshing</ns0:source>
+        <ns0:target state="translated">正在重新整理，暫時顯示快取資料</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.commitActivity">
+        <ns0:source>Main branch commit activity</ns0:source>
+        <ns0:target state="translated">主分支提交活動</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.issueFormat">
+        <ns0:source>Issue #%lld</ns0:source>
+        <ns0:target state="translated">Issue #%lld</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.pullRequestFormat">
+        <ns0:source>Pull Request #%lld</ns0:source>
+        <ns0:target state="translated">Pull Request #%lld</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.refresh">
+        <ns0:source>Refresh recent activity</ns0:source>
+        <ns0:target state="translated">重新整理最近動態</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.repo.timeline.releaseFormat">
+        <ns0:source>Release %@</ns0:source>
+        <ns0:target state="translated">發布 %@</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.knowledge">
+        <ns0:source>Knowledge</ns0:source>
+        <ns0:target state="translated">知識庫</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.label">
+        <ns0:source>Scope</ns0:source>
+        <ns0:target state="translated">範圍</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.scope.starred">
+        <ns0:source>All Starred</ns0:source>
+        <ns0:target state="translated">全部收藏</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions">
+        <ns0:source>Needs Attention</ns0:source>
+        <ns0:target state="translated">需要處理</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions.knowledgeSubtitle">
+        <ns0:source>Organization, indexing, and health gaps</ns0:source>
+        <ns0:target state="translated">整理、索引與健康度缺口</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.actions.starredSubtitle">
+        <ns0:source>Starred scope hides RAG-only issues; switch to Knowledge Base to inspect indexing</ns0:source>
+        <ns0:target state="translated">收藏範圍隱藏 RAG 專屬問題；切換到知識庫可檢查索引狀態</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.coverage">
+        <ns0:source>Project Health Coverage</ns0:source>
+        <ns0:target state="translated">專案健康度涵蓋</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.coverage.subtitle">
+        <ns0:source>Health and OpenSSF are measured independently</ns0:source>
+        <ns0:target state="translated">Starcat Health 與 OpenSSF 分別統計</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.languages">
+        <ns0:source>Technology Distribution</ns0:source>
+        <ns0:target state="translated">技術分佈</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.languages.subtitle">
+        <ns0:source>Top primary languages in the current scope</ns0:source>
+        <ns0:target state="translated">目前範圍內的主要程式語言</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.licenses">
+        <ns0:source>License Distribution</ns0:source>
+        <ns0:target state="translated">授權條款分佈</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.licenses.subtitle">
+        <ns0:source>Open-source licenses detected in the current scope</ns0:source>
+        <ns0:target state="translated">目前範圍內識別到的開源授權條款</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.organization">
+        <ns0:source>Organization Status</ns0:source>
+        <ns0:target state="translated">整理情況</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.organization.subtitle">
+        <ns0:source>Unread, read, and actively used repositories</ns0:source>
+        <ns0:target state="translated">未讀、已讀與正在使用的儲存庫分佈</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.topics">
+        <ns0:source>Technology Topics</ns0:source>
+        <ns0:target state="translated">技術主題</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.section.topics.subtitle">
+        <ns0:source>Primary domains represented by your repositories</ns0:source>
+        <ns0:target state="translated">收藏儲存庫涵蓋的主要技術方向</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.allActions">
+        <ns0:source>All Action Items</ns0:source>
+        <ns0:target state="translated">全部待處理</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.healthSummary">
+        <ns0:source>Health Overview</ns0:source>
+        <ns0:target state="translated">健康概覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.languages">
+        <ns0:source>Languages</ns0:source>
+        <ns0:target state="translated">程式語言</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.licenses">
+        <ns0:source>Licenses</ns0:source>
+        <ns0:target state="translated">授權條款</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.organizationSummary">
+        <ns0:source>Organization Overview</ns0:source>
+        <ns0:target state="translated">整理概覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.overviewSummary">
+        <ns0:source>Data Overview</ns0:source>
+        <ns0:target state="translated">資料總覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.technologySummary">
+        <ns0:source>Distribution Overview</ns0:source>
+        <ns0:target state="translated">分佈概覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.selection.topics">
+        <ns0:source>Technology Topics</ns0:source>
+        <ns0:target state="translated">技術主題</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.sidebar.section">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="translated">洞察</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.read">
+        <ns0:source>Read</ns0:source>
+        <ns0:target state="translated">已讀</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.unread">
+        <ns0:source>Unread</ns0:source>
+        <ns0:target state="translated">未讀</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.status.using">
+        <ns0:source>In Use</ns0:source>
+        <ns0:target state="translated">正在使用</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.license.other">
+        <ns0:source>Other licenses</ns0:source>
+        <ns0:target state="translated">其他授權條款</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.license.unknown">
+        <ns0:source>Unknown</ns0:source>
+        <ns0:target state="translated">未識別</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.other">
+        <ns0:source>Other</ns0:source>
+        <ns0:target state="translated">其他</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.ai">
+        <ns0:source>AI &amp; Machine Learning</ns0:source>
+        <ns0:target state="translated">AI 與機器學習</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.apple">
+        <ns0:source>Apple Platforms</ns0:source>
+        <ns0:target state="translated">Apple 平台</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.data">
+        <ns0:source>Data Engineering</ns0:source>
+        <ns0:target state="translated">資料工程</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.developerTools">
+        <ns0:source>Developer Tools</ns0:source>
+        <ns0:target state="translated">開發者工具</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.other">
+        <ns0:source>Other Topics</ns0:source>
+        <ns0:target state="translated">其他主題</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.technology.topic.web">
+        <ns0:source>Web Development</ns0:source>
+        <ns0:target state="translated">Web 開發</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.thisWeek">
+        <ns0:source>This week</ns0:source>
+        <ns0:target state="translated">本週</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.today">
+        <ns0:source>Today</ns0:source>
+        <ns0:target state="translated">今天</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.time.twoDays">
+        <ns0:source>2 days ago</ns0:source>
+        <ns0:target state="translated">2 天前</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.title">
+        <ns0:source>Insights Center</ns0:source>
+        <ns0:target state="translated">洞察中心</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.health">
+        <ns0:source>Project Health</ns0:source>
+        <ns0:target state="translated">專案健康</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.health.subtitle">
+        <ns0:source>Coverage, maintenance, and security signals</ns0:source>
+        <ns0:target state="translated">涵蓋率、維護狀態與安全訊號</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.organization">
+        <ns0:source>Organization</ns0:source>
+        <ns0:target state="translated">整理情況</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.organization.subtitle">
+        <ns0:source>Reading, tags, and knowledge completeness</ns0:source>
+        <ns0:target state="translated">閱讀狀態、標籤與知識完整性</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.overview">
+        <ns0:source>Overview</ns0:source>
+        <ns0:target state="translated">概覽</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.overview.subtitle">
+        <ns0:source>Key metrics and prioritized action items</ns0:source>
+        <ns0:target state="translated">核心指標與優先處理事項</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.technology">
+        <ns0:source>Technology</ns0:source>
+        <ns0:target state="translated">技術分佈</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="insights.topic.technology.subtitle">
+        <ns0:source>Languages, topics, and license composition</ns0:source>
+        <ns0:target state="translated">程式語言、技術主題與授權條款構成</ns0:target>
+      </ns0:trans-unit>
+      <ns0:trans-unit id="nav.insights">
+        <ns0:source>Insights</ns0:source>
+        <ns0:target state="translated">洞察</ns0:target>
+      </ns0:trans-unit>
     </ns0:body>
   </ns0:file>
 </ns0:xliff>

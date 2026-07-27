@@ -16576,6 +16576,794 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>𝕏</source>
         <target state="translated">𝕏</target>
       </trans-unit>
+      <trans-unit id="insights.action.detailHint">
+        <source>This collection groups repositories by the current scope and issue type for focused organization.</source>
+        <target state="translated">This collection groups repositories by the current scope and issue type for focused organization.</target>
+      </trans-unit>
+      <trans-unit id="insights.action.healthPending">
+        <source>Health pending</source>
+        <target state="translated">Health pending</target>
+      </trans-unit>
+      <trans-unit id="insights.action.healthPending.detail">
+        <source>Repositories without a current health snapshot</source>
+        <target state="translated">Repositories without a current health snapshot</target>
+      </trans-unit>
+      <trans-unit id="insights.action.indexIssues">
+        <source>Index issues</source>
+        <target state="translated">Index issues</target>
+      </trans-unit>
+      <trans-unit id="insights.action.indexIssues.detail">
+        <source>Missing, failed, or stale knowledge indexes</source>
+        <target state="translated">Missing, failed, or stale knowledge indexes</target>
+      </trans-unit>
+      <trans-unit id="insights.action.maintenanceRisk">
+        <source>Maintenance risk</source>
+        <target state="translated">Maintenance risk</target>
+      </trans-unit>
+      <trans-unit id="insights.action.maintenanceRisk.detail">
+        <source>Repositories showing signs of reduced maintenance activity</source>
+        <target state="translated">Repositories showing signs of reduced maintenance activity</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingIndexableContent">
+        <source>No indexable content</source>
+        <target state="translated">No indexable content</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingIndexableContent.detail">
+        <source>Knowledge repositories without content available for indexing</source>
+        <target state="translated">Knowledge repositories without content available for indexing</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingReadme">
+        <source>README missing</source>
+        <target state="translated">README missing</target>
+      </trans-unit>
+      <trans-unit id="insights.action.missingReadme.detail">
+        <source>Knowledge repositories without a README snapshot</source>
+        <target state="translated">Knowledge repositories without a README snapshot</target>
+      </trans-unit>
+      <trans-unit id="insights.action.openSSFPending">
+        <source>OpenSSF pending</source>
+        <target state="translated">OpenSSF pending</target>
+      </trans-unit>
+      <trans-unit id="insights.action.openSSFPending.detail">
+        <source>Repositories not yet covered by OpenSSF Scorecard</source>
+        <target state="translated">Repositories not yet covered by OpenSSF Scorecard</target>
+      </trans-unit>
+      <trans-unit id="insights.action.priority">
+        <source>Needs attention</source>
+        <target state="translated">Needs attention</target>
+      </trans-unit>
+      <trans-unit id="insights.action.repositoryCount">
+        <source>repositories</source>
+        <target state="translated">repositories</target>
+      </trans-unit>
+      <trans-unit id="insights.action.securityRisk">
+        <source>Security risk</source>
+        <target state="translated">Security risk</target>
+      </trans-unit>
+      <trans-unit id="insights.action.securityRisk.detail">
+        <source>Repositories with security signals that need review</source>
+        <target state="translated">Repositories with security signals that need review</target>
+      </trans-unit>
+      <trans-unit id="insights.action.unread">
+        <source>Unread</source>
+        <target state="translated">Unread</target>
+      </trans-unit>
+      <trans-unit id="insights.action.unread.detail">
+        <source>Repositories that have not been reviewed</source>
+        <target state="translated">Repositories that have not been reviewed</target>
+      </trans-unit>
+      <trans-unit id="insights.action.untagged">
+        <source>Untagged</source>
+        <target state="translated">Untagged</target>
+      </trans-unit>
+      <trans-unit id="insights.action.untagged.detail">
+        <source>Repositories that have not been categorized</source>
+        <target state="translated">Repositories that have not been categorized</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.countFormat">
+        <source>%1$lld of %2$lld repositories covered</source>
+        <target state="translated">%1$lld of %2$lld repositories covered</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.health">
+        <source>Starcat Health</source>
+        <target state="translated">Starcat Health</target>
+      </trans-unit>
+      <trans-unit id="insights.coverage.openssf">
+        <source>OpenSSF Scorecard</source>
+        <target state="translated">OpenSSF Scorecard</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.banner">
+        <source>Temporary filter from Insights</source>
+        <target state="translated">Temporary filter from Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.clear">
+        <source>Clear Filter</source>
+        <target state="translated">Clear Filter</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.return">
+        <source>Back to Insights</source>
+        <target state="translated">Back to Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.drilldown.viewAll">
+        <source>View All</source>
+        <target state="translated">View All</target>
+      </trans-unit>
+      <trans-unit id="insights.list.section.analysis">
+        <source>Analysis</source>
+        <target state="translated">Analysis</target>
+      </trans-unit>
+      <trans-unit id="insights.list.section.attention">
+        <source>Needs Attention</source>
+        <target state="translated">Needs Attention</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.knowledgeProjects.detail">
+        <source>Saved to your private knowledge base</source>
+        <target state="translated">Saved to your private knowledge base</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.knowledgeRecent.detail">
+        <source>Added to knowledge in the last 30 days</source>
+        <target state="translated">Added to knowledge in the last 30 days</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.organized">
+        <source>Organized</source>
+        <target state="translated">Organized</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.organized.detail">
+        <source>Tagged, noted, read, or in use</source>
+        <target state="translated">Tagged, noted, read, or in use</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.projects">
+        <source>Projects</source>
+        <target state="translated">Projects</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.projects.detail">
+        <source>All repositories currently starred</source>
+        <target state="translated">All repositories currently starred</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.recent">
+        <source>New in 30 Days</source>
+        <target state="translated">New in 30 Days</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.recent.detail">
+        <source>Repositories starred recently</source>
+        <target state="translated">Repositories starred recently</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.using">
+        <source>In Use</source>
+        <target state="translated">In Use</target>
+      </trans-unit>
+      <trans-unit id="insights.metric.using.detail">
+        <source>Marked as actively using</source>
+        <target state="translated">Marked as actively using</target>
+      </trans-unit>
+      <trans-unit id="insights.mock.badge">
+        <source>Demo data</source>
+        <target state="translated">Demo data</target>
+      </trans-unit>
+      <trans-unit id="insights.my.title">
+        <source>My Insights</source>
+        <target state="translated">My Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.preview.subtitle">
+        <source>The overview cards and charts will appear here.</source>
+        <target state="translated">The overview cards and charts will appear here.</target>
+      </trans-unit>
+      <trans-unit id="insights.preview.title">
+        <source>Insights workspace ready</source>
+        <target state="translated">Insights workspace ready</target>
+      </trans-unit>
+      <trans-unit id="insights.refresh">
+        <source>Refresh insights</source>
+        <target state="translated">Refresh insights</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.closedIssues">
+        <source>Closed Issues</source>
+        <target state="translated">Closed Issues</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.commits">
+        <source>Commits</source>
+        <target state="translated">Commits</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.createdIssues">
+        <source>New Issues</source>
+        <target state="translated">New Issues</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.createdPullRequests">
+        <source>New Pull Requests</source>
+        <target state="translated">New Pull Requests</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.issues">
+        <source>Issues</source>
+        <target state="translated">Issues</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.mergedPullRequests">
+        <source>Merged Pull Requests</source>
+        <target state="translated">Merged Pull Requests</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.pullRequests">
+        <source>Pull Requests</source>
+        <target state="translated">Pull Requests</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.label">
+        <source>Activity range</source>
+        <target state="translated">Activity range</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.month">
+        <source>1 mo</source>
+        <target state="translated">1 mo</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.quarter">
+        <source>3 mo</source>
+        <target state="translated">3 mo</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.week">
+        <source>1 wk</source>
+        <target state="translated">1 wk</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.range.year">
+        <source>1 yr</source>
+        <target state="translated">1 yr</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.refresh">
+        <source>Refresh repository activity</source>
+        <target state="translated">Refresh repository activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.activity.releases">
+        <source>Releases</source>
+        <target state="translated">Releases</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.commit.refresh">
+        <source>Refresh commit activity</source>
+        <target state="translated">Refresh commit activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.commit.totalFormat">
+        <source>%lld commits in the selected range</source>
+        <target state="translated">%lld commits in the selected range</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.community.healthFormat">
+        <source>Community health %lld%%</source>
+        <target state="translated">Community health %lld%%</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.community.refresh">
+        <source>Refresh community profile</source>
+        <target state="translated">Refresh community profile</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.contributor.commitsFormat">
+        <source>%lld commits</source>
+        <target state="translated">%lld commits</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.contributor.refresh">
+        <source>Refresh contributors</source>
+        <target state="translated">Refresh contributors</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.maintenance">
+        <source>Maintenance</source>
+        <target state="translated">Maintenance</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.popularity">
+        <source>Popularity</source>
+        <target state="translated">Popularity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.quality">
+        <source>Quality</source>
+        <target state="translated">Quality</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.health.security">
+        <source>Security</source>
+        <target state="translated">Security</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.health">
+        <source>Health Score</source>
+        <target state="translated">Health Score</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.license">
+        <source>License</source>
+        <target state="translated">License</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.openssf">
+        <source>OpenSSF</source>
+        <target state="translated">OpenSSF</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.local.release">
+        <source>Latest Release</source>
+        <target state="translated">Latest Release</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.insights">
+        <source>Insights</source>
+        <target state="translated">Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.label">
+        <source>Repository content</source>
+        <target state="translated">Repository content</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.mode.readme">
+        <source>README</source>
+        <target state="translated">README</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.period.thirtyDays">
+        <source>Last 30 days</source>
+        <target state="translated">Last 30 days</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.preview.subtitle">
+        <source>Activity, Star history, health, and community signals will appear here.</source>
+        <target state="translated">Activity, Star history, health, and community signals will appear here.</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.preview.title">
+        <source>Repository Insights</source>
+        <target state="translated">Repository Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.activity">
+        <source>Activity Overview</source>
+        <target state="translated">Activity Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.activity.subtitle">
+        <source>Pull request and issue activity in the selected range</source>
+        <target state="translated">Pull request and issue activity in the selected range</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.commits">
+        <source>Commit Activity</source>
+        <target state="translated">Commit Activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.commits.subtitle">
+        <source>Weekly commits in the selected activity range</source>
+        <target state="translated">Weekly commits in the selected activity range</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.community">
+        <source>Community</source>
+        <target state="translated">Community</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.community.subtitle">
+        <source>Documentation and contribution readiness</source>
+        <target state="translated">Documentation and contribution readiness</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.contributors">
+        <source>Top Contributors</source>
+        <target state="translated">Top Contributors</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.contributors.subtitle">
+        <source>Contribution ranking for the current period</source>
+        <target state="translated">Contribution ranking for the current period</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.health">
+        <source>Repository Health</source>
+        <target state="translated">Repository Health</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.health.subtitle">
+        <source>Four dimensions from Starcat health scoring</source>
+        <target state="translated">Four dimensions from Starcat health scoring</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.local">
+        <source>Local Insights</source>
+        <target state="translated">Local Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.local.subtitle">
+        <source>Release, license, health, and security data already stored by Starcat</source>
+        <target state="translated">Release, license, health, and security data already stored by Starcat</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.security">
+        <source>Security</source>
+        <target state="translated">Security</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.security.subtitle">
+        <source>OpenSSF and repository protection status</source>
+        <target state="translated">OpenSSF and repository protection status</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.stars">
+        <source>Star Trend</source>
+        <target state="translated">Star Trend</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.stars.subtitle">
+        <source>Estimated history and precise local observations</source>
+        <target state="translated">Estimated history and precise local observations</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.timeline">
+        <source>Recent Activity</source>
+        <target state="translated">Recent Activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.section.timeline.subtitle">
+        <source>Important repository events in chronological order</source>
+        <target state="translated">Important repository events in chronological order</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.advisories">
+        <source>Security advisories</source>
+        <target state="translated">Security advisories</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.available">
+        <source>Available</source>
+        <target state="translated">Available</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.branchProtection">
+        <source>Branch protection</source>
+        <target state="translated">Branch protection</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.conduct">
+        <source>Code of conduct</source>
+        <target state="translated">Code of conduct</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.contributing">
+        <source>Contribution guide</source>
+        <target state="translated">Contribution guide</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.dependabot">
+        <source>Dependabot</source>
+        <target state="translated">Dependabot</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.enabled">
+        <source>Enabled</source>
+        <target state="translated">Enabled</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.license">
+        <source>License</source>
+        <target state="translated">License</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.missing">
+        <source>Missing</source>
+        <target state="translated">Missing</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.mit">
+        <source>MIT</source>
+        <target state="translated">MIT</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.none">
+        <source>None</source>
+        <target state="translated">None</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.openssf">
+        <source>OpenSSF Scorecard</source>
+        <target state="translated">OpenSSF Scorecard</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.openssfScore">
+        <source>8.7 / 10</source>
+        <target state="translated">8.7 / 10</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.partial">
+        <source>Partial</source>
+        <target state="translated">Partial</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.signal.readme">
+        <source>README</source>
+        <target state="translated">README</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.change.baseline">
+        <source>baseline</source>
+        <target state="translated">baseline</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.chart.summaryFormat">
+        <source>From %@ to %@, latest %@ Stars, one-year change %@</source>
+        <target state="translated">From %@ to %@, latest %@ Stars, one-year change %@</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.coverage">
+        <source>Coverage from</source>
+        <target state="translated">Coverage from</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.current">
+        <source>Current Stars</source>
+        <target state="translated">Current Stars</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.growth30Days">
+        <source>30-day growth</source>
+        <target state="translated">30-day growth</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.growthOneYear">
+        <source>1-year growth</source>
+        <target state="translated">1-year growth</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.precision.estimated">
+        <source>estimated</source>
+        <target state="translated">estimated</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.precision.snapshot">
+        <source>precise snapshot</source>
+        <target state="translated">precise snapshot</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.all">
+        <source>All</source>
+        <target state="translated">All</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.label">
+        <source>Star history range</source>
+        <target state="translated">Star history range</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.oneYear">
+        <source>1 year</source>
+        <target state="translated">1 year</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.range.threeMonths">
+        <source>3 mo</source>
+        <target state="translated">3 mo</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.reading.label">
+        <source>Selected reading</source>
+        <target state="translated">Selected reading</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.reading.valueFormat">
+        <source>%@, %@ Stars, change %@, %@, %@</source>
+        <target state="translated">%@, %@ Stars, change %@, %@, %@</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.refresh">
+        <source>Refresh Star history</source>
+        <target state="translated">Refresh Star history</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.estimated">
+        <source>Estimated · GH Archive</source>
+        <target state="translated">Estimated · GH Archive</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.discovery">
+        <source>Starcat Discovery</source>
+        <target state="translated">Starcat Discovery</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.ghArchive">
+        <source>GH Archive</source>
+        <target state="translated">GH Archive</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.name.local">
+        <source>this Mac</source>
+        <target state="translated">this Mac</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.source.snapshot">
+        <source>Starcat precise snapshots</source>
+        <target state="translated">Starcat precise snapshots</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.building">
+        <source>The long-term history is being built. Starcat will retry up to three times.</source>
+        <target state="translated">The long-term history is being built. Starcat will retry up to three times.</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.private">
+        <source>Private repository: only precise snapshots recorded on this Mac are shown.</source>
+        <target state="translated">Private repository: only precise snapshots recorded on this Mac are shown.</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.stale">
+        <source>The remote history could not be refreshed. Showing the last local cache.</source>
+        <target state="translated">The remote history could not be refreshed. Showing the last local cache.</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.state.unavailable">
+        <source>No Star history is available yet. Refresh after repository metadata has been cached.</source>
+        <target state="translated">No Star history is available yet. Refresh after repository metadata has been cached.</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.star.updated">
+        <source>Updated</source>
+        <target state="translated">Updated</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.generating">
+        <source>GitHub is preparing statistics</source>
+        <target state="translated">GitHub is preparing statistics</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.loginRequired">
+        <source>Sign in to load GitHub activity</source>
+        <target state="translated">Sign in to load GitHub activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.noData">
+        <source>No data</source>
+        <target state="translated">No data</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.refreshFailed">
+        <source>Refresh failed; showing cached data</source>
+        <target state="translated">Refresh failed; showing cached data</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.state.stale">
+        <source>Showing cached data while refreshing</source>
+        <target state="translated">Showing cached data while refreshing</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.commitActivity">
+        <source>Main branch commit activity</source>
+        <target state="translated">Main branch commit activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.issueFormat">
+        <source>Issue #%lld</source>
+        <target state="translated">Issue #%lld</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.pullRequestFormat">
+        <source>Pull Request #%lld</source>
+        <target state="translated">Pull Request #%lld</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.refresh">
+        <source>Refresh recent activity</source>
+        <target state="translated">Refresh recent activity</target>
+      </trans-unit>
+      <trans-unit id="insights.repo.timeline.releaseFormat">
+        <source>Release %@</source>
+        <target state="translated">Release %@</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.knowledge">
+        <source>Knowledge</source>
+        <target state="translated">Knowledge</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.label">
+        <source>Scope</source>
+        <target state="translated">Scope</target>
+      </trans-unit>
+      <trans-unit id="insights.scope.starred">
+        <source>All Starred</source>
+        <target state="translated">All Starred</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions">
+        <source>Needs Attention</source>
+        <target state="translated">Needs Attention</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions.knowledgeSubtitle">
+        <source>Organization, indexing, and health gaps</source>
+        <target state="translated">Organization, indexing, and health gaps</target>
+      </trans-unit>
+      <trans-unit id="insights.section.actions.starredSubtitle">
+        <source>Starred scope hides RAG-only issues; switch to Knowledge Base to inspect indexing</source>
+        <target state="translated">Starred scope hides RAG-only issues; switch to Knowledge Base to inspect indexing</target>
+      </trans-unit>
+      <trans-unit id="insights.section.coverage">
+        <source>Project Health Coverage</source>
+        <target state="translated">Project Health Coverage</target>
+      </trans-unit>
+      <trans-unit id="insights.section.coverage.subtitle">
+        <source>Health and OpenSSF are measured independently</source>
+        <target state="translated">Health and OpenSSF are measured independently</target>
+      </trans-unit>
+      <trans-unit id="insights.section.languages">
+        <source>Technology Distribution</source>
+        <target state="translated">Technology Distribution</target>
+      </trans-unit>
+      <trans-unit id="insights.section.languages.subtitle">
+        <source>Top primary languages in the current scope</source>
+        <target state="translated">Top primary languages in the current scope</target>
+      </trans-unit>
+      <trans-unit id="insights.section.licenses">
+        <source>License Distribution</source>
+        <target state="translated">License Distribution</target>
+      </trans-unit>
+      <trans-unit id="insights.section.licenses.subtitle">
+        <source>Open-source licenses detected in the current scope</source>
+        <target state="translated">Open-source licenses detected in the current scope</target>
+      </trans-unit>
+      <trans-unit id="insights.section.organization">
+        <source>Organization Status</source>
+        <target state="translated">Organization Status</target>
+      </trans-unit>
+      <trans-unit id="insights.section.organization.subtitle">
+        <source>Unread, read, and actively used repositories</source>
+        <target state="translated">Unread, read, and actively used repositories</target>
+      </trans-unit>
+      <trans-unit id="insights.section.topics">
+        <source>Technology Topics</source>
+        <target state="translated">Technology Topics</target>
+      </trans-unit>
+      <trans-unit id="insights.section.topics.subtitle">
+        <source>Primary domains represented by your repositories</source>
+        <target state="translated">Primary domains represented by your repositories</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.allActions">
+        <source>All Action Items</source>
+        <target state="translated">All Action Items</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.healthSummary">
+        <source>Health Overview</source>
+        <target state="translated">Health Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.languages">
+        <source>Languages</source>
+        <target state="translated">Languages</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.licenses">
+        <source>Licenses</source>
+        <target state="translated">Licenses</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.organizationSummary">
+        <source>Organization Overview</source>
+        <target state="translated">Organization Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.overviewSummary">
+        <source>Data Overview</source>
+        <target state="translated">Data Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.technologySummary">
+        <source>Distribution Overview</source>
+        <target state="translated">Distribution Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.selection.topics">
+        <source>Technology Topics</source>
+        <target state="translated">Technology Topics</target>
+      </trans-unit>
+      <trans-unit id="insights.sidebar.section">
+        <source>Insights</source>
+        <target state="translated">Insights</target>
+      </trans-unit>
+      <trans-unit id="insights.status.read">
+        <source>Read</source>
+        <target state="translated">Read</target>
+      </trans-unit>
+      <trans-unit id="insights.status.unread">
+        <source>Unread</source>
+        <target state="translated">Unread</target>
+      </trans-unit>
+      <trans-unit id="insights.status.using">
+        <source>In Use</source>
+        <target state="translated">In Use</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.license.other">
+        <source>Other licenses</source>
+        <target state="translated">Other licenses</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.license.unknown">
+        <source>Unknown</source>
+        <target state="translated">Unknown</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.other">
+        <source>Other</source>
+        <target state="translated">Other</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.ai">
+        <source>AI &amp; Machine Learning</source>
+        <target state="translated">AI &amp; Machine Learning</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.apple">
+        <source>Apple Platforms</source>
+        <target state="translated">Apple Platforms</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.data">
+        <source>Data Engineering</source>
+        <target state="translated">Data Engineering</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.developerTools">
+        <source>Developer Tools</source>
+        <target state="translated">Developer Tools</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.other">
+        <source>Other Topics</source>
+        <target state="translated">Other Topics</target>
+      </trans-unit>
+      <trans-unit id="insights.technology.topic.web">
+        <source>Web Development</source>
+        <target state="translated">Web Development</target>
+      </trans-unit>
+      <trans-unit id="insights.time.thisWeek">
+        <source>This week</source>
+        <target state="translated">This week</target>
+      </trans-unit>
+      <trans-unit id="insights.time.today">
+        <source>Today</source>
+        <target state="translated">Today</target>
+      </trans-unit>
+      <trans-unit id="insights.time.twoDays">
+        <source>2 days ago</source>
+        <target state="translated">2 days ago</target>
+      </trans-unit>
+      <trans-unit id="insights.title">
+        <source>Insights Center</source>
+        <target state="translated">Insights Center</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.health">
+        <source>Project Health</source>
+        <target state="translated">Project Health</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.health.subtitle">
+        <source>Coverage, maintenance, and security signals</source>
+        <target state="translated">Coverage, maintenance, and security signals</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.organization">
+        <source>Organization</source>
+        <target state="translated">Organization</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.organization.subtitle">
+        <source>Reading, tags, and knowledge completeness</source>
+        <target state="translated">Reading, tags, and knowledge completeness</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.overview">
+        <source>Overview</source>
+        <target state="translated">Overview</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.overview.subtitle">
+        <source>Key metrics and prioritized action items</source>
+        <target state="translated">Key metrics and prioritized action items</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.technology">
+        <source>Technology</source>
+        <target state="translated">Technology</target>
+      </trans-unit>
+      <trans-unit id="insights.topic.technology.subtitle">
+        <source>Languages, topics, and license composition</source>
+        <target state="translated">Languages, topics, and license composition</target>
+      </trans-unit>
+      <trans-unit id="nav.insights">
+        <source>Insights</source>
+        <target state="translated">Insights</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
