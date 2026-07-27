@@ -21820,22 +21820,6 @@
         }
       }
     },
-    "insights.mock.badge" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Demo data"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "演示数据"
-          }
-        }
-      }
-    },
     "insights.my.title" : {
       "localizations" : {
         "en" : {
@@ -21848,38 +21832,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我的洞察"
-          }
-        }
-      }
-    },
-    "insights.preview.subtitle" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The overview cards and charts will appear here."
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "概览指标与统计图表将在这里呈现。"
-          }
-        }
-      }
-    },
-    "insights.preview.title" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insights workspace ready"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "洞察工作区已就绪"
           }
         }
       }

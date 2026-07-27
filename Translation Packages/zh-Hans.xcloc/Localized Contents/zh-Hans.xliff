@@ -16736,21 +16736,9 @@ git clone %1$@ "$HOME/.claude/skills/starcat-skill"
         <source>Marked as actively using</source>
         <target state="translated">标记为正在使用</target>
       </trans-unit>
-      <trans-unit id="insights.mock.badge">
-        <source>Demo data</source>
-        <target state="translated">演示数据</target>
-      </trans-unit>
       <trans-unit id="insights.my.title">
         <source>My Insights</source>
         <target state="translated">我的洞察</target>
-      </trans-unit>
-      <trans-unit id="insights.preview.subtitle">
-        <source>The overview cards and charts will appear here.</source>
-        <target state="translated">概览指标与统计图表将在这里呈现。</target>
-      </trans-unit>
-      <trans-unit id="insights.preview.title">
-        <source>Insights workspace ready</source>
-        <target state="translated">洞察工作区已就绪</target>
       </trans-unit>
       <trans-unit id="insights.refresh">
         <source>Refresh insights</source>

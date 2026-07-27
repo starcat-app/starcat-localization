@@ -16736,21 +16736,9 @@ If the destination already exists, update it with `git -C &lt;skill-path&gt; pul
         <source>Marked as actively using</source>
         <target state="translated">Marked as actively using</target>
       </trans-unit>
-      <trans-unit id="insights.mock.badge">
-        <source>Demo data</source>
-        <target state="translated">Demo data</target>
-      </trans-unit>
       <trans-unit id="insights.my.title">
         <source>My Insights</source>
         <target state="translated">My Insights</target>
-      </trans-unit>
-      <trans-unit id="insights.preview.subtitle">
-        <source>The overview cards and charts will appear here.</source>
-        <target state="translated">The overview cards and charts will appear here.</target>
-      </trans-unit>
-      <trans-unit id="insights.preview.title">
-        <source>Insights workspace ready</source>
-        <target state="translated">Insights workspace ready</target>
       </trans-unit>
       <trans-unit id="insights.refresh">
         <source>Refresh insights</source>

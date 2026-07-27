@@ -16736,20 +16736,8 @@ Als de bestemming al bestaat, werk deze dan bij met `git -C &lt;skill-path&gt; p
         <ns0:source>Marked as actively using</ns0:source>
         <ns0:target state="needs-translation" />
       </ns0:trans-unit>
-      <ns0:trans-unit id="insights.mock.badge">
-        <ns0:source>Demo data</ns0:source>
-        <ns0:target state="needs-translation" />
-      </ns0:trans-unit>
       <ns0:trans-unit id="insights.my.title">
         <ns0:source>My Insights</ns0:source>
-        <ns0:target state="needs-translation" />
-      </ns0:trans-unit>
-      <ns0:trans-unit id="insights.preview.subtitle">
-        <ns0:source>The overview cards and charts will appear here.</ns0:source>
-        <ns0:target state="needs-translation" />
-      </ns0:trans-unit>
-      <ns0:trans-unit id="insights.preview.title">
-        <ns0:source>Insights workspace ready</ns0:source>
         <ns0:target state="needs-translation" />
       </ns0:trans-unit>
       <ns0:trans-unit id="insights.refresh">
