@@ -45,6 +45,7 @@ FENCED_CODE_RE = re.compile(
     re.DOTALL | re.MULTILINE,
 )
 INLINE_CODE_RE = re.compile(r"(?<!`)`[^`\n]+`(?!`)")
+INLINE_MASK_RE = re.compile(r"⟦SC_INLINE_\d{4}⟧")
 URL_TOKEN_RE = re.compile(
     r"https?://[A-Za-z0-9._~:/?#\[\]@!$&'()*+,;=%-]*"
 )
@@ -231,15 +232,18 @@ def load_document(
             and state in TRANSLATABLE_STATES
             and state not in APPROVED_STATES
         )
-        is_requested_review_target = (
+        is_requested_target = (
             requested_keys is not None
             and key in requested_keys
             and key not in exclusions
-            and bool(target)
-            and state == "needs-review-translation"
+            and (
+                is_empty_draft_target
+                or (bool(target) and state == "needs-review-translation")
+            )
         )
         if requested_keys is not None:
-            is_pending = is_requested_review_target
+            # 定向重跑既用于修订 AI 初稿，也用于把超长单元从普通批次中隔离出来。
+            is_pending = is_requested_target
         elif repair_protected_literals:
             is_pending = is_ai_review_target
         else:
@@ -252,7 +256,7 @@ def load_document(
         unavailable = sorted(requested_keys - selected_keys)
         if unavailable:
             raise TranslationError(
-                "指定 key 不存在或不是 AI 待审核初稿："
+                "指定 key 不存在、已审核或不可生成 AI 初稿："
                 + ", ".join(unavailable)
             )
     if limit is not None:
@@ -328,11 +332,91 @@ def protected_literal_error(source: str, target: str) -> str | None:
         target_signature,
     ):
         if source_tokens != target_tokens:
+            shared_count = min(len(source_tokens), len(target_tokens))
+            first_difference = next(
+                (
+                    index
+                    for index in range(shared_count)
+                    if source_tokens[index] != target_tokens[index]
+                ),
+                shared_count,
+            )
+            source_value = (
+                source_tokens[first_difference]
+                if first_difference < len(source_tokens)
+                else "<missing>"
+            )
+            target_value = (
+                target_tokens[first_difference]
+                if first_difference < len(target_tokens)
+                else "<missing>"
+            )
             return (
-                f"{label} 不一致：source={source_tokens[:3]} "
-                f"target={target_tokens[:3]}"
+                f"{label} 不一致：source_count={len(source_tokens)} "
+                f"target_count={len(target_tokens)} first_diff[{first_difference}]="
+                f"source:{source_value!r} target:{target_value!r}"
             )
     return None
+
+
+def strip_unexpected_inline_code(source: str, target: str) -> str:
+    """剥除目标语言额外添加的行内代码标记，保留源文案要求的字面量。
+
+    AI 有时会把普通技术词或占位符自行包进反引号。这里只移除源文案中不存在的
+    包装；若源字面量缺失、改写或乱序，规范化后的签名仍不相等，后续硬校验会拒绝。
+    """
+
+    source_tokens = INLINE_CODE_RE.findall(source)
+    remaining = collections.Counter(source_tokens)
+    parts: list[str] = []
+    cursor = 0
+    for match in INLINE_CODE_RE.finditer(target):
+        token = match.group(0)
+        parts.append(target[cursor : match.start()])
+        if remaining[token] > 0:
+            parts.append(token)
+            remaining[token] -= 1
+        else:
+            parts.append(token[1:-1])
+        cursor = match.end()
+    parts.append(target[cursor:])
+    normalized = "".join(parts)
+
+    # 数量相同但顺序错误也不能猜测；返回原文，让严格校验给出明确错误。
+    if INLINE_CODE_RE.findall(normalized) != source_tokens:
+        return target
+    return normalized
+
+
+def mask_inline_code(text: str) -> tuple[str, tuple[str, ...]]:
+    """发送给模型前隐藏行内代码，避免模型改写大小写、变量名或命令参数。"""
+
+    if INLINE_MASK_RE.search(text):
+        raise TranslationError("源文案包含保留的行内代码掩码格式")
+    literals = tuple(INLINE_CODE_RE.findall(text))
+    replacements = iter(
+        f"⟦SC_INLINE_{index:04d}⟧" for index in range(len(literals))
+    )
+    return INLINE_CODE_RE.sub(lambda _: next(replacements), text), literals
+
+
+def restore_inline_code_mask(text: str, literals: tuple[str, ...]) -> str:
+    """仅在掩码数量与顺序完全一致时还原源字面量，不对缺失或乱序做猜测。"""
+
+    expected = [
+        f"⟦SC_INLINE_{index:04d}⟧" for index in range(len(literals))
+    ]
+    actual = INLINE_MASK_RE.findall(text)
+    if actual != expected:
+        raise TranslationError(
+            "AI 响应行内代码掩码不一致："
+            f"expected={expected[:3]} actual={actual[:3]} "
+            f"expected_count={len(expected)} actual_count={len(actual)}"
+        )
+    restored = text
+    for marker, literal in zip(expected, literals):
+        restored = restored.replace(marker, literal, 1)
+    return restored
 
 
 def replace_matches_by_order(
@@ -430,6 +514,7 @@ def apply_translations(
         if not isinstance(target, str) or not target.strip():
             raise TranslationError(f"{document.locale}:{unit.key} AI target 为空")
         target = target.strip()
+        target = strip_unexpected_inline_code(unit.source, target)
         error = placeholder_error(unit.source, target)
         if error:
             raise TranslationError(
@@ -485,7 +570,8 @@ Return only one valid JSON object in this exact shape:
 Rules:
 - Return exactly one item for every input id, with no extra ids.
 - Preserve every printf/brace placeholder exactly, including %@, %1$@, %d, %% and {{name}}.
-- Preserve every executable fenced code block, inline backtick span and URL byte-for-byte.
+- Inline code is replaced with ordered ⟦SC_INLINE_0000⟧ markers. Preserve every marker exactly and in order; never add a marker.
+- Preserve every executable fenced code block and URL byte-for-byte.
 - In ```text blocks, translate descriptive prose but preserve identifiers, placeholders and values.
 - Keep product names, locale identifiers and technical literals unchanged when appropriate.
 - Use natural, concise macOS UI language, not word-for-word translation.
@@ -496,15 +582,19 @@ Rules:
 """.strip()
     payload: list[dict[str, Any]] = []
     for index, unit in enumerate(units):
+        masked_source, source_literals = mask_inline_code(unit.source)
         item: dict[str, Any] = {
             "id": index,
             "key": unit.key,
-            "source": unit.source,
+            "source": masked_source,
         }
         if unit.note:
             item["note"] = unit.note
         if unit.reference:
-            item["simplifiedChineseReference"] = unit.reference
+            masked_reference, reference_literals = mask_inline_code(unit.reference)
+            # 已校验的简中参考应与英文拥有同一组技术字面量；不一致时宁可不提供参考。
+            if reference_literals == source_literals:
+                item["simplifiedChineseReference"] = masked_reference
         payload.append(item)
     user = (
         "Translate the following JSON array. Respond with a JSON object only.\n"
@@ -543,7 +633,11 @@ def parse_response(content: str, units: list[TranslationUnit]) -> dict[str, str]
             f"missing={sorted(expected_ids - set(by_id))[:5]} "
             f"unknown={sorted(set(by_id) - expected_ids)[:5]}"
         )
-    return {unit.key: by_id[index] for index, unit in enumerate(units)}
+    translations: dict[str, str] = {}
+    for index, unit in enumerate(units):
+        _, literals = mask_inline_code(unit.source)
+        translations[unit.key] = restore_inline_code_mask(by_id[index], literals)
+    return translations
 
 
 class DeepSeekClient:
@@ -623,6 +717,122 @@ class DeepSeekClient:
             else {}
         )
         return parse_response(content, units), normalized_usage
+
+
+def split_boundary_whitespace(text: str) -> tuple[str, str, str]:
+    """分离片段边界空白，分段翻译后仍保持原有换行和代码邻接间距。"""
+
+    match = re.fullmatch(r"(\s*)(.*?)(\s*)", text, re.DOTALL)
+    if match is None:
+        return "", text, ""
+    return match.group(1), match.group(2), match.group(3)
+
+
+def translate_inline_segments(
+    locale: str,
+    unit: TranslationUnit,
+    client: DeepSeekClient,
+) -> tuple[str, dict[str, int]]:
+    """把行内代码当作固定分隔符，只让模型翻译其间的自然语言片段。
+
+    该路径用于含大量技术字面量的长文案。模型从未接触真实字面量，最终按源顺序
+    拼回，因此不存在事后猜测“哪个被改写 token 对应哪个源 token”的风险。
+    """
+
+    literals = INLINE_CODE_RE.findall(unit.source)
+    if not literals:
+        raise TranslationError(f"{unit.key} 不含可分段的行内代码")
+    source_segments = INLINE_CODE_RE.split(unit.source)
+
+    reference_segments: list[str] | None = None
+    if unit.reference and INLINE_CODE_RE.findall(unit.reference) == literals:
+        candidate = INLINE_CODE_RE.split(unit.reference)
+        if len(candidate) == len(source_segments):
+            reference_segments = candidate
+
+    translated_segments = list(source_segments)
+    pseudo_units: list[TranslationUnit] = []
+    bindings: list[tuple[int, str, str, TranslationUnit]] = []
+    for index, segment in enumerate(source_segments):
+        leading, core, trailing = split_boundary_whitespace(segment)
+        if not core:
+            continue
+        reference = ""
+        if reference_segments is not None:
+            _, reference, _ = split_boundary_whitespace(reference_segments[index])
+        pseudo = TranslationUnit(
+            key=f"{unit.key}.inline-segment.{index}",
+            source=core,
+            note=(
+                f"{unit.note}\n" if unit.note else ""
+            ) + (
+                f"Natural-language segment {index + 1}/{len(source_segments)} "
+                "around protected inline code; translate only this segment."
+            ),
+            reference=reference,
+            target_node=ET.Element("target", {"state": "needs-translation"}),
+        )
+        pseudo_units.append(pseudo)
+        bindings.append((index, leading, trailing, pseudo))
+
+    translations, usage = client.translate(locale, pseudo_units)
+    temporary_document = TranslationDocument(
+        locale=locale,
+        path=Path(),
+        tree=ET.ElementTree(ET.Element("xliff")),
+        units={pseudo.key: pseudo for pseudo in pseudo_units},
+        pending_units=pseudo_units,
+    )
+    apply_translations(temporary_document, translations)
+    for index, leading, trailing, pseudo in bindings:
+        translated_segments[index] = (
+            leading + (pseudo.target_node.text or "") + trailing
+        )
+
+    assembled: list[str] = []
+    for index, segment in enumerate(translated_segments):
+        assembled.append(segment)
+        if index < len(literals):
+            assembled.append(literals[index])
+    return "".join(assembled), usage
+
+
+def translate_segmented_document(
+    document: TranslationDocument,
+    client: DeepSeekClient,
+    *,
+    retries: int,
+) -> dict[str, int]:
+    """定向翻译一个超长行内代码单元，并沿用普通写入的原子校验。"""
+
+    if len(document.pending_units) != 1:
+        raise TranslationError("分段翻译要求通过 --key 精确选择一个单元")
+    unit = document.pending_units[0]
+    last_error: TranslationError | None = None
+    for attempt in range(1, retries + 1):
+        try:
+            target, usage = translate_inline_segments(document.locale, unit, client)
+            apply_translations(
+                document,
+                {unit.key: target},
+                expected_units=[unit],
+            )
+            save_document(document)
+            return usage
+        except TranslationError as error:
+            last_error = error
+            if attempt == retries:
+                break
+            delay = min(2 ** (attempt - 1), 15)
+            print(
+                f"[{document.locale}] segmented attempt {attempt}/{retries} "
+                f"failed: {error}; retry in {delay}s",
+                file=sys.stderr,
+                flush=True,
+            )
+            time.sleep(delay)
+    assert last_error is not None
+    raise last_error
 
 
 def chunks(
@@ -726,7 +936,12 @@ def main() -> int:
         "--key",
         action="append",
         dest="keys",
-        help="定向重译指定的 needs-review-translation key，可重复传入",
+        help="定向生成或重译指定的 AI 初稿 key，可重复传入",
+    )
+    parser.add_argument(
+        "--segment-inline-code",
+        action="store_true",
+        help="把单个 --key 的行内代码作为固定边界，分段翻译自然语言",
     )
     parser.add_argument(
         "--api-key-env",
@@ -755,6 +970,12 @@ def main() -> int:
         raise TranslationError("--retries 必须大于 0")
     if args.repair_protected_literals and args.keys:
         raise TranslationError("--repair-protected-literals 不能与 --key 同时使用")
+    if args.segment_inline_code and (
+        args.repair_protected_literals
+        or not args.keys
+        or len(args.keys) != 1
+    ):
+        raise TranslationError("--segment-inline-code 要求且只允许一个 --key")
 
     ensure_draft_locale(args.root, args.locale)
     document = load_document(
@@ -767,7 +988,8 @@ def main() -> int:
     print(
         f"locale={args.locale} pending={len(document.pending_units)} "
         f"batch_size={args.batch_size} apply={args.apply} "
-        f"repair_protected_literals={args.repair_protected_literals}"
+        f"repair_protected_literals={args.repair_protected_literals} "
+        f"segment_inline_code={args.segment_inline_code}"
     )
     if not document.pending_units:
         return 0
@@ -805,12 +1027,19 @@ def main() -> int:
         model=args.model,
         timeout=args.timeout,
     )
-    usage = translate_document(
-        document,
-        client,
-        batch_size=args.batch_size,
-        retries=args.retries,
-    )
+    if args.segment_inline_code:
+        usage = translate_segmented_document(
+            document,
+            client,
+            retries=args.retries,
+        )
+    else:
+        usage = translate_document(
+            document,
+            client,
+            batch_size=args.batch_size,
+            retries=args.retries,
+        )
     print(
         f"completed locale={args.locale} units={len(document.pending_units)} "
         f"usage={json.dumps(usage, ensure_ascii=False)}"

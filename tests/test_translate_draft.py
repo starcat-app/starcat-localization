@@ -179,6 +179,109 @@ class TranslateDraftTests(unittest.TestCase):
                 },
             )
 
+    def test_extra_inline_code_markers_are_stripped_before_validation(self) -> None:
+        document = translator.load_document(self.root, "ja")
+        document.units["greeting"].source = (
+            "Verify MCP initialization and `tools/list` for %@."
+        )
+
+        translator.apply_translations(
+            document,
+            {
+                "greeting": (
+                    "MCP の `initialize` と `tools/list` を %@ 向けに確認します。"
+                ),
+                "danger.delete": "削除",
+            },
+        )
+
+        self.assertEqual(
+            document.units["greeting"].target_node.text,
+            "MCP の initialize と `tools/list` を %@ 向けに確認します。",
+        )
+
+    def test_extra_inline_code_markers_around_placeholder_are_stripped(self) -> None:
+        self.assertEqual(
+            translator.strip_unexpected_inline_code("Unread %@", "未読 `%@` 件"),
+            "未読 %@ 件",
+        )
+
+    def test_inline_code_is_masked_for_ai_and_restored_exactly(self) -> None:
+        source = "Run `starcat doctor`, then use `$cliPath`."
+        masked, literals = translator.mask_inline_code(source)
+
+        self.assertEqual(
+            masked,
+            "Run ⟦SC_INLINE_0000⟧, then use ⟦SC_INLINE_0001⟧.",
+        )
+        self.assertEqual(literals, ("`starcat doctor`", "`$cliPath`"))
+        self.assertEqual(
+            translator.restore_inline_code_mask(
+                "⟦SC_INLINE_0000⟧ を実行し、⟦SC_INLINE_0001⟧ を使用します。",
+                literals,
+            ),
+            "`starcat doctor` を実行し、`$cliPath` を使用します。",
+        )
+
+    def test_inline_code_mask_reorder_is_rejected(self) -> None:
+        with self.assertRaisesRegex(translator.TranslationError, "掩码不一致"):
+            translator.restore_inline_code_mask(
+                "⟦SC_INLINE_0001⟧ then ⟦SC_INLINE_0000⟧",
+                ("`first`", "`second`"),
+            )
+
+    def test_parse_response_restores_masked_inline_code(self) -> None:
+        document = translator.load_document(self.root, "ja", limit=1)
+        unit = document.pending_units[0]
+        unit.source = "Verify `tools/list`."
+        content = json.dumps(
+            {
+                "translations": [
+                    {"id": 0, "text": "⟦SC_INLINE_0000⟧ を確認します。"}
+                ]
+            },
+            ensure_ascii=False,
+        )
+
+        self.assertEqual(
+            translator.parse_response(content, [unit]),
+            {"greeting": "`tools/list` を確認します。"},
+        )
+
+    def test_segmented_translation_never_exposes_or_reorders_inline_code(self) -> None:
+        class FakeClient:
+            def translate(self, locale, units):
+                self.locale = locale
+                self.sources = [unit.source for unit in units]
+                return (
+                    {unit.key: f"訳[{unit.source}]" for unit in units},
+                    {"total_tokens": 12},
+                )
+
+        target = ET.Element("target", {"state": "needs-translation"})
+        unit = translator.TranslationUnit(
+            key="long.prompt",
+            source="Run `first`, then use `$cliPath`.",
+            note="",
+            reference="",
+            target_node=target,
+        )
+        client = FakeClient()
+
+        translated, usage = translator.translate_inline_segments(
+            "ja",
+            unit,
+            client,
+        )
+
+        self.assertEqual(client.locale, "ja")
+        self.assertTrue(all("`" not in source for source in client.sources))
+        self.assertEqual(
+            translator.INLINE_CODE_RE.findall(translated),
+            ["`first`", "`$cliPath`"],
+        )
+        self.assertEqual(usage, {"total_tokens": 12})
+
     def test_text_fence_may_translate_but_executable_fence_must_not(self) -> None:
         text_source = (
             "```text\nCommand: absolute path\n```\n\n"
@@ -198,6 +301,18 @@ class TranslateDraftTests(unittest.TestCase):
         )
         self.assertIsNotNone(
             translator.protected_literal_error(text_source, bash_target)
+        )
+
+    def test_protected_literal_error_reports_first_difference(self) -> None:
+        error = translator.protected_literal_error(
+            "Run `first` then `second`.",
+            "実行 `first`、次に `changed`。",
+        )
+
+        self.assertEqual(
+            error,
+            "行内代码 不一致：source_count=2 target_count=2 "
+            "first_diff[1]=source:'`second`' target:'`changed`'",
         )
 
     def test_repair_mode_only_restores_ai_review_literals(self) -> None:
@@ -262,9 +377,19 @@ class TranslateDraftTests(unittest.TestCase):
             ["existing"],
         )
 
+        empty_document = translator.load_document(
+            self.root,
+            "ja",
+            requested_keys={"greeting"},
+        )
+        self.assertEqual(
+            [unit.key for unit in empty_document.pending_units],
+            ["greeting"],
+        )
+
         with self.assertRaisesRegex(
             translator.TranslationError,
-            "不是 AI 待审核初稿",
+            "已审核或不可生成 AI 初稿",
         ):
             translator.load_document(
                 self.root,

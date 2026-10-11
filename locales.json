@@ -21,112 +21,256 @@
       "englishName": "Traditional Chinese",
       "nativeName": "繁體中文",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:a9b37c9e125e0dcd37c20f5c9fc1e939fc9e747321ab2ca68a70a86416a36715"
+      }
     },
     {
       "id": "ja",
       "englishName": "Japanese",
       "nativeName": "日本語",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:c0b14c30e2158088211a27bb9a25545f97ae49565f20c8c4e63ef0d69ac42104"
+      }
     },
     {
       "id": "ko",
       "englishName": "Korean",
       "nativeName": "한국어",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:e443a8ce8094d27b2ef18f1ca49fa0f0ddf5cb4618a9adfccd463263125f4ed3"
+      }
     },
     {
       "id": "de",
       "englishName": "German",
       "nativeName": "Deutsch",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:7a804dc3b247e127b08fab13cc46eb9d635522d74ffcc9c445a30340b7084830"
+      }
     },
     {
       "id": "fr",
       "englishName": "French",
       "nativeName": "Français",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:e301bd65fdd8cade62eb409a745f337d62355cc1b5bcb964e4499961cc68d4e2"
+      }
     },
     {
       "id": "es",
       "englishName": "Spanish",
       "nativeName": "Español",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:9367ffb7b18ff88338284b54cec837b1c3cedc2f59c0e347da21396c1f081310"
+      }
     },
     {
       "id": "pt-BR",
       "englishName": "Brazilian Portuguese",
       "nativeName": "Português (Brasil)",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:e5877b6d18ef1352dad30cbfc824edf2ae3ac2bceb297d2d74dbc053dce8518d"
+      }
     },
     {
       "id": "it",
       "englishName": "Italian",
       "nativeName": "Italiano",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:cc7a755599808283cc3cb935021e708c7ce887e8156c263f8957ac989e1f6abd"
+      }
     },
     {
       "id": "ru",
       "englishName": "Russian",
       "nativeName": "Русский",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:d3cb972afac36a1e00c0b20ecebc3a3fa2e87e824a8a7b7d1068dab8bf87cc1d"
+      }
     },
     {
       "id": "nl",
       "englishName": "Dutch",
       "nativeName": "Nederlands",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:7f7bbe1a9d80c974cc7bc436e3439f88108aec30a3d796b45e890bfeec340534"
+      }
     },
     {
       "id": "pl",
       "englishName": "Polish",
       "nativeName": "Polski",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:ed8fe221691b94f7d01477809a5f474d8f6ba47341af8aaa8090846d015ad200"
+      }
     },
     {
       "id": "uk",
       "englishName": "Ukrainian",
       "nativeName": "Українська",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:ef685eb2bd589d8f63d007f2f7f2a02db2f782bd2628908283d0e03c00533fba"
+      }
     },
     {
       "id": "tr",
       "englishName": "Turkish",
       "nativeName": "Türkçe",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:fec2f008a8939a5205ab95c279a31476af3ee326bfe36f536c6a202cc9c0ec31"
+      }
     },
     {
       "id": "vi",
       "englishName": "Vietnamese",
       "nativeName": "Tiếng Việt",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:54db040b6d68c5d1d20a9910a93f8d59fe3467d39b10690035711202ded235a9"
+      }
     },
     {
       "id": "id",
       "englishName": "Indonesian",
       "nativeName": "Bahasa Indonesia",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:eaee7e3ae70eb2f2c53a9d64fb49a53289a43a9458761ca323a9b47ee9aaae9c"
+      }
     },
     {
       "id": "ar",
       "englishName": "Arabic",
       "nativeName": "العربية",
       "direction": "rtl",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-10-11T11:22:38Z",
+        "unitCount": 6025,
+        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
+        "translationDigest": "sha256:1a09c41f9ba9eddc782269619e2137e6fbb08338d6c590ecf4c5105066ebfc45"
+      }
     }
   ]
 }
