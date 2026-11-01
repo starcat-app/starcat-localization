@@ -414,6 +414,42 @@ class TranslateDraftTests(unittest.TestCase):
 
         self.assertEqual([unit.key for unit in document.pending_units], ["greeting"])
 
+    def write_locales_manifest(self, status: str) -> None:
+        (self.root / "locales.json").write_text(
+            json.dumps(
+                {
+                    "schemaVersion": 1,
+                    "sourceLocale": "en",
+                    "locales": [{"id": "ja", "releaseStatus": status}],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+
+    def test_released_locale_requires_explicit_allow_released(self) -> None:
+        self.write_locales_manifest("released")
+
+        with self.assertRaisesRegex(translator.TranslationError, "draft locale"):
+            translator.ensure_draft_locale(self.root, "ja")
+
+    def test_allow_released_permits_released_locale_only(self) -> None:
+        self.write_locales_manifest("released")
+
+        # released + 显式开关：放行（产物仍为 needs-review-translation）。
+        translator.ensure_draft_locale(self.root, "ja", allow_released=True)
+
+        # 其它非 draft 状态不放行，避免绕过未知状态。
+        self.write_locales_manifest("archived")
+        with self.assertRaisesRegex(translator.TranslationError, "draft locale"):
+            translator.ensure_draft_locale(self.root, "ja", allow_released=True)
+
+    def test_draft_locale_unchanged_with_flag(self) -> None:
+        self.write_locales_manifest("draft")
+
+        translator.ensure_draft_locale(self.root, "ja", allow_released=True)
+        translator.ensure_draft_locale(self.root, "ja")
+
 
 if __name__ == "__main__":
     unittest.main()

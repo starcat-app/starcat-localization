@@ -208,6 +208,37 @@ class PromoteDraftsTests(unittest.TestCase):
                 locales=["en"],
             )
 
+    def test_allow_released_permits_released_locale_only(self) -> None:
+        manifest = validator.load_json(self.root / "locales.json")
+
+        # released + 显式开关：放行（releaseStatus 保持不变）。
+        selected = promoter.selected_items(
+            manifest,
+            select_all=False,
+            locales=["en"],
+            allow_released=True,
+        )
+        self.assertEqual([item["id"] for item in selected], ["en"])
+
+        # 其它未知状态即便带开关也拒绝。
+        tampered = validator.load_json(self.root / "locales.json")
+        for item in tampered["locales"]:
+            if item["id"] == "en":
+                item["releaseStatus"] = "archived"
+        (self.root / "locales.json").write_text(
+            json.dumps(tampered, ensure_ascii=False), encoding="utf-8"
+        )
+        with self.assertRaisesRegex(
+            promoter.PromotionError,
+            "只允许提升 draft locale：en",
+        ):
+            promoter.selected_items(
+                tampered,
+                select_all=False,
+                locales=["en"],
+                allow_released=True,
+            )
+
     def test_apply_promotes_review_and_records_valid_approval(self) -> None:
         batch = self.prepare()
 

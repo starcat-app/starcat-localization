@@ -11,6 +11,9 @@ dry-run；显式传入 `--apply` 后才调用 OpenAI-compatible API 并修改 XL
     python3 scripts/translate_draft.py --locale zh-Hant --apply
     python3 scripts/translate_draft.py --locale zh-Hant \
       --repair-protected-literals --apply
+    # released 语言补新 key / 重译 source 漂移单元：必须显式声明开关，
+    # 产物仍是 needs-review-translation，批准与导入照常走独立门禁。
+    python3 scripts/translate_draft.py --locale ja --allow-released --apply
 
 API Key 只从指定环境变量读取，不写入仓库、日志或请求正文。
 """
@@ -895,7 +898,7 @@ def translate_document(
     return usage_total
 
 
-def ensure_draft_locale(root: Path, locale: str) -> None:
+def ensure_draft_locale(root: Path, locale: str, allow_released: bool = False) -> None:
     manifest = load_json(root / "locales.json")
     locales = manifest.get("locales")
     if not isinstance(locales, list):
@@ -910,8 +913,14 @@ def ensure_draft_locale(root: Path, locale: str) -> None:
     )
     if match is None:
         raise TranslationError(f"locale 不在 locales.json：{locale}")
-    if match.get("releaseStatus") != "draft":
-        raise TranslationError(f"只允许为 draft locale 生成 AI 初稿：{locale}")
+    status = match.get("releaseStatus")
+    if status == "draft":
+        return
+    # 已发布语言补新 key / 重译 source 漂移单元时，显式声明 --allow-released
+    # 才能生成初稿；产物仍然是 needs-review-translation，批准仍走独立流程。
+    if allow_released and status == "released":
+        return
+    raise TranslationError(f"只允许为 draft locale 生成 AI 初稿：{locale}")
 
 
 def main() -> int:
@@ -937,6 +946,12 @@ def main() -> int:
         action="append",
         dest="keys",
         help="定向生成或重译指定的 AI 初稿 key，可重复传入",
+    )
+    parser.add_argument(
+        "--allow-released",
+        action="store_true",
+        help="允许为 released locale 生成 AI 初稿（已发布语言补新 key / 重译漂移单元）；"
+        "产物仍为 needs-review-translation，批准与导入照常走独立门禁",
     )
     parser.add_argument(
         "--segment-inline-code",
@@ -977,7 +992,7 @@ def main() -> int:
     ):
         raise TranslationError("--segment-inline-code 要求且只允许一个 --key")
 
-    ensure_draft_locale(args.root, args.locale)
+    ensure_draft_locale(args.root, args.locale, allow_released=args.allow_released)
     document = load_document(
         args.root,
         args.locale,
@@ -989,7 +1004,8 @@ def main() -> int:
         f"locale={args.locale} pending={len(document.pending_units)} "
         f"batch_size={args.batch_size} apply={args.apply} "
         f"repair_protected_literals={args.repair_protected_literals} "
-        f"segment_inline_code={args.segment_inline_code}"
+        f"segment_inline_code={args.segment_inline_code} "
+        f"allow_released={args.allow_released}"
     )
     if not document.pending_units:
         return 0

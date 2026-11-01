@@ -14,7 +14,16 @@
       "englishName": "Simplified Chinese",
       "nativeName": "简体中文",
       "direction": "ltr",
-      "releaseStatus": "released"
+      "releaseStatus": "released",
+      "translationApproval": {
+        "method": "maintainer-ai-accepted",
+        "humanReviewed": false,
+        "approvedBy": "dong4j",
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:f27eba03992708e163b1dba6eaf80330553594bc8918501a43b7e2eaa84dc386"
+      }
     },
     {
       "id": "zh-Hant",
@@ -26,10 +35,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:a9b37c9e125e0dcd37c20f5c9fc1e939fc9e747321ab2ca68a70a86416a36715"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:9c5ba6fbc16b46f0673c7b4c105e3fad8874b90b8590decc9b33cffe762551fa"
       }
     },
     {
@@ -42,10 +51,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:c0b14c30e2158088211a27bb9a25545f97ae49565f20c8c4e63ef0d69ac42104"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:0c4b3c2549865f9c06b3338344d107cc667b2b9ecff4c1ed26793d62f6bf1a2f"
       }
     },
     {
@@ -58,10 +67,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:e443a8ce8094d27b2ef18f1ca49fa0f0ddf5cb4618a9adfccd463263125f4ed3"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:50e2af81ce1ecd5cb53c9da680aaaecb6f515626fac8bc30513596e4f0b94259"
       }
     },
     {
@@ -74,10 +83,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:7a804dc3b247e127b08fab13cc46eb9d635522d74ffcc9c445a30340b7084830"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:d891a480c08f6b67b0c440167b1b754a0036604fbbba7538761251ecfaaba72b"
       }
     },
     {
@@ -90,10 +99,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:e301bd65fdd8cade62eb409a745f337d62355cc1b5bcb964e4499961cc68d4e2"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:ab5f2038b32e7688bc7d3ea92f3fd2d479679f5288182ecbdd93fa7f9886659b"
       }
     },
     {
@@ -106,10 +115,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:9367ffb7b18ff88338284b54cec837b1c3cedc2f59c0e347da21396c1f081310"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:11c024ecc97c418e8a4bbd37482988adbb8574831e18568c1dc9c13381167600"
       }
     },
     {
@@ -122,10 +131,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:e5877b6d18ef1352dad30cbfc824edf2ae3ac2bceb297d2d74dbc053dce8518d"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:cb96cb4abb17001c542f2b6ed04152b79cbbe7c899f04d02141bb2e705f23daf"
       }
     },
     {
@@ -138,10 +147,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:cc7a755599808283cc3cb935021e708c7ce887e8156c263f8957ac989e1f6abd"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:6ef0d24555f293363ff6920df1eee38c8a1b4957a2a59c5417e26cb3f1e5b0e2"
       }
     },
     {
@@ -154,10 +163,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:d3cb972afac36a1e00c0b20ecebc3a3fa2e87e824a8a7b7d1068dab8bf87cc1d"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:5da0ba4222b6945471080555997788ea78e075dcc86d4ac1c7abed744f5db969"
       }
     },
     {
@@ -170,10 +179,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:7f7bbe1a9d80c974cc7bc436e3439f88108aec30a3d796b45e890bfeec340534"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:fdda71f51b211e7285ff1fd3243cd303ddb7ab691ecad21abef86cda9b813942"
       }
     },
     {
@@ -186,10 +195,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:ed8fe221691b94f7d01477809a5f474d8f6ba47341af8aaa8090846d015ad200"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:f308665d82129a9252358e97fe00255ce2995b949c52255588a839d9f3df6deb"
       }
     },
     {
@@ -202,10 +211,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:ef685eb2bd589d8f63d007f2f7f2a02db2f782bd2628908283d0e03c00533fba"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:85e81493e684cca0e83f73b5a8c332d72731b17a40d20da99106986443a3c76e"
       }
     },
     {
@@ -218,10 +227,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:fec2f008a8939a5205ab95c279a31476af3ee326bfe36f536c6a202cc9c0ec31"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:8704d714471b1d44ccd8690bd5e14104430543b4ecb751759615793ceff7abab"
       }
     },
     {
@@ -234,10 +243,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:54db040b6d68c5d1d20a9910a93f8d59fe3467d39b10690035711202ded235a9"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:7cc412994f41da64011801c4156f1edb257e1c3fb6b6eb628c1bb9addf2a4243"
       }
     },
     {
@@ -250,10 +259,10 @@
         "method": "maintainer-ai-accepted",
         "humanReviewed": false,
         "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:eaee7e3ae70eb2f2c53a9d64fb49a53289a43a9458761ca323a9b47ee9aaae9c"
+        "approvedAt": "2026-11-01T07:58:54Z",
+        "unitCount": 6983,
+        "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
+        "translationDigest": "sha256:ccc3db4654a136673f521f722dfe33a1c582ee17acdf5351c0b9da06c35dac46"
       }
     },
     {
@@ -261,16 +270,7 @@
       "englishName": "Arabic",
       "nativeName": "العربية",
       "direction": "rtl",
-      "releaseStatus": "released",
-      "translationApproval": {
-        "method": "maintainer-ai-accepted",
-        "humanReviewed": false,
-        "approvedBy": "dong4j",
-        "approvedAt": "2026-10-11T11:22:38Z",
-        "unitCount": 6025,
-        "sourceDigest": "sha256:f5bfeb7c89ab23e3e33d3aa17133a3842abc57f96f7a335dcec89756af3a415e",
-        "translationDigest": "sha256:1a09c41f9ba9eddc782269619e2137e6fbb08338d6c590ecf4c5105066ebfc45"
-      }
+      "releaseStatus": "draft"
     }
   ]
 }

@@ -423,8 +423,13 @@ def validate_repository(
     root: Path,
     *,
     enforce_confirmed_locales: bool = False,
+    allow_released_review: bool = False,
 ) -> ValidationResult:
-    """校验仓库；单元测试可使用小 manifest，CLI 则强制产品确认的 18 种语言。"""
+    """校验仓库；单元测试可使用小 manifest，CLI 则强制产品确认的 18 种语言。
+
+    `allow_released_review` 仅供维护者放行流程（promote_drafts --allow-released）
+    使用：released locale 允许暂存 needs-review-translation 单元，缺省 CLI 校验
+    仍然保持「released 不得有 review/missing」的门禁，CI 行为不变。"""
 
     errors: list[str] = []
     reports: dict[str, LocaleReport] = {}
@@ -565,9 +570,13 @@ def validate_repository(
         )
         reports[locale] = report
         if item["releaseStatus"] == "released" and (review or missing):
-            errors.append(
-                f"released locale {locale} 仍有 review={review}, missing={missing}"
-            )
+            if allow_released_review and not missing:
+                # 放行流程容忍 released 暂存待审单元，但不容忍缺失。
+                pass
+            else:
+                errors.append(
+                    f"released locale {locale} 仍有 review={review}, missing={missing}"
+                )
 
     if catalog_keys is not None:
         stale_exclusions = sorted(set(exclusions) - catalog_keys)

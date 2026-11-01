@@ -51,6 +51,7 @@ class PromotionBatch(NamedTuple):
     root: Path
     manifest: dict[str, Any]
     promotions: list[LocalePromotion]
+    allow_released: bool = False
 
 
 def utc_timestamp() -> str:
@@ -99,6 +100,7 @@ def selected_items(
     *,
     select_all: bool,
     locales: list[str],
+    allow_released: bool = False,
 ) -> list[dict[str, Any]]:
     items = manifest.get("locales")
     if not isinstance(items, list):
@@ -112,7 +114,11 @@ def selected_items(
         selected = [
             item
             for item in items
-            if isinstance(item, dict) and item.get("releaseStatus") == "draft"
+            if isinstance(item, dict)
+            and (
+                item.get("releaseStatus") == "draft"
+                or (allow_released and item.get("releaseStatus") == "released")
+            )
         ]
     else:
         unknown = [locale for locale in locales if locale not in by_id]
@@ -122,14 +128,17 @@ def selected_items(
 
     if not selected:
         raise PromotionError("没有可处理的 draft locale")
-    released = [
+    # 默认只提升 draft；显式 --allow-released 时放行 released（已发布语言
+    # 补新 key / 重译漂移单元的批准），其它状态仍然拒绝。
+    rejected = [
         item["id"]
         for item in selected
         if item.get("releaseStatus") != "draft"
+        and not (allow_released and item.get("releaseStatus") == "released")
     ]
-    if released:
+    if rejected:
         raise PromotionError(
-            "只允许提升 draft locale：" + ", ".join(released)
+            "只允许提升 draft locale：" + ", ".join(rejected)
         )
     return selected
 
@@ -142,12 +151,14 @@ def prepare_batch(
     approved_by: str,
     approved_at: str,
     enforce_confirmed_locales: bool,
+    allow_released: bool = False,
 ) -> PromotionBatch:
     """先验证整仓和全部目标，再在内存中构造状态提升。"""
 
     validation = validator.validate_repository(
         root,
         enforce_confirmed_locales=enforce_confirmed_locales,
+        allow_released_review=allow_released,
     )
     if validation.errors:
         raise PromotionError(
@@ -160,6 +171,7 @@ def prepare_batch(
         manifest,
         select_all=select_all,
         locales=locales,
+        allow_released=allow_released,
     )
     exclusions = set(validator.load_exclusions(root))
     promotions: list[LocalePromotion] = []
@@ -237,7 +249,12 @@ def prepare_batch(
             )
         )
 
-    return PromotionBatch(root=root, manifest=manifest, promotions=promotions)
+    return PromotionBatch(
+        root=root,
+        manifest=manifest,
+        promotions=promotions,
+        allow_released=allow_released,
+    )
 
 
 def commit_batch(
@@ -245,6 +262,7 @@ def commit_batch(
     *,
     enforce_confirmed_locales: bool,
     writer: Callable[[Path, bytes], None] = atomic_write_bytes,
+    allow_released_review: bool = False,
 ) -> None:
     """写入失败或写后校验失败时恢复全部原文件。"""
 
@@ -267,6 +285,7 @@ def commit_batch(
         result = validator.validate_repository(
             batch.root,
             enforce_confirmed_locales=enforce_confirmed_locales,
+            allow_released_review=allow_released_review,
         )
         if result.errors:
             raise PromotionError(
@@ -322,6 +341,13 @@ def main() -> int:
         "--approved-by",
         help="写入批准记录的维护者标识；脚本不会猜测",
     )
+    parser.add_argument(
+        "--allow-released",
+        action="store_true",
+        help="允许提升 released locale 的 needs-review-translation 单元"
+        "（已发布语言补新 key / 重译漂移单元）；releaseStatus 保持不变，"
+        "批准记录仍标注 humanReviewed=false",
+    )
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
@@ -348,6 +374,7 @@ def main() -> int:
         approved_by=approved_by,
         approved_at=utc_timestamp(),
         enforce_confirmed_locales=True,
+        allow_released=args.allow_released,
     )
     print_batch(batch, apply=args.apply)
     if not args.apply:
@@ -357,11 +384,15 @@ def main() -> int:
         )
         return 0
 
-    commit_batch(batch, enforce_confirmed_locales=True)
+    commit_batch(
+        batch,
+        enforce_confirmed_locales=True,
+        allow_released_review=batch.allow_released,
+    )
     print(
         f"completed locales={len(batch.promotions)} "
         f"promoted={sum(item.promoted for item in batch.promotions)} "
-        "releaseStatus remains draft"
+        + ("releaseStatus unchanged (allow-released)" if args.allow_released else "releaseStatus remains draft")
     )
     return 0
 
