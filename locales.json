@@ -264,13 +264,7 @@
         "sourceDigest": "sha256:cd42a7cad2f3ab469611f06c7268557bff2d671843ec74ad0c063d4ed7d91ea2",
         "translationDigest": "sha256:ccc3db4654a136673f521f722dfe33a1c582ee17acdf5351c0b9da06c35dac46"
       }
-    },
-    {
-      "id": "ar",
-      "englishName": "Arabic",
-      "nativeName": "العربية",
-      "direction": "rtl",
-      "releaseStatus": "draft"
     }
+
   ]
 }

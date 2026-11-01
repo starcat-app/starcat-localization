@@ -6,7 +6,7 @@
 snapshot、key 集合、翻译状态、占位符与发布门禁。
 
 `draft` 语言允许不完整，`released` 语言必须没有缺失或待复核文案。这样可以
-提前创建 18 个协作入口，同时避免把尚未批准的机器翻译误标为正式支持。
+提前创建 17 个协作入口，同时避免把尚未批准的机器翻译误标为正式支持。
 """
 
 from __future__ import annotations
@@ -46,7 +46,6 @@ CONFIRMED_LOCALES = (
     "tr",
     "vi",
     "id",
-    "ar",
 )
 APPROVED_STATES = frozenset({"translated", "final", "signed-off"})
 APPROVAL_METHODS = frozenset({"maintainer-ai-accepted"})
@@ -425,7 +424,7 @@ def validate_repository(
     enforce_confirmed_locales: bool = False,
     allow_released_review: bool = False,
 ) -> ValidationResult:
-    """校验仓库；单元测试可使用小 manifest，CLI 则强制产品确认的 18 种语言。
+    """校验仓库；单元测试可使用小 manifest，CLI 则强制产品确认的 17 种语言。
 
     `allow_released_review` 仅供维护者放行流程（promote_drafts --allow-released）
     使用：released locale 允许暂存 needs-review-translation 单元，缺省 CLI 校验
@@ -442,7 +441,7 @@ def validate_repository(
     manifest_ids = [item["id"] for item in locales]
     if enforce_confirmed_locales and tuple(manifest_ids) != CONFIRMED_LOCALES:
         errors.append(
-            "locales.json 必须按确认顺序包含 18 种语言："
+            "locales.json 必须按确认顺序包含 17 种语言："
             + ", ".join(CONFIRMED_LOCALES)
         )
 

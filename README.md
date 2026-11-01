@@ -79,14 +79,14 @@ nontranslatable-keys.json
 
 - `Translation Packages/` contains one Xcode localization package per language.
 - `Glossary/` records product terms and preferred translations.
-- `locales.json` is the source of truth for the 18 locale identifiers and release status.
+- `locales.json` is the source of truth for the 17 locale identifiers and release status.
 - `nontranslatable-keys.json` records intentionally untranslated literals with reasons.
 
 ## Current Languages
 
 | Status | Languages |
 |---|---|
-| Released | `en` English (source), `zh-Hans` Simplified Chinese, `zh-Hant` Traditional Chinese, `ja` Japanese, `ko` Korean, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese, `it` Italian, `ru` Russian, `nl` Dutch, `pl` Polish, `uk` Ukrainian, `tr` Turkish, `vi` Vietnamese, `id` Indonesian, `ar` Arabic |
+| Released | `en` English (source), `zh-Hans` Simplified Chinese, `zh-Hant` Traditional Chinese, `ja` Japanese, `ko` Korean, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese, `it` Italian, `ru` Russian, `nl` Dutch, `pl` Polish, `uk` Ukrainian, `tr` Turkish, `vi` Vietnamese, `id` Indonesian |
 | Draft | None |
 
 `draft` means that a collaboration package exists; it does **not** mean that the

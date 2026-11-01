@@ -79,14 +79,14 @@ nontranslatable-keys.json
 
 - `Translation Packages/` 按语言存放 Xcode 本地化包，每种语言一个 `.xcloc`。
 - `Glossary/` 记录产品术语和推荐译法。
-- `locales.json` 是 18 个 locale 标识与发布状态的单一来源。
+- `locales.json` 是 17 个 locale 标识与发布状态的单一来源。
 - `nontranslatable-keys.json` 记录有明确理由、故意不翻译的字面量。
 
 ## 当前语言
 
 | 状态 | 语言 |
 |---|---|
-| 已发布 | `en` 英语（源语言）、`zh-Hans` 简体中文、`zh-Hant` 繁体中文、`ja` 日语、`ko` 韩语、`de` 德语、`fr` 法语、`es` 西班牙语、`pt-BR` 巴西葡萄牙语、`it` 意大利语、`ru` 俄语、`nl` 荷兰语、`pl` 波兰语、`uk` 乌克兰语、`tr` 土耳其语、`vi` 越南语、`id` 印度尼西亚语、`ar` 阿拉伯语 |
+| 已发布 | `en` 英语（源语言）、`zh-Hans` 简体中文、`zh-Hant` 繁体中文、`ja` 日语、`ko` 韩语、`de` 德语、`fr` 法语、`es` 西班牙语、`pt-BR` 巴西葡萄牙语、`it` 意大利语、`ru` 俄语、`nl` 荷兰语、`pl` 波兰语、`uk` 乌克兰语、`tr` 土耳其语、`vi` 越南语、`id` 印度尼西亚语 |
 | 草稿 | 无 |
 
 `draft` 只表示公开协作包已经建立，**不表示**该语言已经进入 Starcat

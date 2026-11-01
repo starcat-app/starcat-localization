@@ -69,7 +69,6 @@ LOCALE_NAMES = {
     "tr": "Turkish (Türkçe)",
     "vi": "Vietnamese (Tiếng Việt)",
     "id": "Indonesian (Bahasa Indonesia)",
-    "ar": "Arabic (العربية)",
 }
 
 
